@@ -37,6 +37,14 @@ hr{border:none;border-top:1px solid var(--border);margin:12px 0}
 .edit-mode .mention-row,.edit-mode .theme-card,.edit-mode .comp-item{position:relative}
 .edit-mode .mention-row{padding-right:32px}
 .edit-mode .theme-card{padding-right:32px}
+.add-item-btn{display:none;padding:10px;text-align:center;border:2px dashed var(--border);border-radius:8px;color:var(--primary);font-size:13px;font-weight:500;cursor:pointer;margin-top:12px;transition:all 0.15s}
+.add-item-btn:hover{background:rgba(37,99,235,0.04);border-color:var(--primary)}
+.edit-mode .add-item-btn{display:block}
+.edit-mode .edit-only-card{display:block !important}
+.add-form{margin-top:12px;padding:14px;background:var(--bg);border-radius:8px;border:1px solid var(--border)}
+.add-input{width:100%;padding:7px 10px;border:1px solid var(--border);border-radius:6px;background:var(--card);color:var(--text);font-size:13px;margin-bottom:8px;font-family:inherit}
+.add-input:focus{outline:2px solid var(--primary);outline-offset:-1px}
+textarea.add-input{resize:vertical}
 .status-msg{font-size:12px;padding:4px 10px;border-radius:6px;display:none}
 .status-msg.show{display:inline-block}
 .status-msg.success{background:rgba(22,163,74,0.1);color:var(--success)}
@@ -455,7 +463,17 @@ function render() {
       <div class="mention-meta">${m.source}</div>
     </div>`;
   }
-  html += '</div></div>';
+  html += `<div class="add-item-btn" onclick="showAddMention()">+ Add Mention</div>
+    <div class="add-form" id="addMentionForm" style="display:none">
+      <input type="text" id="newMentionTitle" placeholder="Article title" class="add-input">
+      <input type="text" id="newMentionUrl" placeholder="URL" class="add-input">
+      <input type="text" id="newMentionSource" placeholder="Source (e.g. Bloomberg)" class="add-input">
+      <div style="display:flex;gap:6px;margin-top:6px">
+        <button class="btn btn-primary" onclick="addMention()" style="font-size:12px;padding:4px 12px">Add</button>
+        <button class="btn" onclick="hideAddMention()" style="font-size:12px;padding:4px 12px">Cancel</button>
+      </div>
+    </div>
+  </div></div>`;
 
   // Persistent themes
   const persistent = (d.narratives || []).filter(n => ['persistent','recurring'].includes(n.cadence));
@@ -498,10 +516,31 @@ function render() {
     html += '</div></div>';
   }
 
+
+  // Add Narrative button (edit mode only)
+  html += `<div class="card edit-only-card" style="display:none"><div class="card-body">
+    <div class="add-item-btn" onclick="showAddNarrative()">+ Add Narrative</div>
+    <div class="add-form" id="addNarrativeForm" style="display:none">
+      <input type="text" id="newNarrTitle" placeholder="Narrative title" class="add-input">
+      <textarea id="newNarrDesc" placeholder="Description (1-2 sentences)" class="add-input" rows="2"></textarea>
+      <input type="text" id="newNarrRelevance" placeholder="What this means for us" class="add-input">
+      <div style="display:flex;gap:8px;align-items:center;margin-top:6px">
+        <select id="newNarrCadence" class="add-input" style="width:auto;margin:0">
+          <option value="new">✨ Emerging / New</option>
+          <option value="recurring">🔁 Recurring</option>
+          <option value="persistent">🔥 Persistent</option>
+        </select>
+        <button class="btn btn-primary" onclick="addNarrative()" style="font-size:12px;padding:4px 12px">Add</button>
+        <button class="btn" onclick="hideAddNarrative()" style="font-size:12px;padding:4px 12px">Cancel</button>
+      </div>
+    </div>
+  </div></div>`;
+
   // Domain heatmap
   if (d.top_domains && d.top_domains.length) {
     const max = d.top_domains[0].count;
     html += `<div class="card"><div class="card-header"><h2>📊 Topic Coverage</h2></div><div class="card-body">`;
+    html += `<p style="font-size:11px;color:var(--text-muted);background:var(--bg);display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:12px">📄 Website only — not included in Slack.</p>`;
     for (const dom of d.top_domains) {
       html += `<div class="bar-row"><span class="bar-label">${dom.name}</span>
         <div class="bar-track"><div class="bar-fill" style="width:${dom.count/max*100}%"></div></div>
@@ -535,14 +574,28 @@ function render() {
   }
 
   // Market Landscape
-  if (d.market_landscape) {
+  if (d.market_landscape && (Array.isArray(d.market_landscape) ? d.market_landscape.length : d.market_landscape)) {
+    let mlBody = '';
+    if (Array.isArray(d.market_landscape)) {
+      d.market_landscape.forEach((s, i) => {
+        mlBody += `<div style="margin-bottom:16px">
+          <h3 class="editable-inline" data-field="market_landscape.${i}.title" style="font-size:13px;font-weight:600;margin-bottom:4px">${s.title || ''}</h3>
+          <p class="editable" data-field="market_landscape.${i}.body" style="font-size:14px;color:var(--text-muted);line-height:1.7">${s.body || ''}</p>
+        </div>`;
+      });
+    } else {
+      const paras = String(d.market_landscape).split(/\n\n+/).filter(p => p.trim());
+      paras.forEach((p, i) => {
+        mlBody += `<p class="editable" data-field="market_landscape_para_${i}" style="font-size:14px;color:var(--text-muted);line-height:1.7;margin-bottom:14px">${p.trim()}</p>`;
+      });
+    }
     html += `<div class="card"><div class="card-header"><h2>🌍 Market Landscape</h2></div>
-    <div class="card-body"><p class="editable" data-field="market_landscape" style="font-size:14px;color:var(--text-muted);line-height:1.7">${d.market_landscape}</p></div></div>`;
+    <div class="card-body"><p style="font-size:11px;color:var(--text-muted);background:var(--bg);display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:12px">📄 Website only — not included in Slack. Edits here won't affect the Slack message.</p>${mlBody}</div></div>`;
   }
 
   // Competitor Spotlight
   if (d.spotlight_trm || d.spotlight_elliptic) {
-    html += `<div class="card"><div class="card-header"><h2>🔎 Competitor Spotlight</h2></div><div class="card-body">`;
+    html += `<div class="card"><div class="card-header"><h2>🔎 Competitor Spotlight</h2></div><div class="card-body"><p style="font-size:11px;color:var(--text-muted);background:var(--bg);display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:12px">📄 Website only — not included in Slack. Edits here won't affect the Slack message.</p>`;
     if (d.spotlight_trm) html += `<p style="font-size:14px;color:var(--text-muted);margin-bottom:12px"><strong style="color:var(--text)">TRM Labs:</strong> <span class="editable-inline" data-field="spotlight_trm">${d.spotlight_trm}</span></p>`;
     if (d.spotlight_elliptic) html += `<p style="font-size:14px;color:var(--text-muted)"><strong style="color:var(--text)">Elliptic:</strong> <span class="editable-inline" data-field="spotlight_elliptic">${d.spotlight_elliptic}</span></p>`;
     html += '</div></div>';
@@ -617,6 +670,60 @@ function removeNarrative(index) {
   data.persistent_count = data.narratives.filter(n => ['persistent','recurring'].includes(n.cadence)).length;
   render();
   toggleEdit();
+}
+
+
+// ── Add items ─────────────────────────────────────────────────
+
+function showAddMention() {
+  document.getElementById('addMentionForm').style.display = 'block';
+}
+function hideAddMention() {
+  document.getElementById('addMentionForm').style.display = 'none';
+  document.getElementById('newMentionTitle').value = '';
+  document.getElementById('newMentionUrl').value = '';
+  document.getElementById('newMentionSource').value = '';
+}
+function addMention() {
+  const title = document.getElementById('newMentionTitle').value.trim();
+  const url = document.getElementById('newMentionUrl').value.trim();
+  const source = document.getElementById('newMentionSource').value.trim();
+  if (!title || !source) { alert('Title and source are required.'); return; }
+  data.mentions = data.mentions || [];
+  data.mentions.push({ title, url: url || '#', source });
+  data.mentions_count = data.mentions.length;
+  hideAddMention();
+  render();
+  toggleEdit();
+  showStatus('Mention added \u2014 remember to Save Draft', 'success');
+}
+
+function showAddNarrative() {
+  document.getElementById('addNarrativeForm').style.display = 'block';
+}
+function hideAddNarrative() {
+  document.getElementById('addNarrativeForm').style.display = 'none';
+  document.getElementById('newNarrTitle').value = '';
+  document.getElementById('newNarrDesc').value = '';
+  document.getElementById('newNarrRelevance').value = '';
+  document.getElementById('newNarrCadence').value = 'new';
+}
+function addNarrative() {
+  const title = document.getElementById('newNarrTitle').value.trim();
+  const description = document.getElementById('newNarrDesc').value.trim();
+  const relevance = document.getElementById('newNarrRelevance').value.trim();
+  const cadence = document.getElementById('newNarrCadence').value;
+  if (!title || !description) { alert('Title and description are required.'); return; }
+  data.narratives = data.narratives || [];
+  data.narratives.push({
+    title, description, relevance, cadence,
+    momentum: 'new', appearances: 1, window_days: 1, articles: []
+  });
+  data.persistent_count = data.narratives.filter(n => ['persistent','recurring'].includes(n.cadence)).length;
+  hideAddNarrative();
+  render();
+  toggleEdit();
+  showStatus('Narrative added \u2014 remember to Save Draft', 'success');
 }
 
 // ── GitHub API ────────────────────────────────────────────────
