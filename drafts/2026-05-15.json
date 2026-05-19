@@ -1,13 +1,28 @@
 {
   "date": "2026-05-15",
   "date_display": "May 15, 2026",
-  "mentions_count": 8,
+  "mentions_count": 11,
   "narrative_count": 610,
   "competitor_total": 24,
   "persistent_count": 5,
   "articles_analysed": 1029,
   "executive_summary": "Institutional adoption continues accelerating with major fintech players (JPMorgan, BlackRock, Circle) expanding tokenized securities and stablecoin infrastructure, while compliance analytics faces intensifying competitive pressure as Elliptic secured $120M in funding from Deutsche Bank and Nasdaq. Regulatory clarity is crystallizing around stablecoins and market integrity, with North Korean threat attribution and AI-driven fraud risks dominating the compliance landscape.",
   "mentions": [
+    {
+      "title": "AI-Hacking Threat Pushes $130 Billion Crypto Sector to the Brink",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/ai-hacking-threat-pushes-130-billion-crypto-sector-to-the-brink",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "IRGC Iran Crypto: How Iran's Revolutionary Guard Uses Digital Assets",
+      "url": "https://beincrypto.com/irgc-iran-crypto-chainalysis/",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "Chainalysis Deep Dive: Blockchain Analytics & Compliance",
+      "url": "https://www.youtube.com/watch?v=-k_LIdKSEQY",
+      "source": "YouTube"
+    },
     {
       "title": "Chainalysis points to rising adoption of blockchain forecasting - Digital Watch Observatory",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IaV8ybFpjN0FsZkpUakw4Wk1TM0RBdFZ5RWZFWHNuZmJBNTBRR19raVN4ZVBKRFlPVVNwUDF6aWI5U04wbnp1aTZoQXhQa0Y2dGdYTmVvbzZRdk1hX05pcXVTWjVSaFNnZ04wS1NUd1l3ME9NQmc?oc=5",
@@ -220,64 +235,40 @@
       "name": "Elliptic",
       "count": 8,
       "top_title": "Deutsche Bank, Nasdaq Back Crypto Firm Elliptic in $120 Million Round - Bloomberg.com",
-      "top_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHFsa0paQk5jWXBWVmQ5UTVjR2pDXzJXcUVNUmhEMnp3LXNNVGRWemZwbExqNEgxWEdGbDJqTDg4Y2w1WXJmX3FCSVY5dE8wRFMyd2EyX0RxbXRDM2liQnFmZjFRbTRWb01jSUFvSEJ6RWdPdHJmb0RyWFFsWHhKbkxlc19lbUFUbFVwbF9BcWc2cmlGZGs2Wm9NazhKMEhkMm5xRzh5X2ZnYnI2LTBxNWxjYUtTdnJQc3c?oc=5",
-      "top_source": "Bloomberg.com"
+      "top_url": "",
+      "top_source": ""
     },
     {
       "name": "TRM Labs",
       "count": 8,
       "top_title": "Financial Crimes Veteran Carlos Verdoni Joins TRM Labs as Account Director for State and Local Law E",
-      "top_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT2xVbXV5enNUZHRtZ1hweGF2WHJKR0RtSjlnTE9BeTRUVGJaN3ZWRnNlZk90aldXVVg0SXFxRmdqTVlIb1BKdlU1WVZMUHp6UzRNX2hsYXI1Ymc3azQ5X0poVGtGbVJDa0M3NkpobnlsUVRaT0JyUkg0aHYyS3dKUC1Rbkd6dVJMTzcySklvYlJwNmpBQzFVVkRCVU5ld19zckZjeDcxcTZCY2lGUVAyYVVWcE90c3pkcEdldXV0OWhPOHRLdVpoRXI0MEs1NjJISmpIZFVXRk5iSnRFT3dyMGFvcl83M2s?oc=5",
-      "top_source": "TRM Labs"
+      "top_url": "",
+      "top_source": ""
     },
     {
       "name": "Arkham Intelligence",
       "count": 8,
       "top_title": "Arkham Intelligence Launches Crypto Perpetuals Exchange - CoinMarketCap",
-      "top_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObWFNU2UwLUZLd2xUcEs2OUg3a0ZtZTV2dy1OckJZT01Uang2MmxfRWRIR19aVUtBYkE0MWN6c2pwSVNqX0lfTGV3R0piQWM5YUZCbk1aMWpWeG5XS2lnaWwyc29CcEM3M1pvTmlzbFFkQkZhaUFWTlJKcUluVWxQUnZaVE9MYWIzYUUtbUtRbzVoRmxhaXdBQm10Rk1rZw?oc=5",
-      "top_source": "CoinMarketCap"
-    },
-    {
-      "name": "CipherTrace",
-      "count": 0,
-      "top_title": "",
-      "top_url": "",
-      "top_source": ""
-    },
-    {
-      "name": "Nansen",
-      "count": 0,
-      "top_title": "",
-      "top_url": "",
-      "top_source": ""
-    },
-    {
-      "name": "Crystal Intelligence",
-      "count": 0,
-      "top_title": "",
-      "top_url": "",
-      "top_source": ""
-    },
-    {
-      "name": "Solidus Labs",
-      "count": 0,
-      "top_title": "",
-      "top_url": "",
-      "top_source": ""
-    },
-    {
-      "name": "Merkle Science",
-      "count": 0,
-      "top_title": "",
       "top_url": "",
       "top_source": ""
     }
   ],
-  "market_landscape": "The crypto regulatory and institutional landscape is experiencing a fundamental shift toward mainstreaming and infrastructure maturation. Traditional finance institutions\u2014JPMorgan, BlackRock, Deutsche Bank\u2014are now actively building blockchain-native products (tokenized securities, money-market funds, repo infrastructure) rather than experimenting at the periphery. This convergence is driving institutional demand for compliance infrastructure that rivals traditional finance standards. Simultaneously, regulatory frameworks are crystallizing: the UK and US are coordinating on stablecoin oversight, the Senate is advancing landmark crypto legislation, and international coordination on sanctions enforcement is intensifying, particularly around North Korean threat actors who now dominate crypto theft attribution.\n\nThe compliance analytics sector is experiencing a competitive funding acceleration that mirrors traditional fintech consolidation patterns. Elliptic's $120M Series D from Deutsche Bank and Nasdaq represents institutional validation and substantial capital deployment that signals competitive intensity around market leadership. This funding environment is forcing differentiation around AI-driven automation capabilities, as vendors race to embed fraud detection and advanced screening into compliance workflows. The sector is simultaneously grappling with a widening capability-threat gap: AI-powered hacking and fraud are outpacing defensive infrastructure, creating urgency for institutional adoption of advanced analytics.\n\nEmerging markets\u2014particularly India and Southeast Asia\u2014continue driving transaction volume growth, while stablecoin payment infrastructure is accelerating toward projected $1.5 quadrillion annual processing by 2035. This scale anticipates a regulatory environment where compliance is embedded at the infrastructure layer rather than applied retrospectively. Institutions are simultaneously managing three competing pressures: institutional custody and settlement standardization, geopolitical sanctions enforcement intensity, and emerging market adoption velocity. The convergence of these dynamics is creating sustained demand for comprehensive compliance infrastructure that spans transaction monitoring, threat intelligence, market surveillance, and sanctions enforcement\u2014positioning compliance analytics as central to institutional crypto strategy rather than peripheral risk mitigation.",
-  "spotlight_trm": "TRM Labs is expanding law enforcement reach through new leadership (Carlos Verdoni joining as Account Director for State/Local LE) and leveraging the Tether-TRON-backed T3 Financial Crime Unit partnership, which has frozen $450M+ in illicit assets across 23 jurisdictions. The partnership positioning frames TRM as central to institutional-led illicit finance enforcement at scale, combining stablecoin infrastructure operators with compliance technology.",
-  "spotlight_elliptic": "Elliptic closed a highly visible $120M Series D led by Deutsche Bank and Nasdaq Ventures, positioning the firm as the preferred blockchain analytics platform for traditional finance institutions entering crypto. The funding round and institutional backing signal strong confidence in Elliptic's market position and may represent the most significant competitive funding event in compliance analytics this cycle\u2014our primary funding comparison point.",
-  "seizure_value": "$36.6B",
-  "seizure_cases": "205",
+  "market_landscape": [
+    {
+      "title": "Institutional Infrastructure Convergence",
+      "body": "BlackRock and JPMorgan are building blockchain-native products while the Senate advances landmark crypto legislation, signalling institutional adoption no longer waits for regulatory clarity."
+    },
+    {
+      "title": "Compliance Analytics Arms Race",
+      "body": "Elliptic's $120M raise from Deutsche Bank and Nasdaq intensifies the competitive funding environment, with AI-driven automation becoming the key differentiator."
+    },
+    {
+      "title": "Emerging Market Acceleration",
+      "body": "India's second-place ranking in global crypto transaction volume and stablecoin infrastructure scaling toward $1.5 quadrillion annual processing are reshaping compliance demand."
+    }
+  ],
+  "seizure_value": "",
+  "seizure_cases": "",
   "mention_categories": {
     "mainstream": 0,
     "crypto": 1,
@@ -289,5 +280,9 @@
     "positive": 5,
     "neutral": 3,
     "negative": 0
+  },
+  "competitor_reads": {
+    "TRM Labs": "TRM Labs is expanding law enforcement reach through new leadership (Carlos Verdoni joining as Account Director for State/Local LE) and leveraging the Tether-TRON-backed T3 Financial Crime Unit partnership, which has frozen $450M+ in illicit assets across 23 jurisdictions. The partnership positioning frames TRM as central to institutional-led illicit finance enforcement at scale, combining stablecoin infrastructure operators with compliance technology.",
+    "Elliptic": "Elliptic closed a highly visible $120M Series D led by Deutsche Bank and Nasdaq Ventures, positioning the firm as the preferred blockchain analytics platform for traditional finance institutions entering crypto. The funding round and institutional backing signal strong confidence in Elliptic's market position and may represent the most significant competitive funding event in compliance analytics this cycle\u2014our primary funding comparison point."
   }
 }
