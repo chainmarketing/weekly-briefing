@@ -1,0 +1,295 @@
+{
+  "date": "2026-05-19",
+  "date_display": "May 19, 2026",
+  "mentions_count": 5,
+  "narrative_count": 633,
+  "competitor_total": 25,
+  "persistent_count": 5,
+  "articles_analysed": 1089,
+  "executive_summary": "We continue to dominate illicit finance attribution and sanctions enforcement narratives, with high-profile coverage on THORChain hacker tracing and Iran's crypto infrastructure. Simultaneously, the competitive landscape intensified sharply as Elliptic secured $120M in institutional backing, while AI-powered compliance automation emerges as the defining competitive battleground across our sector and adjacent markets.",
+  "mentions": [
+    {
+      "title": "Chainalysis Traces THORChain Hacker\u2019s Pre-Attack Monero-Hyperliquid Trail - The Crypto Times",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON2Jvd0FZZkhMTXVLY2ptTGNJYnZOOUxDYXlYWHJ0QmNtMTl4MnZ4YWZUdmlhZFJaVjJrNHpnTVcxdHpCYlZYa2U5UjZ6RTZfN2NkMVVvYk8wQXBhbElmeFA4YWk2ckhpd3l1ZzdkTmpRdjRXYXI3dXRKQWViX1ZLREI5NXhfRVAwV2tZbEZ5bHJZRzRKSDl4aHVldWNZN1ZiS0RVWTFST005TlZ6MjVvQQ?oc=5",
+      "source": "The Crypto Times"
+    },
+    {
+      "title": "Iran's IRGC Has a Crypto of Choice, But It Isn't Bitcoin - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVTEhyLUVrMmIxd3hkUlUxa0pqaTNOOUVFZGszYjFLb1Z6U0NlSjhuWHF1OWlleHFmZ3k2aFBCYVVxbG5sVERnVG9FY2V3UVJKWW5pbWlYZEVfSnB2SzdyZWRB?oc=5",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "Exclusive: Chainalysis\u2019 Regional Director on Asia\u2019s Crypto Growth and Stablecoin Revolution - The Crypto Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdTAxa1RHdjk0NTdqZzFudFlhcnFmQ2VsUkE3VzZqeXFJVnpONHlfRGJMV3NIcURDQkMtZC1HRklDbExCU2lSTERvSFNWbDdpV0hMSGt4MTNmTGFVZDkxRk1zc3JCeWI2aTdCU2g4Q2NoRURkQ3ZIYVAyczQzWmFhbEh0Q2JlX3VlOEVaUk94elE?oc=5",
+      "source": "The Crypto Times"
+    },
+    {
+      "title": "THORChain shuts down recovery scams as Chainalysis tracks attacker wallets in $10M exploit - Cryptopolitan",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wNXRBcktaa21sMDNhU2YzREQ1UDN1aW56SFFhWnhEUGZ6TFdzSHJWaTREYVlXX2JaUVpqSlM1bk1XTGNnZVBzN1dCSF9Ba1BfdWhidmV2Y2tmMmVleGhwallOVzFsVHVCV0JNTGhIT2lwRnZ2Ykcxb1BuUjZVaE0?oc=5",
+      "source": "Cryptopolitan"
+    },
+    {
+      "title": "Only 1% of Crypto Is Criminal Activity \u2014 New Research Reveals - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSWd4OXhWeS1qaVNNb19wWHVDZmE4T0VoWDR3X29wYThhYURYUVZTNlJFSTNzSUtLbXRkb1pmaFd1RXRXOVlsZ2NlcjZRcUNXOUpUVFdqYUs1UERqVTVUOUx1aExCbjIzZnF0ajViWklpSUlYUWhJUjBRMjhSX211N1RwTE1pY3pwaTB4dFl4OS1Fd1IzMnc?oc=5",
+      "source": "CCN.com"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Sanctions Enforcement & Geopolitical Attribution Dominance",
+      "description": "Our research on Iran's IRGC crypto preferences and THORChain attacker tracking reinforces thought leadership in illicit finance detection.",
+      "relevance": "We own this narrative with exclusive regional insights and operational attribution that competitors struggle to replicate at scale.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 7,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Chainalysis Traces THORChain Hacker\u2019s Pre-Attack Monero-Hyperliquid Trail - The Crypto Times",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON2Jvd0FZZkhMTXVLY2ptTGNJYnZOOUxDYXlYWHJ0QmNtMTl4MnZ4YWZUdmlhZFJaVjJrNHpnTVcxdHpCYlZYa2U5UjZ6RTZfN2NkMVVvYk8wQXBhbElmeFA4YWk2ckhpd3l1ZzdkTmpRdjRXYXI3dXRKQWViX1ZLREI5NXhfRVAwV2tZbEZ5bHJZRzRKSDl4aHVldWNZN1ZiS0RVWTFST005TlZ6MjVvQQ?oc=5",
+          "source": "The Crypto Times"
+        },
+        {
+          "title": "Iran's IRGC Has a Crypto of Choice, But It Isn't Bitcoin - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVTEhyLUVrMmIxd3hkUlUxa0pqaTNOOUVFZGszYjFLb1Z6U0NlSjhuWHF1OWlleHFmZ3k2aFBCYVVxbG5sVERnVG9FY2V3UVJKWW5pbWlYZEVfSnB2SzdyZWRB?oc=5",
+          "source": "BeInCrypto"
+        },
+        {
+          "title": "THORChain shuts down recovery scams as Chainalysis tracks attacker wallets in $10M exploit - Cryptopolitan",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wNXRBcktaa21sMDNhU2YzREQ1UDN1aW56SFFhWnhEUGZ6TFdzSHJWaTREYVlXX2JaUVpqSlM1bk1XTGNnZVBzN1dCSF9Ba1BfdWhidmV2Y2tmMmVleGhwallOVzFsVHVCV0JNTGhIT2lwRnZ2Ykcxb1BuUjZVaE0?oc=5",
+          "source": "Cryptopolitan"
+        }
+      ]
+    },
+    {
+      "title": "AI & Compliance Automation Infrastructure Arms Race",
+      "description": "Elliptic's $120M funding and CEO commentary on AI-driven compliance overwhelm signals intensifying competitive pressure in automation tooling.",
+      "relevance": "Our AI capabilities and scale position us well, but we face well-funded competitors innovating faster; this is now a core differentiator requiring continued investment.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 7,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "SAP Invests in AI Automation Startup N8n at $5.2 Billion Value - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHBLZTZyMnpaN0V3ZUlIQ2FLbUgyemY4UzRNSDY5SnF6Y0xwQllrQ0VuWElRZ2NuY0Z1R2tCUUNxdWRiOFdpdUV2QldaZExneWtGMHpXWVhlaUtKa1FYZF84WUE5a3hkaXNsY0YtNlVSMWI5czlDbmFKbGxENEtVdEMwVmE0YTFCb0hLOVpiLWU3MnJjaFUtanpGb2MyVFVTSm50R2JyWEtLeXRSX1BjMmZn?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "Chainalysis Traces THORChain Hacker\u2019s Pre-Attack Monero-Hyperliquid Trail - The Crypto Times",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON2Jvd0FZZkhMTXVLY2ptTGNJYnZOOUxDYXlYWHJ0QmNtMTl4MnZ4YWZUdmlhZFJaVjJrNHpnTVcxdHpCYlZYa2U5UjZ6RTZfN2NkMVVvYk8wQXBhbElmeFA4YWk2ckhpd3l1ZzdkTmpRdjRXYXI3dXRKQWViX1ZLREI5NXhfRVAwV2tZbEZ5bHJZRzRKSDl4aHVldWNZN1ZiS0RVWTFST005TlZ6MjVvQQ?oc=5",
+          "source": "The Crypto Times"
+        },
+        {
+          "title": "Iran's IRGC Has a Crypto of Choice, But It Isn't Bitcoin - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVTEhyLUVrMmIxd3hkUlUxa0pqaTNOOUVFZGszYjFLb1Z6U0NlSjhuWHF1OWlleHFmZ3k2aFBCYVVxbG5sVERnVG9FY2V3UVJKWW5pbWlYZEVfSnB2SzdyZWRB?oc=5",
+          "source": "BeInCrypto"
+        }
+      ]
+    },
+    {
+      "title": "Institutional TradFi-Crypto Convergence & Tokenization Mainstreaming",
+      "description": "JPMorgan tokenized fund filings, Bloomberg repo market coverage, and Wall Street blockchain adoption signal rapid institutional embrace of crypto infrastructure.",
+      "relevance": "Institutional demand for market surveillance and compliance grows with tokenization adoption; we have strong positioning but must expand TradFi-native workflows.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 7,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Wall Street Puts Blockchain to Work in $13 Trillion Repo Market - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT0k4M0E3Y3JDNmVEei1LQVFjWGlJbnR0VEtBbGlBSWxwV0pibjBMb0lfZnh3T0tRcm9ibjg2aEtYVGZfN0tIM3QtLWhQZFFhVzFCWTBYMk15VEtmcHhLMGJtNFh5U2g1emN5V0dSWjhmaDVfMFg5UEt0R3JkenczNE13M0pNRU1GS05fVjdob3MtTUpKSERTTXJxTWt4R3psTHozSFp0X3g1cEJSNWZYcGVtTQ?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "JPMorgan\u2019s Crypto Push Deepens With Filing For Tokenized Fund - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdno0TS1YVGlJbHA5eV9zUFQzY3JIY3F6MjFHY3BvdTMtRjVzalpGRTVhT25ZT1A3bndwYlB5Nmc2SVVSQlE1NlIzT0xNMEdOOFhaS1oyakdrRTBnYWVGRnNaRUFTX2I0SkVmektSaWNsWTFqWFU4aEVHWUdzczhaM2x2cUh4aTQyUEJ2VEQzTjE0X0NwT2wwd212WFhIVm9BNWNveTd0ejRGZndvTTRYcE1B?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "Musk\u2019s xAI Races to Get Wall Street Firms to Use Grok Chatbot - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNjI0dmttVElBZE85VmpzU2pTc0VybHdSOTBVejVYOFdhOUxkMXMyN0NNSWI2M1Npbmh2VXR5dnozNlotczgwRGk2Y2h5T1Z0dHFCRzNjckdhNkNoVFlOOGJOWjJ1anEwR3FBZmM0aXU3cTFGcXdYaWlwTFZaQlZrNDg2b3ZhM1ZGUkRlTlZQOTF4T3k0V0paWWI5c3lNNG5mQXMzZHAwMnlyZ0h6SVRoa1lR?oc=5",
+          "source": "Bloomberg.com"
+        }
+      ]
+    },
+    {
+      "title": "Illicit Finance Detection Remains Dominant but Under Competitive Pressure",
+      "description": "Our 1% criminal activity research and THORChain scam tracking gain positive coverage, while TRM Labs and T3 Financial Crime Unit announce $450M frozen assets freeze.",
+      "relevance": "Our data ownership and attribution capabilities remain industry-leading, but competitors are publicizing enforcement wins; we must accelerate visibility into law enforcement impact.",
+      "cadence": "persistent",
+      "momentum": "stable",
+      "appearances": 6,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Only 1% of Crypto Is Criminal Activity \u2014 New Research Reveals - CCN.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSWd4OXhWeS1qaVNNb19wWHVDZmE4T0VoWDR3X29wYThhYURYUVZTNlJFSTNzSUtLbXRkb1pmaFd1RXRXOVlsZ2NlcjZRcUNXOUpUVFdqYUs1UERqVTVUOUx1aExCbjIzZnF0ajViWklpSUlYUWhJUjBRMjhSX211N1RwTE1pY3pwaTB4dFl4OS1Fd1IzMnc?oc=5",
+          "source": "CCN.com"
+        },
+        {
+          "title": "Chainalysis Traces THORChain Hacker\u2019s Pre-Attack Monero-Hyperliquid Trail - The Crypto Times",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON2Jvd0FZZkhMTXVLY2ptTGNJYnZOOUxDYXlYWHJ0QmNtMTl4MnZ4YWZUdmlhZFJaVjJrNHpnTVcxdHpCYlZYa2U5UjZ6RTZfN2NkMVVvYk8wQXBhbElmeFA4YWk2ckhpd3l1ZzdkTmpRdjRXYXI3dXRKQWViX1ZLREI5NXhfRVAwV2tZbEZ5bHJZRzRKSDl4aHVldWNZN1ZiS0RVWTFST005TlZ6MjVvQQ?oc=5",
+          "source": "The Crypto Times"
+        },
+        {
+          "title": "Iran's IRGC Has a Crypto of Choice, But It Isn't Bitcoin - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVTEhyLUVrMmIxd3hkUlUxa0pqaTNOOUVFZGszYjFLb1Z6U0NlSjhuWHF1OWlleHFmZ3k2aFBCYVVxbG5sVERnVG9FY2V3UVJKWW5pbWlYZEVfSnB2SzdyZWRB?oc=5",
+          "source": "BeInCrypto"
+        }
+      ]
+    },
+    {
+      "title": "Regulatory Clarity & Market Integrity Surveillance Institutionalization",
+      "description": "CLARITY Act political momentum and crypto market regulation bill advancement signal hardening compliance frameworks and institutionalization of surveillance demand.",
+      "relevance": "Regulatory tailwinds expand addressable market for our compliance and surveillance products, though regulatory volatility remains a near-term uncertainty.",
+      "cadence": "persistent",
+      "momentum": "stable",
+      "appearances": 7,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Bitcoin Tops $80,000 as Crypto Market Regulation Bill Advances - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZC1SeEprTUhSSUZvUzNUOXlWLWJwQUk1TV9QeDM0SHlyVERkdUtjTWhRb2F3alVjbG05OVVhNUZ3aXRQdlVObnhaRXZjSXBBRllYb0lmM291UVo3RXVyeXhEVER0UXhIbnVHa3k4Y0JKeUlTVmNudURuOWRCYTU5VzJPY2RZODlRbl9OcDRnQkI4TEsxTXc5dlN4eDdkdDZWejFUd0x3a1FlZnFHVWpaWU5yZ3g?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "AI-Hacking Threat Pushes $130 Billion Crypto Sector to the Brink - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkVlakExZ2lVOU9XVjJQSGxJbmVuOU5iVG84aUhFeWkzWVlYWlhpMGlXRjFYZ01DZUdvOU91WkxCSzVoR0pnM2hSSHlOVjhjOFJydWV2VVYzbGhmZHExSk1GT0F1NFpQSFdSSVVwcWVpbDNPOV9nR0pZRzhKMVE2S3BBTy0xY0N1OW5BQmU5Z0xyV0x1bDBQSDhUaGpqNC1zbHFFWXFvN2piTTJNaVR2N0xHVC0?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "Explainer: What is in the US Senate's landmark crypto bill? - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWHZoTENMZFF0OG4wSG5BZ3V2ZGZXTk5WekpiQjZlNnFVRzc3c3M5Z3JJSXhjWGE1Qk1hYlhlRlJ4WklSRFJrU2U1d2Rvc2xZUV9lQnJmSmhMYkw5MjFqM2lBTlZ1U2xPbFdTMDBoNG5DT3NzSDNsYV9Vb3Q1VFRlTzFXTGpOUUdyNWZ1bkxIcGNIelBCNXdKSzRtdw?oc=5",
+          "source": "Reuters"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 178
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 159
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 126
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 79
+    },
+    {
+      "name": "Tokenization & Digital Securities",
+      "count": 55
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 53
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 52
+    },
+    {
+      "name": "TradFi Integration & Institutional Adoption",
+      "count": 46
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Elliptic",
+      "count": 8,
+      "top_title": "Elliptic CEO Says AI Could Overwhelm Financial Compliance Teams - PYMNTS.com",
+      "top_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT01FWjRiMnNOOTU2a09raGxLd1NQODBEV2k4VS0wOHAwdF9QamRBc0xoTXl5QV9raUd2OTJIaWlBNTRpOHJYcERxV0JDZDhIeU1SbDh4X1pxdV9yTGhrOGJ4SXZ1b3JBb3o2ZlRHZHYzd1p6UWF1WVZraXFmcDVNcllVeGdtRHRFTm93WGdCeGxGb2RnOHRrRWRGRFppQU1rbFI1ekJ6S2pzZ0E?oc=5",
+      "top_source": "PYMNTS.com"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 8,
+      "top_title": "THORChain Exploit Drains USD 11M+ Across at Least Nine Chains: What TRM Knows Now - TRM Labs",
+      "top_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMHVjWjNJeFFERWxjRDZHLS1nNUpuYjRHQ25IZ2pTbGtleldMTkI2dnY3X0RjXzFBMmFHRG5JWENZR1J6U1BhdVBGMjVZakhZM0lMR3Q1S1lHRDlxdGtIa210QzgtQ19oM0VFRU10WVk2eVprYTc2V1l2UEpBUktubExjV2tNdUVLU0UxdnVvc0E5SUFqMEFXS1lKUFAwOVJlR2RsMGNMNlYybkFXZUlfUmdMZVQtcExlYUE?oc=5",
+      "top_source": "TRM Labs"
+    },
+    {
+      "name": "Arkham Intelligence",
+      "count": 8,
+      "top_title": "The Top 100 Holders of Crypto - Arkham | Research",
+      "top_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vM2N1UFYyRk9BSWRsM1FRNWI1MjdwZzljelNab1lDX21aN2o4M1AxWkFLUklpNU1mU1hKcmFhNk5pUk5lLS12QzNfRG5Nelcyb2lnOFVUVHBpNWpYYk53SEtIMjlLLVBvVXc?oc=5",
+      "top_source": "Arkham | Research"
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 1,
+      "top_title": "Crystal Intelligence Report: South Korea Traces $7.1B in Illicit Crypto as North Korean Hackers Stri",
+      "top_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYXRUMTdrUkxlZkY3bjc3U3lfeVVadkx0SjBYLW96ZXAwV2FaRkUydXdwSTYxekJNSFN4NjJaLVpFSXBDVndWVE1mbHNiLWtIc2d4ekxJRVBRTW5sMk9Lcjg2U0NoNEZ5QVk4MWRKamlyQkFGZGpWMGZlTTNpN1hJTHJKanZTSFZPVEl3QmFkeTBIMktKOUtIMUFIdWlBUll3TURjMXFNM0FoRkQ0SXZHSGtldURRUmt5YkRrbEJ1b2MzWXlRUkxhMDBuNHB4UHNPb3lieExqMGgxRFBU?oc=5",
+      "top_source": "TMX Newsfile"
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Nansen",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Merkle Science",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Institutional Capital Flood Into Crypto Infrastructure",
+      "body": "Elliptic's $120M raise and JPMorgan's tokenized fund filings signal Wall Street is now betting materially on crypto-native and tokenization infrastructure. This capital concentration creates both opportunity (expanded compliance demand) and risk (well-funded competitors in our core markets)."
+    },
+    {
+      "title": "AI-Driven Compliance as Existential Competitive Threshold",
+      "body": "Elliptic's messaging on AI overwhelming compliance teams and broader Bloomberg coverage of AI-powered financial oversight make automation capability table stakes for any analytics vendor. We must accelerate AI narrative and product differentiation or risk commoditization of our core analytics offerings."
+    },
+    {
+      "title": "Regulatory Tailwinds Enable Market Maturation",
+      "body": "CLARITY Act momentum, Bitcoin's sustained $80K+ pricing, and Bloomberg's serious institutional coverage signal regulatory clarity is finally arriving. This legitimacy expands TAM significantly but also brings TradFi compliance frameworks that our institutional customers will demand we support natively."
+    }
+  ],
+  "competitor_reads": {
+    "Elliptic": "Major institutional funding win ($120M from Nasdaq, Deutsche Bank) signals strong TradFi momentum and positions them as AI-first compliance player; CEO's public stance on AI overwhelm compliance teams shows aggressive thought leadership positioning that we must counter with our own automation narrative.",
+    "TRM Labs": "Strategic partnerships with Tether and TRON through T3 Financial Crime Unit demonstrate ecosystem integration and law enforcement traction ($450M frozen assets); positioning as enforcement-outcome focused rather than pure analytics, complementary to our attribution focus but gaining regulatory credibility.",
+    "Arkham Intelligence": "Continues expansion into on-chain data intelligence (exchange decentralization pivot, token holder tracking) but limited compliance/enforcement narrative coverage; positioning as retail/institutional data access layer rather than compliance infrastructure, reducing direct competitive overlap this period.",
+    "Crystal Intelligence": "Limited coverage this period (1 article on North Korea $7.1B tracing); signals lower media velocity compared to peers, suggesting resource constraints or narrower geographic/threat focus relative to our multi-domain presence."
+  },
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
+  "mention_categories": {
+    "mainstream": 0,
+    "crypto": 1,
+    "fintech": 0,
+    "blog": 0,
+    "niche": 4
+  },
+  "sentiment": {
+    "positive": 3,
+    "neutral": 2,
+    "negative": 0
+  }
+}
