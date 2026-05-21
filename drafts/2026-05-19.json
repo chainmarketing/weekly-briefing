@@ -1,13 +1,18 @@
 {
   "date": "2026-05-19",
   "date_display": "May 19, 2026",
-  "mentions_count": 5,
+  "mentions_count": 6,
   "narrative_count": 633,
   "competitor_total": 25,
   "persistent_count": 5,
   "articles_analysed": 1089,
   "executive_summary": "We continue to dominate illicit finance attribution and sanctions enforcement narratives, with high-profile coverage on THORChain hacker tracing and Iran's crypto infrastructure. Simultaneously, the competitive landscape intensified sharply as Elliptic secured $120M in institutional backing, while AI-powered compliance automation emerges as the defining competitive battleground across our sector and adjacent markets.",
   "mentions": [
+    {
+      "title": "Chainalysis CEO Tracks Prediction Market Insider Trading",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-19/chainalysis-ceo-tracks-prediction-market-insider-trading-video",
+      "source": "Bloomberg"
+    },
     {
       "title": "Chainalysis Traces THORChain Hacker\u2019s Pre-Attack Monero-Hyperliquid Trail - The Crypto Times",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON2Jvd0FZZkhMTXVLY2ptTGNJYnZOOUxDYXlYWHJ0QmNtMTl4MnZ4YWZUdmlhZFJaVjJrNHpnTVcxdHpCYlZYa2U5UjZ6RTZfN2NkMVVvYk8wQXBhbElmeFA4YWk2ckhpd3l1ZzdkTmpRdjRXYXI3dXRKQWViX1ZLREI5NXhfRVAwV2tZbEZ5bHJZRzRKSDl4aHVldWNZN1ZiS0RVWTFST005TlZ6MjVvQQ?oc=5",
