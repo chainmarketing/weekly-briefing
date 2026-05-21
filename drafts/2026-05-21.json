@@ -2,11 +2,11 @@
   "date": "2026-05-21",
   "date_display": "May 21, 2026",
   "mentions_count": 10,
-  "narrative_count": 607,
-  "competitor_total": 16,
+  "narrative_count": 609,
+  "competitor_total": 17,
   "persistent_count": 4,
-  "articles_analysed": 993,
-  "executive_summary": "Our research dominates media coverage on tax evasion detection (Ordinals scheme, Italy case) and sanctions enforcement (Iran IRGC, Sinaloa cartel), while competitors intensify positioning on AI-driven compliance automation as a security arms race. Regulatory momentum accelerates with landmark crypto legislation advancing, creating institutional tailwinds for compliance infrastructure demand.",
+  "articles_analysed": 992,
+  "executive_summary": "We maintain thought leadership across sanctions enforcement, tax evasion detection, and illicit finance attribution, with notable wins on Iran IRGC tracking and \u20ac1M Ordinals tax fraud. Competitors intensify AI compliance positioning while regulatory clarity on crypto legislation and stablecoin infrastructure accelerates institutional adoption momentum.",
   "mentions": [
     {
       "title": "Crypto tax evaders test Ordinals but leave Bitcoin trail: Chainalysis report By Crypto.news - Investing.com",
@@ -61,9 +61,35 @@
   ],
   "narratives": [
     {
-      "title": "Sanctions Enforcement & Geopolitical Illicit Attribution Leadership",
-      "description": "We lead media narrative on OFAC enforcement, Iran IRGC operations, and Sinaloa cartel crypto laundering network attribution with granular blockchain analysis.",
-      "relevance": "Our sanctions and illicit finance expertise drives thought leadership positioning; sustained coverage reinforces market perception as go-to authority for geopolitical attribution work.",
+      "title": "Tax Evasion & Novel Asset Class Surveillance",
+      "description": "Crypto tax evaders testing Ordinals and inscriptions but leaving traceable blockchain trails; our reports driving enforcement actions across jurisdictions.",
+      "relevance": "Our Ordinals tracking and tax fraud attribution continue proving novel asset classes can't escape on-chain scrutiny, positioning us as the go-to intelligence layer for tax authorities.",
+      "cadence": "new",
+      "momentum": "rising",
+      "appearances": 1,
+      "window_days": 10,
+      "articles": [
+        {
+          "title": "Tax evaders are trying \u2018novel digital assets\u2019 to dodge authorities: Chainalysis - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPXzU0dHBTS2I4ZjNmVXJJbXpmYlRIWGhERGx3Q0NmUjdPRXJtYXBlWG5tZ3B1NzNjYjMwclJ6cmpfT0xQTmVfMV9GUEtvQlZpdEM0dGk1Z2ZHemhIdEV0OHNoNDVJX25UVThUU0tvM3RjNFU2WUFUZVdST0lEeFJ3MVBwTy1ybnBFeTYyd28tazNsN2xfZG1zNm5FUmFPRV9YLVUyRjFXVFo0ZFNoVzEzYkh2TUFtLVdxQTI0TEhvYkd0eTI1YzVlVUlQVHh4MkZBMGtPVU1hbw?oc=5",
+          "source": "TradingView"
+        },
+        {
+          "title": "Tax evaders are trying \u2018novel digital assets\u2019 to dodge authorities: Chainalysis",
+          "url": "https://cointelegraph.com/news/criminals-attempt-to-use-bitcoin-ordinals-to-evade-authorities-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph"
+        },
+        {
+          "title": "Bitcoin Dips Below $79,000 as Inflation Fears Hit Risk Assets - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObk1wN3Zwb0NzVmxELWltRDE0ZjRidFlpZEd3S25ibUIxbHN3YVQyWGY5OXo4Q1BmbTVsMzduUFlZZVJWUnNmTV8zbHE5eXdRaE9GejNvSl9OWUQ1cEo3cFBINWpGcXpEWkZQQm5ZQzNfRjBQZlk2MWtTM3BKak43ekVDRWUzcXExZFRDN1p1SE5yV3Q5SFEwNnlsVlhPcy1oZTVVaEh4aWgzMjFGZ2NtcA?oc=5",
+          "source": "Bloomberg.com"
+        }
+      ]
+    },
+    {
+      "title": "Sanctions Enforcement & Geopolitical Illicit Attribution",
+      "description": "Iran IRGC cryptocurrency infrastructure, Sinaloa Cartel fentanyl trafficking networks, and OFAC designation enforcement remain core illicit finance narratives.",
+      "relevance": "Our geopolitical attribution work on Iran and sanctioned entities positions us as indispensable to US Treasury and law enforcement, but faces rising competitive pressure from Arkham and Crystal.",
       "cadence": "persistent",
       "momentum": "stable",
       "appearances": 7,
@@ -87,64 +113,38 @@
       ]
     },
     {
-      "title": "Tax Evasion Detection & Novel Asset Class Surveillance",
-      "description": "Our research exposes tax evaders using Ordinals and novel digital assets to dodge authorities; Italy case demonstrates \u20ac1M Bitcoin Ordinals gains traced to specific individuals.",
-      "relevance": "Establishes us as proactive on emerging tax compliance challenges; positions our analytics for expanding institutional surveillance demand as regulators scrutinize non-standard asset classes.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
+      "title": "AI & Compliance Automation Infrastructure Arms Race",
+      "description": "Elliptic fundraising ($120M) and CEO warnings about AI overwhelming compliance teams signal intensifying competitive positioning around AI-driven financial crime detection.",
+      "relevance": "We must accelerate AI automation capabilities and security posture; Elliptic's messaging on AI-trading surge and compliance overwhelm challenges our market positioning if we don't visibly lead on AI integration.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 6,
       "window_days": 10,
       "articles": [
-        {
-          "title": "Tax evaders are trying \u2018novel digital assets\u2019 to dodge authorities: Chainalysis - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPXzU0dHBTS2I4ZjNmVXJJbXpmYlRIWGhERGx3Q0NmUjdPRXJtYXBlWG5tZ3B1NzNjYjMwclJ6cmpfT0xQTmVfMV9GUEtvQlZpdEM0dGk1Z2ZHemhIdEV0OHNoNDVJX25UVThUU0tvM3RjNFU2WUFUZVdST0lEeFJ3MVBwTy1ybnBFeTYyd28tazNsN2xfZG1zNm5FUmFPRV9YLVUyRjFXVFo0ZFNoVzEzYkh2TUFtLVdxQTI0TEhvYkd0eTI1YzVlVUlQVHh4MkZBMGtPVU1hbw?oc=5",
-          "source": "TradingView"
-        },
-        {
-          "title": "Tax evaders are trying \u2018novel digital assets\u2019 to dodge authorities: Chainalysis",
-          "url": "https://cointelegraph.com/news/criminals-attempt-to-use-bitcoin-ordinals-to-evade-authorities-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph"
-        },
         {
           "title": "Italy Traces \u20ac1 Million in Undeclared Bitcoin Ordinals Gains - Cryptonews.net",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82anY1bHFiSmhDbzFNNXR5R3NBOEhuekVQcl9LNEtieHd5YmRWQVlwaHNzSmstWkpuN0dDXzF4cG9GWnIyZ0tqNXJkN3l5WG1WWnE1ZDNpQUpSUQ?oc=5",
           "source": "Cryptonews.net"
-        }
-      ]
-    },
-    {
-      "title": "AI & Compliance Automation Arms Race Intensification",
-      "description": "Elliptic competitor claims AI could overwhelm compliance teams; broader narrative signals security and operational risk as AI trading volume surges in crypto markets.",
-      "relevance": "We must actively articulate how our AI-powered infrastructure mitigates rather than compounds compliance risk; competitive pressure to demonstrate automation leadership accelerating.",
-      "cadence": "persistent",
-      "momentum": "rising",
-      "appearances": 7,
-      "window_days": 10,
-      "articles": [
+        },
         {
-          "title": "AI-Hacking Threat Pushes $130 Billion Crypto Sector to the Brink - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkVlakExZ2lVOU9XVjJQSGxJbmVuOU5iVG84aUhFeWkzWVlYWlhpMGlXRjFYZ01DZUdvOU91WkxCSzVoR0pnM2hSSHlOVjhjOFJydWV2VVYzbGhmZHExSk1GT0F1NFpQSFdSSVVwcWVpbDNPOV9nR0pZRzhKMVE2S3BBTy0xY0N1OW5BQmU5Z0xyV0x1bDBQSDhUaGpqNC1zbHFFWXFvN2piTTJNaVR2N0xHVC0?oc=5",
+          "title": "Crypto Crime Escalates With Kidnappings, Cons and Human Coercion - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUDcxRTc3cmRCUzJNbkF1ME9LSE5JOU1wNFNxNlhma0FuaVhtYTBrVFFJdE9qVFpCVC1JYWh5SHRVeWxQYUhST0RIUTUydkRpbmpvUnZhSXZaeU05ckRtamlVVGw0djJTdVpJbEVaV3FDaTEyLUpmXzZxZ3N5TUxqcHBzQUd5enhhSEpaeW1tSlV0bkM4RnphMEFreVo0YlRJU2hn?oc=5",
           "source": "Bloomberg.com"
         },
         {
-          "title": "Italy Traces \u20ac1 Million in Undeclared Bitcoin Ordinals Gains - Cryptonews.net",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82anY1bHFiSmhDbzFNNXR5R3NBOEhuekVQcl9LNEtieHd5YmRWQVlwaHNzSmstWkpuN0dDXzF4cG9GWnIyZ0tqNXJkN3l5WG1WWnE1ZDNpQUpSUQ?oc=5",
-          "source": "Cryptonews.net"
-        },
-        {
-          "title": "TradFi giant IG to expand crypto trading across Europe through Bitpanda",
-          "url": "https://www.coindesk.com/business/2026/05/20/tradfi-giant-ig-to-expand-crypto-trading-across-europe-through-bitpanda",
-          "source": "CoinDesk"
+          "title": "Crypto tax evaders test Ordinals but leave Bitcoin trail: Chainalysis report By Crypto.news - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbU5UNVcwM2p2RzVpeHZZbnhiWnhZb0dLak5oejJtYVhoZG4zX2t1MGowUzkyNFQwRm1mSDM1bk1iUXZTY2J0V3dlaE14WHBQZzhOWDNtUzR5TlU0ZjFtWnphVUJxX0kxTWhnTENwd21tRG93bGhsUG9QcWsxelRIcU9DZjk2MzhyNXc3MnI0Vnc4MExieVdvRnZBR2xBZF9IU3lteUVUNHIyRkQ1U0hzbEhkNzVQSThiTmFnY01Ib2pLa1MtcExZNkVTajBjOHc?oc=5",
+          "source": "Investing.com"
         }
       ]
     },
     {
-      "title": "Regulatory Clarity & Institutional Market Surveillance Mainstreaming",
-      "description": "US Senate landmark crypto bill advances; prediction market insider trading surveillance gains institutional traction; crypto wins legislative momentum reshaping bank-crypto rivalry.",
-      "relevance": "Regulatory clarity creates favorable environment for our institutional surveillance solutions; prediction market coverage signals emerging vertical demand we must capture competitively.",
+      "title": "Institutional TradFi-Crypto Convergence & Market Surveillance",
+      "description": "Crypto regulation bill advances, prediction market surveillance institutionalizes, and institutional demand for blockchain intelligence and market integrity tools accelerates.",
+      "relevance": "Regulatory clarity and institutional adoption directly expand our addressable market; our prediction market insider trading work and market integrity positioning align with emerging institutional surveillance demands.",
       "cadence": "persistent",
       "momentum": "rising",
-      "appearances": 7,
+      "appearances": 6,
       "window_days": 10,
       "articles": [
         {
@@ -165,12 +165,12 @@
       ]
     },
     {
-      "title": "Stablecoin Infrastructure & Regional Payments Acceleration",
-      "description": "Euro stablecoin project adds 25 new banks; Asia crypto growth and stablecoin revolution accelerating; institutional payment infrastructure mainstreaming across regions.",
-      "relevance": "Stablecoin adoption expansion creates new compliance and monitoring surface area; regional growth signals demand for localized intelligence infrastructure we must address.",
+      "title": "Stablecoin Infrastructure & Regional Payment Mainstreaming",
+      "description": "Euro stablecoin project adds 25 new banks; stablecoin regulatory frameworks crystallize globally, enabling regional payment system adoption.",
+      "relevance": "Stablecoin growth creates new compliance and surveillance use cases; we should emphasize stablecoin flow tracking and cross-border payment transparency capabilities.",
       "cadence": "persistent",
       "momentum": "stable",
-      "appearances": 6,
+      "appearances": 5,
       "window_days": 10,
       "articles": [
         {
@@ -206,15 +206,15 @@
     },
     {
       "name": "International & Emerging Markets",
-      "count": 68
+      "count": 69
     },
     {
       "name": "DeFi Regulation & Governance",
-      "count": 52
+      "count": 53
     },
     {
       "name": "TradFi Integration & Institutional Adoption",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Stablecoins & Digital Payments",
@@ -235,7 +235,7 @@
     },
     {
       "name": "Elliptic",
-      "count": 4,
+      "count": 5,
       "top_title": "Elliptic CEO Says AI Could Overwhelm Financial Compliance Teams - PYMNTS.com",
       "top_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT01FWjRiMnNOOTU2a09raGxLd1NQODBEV2k4VS0wOHAwdF9QamRBc0xoTXl5QV9raUd2OTJIaWlBNTRpOHJYcERxV0JDZDhIeU1SbDh4X1pxdV9yTGhrOGJ4SXZ1b3JBb3o2ZlRHZHYzd1p6UWF1WVZraXFmcDVNcllVeGdtRHRFTm93WGdCeGxGb2RnOHRrRWRGRFppQU1rbFI1ekJ6S2pzZ0E?oc=5",
       "top_source": "PYMNTS.com"
@@ -285,23 +285,23 @@
   ],
   "market_landscape": [
     {
-      "title": "Institutional Compliance Demand Crystallizing",
-      "body": "Regulatory clarity on crypto legislation and prediction market surveillance institutionalizing compliance requirements; institutional buyers seeking robust monitoring infrastructure creating market tailwind for analytics providers."
+      "title": "Regulatory Tailwinds Accelerating",
+      "body": "US Senate crypto bill advances, UK-EU frameworks crystallize, and regulatory clarity on prediction markets and market surveillance institutionalizes. This creates sustained demand for compliant blockchain intelligence infrastructure across jurisdictions."
     },
     {
-      "title": "AI Security Risk vs. Automation Opportunity",
-      "body": "Competitor narrative frames AI as compliance threat; actual opportunity lies in AI-powered threat detection and automation that mitigates rather than compounds risk\u2014messaging war underway."
+      "title": "Compliance Automation Competitive Intensity",
+      "body": "Elliptic's $120M raise and AI-driven compliance messaging intensifies competitive positioning; market shifting from forensics-only to integrated AI automation threat. We must visibly lead on predictive compliance and AI security to maintain leadership positioning."
     },
     {
-      "title": "Tax & Asset-Class Surveillance Frontier",
-      "body": "Novel digital assets (Ordinals, etc.) and tax evasion cases signal regulatory attention shifting to emerging asset classes; early mover advantage for providers mapping tax compliance workflows across non-standard tokens."
+      "title": "Geopolitical Illicit Finance Persistence",
+      "body": "Iran IRGC, North Korean hacking, and Sinaloa Cartel crypto laundering remain dominant enforcement narratives. Sanctions attribution and illicit network mapping remain core government demand drivers, but competitive entry from TRM and emerging players pressures market share."
     }
   ],
   "competitor_reads": {
-    "Elliptic": "Positioning aggressively on AI compliance automation risk narrative; CEO media blitz warning of AI arms race signals they are staking competitive differentiation on fear-based messaging rather than solutions.",
-    "TRM Labs": "Executing on illicit asset freeze coordination with Tether/TRON (T3 unit); demonstrated $450M+ frozen assets suggests partnership-driven enforcement model gaining institutional credibility.",
-    "Arkham Intelligence": "Exchange platform decentralization pivot signals shift away from pure intelligence; token holdings analysis (LAB concentration claim) shows competitive move into on-chain transparency positioning.",
-    "Crystal Intelligence": "Limited media presence; South Korea $7.1B illicit crypto tracing case indicates regional expansion focus but lacks narrative scale compared to competitors."
+    "Elliptic": "Aggressive AI/ML positioning via CEO thought leadership on compliance overwhelm and security arms race; $120M Series C signals they are scaling threat narrative around AI trading surge to capture compliance automation budgets.",
+    "TRM Labs": "Maintaining illicit finance detection and institutional sanctions enforcement positioning; T3 Financial Crime Unit partnership (Tether, TRON) and $450M frozen assets narrative build credibility in sanctions/AML enforcement space competing directly with us.",
+    "Arkham Intelligence": "Pivoting to decentralized exchange model while building on-chain intelligence competitive positioning; $4B LAB token narrative and high-profile entity tracking (Grayscale, Bhutan BTC) attempt to capture retail/trader intelligence demand segment.",
+    "Crystal Intelligence": "Emerging competitor with focused North Korea attribution work ($7.1B South Korea illicit trace); narrow geopolitical niche positioning but signals expanding competitive threat to our sanctions enforcement dominance."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
@@ -314,7 +314,7 @@
   },
   "sentiment": {
     "positive": 7,
-    "neutral": 3,
-    "negative": 0
+    "neutral": 2,
+    "negative": 1
   }
 }
