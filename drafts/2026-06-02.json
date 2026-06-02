@@ -49,7 +49,7 @@
       "source": "CCN.com"
     },
     {
-      "title": "\u0427\u0430\u0438\u043d\u0430\u043b\u0439\u0441\u0438\u0441: \u041a\u0440\u0438\u043f\u0442\u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f\u043b\u0430\u0440 \u0445\u0430\u0432\u0444\u0441\u0438\u0437\u043b\u0438\u043a \u0447\u043e\u0440\u0430\u043b\u0430\u0440\u0438\u043d\u0438 \u043a\u0443\u0447\u0430\u0439\u0442\u0438\u0440\u043c\u043e\u049b\u0434\u0430 - Zamin.uz",
+      "title": "Чаиналйсис: Крипто компаниялар хавфсизлик чораларини кучайтирмоқда - Zamin.uz",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTi1QSWUtcEtsZ3BIX19MSlRzTl8xNkxBNmd3cmtrdmhrTE8tdDlzWWN3bC1oNUJwc0NjWjJkSExNTGs2LTJ2WjBSS2x1MEVhU0ZKby1iazlPSF80Q1o2NGxmdTBObC1UMm1tRTc5MEt4ejhRc3ZoYVh3eWVDWEFPZ0Z0Zm5nNzdBT3pPb1QyOFotbmwwck1hRzBtTWFBWUplMWQ3Nm5ybw?oc=5",
       "source": "Zamin.uz"
     },
@@ -303,10 +303,10 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "Positioned as DeFi compliance specialist and sanctions attribution partner, credible on HTX/UK enforcement narrative but narrower than our institutional coverage.",
-    "TRM Labs": "Emphasizing architectural solutions (Mycroft agent) and fiat-crypto compliance integration; competing on workflow automation and internal team storytelling rather than market impact data.",
-    "Arkham Intelligence": "Dominating Mt. Gox narrative through real-time on-chain movement tracking; strong on forensic visualization but lacks policy/institutional enforcement credibility we own.",
-    "Solidus Labs": "Positioning as institutional-grade trade surveillance and market integrity specialist; partnering with B2C2 and EXIO to embed compliance automation at point-of-trade rather than post-hoc."
+    "Elliptic": "💡 Positioned as DeFi compliance specialist and sanctions attribution partner, credible on HTX/UK enforcement narrative but narrower than our institutional coverage.",
+    "TRM Labs": "💡 Emphasizing architectural solutions (Mycroft agent) and fiat-crypto compliance integration; competing on workflow automation and internal team storytelling rather than market impact data.",
+    "Arkham Intelligence": "💡 Dominating Mt. Gox narrative through real-time on-chain movement tracking; strong on forensic visualization but lacks policy/institutional enforcement credibility we own.",
+    "Solidus Labs": "💡 Positioning as institutional-grade trade surveillance and market integrity specialist; partnering with B2C2 and EXIO to embed compliance automation at point-of-trade rather than post-hoc."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
