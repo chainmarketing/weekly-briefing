@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-06-02",
+    "url": "briefings/2026-06-02.html",
+    "mentions": 11,
+    "narrative": 573,
+    "competitor_total": 16,
+    "persistent_count": 4,
+    "emerging_count": 1,
+    "articles_analysed": 953,
+    "mention_categories": {
+      "mainstream": 1,
+      "crypto": 1,
+      "fintech": 0,
+      "blog": 2,
+      "niche": 7
+    },
+    "sentiment": {
+      "positive": 8,
+      "neutral": 3,
+      "negative": 0
+    },
+    "competitors": {
+      "Arkham Intelligence": 8,
+      "TRM Labs": 3,
+      "Solidus Labs": 3,
+      "Elliptic": 2,
+      "CipherTrace": 0,
+      "Nansen": 0,
+      "Crystal Intelligence": 0,
+      "Merkle Science": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 177
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 147
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 96
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 57
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 47
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 45
+      },
+      {
+        "name": "TradFi Integration & Institutional Adoption",
+        "count": 38
+      },
+      {
+        "name": "National Security, Defence & Intelligence",
+        "count": 30
+      }
+    ],
+    "narratives": [
+      "Compliance Standards Rising, But Gaps Persist",
+      "Institutional Surveillance Outpaces Exchange Vigilance",
+      "Social Engineering & Crypto Security Threats Escalate",
+      "Stablecoin Infrastructure & Payment Mainstreaming",
+      "Sanctions Enforcement & Russia Attribution Intensification"
+    ],
+    "headline": "We established thought leadership on compliance maturation and social engineering threats, with our research on institutional surveillance outpacing exchange vigilance gaining significant traction acr"
+  },
+  {
     "date": "2026-05-14",
     "url": "briefings/2026-05-14.html",
     "mentions": 8,
