@@ -82,13 +82,21 @@ def build_slack_blocks(data, briefing_url, archive_url):
             f"*\U0001f4cb Strategic Summary*\n{data.get('executive_summary', '')}"}},
     ]
 
-    # Our Mentions (up to 15)
+    # Our Mentions (up to 15, chunked under Slack's 3000-char-per-section limit)
     if mentions:
         blocks.append({"type": "divider"})
-        text = f"*\U0001f4f0 Our Mentions* ({len(mentions)} total)\n"
-        for a in mentions[:15]:
-            text += f"\u2022 <{a['url']}|{a['title'][:90]}> — _{a['source']}_\n"
-        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": text}})
+        header = f"*\U0001f4f0 Our Mentions* ({len(mentions)} total)"
+        lines = [f"\u2022 <{a['url']}|{a['title'][:90]}> \u2014 _{a['source']}_" for a in mentions[:15]]
+        max_chars = 2800
+        current = header
+        for line in lines:
+            if len(current) + len(line) + 1 > max_chars:
+                blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": current}})
+                current = line
+            else:
+                current += "\n" + line
+        if current:
+            blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": current}})
 
     # Competitor Watch
     if total_comp > 0:
