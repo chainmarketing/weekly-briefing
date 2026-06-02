@@ -16,5 +16,5 @@ jobs:
       - name: Publish briefing
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_WEBHOOK_URL_WEEKLY: ${{ secrets.SLACK_WEBHOOK_URL_WEEKLY }}
+          SLACK_WEBHOOK_URL_FINAL: ${{ secrets.SLACK_WEBHOOK_URL_FINAL }}
         run: python scripts/publish_briefing.py ${{ inputs.date }} --repo ${{ github.repository }}
