@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Weekly Briefing Draft — 2026-06-02</title>
+<style>
+:root {--bg:#f8f9fa;--card:#fff;--text:#1a1a2e;--text-muted:#6b7280;--border:#e5e7eb;--primary:#1a73e8;--success:#16a34a;--warning:#d97706;--info:#2563eb;--destructive:#dc2626}
+@media(prefers-color-scheme:dark){:root{--bg:#111118;--card:#1c1c27;--text:#e4e4e7;--text-muted:#9ca3af;--border:#2e2e3a;--primary:#60a5fa;--success:#4ade80;--warning:#fbbf24;--info:#60a5fa;--destructive:#f87171}}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;line-height:1.6;min-height:100vh}
+.container{max-width:800px;margin:0 auto;padding:40px 16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;margin-bottom:24px;overflow:hidden}
+.card-header{padding:16px 20px 0}.card-body{padding:16px 20px 20px}
+h1{font-size:24px;font-weight:700;letter-spacing:-0.02em}h2{font-size:15px;font-weight:600;margin-bottom:4px}
+.subtitle{font-size:13px;color:var(--text-muted)}.text-center{text-align:center}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+hr{border:none;border-top:1px solid var(--border);margin:12px 0}
+
+/* Toolbar */
+.toolbar{position:sticky;top:0;z-index:100;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 20px;margin-bottom:24px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.toolbar-left{display:flex;align-items:center;gap:8px}
+.toolbar-right{display:flex;align-items:center;gap:8px}
+.draft-badge{font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;background:rgba(217,119,6,0.15);color:var(--warning)}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:13px;font-weight:500;cursor:pointer;transition:all 0.15s}
+.btn:hover{background:var(--bg)}
+.btn-primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+.btn-primary:hover{opacity:0.9;background:var(--primary)}
+.btn-success{background:var(--success);color:#fff;border-color:var(--success)}
+.btn-success:hover{opacity:0.9;background:var(--success)}
+.btn-destructive{background:var(--destructive);color:#fff;border-color:var(--destructive)}
+.btn-destructive:hover{opacity:0.9;background:var(--destructive)}
+.btn:disabled{opacity:0.4;cursor:not-allowed}
+
+/* Edit mode styles */
+[contenteditable="true"]{outline:2px dashed var(--primary);outline-offset:2px;border-radius:4px;padding:2px 4px;min-height:1.5em}
+[contenteditable="true"]:focus{outline-color:var(--info);background:rgba(37,99,235,0.04)}
+.remove-btn{display:none;position:absolute;top:6px;right:6px;width:22px;height:22px;border-radius:50%;background:var(--destructive);color:#fff;border:none;cursor:pointer;font-size:12px;line-height:22px;text-align:center}
+.edit-mode .remove-btn{display:block}
+.edit-mode .mention-row,.edit-mode .theme-card,.edit-mode .comp-item{position:relative}
+.edit-mode .mention-row{padding-right:32px}
+.edit-mode .theme-card{padding-right:32px}
+.add-item-btn{display:none;padding:10px;text-align:center;border:2px dashed var(--border);border-radius:8px;color:var(--primary);font-size:13px;font-weight:500;cursor:pointer;margin-top:12px;transition:all 0.15s}
+.add-item-btn:hover{background:rgba(37,99,235,0.04);border-color:var(--primary)}
+.edit-mode .add-item-btn{display:block !important}
+.edit-mode .edit-only-card{display:block !important}
+.add-form{margin-top:12px;padding:14px;background:var(--bg);border-radius:8px;border:1px solid var(--border)}
+.add-input{width:100%;padding:7px 10px;border:1px solid var(--border);border-radius:6px;background:var(--card);color:var(--text);font-size:13px;margin-bottom:8px;font-family:inherit}
+.add-input:focus{outline:2px solid var(--primary);outline-offset:-1px}
+textarea.add-input{resize:vertical}
+.status-msg{font-size:12px;padding:4px 10px;border-radius:6px;display:none}
+.status-msg.show{display:inline-block}
+.status-msg.success{background:rgba(22,163,74,0.1);color:var(--success)}
+.status-msg.error{background:rgba(220,38,38,0.1);color:var(--destructive)}
+
+/* Token modal */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:200;align-items:center;justify-content:center}
+.modal-overlay.show{display:flex}
+.modal{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;width:420px;max-width:90vw}
+.modal h3{font-size:16px;font-weight:600;margin-bottom:8px}
+.modal p{font-size:13px;color:var(--text-muted);margin-bottom:16px}
+.modal input{width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);font-size:13px;margin-bottom:16px}
+.modal-btns{display:flex;gap:8px;justify-content:flex-end}
+
+/* Stats */
+
+
+/* Content */
+.mention-row{padding:10px 0;border-bottom:1px solid var(--border)}.mention-row:last-child{border-bottom:none}
+.mention-title{font-size:14px;font-weight:500;color:var(--primary)}.mention-meta{font-size:12px;color:var(--text-muted);margin-top:2px}
+.theme-card{border-radius:8px;padding:12px;margin-bottom:10px;border-left:3px solid}
+.theme-persistent{background:rgba(217,119,6,0.08);border-left-color:var(--warning)}.theme-emerging{background:rgba(37,99,235,0.08);border-left-color:var(--info)}
+.theme-title{font-size:14px;font-weight:600}.theme-desc{font-size:13px;color:var(--text-muted);margin-top:4px}
+.theme-relevance{font-size:12px;font-style:italic;margin-top:4px}.theme-links{margin-top:8px}.theme-links a{font-size:12px;display:block;margin-top:3px}
+.badge{display:inline-block;font-size:10px;font-weight:600;padding:1px 8px;border-radius:99px;vertical-align:middle;margin-left:6px}
+.badge-persistent{background:rgba(217,119,6,0.15);color:var(--warning)}.badge-recurring{background:rgba(217,119,6,0.15);color:var(--warning)}.badge-new{background:rgba(37,99,235,0.12);color:var(--info)}
+.trend-meta{font-size:11px;color:var(--text-muted);margin-left:6px}
+.bar-row{display:flex;align-items:center;gap:12px;margin-bottom:6px}.bar-label{width:200px;font-size:12px;color:var(--text-muted);flex-shrink:0}
+.bar-track{flex:1;height:14px;background:var(--border);border-radius:4px;overflow:hidden}.bar-fill{height:100%;background:var(--primary);border-radius:4px}
+.bar-count{width:30px;text-align:right;font-size:12px;font-weight:600;flex-shrink:0}
+.comp-item{margin-bottom:14px}.comp-name{font-size:14px;font-weight:600}.comp-count{font-size:12px;color:var(--text-muted)}.comp-headline{font-size:13px;margin-top:2px}
+.seizure-box{border-radius:8px;padding:14px;background:rgba(22,163,74,0.08);border-left:3px solid var(--success)}
+.footer{text-align:center;font-size:11px;color:var(--text-muted);padding:12px 0 40px}
+.card-header-row{display:flex;justify-content:space-between;align-items:baseline}.count-label{font-size:12px;color:var(--text-muted)}
+</style></head>
+<body>
+<div class="container">
+
+  <!-- Token modal -->
+  <div class="modal-overlay" id="tokenModal">
+    <div class="modal">
+      <h3>🔑 GitHub Access</h3>
+      <p>Enter a GitHub personal access token with <code>repo</code> scope. This is stored in your browser session only — never sent anywhere else.</p>
+      <input type="password" id="tokenInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" />
+      <div class="modal-btns">
+        <button class="btn" onclick="closeTokenModal()">Cancel</button>
+        <button class="btn btn-primary" onclick="saveToken()">Save & Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="toolbar" id="toolbar">
+    <div class="toolbar-left">
+      <span class="draft-badge">⚠ DRAFT</span>
+      <span id="statusMsg" class="status-msg"></span>
+    </div>
+    <div class="toolbar-right">
+      <button class="btn" id="editBtn" onclick="toggleEdit()">✏️ Edit</button>
+      <button class="btn btn-primary" id="saveBtn" onclick="saveDraft()" style="display:none">💾 Save Draft</button>
+      <button class="btn" id="cancelBtn" onclick="cancelEdit()" style="display:none">Cancel</button>
+      <button class="btn btn-success" id="approveBtn" onclick="approveDraft()">✅ Approve & Publish</button>
+    </div>
+  </div>
+
+  <!-- Content rendered by JS from embedded data -->
+  <div id="content"></div>
+
+  <div class="footer" id="footer"></div>
+</div>
+
+<!-- Briefing data embedded by the workflow -->
+<script id="briefing-data" type="application/json">{
+  "date": "2026-06-02",
+  "date_display": "June 02, 2026",
+  "mentions_count": 14,
+  "narrative_count": 585,
+  "competitor_total": 16,
+  "persistent_count": 0,
+  "articles_analysed": 965,
+  "executive_summary": "Our research on crypto compliance and security dominated coverage this week, with 14 direct mentions highlighting rising AML standards, social engineering threats, and stablecoin growth potential. Concurrent narratives show institutional money flowing out of Bitcoin ETFs while regulatory enforcement\u2014particularly UK sanctions on Russian crypto networks\u2014underscores the critical role of transaction monitoring in compliance.",
+  "mentions": [
+    {
+      "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QQ3FmUkw1NjF4akVETHk0VjMzbWRNMHJtMEg0Tm5fbGNiMDV0bXVsbmRQRFNaYm1ncGFseVppS01mcU9HbUhZNmRXdjVUZGNZZEFVektMZFJEQQ?oc=5",
+      "source": "Cryptonews.net"
+    },
+    {
+      "title": "Financial Institutions Now Monitor Crypto Transactions More Aggressively Than Exchanges, Chainalysis Says - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbE92T1RwRy1xWktSMHZBd1FYaE5EdzRvbFF0SjRnek9ldklpejlxQjFHdklOX1lPYXRuVnZJSU0xLXJYeFVJQjB3RjhWblpSSnBfa3JxclFHM2FjY3FqT1NFbXlIWXVSWEktajBHRkxEdm5GeWRTamltUDdCWTZpTHJLNEtmaFY1YkdlYldlc1oyb2hfUnB6cUUxZHpzWjhmOGxRaVpheW80dw?oc=5",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Chainalysis reports 47% of crypto firms meet strict compliance standards in 2026 - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UZWZYbTl0STRQcU9melJ5dFBpRU9UTVFXenZlLU5nSWVxSmU0TGlpS0N2QUh2WVF6aEZKeklQN2I0UXNrRU9rNHFwdjNPQW5jUTRMM0Q5ZGdVNU9DRXVmTnRPNTJfOW5WaXpJVnJxd09WQjJpdU9UckZtZk4?oc=5",
+      "source": "Crypto Briefing"
+    },
+    {
+      "title": "Crypto companies have tightened compliance, but gaps remain: Chainalysis - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQVnFPZkVTcVZBRTJZbTd4aVBENkNySm5pTmpyUnVtaWZuNXhnaW4yci0zZjE5Mzc0NS1qVUVSTldENnVnMkZ6UnZTckFSSlljQWtzRXlaNUVlcDduN3BiLXhMRWg4LV9YMmRnTkN2cUxjdTVyWW1LSndXbjB1alVrVXlSTzc2ZFQyVVc2THlHMlBueWlyS2ZWYmY2V2R4bG1pLWt5QWpUem5iNXlQQ05LR0d2Z296VTNZdDk1ZkRVQktxM3BNRTl0d0t1Y0dTMmc3N0xqTVY3NXdRbnN4OHVYOW1ORWFtUUFNQnVUUjQyUGtUUmdka2MwYzJhM0FwUGF1alpnVC1La1lNajNmQnhwLXotZmpBbXJ0UWNJV1JxVmVkcFU1ZWN2NG1HTEpuelUzMXd1Ul8wSktWcmFDV1U5MExVT2pZUGVVTTZsaExwOWJXX2tN?oc=5",
+      "source": "MSN"
+    },
+    {
+      "title": "Chainalysis says crypto compliance is tighter, but AML gaps remain - crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQemNMV0dPTE9LNlZfamx4M0ZGTWpVaFBfTUpxVWJBUzZFOEc5cjhLQ0dQQk5vTkVPb2thTUZvTjZ0MERwSkxDZUlkX00wbEppUGpKMk5tSDB1c1VYc3RKNlAyWWdvTkgxT0k4VjMzUk01d2haR1h3cEFOTF9YOHNxMDFyc0ljaUV3dG5odFRmaw?oc=5",
+      "source": "crypto.news"
+    },
+    {
+      "title": "Chainalysis says crypto compliance standards are rising - grafa.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TbnFCdXpNU3JKVERjRld6NlZaTEdWcEl6Q3BsdTJtNkZmM2htdVFLdFlZV1Z5OHlNOHdlT1FuamJhdU5TZlBPQTlMT0s0eGxwYjk1dy1hNy1iSXdzZEM1aTQ2MWY0dHNDRW1VdjVlUTV6STNrMWc?oc=5",
+      "source": "grafa.com"
+    },
+    {
+      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "47% of 2026 Crypto Firms Meet Old Top Standards, Chainalysis Says - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaTRoMTRKeWNvbHM1NGJDQlVUNndteGQ2MXdDc0xLem1TM0xUNDNaMUJGWTVIWkpUX1JCZVJBcml5WGxsNlFBZ0Q3YkhsSUtObFdZVm53SUtZQXB0OG50QV80aDFCdmRKcDZoSmFaYm5nN1dHMkxCSDVtcHdSOUxYNHIyYw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Tax evaders are trying 'novel digital assets' to dodge authorities: Chainalysis - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMlkybjNKU253bXNlRGR6SjZLcXpoYzhFMjdldFkwVDZTdHFvSnRQRW4tUUZGd05NU0ppSlRybldfbnRkdHlhMEszS1VOd2k1UzJOcTl6d25PekU5d3VfeFZhVEpWN2hxdlJmQUkyQVFwWjNyOE1vOG5lazRQWTkyQUlmMWpYVThUTkxGWGJHMF9mZkV5T2c5aENFM0x5cG1tN0ZUYk4tZGRlaUdhaEJzakJTMHVOZ3VXVi1RdGg5bi16QUpGNGpjQ0VCUl9pVVZON1U2cEZqcw?oc=5",
+      "source": "MSN"
+    },
+    {
+      "title": "Chainalysis: Compliance standards in the crypto industry have improved, but gaps remain in indirect monitoring - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oaWE0c3EtdExDS1NvTlJhRXFpOUZQRzlneWMxSTVON2tHeWlOTmNlRzl3RUJYQnNLM1pVcGppVGstc2UyUktLUkl4bk94MkdEVmFvTDlkYmZjc2pabWfSAWNBVV95cUxPSUlLOHVPZ0ZSSGlXQ1lsWVhuV0tRQ2JyQ09NT2xrUUdoYVhNeU5EZHNFdVVYU2RPQzJKZ1dOT29ITkJQWU1OWm55U2lRbDVTa2hfOEk0dTNtS19hUk9wbE03UGs?oc=5",
+      "source": "Bitget"
+    },
+    {
+      "title": "Financial Institutions Now Monitor Crypto Transactions More Aggressively Than Exchanges, Chainalysis Says - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTHAxb2U0VUFUc012bzE1MUZhU0s0aUtocjBGbHVzeHpPYXdmVE1pMlJtemhvMEkwYktsN1IybTZYZXg2eC04ZGd2YndJd0hYQW9xWFQwQkRKNW1hR0pYeHJJa1Y2YXlhQkFFLXQzaXlETC1KeDhvY2Y0SWJOMmJoTmQ1LWU4X3JhNUtLOWdMSVJYMFhzMzRuWGpOR2JkYzcwUmU5YlAtMkZXdw?oc=5",
+      "source": "CCN.com"
+    },
+    {
+      "title": "\u0427\u0430\u0438\u043d\u0430\u043b\u0439\u0441\u0438\u0441: \u041a\u0440\u0438\u043f\u0442\u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f\u043b\u0430\u0440 \u0445\u0430\u0432\u0444\u0441\u0438\u0437\u043b\u0438\u043a \u0447\u043e\u0440\u0430\u043b\u0430\u0440\u0438\u043d\u0438 \u043a\u0443\u0447\u0430\u0439\u0442\u0438\u0440\u043c\u043e\u049b\u0434\u0430 - Zamin.uz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTi1QSWUtcEtsZ3BIX19MSlRzTl8xNkxBNmd3cmtrdmhrTE8tdDlzWWN3bC1oNUJwc0NjWjJkSExNTGs2LTJ2WjBSS2x1MEVhU0ZKby1iazlPSF80Q1o2NGxmdTBObC1UMm1tRTc5MEt4ejhRc3ZoYVh3eWVDWEFPZ0Z0Zm5nNzdBT3pPb1QyOFotbmwwck1hRzBtTWFBWUplMWQ3Nm5ybw?oc=5",
+      "source": "Zamin.uz"
+    },
+    {
+      "title": "The New Compliance Floor: Organizations are Adopting Stronger Than Ever Monitoring Practices",
+      "url": "https://www.chainalysis.com/blog/crypto-compliance-program-benchmark-2026/",
+      "source": "Chainalysis Blog"
+    },
+    {
+      "title": "U.K. Sanctions 18 Entities and Persons for Evading Russian Trade Blockades",
+      "url": "https://www.chainalysis.com/blog/uk-sanctions-crypto-entities-russian-trade-blockade-evasion-may-2026/",
+      "source": "Chainalysis Blog"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Compliance Standards Rising, But Gaps Persist",
+      "description": "47% of crypto firms now meet strict compliance standards; however, AML monitoring gaps remain, particularly in indirect transaction tracking.",
+      "relevance": "Our research directly validates the market need for our core monitoring and AML solutions; positions us as the authoritative voice on compliance maturity.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis: Compliance standards in the crypto industry have improved, but gaps remain in indirect monitoring - Bitget",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oaWE0c3EtdExDS1NvTlJhRXFpOUZQRzlneWMxSTVON2tHeWlOTmNlRzl3RUJYQnNLM1pVcGppVGstc2UyUktLUkl4bk94MkdEVmFvTDlkYmZjc2pabWfSAWNBVV95cUxPSUlLOHVPZ0ZSSGlXQ1lsWVhuV0tRQ2JyQ09NT2xrUUdoYVhNeU5EZHNFdVVYU2RPQzJKZ1dOT29ITkJQWU1OWm55U2lRbDVTa2hfOEk0dTNtS19hUk9wbE03UGs?oc=5",
+          "source": "Bitget"
+        },
+        {
+          "title": "Chainalysis reports 47% of crypto firms meet strict compliance standards in 2026 - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UZWZYbTl0STRQcU9melJ5dFBpRU9UTVFXenZlLU5nSWVxSmU0TGlpS0N2QUh2WVF6aEZKeklQN2I0UXNrRU9rNHFwdjNPQW5jUTRMM0Q5ZGdVNU9DRXVmTnRPNTJfOW5WaXpJVnJxd09WQjJpdU9UckZtZk4?oc=5",
+          "source": "Crypto Briefing"
+        },
+        {
+          "title": "Chainalysis says crypto compliance standards are rising - grafa.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TbnFCdXpNU3JKVERjRld6NlZaTEdWcEl6Q3BsdTJtNkZmM2htdVFLdFlZV1Z5OHlNOHdlT1FuamJhdU5TZlBPQTlMT0s0eGxwYjk1dy1hNy1iSXdzZEM1aTQ2MWY0dHNDRW1VdjVlUTV6STNrMWc?oc=5",
+          "source": "grafa.com"
+        }
+      ]
+    },
+    {
+      "title": "Social Engineering Drives Crypto Hacks",
+      "description": "65% of recent crypto hacks now leverage social engineering tactics, with $17 billion lost; represents shift from technical exploits to human-targeted attacks.",
+      "relevance": "Elevates demand for our forensics and threat intelligence capabilities to help firms detect compromised accounts and trace stolen funds.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QQ3FmUkw1NjF4akVETHk0VjMzbWRNMHJtMEg0Tm5fbGNiMDV0bXVsbmRQRFNaYm1ncGFseVppS01mcU9HbUhZNmRXdjVUZGNZZEFVektMZFJEQQ?oc=5",
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Financial Institutions Now Monitor Crypto Transactions More Aggressively Than Exchanges, Chainalysis Says - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbE92T1RwRy1xWktSMHZBd1FYaE5EdzRvbFF0SjRnek9ldklpejlxQjFHdklOX1lPYXRuVnZJSU0xLXJYeFVJQjB3RjhWblpSSnBfa3JxclFHM2FjY3FqT1NFbXlIWXVSWEktajBHRkxEdm5GeWRTamltUDdCWTZpTHJLNEtmaFY1YkdlYldlc1oyb2hfUnB6cUUxZHpzWjhmOGxRaVpheW80dw?oc=5",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Chainalysis reports 47% of crypto firms meet strict compliance standards in 2026 - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UZWZYbTl0STRQcU9melJ5dFBpRU9UTVFXenZlLU5nSWVxSmU0TGlpS0N2QUh2WVF6aEZKeklQN2I0UXNrRU9rNHFwdjNPQW5jUTRMM0Q5ZGdVNU9DRXVmTnRPNTJfOW5WaXpJVnJxd09WQjJpdU9UckZtZk4?oc=5",
+          "source": "Crypto Briefing"
+        }
+      ]
+    },
+    {
+      "title": "Institutional Adoption Outpaces Exchange Vigilance",
+      "description": "Financial institutions now monitor crypto transactions more aggressively than crypto exchanges; signals regulatory pressure and institutional risk appetite.",
+      "relevance": "Reinforces our unique positioning serving both TradFi institutions and crypto native firms; validates cross-sector compliance demand.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis: Compliance standards in the crypto industry have improved, but gaps remain in indirect monitoring - Bitget",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oaWE0c3EtdExDS1NvTlJhRXFpOUZQRzlneWMxSTVON2tHeWlOTmNlRzl3RUJYQnNLM1pVcGppVGstc2UyUktLUkl4bk94MkdEVmFvTDlkYmZjc2pabWfSAWNBVV95cUxPSUlLOHVPZ0ZSSGlXQ1lsWVhuV0tRQ2JyQ09NT2xrUUdoYVhNeU5EZHNFdVVYU2RPQzJKZ1dOT29ITkJQWU1OWm55U2lRbDVTa2hfOEk0dTNtS19hUk9wbE03UGs?oc=5",
+          "source": "Bitget"
+        },
+        {
+          "title": "Chainalysis reports 47% of crypto firms meet strict compliance standards in 2026 - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UZWZYbTl0STRQcU9melJ5dFBpRU9UTVFXenZlLU5nSWVxSmU0TGlpS0N2QUh2WVF6aEZKeklQN2I0UXNrRU9rNHFwdjNPQW5jUTRMM0Q5ZGdVNU9DRXVmTnRPNTJfOW5WaXpJVnJxd09WQjJpdU9UckZtZk4?oc=5",
+          "source": "Crypto Briefing"
+        },
+        {
+          "title": "Crypto companies have tightened compliance, but gaps remain: Chainalysis - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQVnFPZkVTcVZBRTJZbTd4aVBENkNySm5pTmpyUnVtaWZuNXhnaW4yci0zZjE5Mzc0NS1qVUVSTldENnVnMkZ6UnZTckFSSlljQWtzRXlaNUVlcDduN3BiLXhMRWg4LV9YMmRnTkN2cUxjdTVyWW1LSndXbjB1alVrVXlSTzc2ZFQyVVc2THlHMlBueWlyS2ZWYmY2V2R4bG1pLWt5QWpUem5iNXlQQ05LR0d2Z296VTNZdDk1ZkRVQktxM3BNRTl0d0t1Y0dTMmc3N0xqTVY3NXdRbnN4OHVYOW1ORWFtUUFNQnVUUjQyUGtUUmdka2MwYzJhM0FwUGF1alpnVC1La1lNajNmQnhwLXotZmpBbXJ0UWNJV1JxVmVkcFU1ZWN2NG1HTEpuelUzMXd1Ul8wSktWcmFDV1U5MExVT2pZUGVVTTZsaExwOWJXX2tN?oc=5",
+          "source": "MSN"
+        }
+      ]
+    },
+    {
+      "title": "Stablecoins Scale to Quadrillion Potential",
+      "description": "Stablecoins could process $1.5 quadrillion annually by 2035; represents massive settlement infrastructure opportunity with significant compliance implications.",
+      "relevance": "Our stablecoin transaction monitoring and sanctions screening capabilities become critical infrastructure as payment volumes scale exponentially.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "MoneyGram launches stablecoin on Stellar, joining rush toward digital dollar payments",
+          "url": "https://www.coindesk.com/business/2026/06/02/moneygram-launches-stablecoin-on-stellar-joining-rush-toward-digital-dollar-payments",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Japan must promote yen stablecoins in Asia, ruling party panel says - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZjNZcXd4TU9ydk5rQUZvdEJhbER2MTJhS1ZvZUM1Qy01STlweEc5dDBndlRQNEhrbGpqLUJYUTloVTEyTmRzbkE4SDVfbzRaX0hvNmx2WVhvVUdSc0dZTWdFcEM4RDMtb2E2TDBlQ2dLNUFsSHhCdE85cmwxQXdFSDBzZnpVYkQyd3FXTmtkUzFXR3dodHNjTGotdG5laHl3a0hoMWUwQzMzcTVRQ3BxellTN2hYZnc?oc=5",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "Sanctions Enforcement Targets Russian Crypto Networks",
+      "description": "UK sanctioned 18 entities and persons for evading Russian trade blockades; HTX and other exchanges flagged for facilitating illicit flows.",
+      "relevance": "Demonstrates direct real-world application of our sanctions enforcement tools and validates our thought leadership on geopolitical finance risks.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "UK targets Russian crypto networks in latest sanctions - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM2hDVXJmTWVoQWVQazFLUElkOGd3VWRZaWVJZmdTR1RQVHk1dEZWRlJfbzFjYUlXcGdFRWlyTHQ1MnlpVHF1UFR6TXQ4MkhlcjJZWmtOLWkzSVVoUkozLXBOY1VQMnpQamdEU2VhNHZYTXdSN3c2Tmw1TE52UVYydnpFTkpVM2RmX01nZEtvM1hwVVlyM2staw?oc=5",
+          "source": "Reuters"
+        },
+        {
+          "title": "U.K. Sanctions 18 Entities and Persons for Evading Russian Trade Blockades",
+          "url": "https://www.chainalysis.com/blog/uk-sanctions-crypto-entities-russian-trade-blockade-evasion-may-2026/",
+          "source": "Chainalysis Blog"
+        },
+        {
+          "title": "Chainalysis reports 47% of crypto firms meet strict compliance standards in 2026 - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UZWZYbTl0STRQcU9melJ5dFBpRU9UTVFXenZlLU5nSWVxSmU0TGlpS0N2QUh2WVF6aEZKeklQN2I0UXNrRU9rNHFwdjNPQW5jUTRMM0Q5ZGdVNU9DRXVmTnRPNTJfOW5WaXpJVnJxd09WQjJpdU9UckZtZk4?oc=5",
+          "source": "Crypto Briefing"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 165
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 155
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 94
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 60
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 53
+    },
+    {
+      "name": "Stablecoins & Digital Payments",
+      "count": 44
+    },
+    {
+      "name": "TradFi Integration & Institutional Adoption",
+      "count": 43
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 31
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Arkham Intelligence",
+      "count": 8,
+      "top_title": "Mt. Gox moves $739 million worth of bitcoin to two addresses: Arkham - The Block",
+      "top_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54SEZlRUhlY2dvQ0dYN1lFRW9Ra3NEb0RrVHFJc0Zmc3NwX3RqY0w4Y3duVFNtajBSUFZzU3BoOEp1OUdzV3otZmJWWGRUOEtrV01WX1RPZnIxLVBhUWFVYVllWlZBcVdPZTdXQjJjS0YzZw?oc=5",
+      "top_source": "The Block"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 3,
+      "top_title": "Meet the Agent: How the Solutions Architecture Team Built Mycroft - TRM Labs",
+      "top_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYTdzenBEM3BFcjlzLWRCb2FzeF9TaXVidF9ZSjN0bFFPWnA0U0JpckdrU21JdTZRZVlBcDNCSUgtOGV5bHFyOXFTcVlDWVFsamZ5ZkhkXzZHM20zdUVYOGJLX2N0VmdfU09uS3BMd29McEFiVjduT3VFMmdMaVZhUDQzVXpOYnFRck9rd1lLdUJ1TWlGcHV2aV9DX1E1MGsyMUFmYXlZOVR3UQ?oc=5",
+      "top_source": "TRM Labs"
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 3,
+      "top_title": "EXIO Group Partners with Solidus Labs to Strengthen Trade Surveillance and AML Compliance - Business",
+      "top_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNU5OQ0g5V3c1dkdJRWRkejBkTlRuUVVHT1lNU19teFhkNG1zTmdaZUR6M01oNjNHUVN2QlNHWnVwaURxdUd0VkxFTDV1QmwxR0tKTmw4NGhyZDEweXJTRkJMcGh1TkFfUW8wYkVlWHFTZ1JuczdZVF94RWFDd09qWmtDRjNqbEVDYVBUajBqOVdMRWJoNGRjSGtEdFlXMFcxMHVpTEZ1TEdOZHlkaDNpenlyTXI1czNha3p4ZDlYV2tGWkJITkQyNl9pRnVOc1JLOUhDRzI4bnNYN1Rpb2dz?oc=5",
+      "top_source": "Business Wire"
+    },
+    {
+      "name": "Elliptic",
+      "count": 2,
+      "top_title": "What is DeFi compliance? - Elliptic",
+      "top_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3dUZpWlVrbTB3MVRuc1RiWXdVZnR4OUtLOHFfdHBBN0dJUjcwRmtsSVktZFp0M2dBT2tMUC1ac3JoeHhtWWJoenpSMzlFRi1OWHVFWFI4UXFnU2pZSndLSW5XcV9sVUZoOVBXdWVNWUdsMm8?oc=5",
+      "top_source": "Elliptic"
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Nansen",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Merkle Science",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Institutional Outflows, Macro Headwinds",
+      "body": "Bitcoin ETFs posting longest outflow streak ($2.8\u20133.4B) amid geopolitical tensions and war jitters, while macro uncertainty pulls institutional investors toward AI equities. This signals potential capitulation but also highlights the need for robust transaction monitoring as capital reallocation accelerates."
+    },
+    {
+      "title": "Regulatory Enforcement Accelerates",
+      "body": "UK and US simultaneously targeting Russian crypto networks and sanctioning exchanges; $1B in Iranian crypto seized by US Treasury. Enforcement activity validates our sanctions screening and cross-border monitoring as table stakes for any exchange or institution."
+    },
+    {
+      "title": "TradFi-Crypto Convergence Deepens",
+      "body": "Binance launches US stock/ETF trading; Coinbase adds Indian rupee; MoneyGram launches stablecoin on Stellar. Blurred boundaries between traditional and crypto finance create massive compliance complexity, positioning our cross-sector monitoring tools as essential infrastructure."
+    }
+  ],
+  "competitor_reads": {
+    "Elliptic": "Positioning on DeFi compliance education and sanctions intelligence; co-branded coverage of UK sanctions enforcement signals credibility in regulatory partnerships.",
+    "TRM Labs": "Emphasizing internal culture and integration partnerships (Finray, Solutions Architecture); expanding beyond pure compliance into fiat-crypto bridging to capture broader market.",
+    "Arkham Intelligence": "Dominating Mt. Gox movement coverage through on-chain data publishing; building brand as the go-to transaction visibility platform for media and retail audiences.",
+    "Solidus Labs": "Pivoting toward institutional market integrity through strategic partnerships (EXIO Group, B2C2); positioning as trade surveillance specialist rather than pure AML vendor."
+  },
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
+  "mention_categories": {
+    "mainstream": 1,
+    "crypto": 2,
+    "fintech": 0,
+    "blog": 2,
+    "niche": 9
+  },
+  "sentiment": {
+    "positive": 10,
+    "neutral": 4,
+    "negative": 0
+  }
+}</script>
+
+<script>
+const REPO = 'chainmarketing/weekly-briefing';
+const DATE = '2026-06-02';
+
+let data = {};
+let editMode = false;
+let pendingAction = null; // 'save' or 'approve'
+
+function init() {
+  try {
+    data = JSON.parse(document.getElementById('briefing-data').textContent);
+  } catch(e) {
+    document.getElementById('content').innerHTML = '<p>Failed to load briefing data.</p>';
+    return;
+  }
+  render();
+}
+
+function render() {
+  const d = data;
+  const el = document.getElementById('content');
+
+  let html = `
+    <div class="text-center" style="margin-bottom:28px">
+      <h1>Weekly Briefing</h1>
+      <p class="subtitle">Week ending ${d.date_display || d.date}</p>
+    </div>
+
+
+
+    <div class="card"><div class="card-header"><h2>Strategic Summary</h2></div>
+    <div class="card-body"><p class="editable" data-field="executive_summary" style="font-size:14px;color:var(--text-muted)">${d.executive_summary}</p>
+    </div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-row"><h2>📰 Chainalysis in the News</h2>
+    <span class="count-label">${d.mentions_count} mentions</span></div></div>
+    <div class="card-body" id="mentions-container">`;
+
+  for (let i = 0; i < (d.mentions || []).length; i++) {
+    const m = d.mentions[i];
+    html += `<div class="mention-row" data-index="${i}">
+      <button class="remove-btn" onclick="removeMention(${i})" title="Remove">×</button>
+      <a href="${m.url}" class="mention-title editable-inline" data-field="mentions.${i}.title">${m.title}</a>
+      <div class="mention-meta">${m.source}</div>
+    </div>`;
+  }
+  html += `<div class="add-item-btn" onclick="showAddMention()">+ Add Mention</div>
+    <div class="add-form" id="addMentionForm" style="display:none">
+      <input type="text" id="newMentionTitle" placeholder="Article title" class="add-input">
+      <input type="text" id="newMentionUrl" placeholder="URL" class="add-input">
+      <input type="text" id="newMentionSource" placeholder="Source (e.g. Bloomberg)" class="add-input">
+      <div style="display:flex;gap:6px;margin-top:6px">
+        <button class="btn btn-primary" onclick="addMention()" style="font-size:12px;padding:4px 12px">Add</button>
+        <button class="btn" onclick="hideAddMention()" style="font-size:12px;padding:4px 12px">Cancel</button>
+      </div>
+    </div>
+  </div></div>`;
+
+  // Persistent themes
+  const persistent = (d.narratives || []).filter(n => ['persistent','recurring'].includes(n.cadence));
+  if (persistent.length) {
+    html += `<div class="card"><div class="card-header"><h2>🔥 Persistent Themes</h2>
+    <p class="subtitle">Narratives shaping the landscape.</p></div><div class="card-body">`;
+    for (const n of persistent) {
+      const idx = d.narratives.indexOf(n);
+      const badge = n.cadence === 'persistent' ? '🔥 Persistent' : '🔁 Recurring';
+      const me = {rising:'📈',stable:'➡️',fading:'📉'}[n.momentum] || '';
+      html += `<div class="theme-card theme-persistent" data-narrative-index="${idx}">
+        <button class="remove-btn" onclick="removeNarrative(${idx})" title="Remove">×</button>
+        <div><span class="theme-title editable-inline" data-field="narratives.${idx}.title">${n.title}</span>
+        <span class="badge badge-${n.cadence}">${badge}</span>
+        <span class="trend-meta">${me} ${n.appearances || 1}x over ${n.window_days || '?'} days</span></div>
+        <p class="theme-desc editable" data-field="narratives.${idx}.description">${n.description}</p>
+        <p class="theme-relevance editable" data-field="narratives.${idx}.relevance">🏢 ${n.relevance || ''}</p>
+        <div class="theme-links">${(n.articles || []).map(a => `<a href="${a.url}">${a.source}: ${a.title}</a>`).join('')}</div>
+      </div>`;
+    }
+    html += '</div></div>';
+  }
+
+  // Emerging themes
+  const emerging = (d.narratives || []).filter(n => ['new','sporadic'].includes(n.cadence));
+  if (emerging.length) {
+    html += `<div class="card"><div class="card-header"><h2>✨ Emerging This Week</h2>
+    <p class="subtitle">New themes to watch.</p></div><div class="card-body">`;
+    for (const n of emerging) {
+      const idx = d.narratives.indexOf(n);
+      html += `<div class="theme-card theme-emerging" data-narrative-index="${idx}">
+        <button class="remove-btn" onclick="removeNarrative(${idx})" title="Remove">×</button>
+        <span class="theme-title editable-inline" data-field="narratives.${idx}.title">${n.title}</span>
+        <span class="badge badge-new">✨ New</span>
+        <p class="theme-desc editable" data-field="narratives.${idx}.description">${n.description}</p>
+        <p class="theme-relevance editable" data-field="narratives.${idx}.relevance">🏢 ${n.relevance || ''}</p>
+        <div class="theme-links">${(n.articles || []).map(a => `<a href="${a.url}">${a.source}: ${a.title}</a>`).join('')}</div>
+      </div>`;
+    }
+    html += '</div></div>';
+  }
+
+
+  // Add Narrative button (edit mode only)
+  html += `<div class="card edit-only-card" style="display:none"><div class="card-body">
+    <div class="add-item-btn" onclick="showAddNarrative()">+ Add Narrative</div>
+    <div class="add-form" id="addNarrativeForm" style="display:none">
+      <input type="text" id="newNarrTitle" placeholder="Narrative title" class="add-input">
+      <textarea id="newNarrDesc" placeholder="Description (1-2 sentences)" class="add-input" rows="2"></textarea>
+      <input type="text" id="newNarrRelevance" placeholder="What this means for us" class="add-input">
+      <div style="display:flex;gap:8px;align-items:center;margin-top:6px">
+        <select id="newNarrCadence" class="add-input" style="width:auto;margin:0">
+          <option value="new">✨ Emerging / New</option>
+          <option value="recurring">🔁 Recurring</option>
+          <option value="persistent">🔥 Persistent</option>
+        </select>
+        <button class="btn btn-primary" onclick="addNarrative()" style="font-size:12px;padding:4px 12px">Add</button>
+        <button class="btn" onclick="hideAddNarrative()" style="font-size:12px;padding:4px 12px">Cancel</button>
+      </div>
+    </div>
+  </div></div>`;
+
+  // Domain heatmap
+  if (d.top_domains && d.top_domains.length) {
+    const max = d.top_domains[0].count;
+    html += `<div class="card"><div class="card-header"><h2>📊 Topic Coverage</h2></div><div class="card-body">`;
+    html += `<p style="font-size:11px;color:var(--text-muted);background:var(--bg);display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:12px">📄 Website only — not included in Slack.</p>`;
+    for (const dom of d.top_domains) {
+      html += `<div class="bar-row"><span class="bar-label">${dom.name}</span>
+        <div class="bar-track"><div class="bar-fill" style="width:${dom.count/max*100}%"></div></div>
+        <span class="bar-count">${dom.count}</span></div>`;
+    }
+    html += '</div></div>';
+  }
+
+  // Seizure
+  if (d.seizure_value) {
+    html += `<div class="card"><div class="card-header"><h2>📊 Seize & Freeze Scorecard</h2></div>
+    <div class="card-body"><div class="seizure-box"><p>🔗 <strong>${d.seizure_value}</strong> seized & frozen — <strong>${d.seizure_cases} cases</strong></p></div></div></div>`;
+  }
+
+  // Competitor Watch (merged with strategic reads)
+  if (d.competitors && d.competitors.length) {
+    const reads = d.competitor_reads || {};
+    html += `<div class="card"><div class="card-header"><h2>🏢 Competitor Watch</h2></div><div class="card-body">`;
+    for (let i = 0; i < d.competitors.length; i++) {
+      const c = d.competitors[i];
+      // Find the strategic read for this competitor (match by name, case-insensitive)
+      const readKey = Object.keys(reads).find(k => k.toLowerCase().includes(c.name.toLowerCase().split(' ')[0]));
+      const read = readKey ? reads[readKey] : '';
+      if (c.count > 0) {
+        html += `<div class="comp-item" data-comp-index="${i}">
+          <span class="comp-name">${c.name}</span> <span class="comp-count">(${c.count} articles)</span>
+          <div class="comp-headline"><a href="${c.top_url || '#'}">${c.top_title || ''}</a> — <span style="color:var(--text-muted);font-size:12px">${c.top_source || ''}</span></div>
+          ${read ? `<p class="editable" data-field="competitor_reads.${readKey || c.name}" style="font-size:12px;color:var(--text-muted);font-style:italic;margin-top:4px">💡 ${read}</p>` : ''}
+        </div><hr>`;
+      } else {
+        html += `<div class="comp-item"><span class="comp-name" style="color:var(--text-muted)">${c.name}</span> <span class="comp-count">(0)</span>
+        <div style="font-size:12px;color:var(--text-muted)">No coverage this week.</div></div><hr>`;
+      }
+    }
+    html += '</div></div>';
+  }
+
+  // Market Landscape
+  if (d.market_landscape && (Array.isArray(d.market_landscape) ? d.market_landscape.length : d.market_landscape)) {
+    let mlBody = '';
+    if (Array.isArray(d.market_landscape)) {
+      d.market_landscape.forEach((s, i) => {
+        mlBody += `<div style="margin-bottom:16px">
+          <h3 class="editable-inline" data-field="market_landscape.${i}.title" style="font-size:13px;font-weight:600;margin-bottom:4px">${s.title || ''}</h3>
+          <p class="editable" data-field="market_landscape.${i}.body" style="font-size:14px;color:var(--text-muted);line-height:1.7">${s.body || ''}</p>
+        </div>`;
+      });
+    } else {
+      const paras = String(d.market_landscape).split(/\n\n+/).filter(p => p.trim());
+      paras.forEach((p, i) => {
+        mlBody += `<p class="editable" data-field="market_landscape_para_${i}" style="font-size:14px;color:var(--text-muted);line-height:1.7;margin-bottom:14px">${p.trim()}</p>`;
+      });
+    }
+    html += `<div class="card"><div class="card-header"><h2>🌍 Market Landscape</h2></div>
+    <div class="card-body"><p style="font-size:11px;color:var(--text-muted);background:var(--bg);display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:12px">📄 Website only — not included in Slack. Edits here won't affect the Slack message.</p>${mlBody}</div></div>`;
+  }
+
+  // Competitor Spotlight removed — merged into Competitor Watch above
+
+  el.innerHTML = html;
+  document.getElementById('footer').textContent = `Chainalysis Weekly Briefing · ${d.date_display || d.date} · ${d.articles_analysed || '?'} articles analysed`;
+}
+
+// ── Edit mode ─────────────────────────────────────────────────
+
+function toggleEdit() {
+  editMode = true;
+  document.body.classList.add('edit-mode');
+  document.getElementById('editBtn').style.display = 'none';
+  document.getElementById('saveBtn').style.display = '';
+  document.getElementById('cancelBtn').style.display = '';
+  document.getElementById('approveBtn').style.display = 'none';
+
+  document.querySelectorAll('.editable, .editable-inline').forEach(el => {
+    el.contentEditable = 'true';
+  });
+  showStatus('Editing — make your changes, then Save Draft', 'success');
+}
+
+function cancelEdit() {
+  editMode = false;
+  document.body.classList.remove('edit-mode');
+  document.getElementById('editBtn').style.display = '';
+  document.getElementById('saveBtn').style.display = 'none';
+  document.getElementById('cancelBtn').style.display = 'none';
+  document.getElementById('approveBtn').style.display = '';
+
+  render(); // re-render from original data
+  hideStatus();
+}
+
+function readEditsFromDOM() {
+  document.querySelectorAll('[data-field][contenteditable="true"]').forEach(el => {
+    const field = el.dataset.field;
+    const value = el.innerText.trim();
+    setNestedField(data, field, value);
+  });
+}
+
+function setNestedField(obj, path, value) {
+  const parts = path.split('.');
+  let current = obj;
+  for (let i = 0; i < parts.length - 1; i++) {
+    const key = isNaN(parts[i]) ? parts[i] : parseInt(parts[i]);
+    current = current[key];
+    if (!current) return;
+  }
+  const lastKey = isNaN(parts[parts.length-1]) ? parts[parts.length-1] : parseInt(parts[parts.length-1]);
+  // Strip emoji prefix from relevance fields
+  if (path.endsWith('.relevance')) {
+    current[lastKey] = value.replace(/^🏢\s*/, '');
+  } else {
+    current[lastKey] = value;
+  }
+}
+
+function removeMention(index) {
+  data.mentions.splice(index, 1);
+  data.mentions_count = data.mentions.length;
+  render();
+  toggleEdit(); // stay in edit mode
+}
+
+function removeNarrative(index) {
+  data.narratives.splice(index, 1);
+  data.persistent_count = data.narratives.filter(n => ['persistent','recurring'].includes(n.cadence)).length;
+  render();
+  toggleEdit();
+}
+
+
+// ── Add items ─────────────────────────────────────────────────
+
+function showAddMention() {
+  document.getElementById('addMentionForm').style.display = 'block';
+}
+function hideAddMention() {
+  document.getElementById('addMentionForm').style.display = 'none';
+  document.getElementById('newMentionTitle').value = '';
+  document.getElementById('newMentionUrl').value = '';
+  document.getElementById('newMentionSource').value = '';
+}
+function addMention() {
+  const title = document.getElementById('newMentionTitle').value.trim();
+  const url = document.getElementById('newMentionUrl').value.trim();
+  const source = document.getElementById('newMentionSource').value.trim();
+  if (!title || !source) { alert('Title and source are required.'); return; }
+  data.mentions = data.mentions || [];
+  data.mentions.push({ title, url: url || '#', source });
+  data.mentions_count = data.mentions.length;
+  hideAddMention();
+  render();
+  toggleEdit();
+  showStatus('Mention added \u2014 remember to Save Draft', 'success');
+}
+
+function showAddNarrative() {
+  document.getElementById('addNarrativeForm').style.display = 'block';
+}
+function hideAddNarrative() {
+  document.getElementById('addNarrativeForm').style.display = 'none';
+  document.getElementById('newNarrTitle').value = '';
+  document.getElementById('newNarrDesc').value = '';
+  document.getElementById('newNarrRelevance').value = '';
+  document.getElementById('newNarrCadence').value = 'new';
+}
+function addNarrative() {
+  const title = document.getElementById('newNarrTitle').value.trim();
+  const description = document.getElementById('newNarrDesc').value.trim();
+  const relevance = document.getElementById('newNarrRelevance').value.trim();
+  const cadence = document.getElementById('newNarrCadence').value;
+  if (!title || !description) { alert('Title and description are required.'); return; }
+  data.narratives = data.narratives || [];
+  data.narratives.push({
+    title, description, relevance, cadence,
+    momentum: 'new', appearances: 1, window_days: 1, articles: []
+  });
+  data.persistent_count = data.narratives.filter(n => ['persistent','recurring'].includes(n.cadence)).length;
+  hideAddNarrative();
+  render();
+  toggleEdit();
+  showStatus('Narrative added \u2014 remember to Save Draft', 'success');
+}
+
+// ── GitHub API ────────────────────────────────────────────────
+
+function getToken() {
+  return sessionStorage.getItem('gh_token') || '';
+}
+
+function showTokenModal(action) {
+  pendingAction = action;
+  document.getElementById('tokenModal').classList.add('show');
+  document.getElementById('tokenInput').focus();
+}
+
+function closeTokenModal() {
+  document.getElementById('tokenModal').classList.remove('show');
+  pendingAction = null;
+}
+
+function saveToken() {
+  const token = document.getElementById('tokenInput').value.trim();
+  if (!token) return;
+  sessionStorage.setItem('gh_token', token);
+  document.getElementById('tokenModal').classList.remove('show');
+  if (pendingAction === 'save') saveDraft();
+  else if (pendingAction === 'approve') approveDraft();
+  pendingAction = null;
+}
+
+async function ghRequest(method, path, body) {
+  const token = getToken();
+  const opts = {
+    method,
+    headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' },
+  };
+  if (body) {
+    opts.headers['Content-Type'] = 'application/json';
+    opts.body = JSON.stringify(body);
+  }
+  const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, opts);
+  if (!resp.ok) throw new Error(`GitHub API ${resp.status}: ${await resp.text()}`);
+  return resp.json();
+}
+
+function showStatus(msg, type) {
+  const el = document.getElementById('statusMsg');
+  el.textContent = msg;
+  el.className = `status-msg show ${type}`;
+}
+
+function hideStatus() {
+  document.getElementById('statusMsg').className = 'status-msg';
+}
+
+// ── Save draft ────────────────────────────────────────────────
+
+async function saveDraft() {
+  if (!getToken()) { showTokenModal('save'); return; }
+
+  readEditsFromDOM();
+  showStatus('Saving...', 'success');
+
+  try {
+    // Rebuild the HTML with updated data
+    const htmlContent = document.documentElement.outerHTML;
+
+    // Actually, we save the JSON data, and rebuild the page from it
+    const dataJson = JSON.stringify(data, null, 2);
+    const encodedData = btoa(unescape(encodeURIComponent(dataJson)));
+
+    // Get current file SHA
+    const draftPath = `drafts/${DATE}.json`;
+    let sha = null;
+    try {
+      const existing = await ghRequest('GET', draftPath);
+      sha = existing.sha;
+    } catch(e) {}
+
+    const putBody = {
+      message: `Update draft ${DATE}`,
+      content: encodedData,
+      branch: 'main'
+    };
+    if (sha) putBody.sha = sha;
+
+    await ghRequest('PUT', draftPath, putBody);
+
+    editMode = false;
+    document.body.classList.remove('edit-mode');
+    document.getElementById('editBtn').style.display = '';
+    document.getElementById('saveBtn').style.display = 'none';
+    document.getElementById('cancelBtn').style.display = 'none';
+    document.getElementById('approveBtn').style.display = '';
+
+    render();
+    showStatus('✓ Draft saved', 'success');
+    setTimeout(hideStatus, 3000);
+  } catch(e) {
+    showStatus(`Error: ${e.message}`, 'error');
+  }
+}
+
+// ── Approve & Publish ─────────────────────────────────────────
+
+async function approveDraft() {
+  if (!getToken()) { showTokenModal('approve'); return; }
+  if (!confirm('Publish this briefing and send to Slack? This will make it visible on the public site and notify the team.')) return;
+
+  showStatus('Publishing...', 'success');
+  document.getElementById('approveBtn').disabled = true;
+
+  try {
+    // 1. Save any pending edits to draft JSON first
+    readEditsFromDOM();
+    const dataJson = JSON.stringify(data, null, 2);
+    const encodedData = btoa(unescape(encodeURIComponent(dataJson)));
+
+    const draftPath = `drafts/${DATE}.json`;
+    let sha = null;
+    try {
+      const existing = await ghRequest('GET', draftPath);
+      sha = existing.sha;
+    } catch(e) {}
+
+    const putBody = { message: `Finalize draft ${DATE}`, content: encodedData, branch: 'main' };
+    if (sha) putBody.sha = sha;
+    await ghRequest('PUT', draftPath, putBody);
+
+    // 2. Trigger the GitHub Action to publish HTML + send Slack
+    const token = getToken();
+    const dispatchResp = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/publish-briefing.yml/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `token ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref: 'main', inputs: { date: DATE } }),
+    });
+
+    if (!dispatchResp.ok && dispatchResp.status !== 204) {
+      throw new Error(`GitHub Action dispatch failed: ${dispatchResp.status}`);
+    }
+
+    // 3. Update UI
+    document.querySelector('.draft-badge').textContent = '✅ PUBLISHING';
+    document.querySelector('.draft-badge').style.background = 'rgba(22,163,74,0.15)';
+    document.querySelector('.draft-badge').style.color = 'var(--success)';
+    document.getElementById('approveBtn').style.display = 'none';
+    document.getElementById('editBtn').style.display = 'none';
+
+    const owner = REPO.split('/')[0];
+    const repoName = REPO.split('/')[1];
+    showStatus(`✓ Publishing! The briefing will appear at ${owner}.github.io/${repoName}/briefings/${DATE}.html and Slack will be sent shortly.`, 'success');
+  } catch(e) {
+    showStatus(`Error: ${e.message}`, 'error');
+    document.getElementById('approveBtn').disabled = false;
+  }
+}
+
+init();
+</script>
+</body></html>
