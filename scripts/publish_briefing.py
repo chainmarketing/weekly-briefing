@@ -12,7 +12,7 @@ Usage:
 
 Env vars:
   GITHUB_TOKEN — GitHub PAT with repo scope
-  SLACK_WEBHOOK_URL_WEEKLY — Slack webhook for the main channel
+  SLACK_WEBHOOK_URL_FINAL — Slack webhook for the main channel
   EMAIL_WEBHOOK_URL — (optional) webhook to send the email HTML
 """
 
@@ -461,7 +461,7 @@ def main():
     if args.dry_run:
         print(json.dumps(slack_payload, indent=2))
     else:
-        webhook_url = os.environ.get("SLACK_WEBHOOK_URL_WEEKLY", "")
+        webhook_url = os.environ.get("SLACK_WEBHOOK_URL_FINAL", "")
         if webhook_url:
             print("Sending to Slack...")
             req = urllib.request.Request(webhook_url,
@@ -471,7 +471,7 @@ def main():
             with urllib.request.urlopen(req) as resp:
                 print(f"Slack sent: {resp.status}")
         else:
-            print("Warning: SLACK_WEBHOOK_URL_WEEKLY not set, skipping Slack")
+            print("Warning: SLACK_WEBHOOK_URL_FINAL not set, skipping Slack")
 
     # 3. Build and send email
     print("Building email HTML...")
