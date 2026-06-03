@@ -303,10 +303,10 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 💡 💡 Positioned as DeFi compliance specialist and sanctions attribution partner, credible on HTX/UK enforcement narrative but narrower than our institutional coverage.",
-    "TRM Labs": "💡 💡 💡 Emphasizing architectural solutions (Mycroft agent) and fiat-crypto compliance integration; competing on workflow automation and internal team storytelling rather than market impact data.",
-    "Arkham Intelligence": "💡 💡 💡 Dominating Mt. Gox narrative through real-time on-chain movement tracking; strong on forensic visualization but lacks policy/institutional enforcement credibility we own.",
-    "Solidus Labs": "💡 💡 💡 Positioning as institutional-grade trade surveillance and market integrity specialist; partnering with B2C2 and EXIO to embed compliance automation at point-of-trade rather than post-hoc."
+    "Elliptic": "💡 Positioned as DeFi compliance specialist and sanctions attribution partner, credible on HTX/UK enforcement narrative but narrower than our institutional coverage.",
+    "TRM Labs": "💡 Emphasizing architectural solutions (Mycroft agent) and fiat-crypto compliance integration; competing on workflow automation and internal team storytelling rather than market impact data.",
+    "Arkham Intelligence": "💡 Dominating Mt. Gox narrative through real-time on-chain movement tracking; strong on forensic visualization but lacks policy/institutional enforcement credibility we own.",
+    "Solidus Labs": "💡 Positioning as institutional-grade trade surveillance and market integrity specialist; partnering with B2C2 and EXIO to embed compliance automation at point-of-trade rather than post-hoc."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
