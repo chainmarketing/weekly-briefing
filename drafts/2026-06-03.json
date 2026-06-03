@@ -1,0 +1,340 @@
+{
+  "date": "2026-06-03",
+  "date_display": "June 03, 2026",
+  "mentions_count": 14,
+  "narrative_count": 586,
+  "competitor_total": 15,
+  "persistent_count": 5,
+  "articles_analysed": 958,
+  "executive_summary": "We're seeing sustained momentum around compliance standards tightening and institutional financial institutions outpacing exchanges in crypto transaction monitoring, while social engineering-driven hacks and sanctions enforcement (particularly against Iran) remain persistent threats. Stablecoin infrastructure continues scaling toward mainstream payment adoption, with our research now positioning quadrillion-dollar annual transaction potential by 2035.",
+  "mentions": [
+    {
+      "title": "Agentic payment activity tops 100M transactions on Base - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2pkcnF6WE9ub1ZCcE5nMGt0OUFfRFBNV3h6WXl0aVRYNW1wQnZ6R0N0Ty0xbVNPNFFJc3VSS2V0c05YSVRHZ0UyMWhPbzNxeXBBRklGUE9mSnNhcEc1cHpYaVhVTGo3NlN6STgxc2NuVVlhc3kxQnRHbWg0Vm5oaUo0dVU1alNpYUNKMjNwbXZJMTJRR3gydER6c3d4Q2FhV0kybU5PdlBSYWYyVVNQZUdGcmxzeFgxR01F?oc=5",
+      "source": "TradingView"
+    },
+    {
+      "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXpzYU85SHV4cTNXR0s2M2FHQWVyX1V5T0RqOFYwa1gwSUJGQl9WMlcxVEVaLXp2VXUtT24wUmc2dUM4a0xHUFFjMFVweHF0RWFKUkFvY2hta1VNR21RWDRhalBSSjI0R3FidHRCcUNWWGY1Yzdpd19wU3FNenJZRVVjR1luTHBZ?oc=5",
+      "source": "CryptoRank"
+    },
+    {
+      "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QQ3FmUkw1NjF4akVETHk0VjMzbWRNMHJtMEg0Tm5fbGNiMDV0bXVsbmRQRFNaYm1ncGFseVppS01mcU9HbUhZNmRXdjVUZGNZZEFVektMZFJEQQ?oc=5",
+      "source": "Cryptonews.net"
+    },
+    {
+      "title": "Crypto companies have tightened compliance, but gaps remain: Chainalysis - MSN",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXFUdmJ6LW5BUDU2cXdkXzNvS3l5ekd1bW9FaDlhRGRfbm1Uc3R2VW1Xc1p0SU5qT1hHZTg5NDZrNy00V3RaMVVEY01Fa2NwaHNHdE9yeFVUWGl5NkdfYkVxNWdIYTl5eXBWQ20xTEhWVmdJUUhQM2syeEc3Q2kzTjZ3ZGh0Q0pmNFVkNjh4QV80SUZhLUZuR2dKX09PYzlkSGFzY0FLczVWUWYwMkNQcy1vZ3ZZYXo3Si1IRWRnZw?oc=5",
+      "source": "MSN"
+    },
+    {
+      "title": "Chainalysis reports 47% of crypto firms meet strict compliance standards in 2026 - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UZWZYbTl0STRQcU9melJ5dFBpRU9UTVFXenZlLU5nSWVxSmU0TGlpS0N2QUh2WVF6aEZKeklQN2I0UXNrRU9rNHFwdjNPQW5jUTRMM0Q5ZGdVNU9DRXVmTnRPNTJfOW5WaXpJVnJxd09WQjJpdU9UckZtZk4?oc=5",
+      "source": "Crypto Briefing"
+    },
+    {
+      "title": "Financial Institutions Now Monitor Crypto Transactions More Aggressively Than Exchanges, Chainalysis Says - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTHAxb2U0VUFUc012bzE1MUZhU0s0aUtocjBGbHVzeHpPYXdmVE1pMlJtemhvMEkwYktsN1IybTZYZXg2eC04ZGd2YndJd0hYQW9xWFQwQkRKNW1hR0pYeHJJa1Y2YXlhQkFFLXQzaXlETC1KeDhvY2Y0SWJOMmJoTmQ1LWU4X3JhNUtLOWdMSVJYMFhzMzRuWGpOR2JkYzcwUmU5YlAtMkZXdw?oc=5",
+      "source": "CCN.com"
+    },
+    {
+      "title": "Chainalysis says crypto compliance is tighter, but AML gaps remain - crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQemNMV0dPTE9LNlZfamx4M0ZGTWpVaFBfTUpxVWJBUzZFOEc5cjhLQ0dQQk5vTkVPb2thTUZvTjZ0MERwSkxDZUlkX00wbEppUGpKMk5tSDB1c1VYc3RKNlAyWWdvTkgxT0k4VjMzUk01d2haR1h3cEFOTF9YOHNxMDFyc0ljaUV3dG5odFRmaw?oc=5",
+      "source": "crypto.news"
+    },
+    {
+      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Chainalysis says crypto compliance standards are rising - grafa.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TbnFCdXpNU3JKVERjRld6NlZaTEdWcEl6Q3BsdTJtNkZmM2htdVFLdFlZV1Z5OHlNOHdlT1FuamJhdU5TZlBPQTlMT0s0eGxwYjk1dy1hNy1iSXdzZEM1aTQ2MWY0dHNDRW1VdjVlUTV6STNrMWc?oc=5",
+      "source": "grafa.com"
+    },
+    {
+      "title": "47% of 2026 Crypto Firms Meet Old Top Standards, Chainalysis Says - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaTRoMTRKeWNvbHM1NGJDQlVUNndteGQ2MXdDc0xLem1TM0xUNDNaMUJGWTVIWkpUX1JCZVJBcml5WGxsNlFBZ0Q3YkhsSUtObFdZVm53SUtZQXB0OG50QV80aDFCdmRKcDZoSmFaYm5nN1dHMkxCSDVtcHdSOUxYNHIyYw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Chainalysis: Compliance baseline in the cryptocurrency industry is tightening, and indirect risk monitoring remains a shortcoming - WEEX",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQQi1Zc2xoNF9wSjlxTFdfekFVaE1vbXRZTnJGMWlJOVVQXzQ0ZVh5bnFnaDhoWDJFM2F2b2RqM2w4Q0pzU2xUYXVXMEltSDFmNXNYa1ZrOW0xYkQtdlJxM0lzWXhrRmtld19IQi1KQ3g4R2RuYk96NWJqT2NQODhxb0lfdkVaVk0yNm5ISzM5Nm82SjVFRGRCTDBMUEZTUDloMzN4eVhwU21BbEJseHpZTXNGVVlqUmc4QzBaZmE4NDR1V29BYVdZaXV5QUhZdE5iQ3FLdVBvaGVDZW5kMFc3YlVFclZKR2VYU1VIZEhmSzF1VVhEREk5TjdVaUZERnRUc2FMRjNnMXhaT3VRYUNuZmtyOA?oc=5",
+      "source": "WEEX"
+    },
+    {
+      "title": "\u0427\u0430\u0438\u043d\u0430\u043b\u0439\u0441\u0438\u0441: \u041a\u0440\u0438\u043f\u0442\u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f\u043b\u0430\u0440 \u0445\u0430\u0432\u0444\u0441\u0438\u0437\u043b\u0438\u043a \u0447\u043e\u0440\u0430\u043b\u0430\u0440\u0438\u043d\u0438 \u043a\u0443\u0447\u0430\u0439\u0442\u0438\u0440\u043c\u043e\u049b\u0434\u0430 - Zamin.uz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTi1QSWUtcEtsZ3BIX19MSlRzTl8xNkxBNmd3cmtrdmhrTE8tdDlzWWN3bC1oNUJwc0NjWjJkSExNTGs2LTJ2WjBSS2x1MEVhU0ZKby1iazlPSF80Q1o2NGxmdTBObC1UMm1tRTc5MEt4ejhRc3ZoYVh3eWVDWEFPZ0Z0Zm5nNzdBT3pPb1QyOFotbmwwck1hRzBtTWFBWUplMWQ3Nm5ybw?oc=5",
+      "source": "Zamin.uz"
+    },
+    {
+      "title": "Agentic Payments Cross the Threshold: Inside x402\u2019s Path to Meaningful Adoption",
+      "url": "https://www.chainalysis.com/blog/x402-agentic-payments-adoption/",
+      "source": "Chainalysis Blog"
+    },
+    {
+      "title": "OFAC Sanctions Nobitex and Major Iranian Cryptocurrency Exchanges in Sweeping Evasion Crackdown",
+      "url": "https://www.chainalysis.com/blog/ofac-sanctions-iranian-crypto-exchanges-june-2026/",
+      "source": "Chainalysis Blog"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Compliance Baseline Tightening & Industry Maturation",
+      "description": "47% of crypto firms now meet strict compliance standards; institutional banks monitoring more aggressively than exchanges.",
+      "relevance": "Our compliance research is becoming the benchmark for industry-wide standards adoption and institutional surveillance capabilities\u2014positioning us as the definitive source for compliance maturity metrics.",
+      "cadence": "persistent",
+      "momentum": "stable",
+      "appearances": 5,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Chainalysis reports 47% of crypto firms meet strict compliance standards in 2026 - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UZWZYbTl0STRQcU9melJ5dFBpRU9UTVFXenZlLU5nSWVxSmU0TGlpS0N2QUh2WVF6aEZKeklQN2I0UXNrRU9rNHFwdjNPQW5jUTRMM0Q5ZGdVNU9DRXVmTnRPNTJfOW5WaXpJVnJxd09WQjJpdU9UckZtZk4?oc=5",
+          "source": "Crypto Briefing"
+        },
+        {
+          "title": "Chainalysis: Compliance baseline in the cryptocurrency industry is tightening, and indirect risk monitoring remains a shortcoming - WEEX",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQQi1Zc2xoNF9wSjlxTFdfekFVaE1vbXRZTnJGMWlJOVVQXzQ0ZVh5bnFnaDhoWDJFM2F2b2RqM2w4Q0pzU2xUYXVXMEltSDFmNXNYa1ZrOW0xYkQtdlJxM0lzWXhrRmtld19IQi1KQ3g4R2RuYk96NWJqT2NQODhxb0lfdkVaVk0yNm5ISzM5Nm82SjVFRGRCTDBMUEZTUDloMzN4eVhwU21BbEJseHpZTXNGVVlqUmc4QzBaZmE4NDR1V29BYVdZaXV5QUhZdE5iQ3FLdVBvaGVDZW5kMFc3YlVFclZKR2VYU1VIZEhmSzF1VVhEREk5TjdVaUZERnRUc2FMRjNnMXhaT3VRYUNuZmtyOA?oc=5",
+          "source": "WEEX"
+        },
+        {
+          "title": "Crypto companies have tightened compliance, but gaps remain: Chainalysis - MSN",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXFUdmJ6LW5BUDU2cXdkXzNvS3l5ekd1bW9FaDlhRGRfbm1Uc3R2VW1Xc1p0SU5qT1hHZTg5NDZrNy00V3RaMVVEY01Fa2NwaHNHdE9yeFVUWGl5NkdfYkVxNWdIYTl5eXBWQ20xTEhWVmdJUUhQM2syeEc3Q2kzTjZ3ZGh0Q0pmNFVkNjh4QV80SUZhLUZuR2dKX09PYzlkSGFzY0FLczVWUWYwMkNQcy1vZ3ZZYXo3Si1IRWRnZw?oc=5",
+          "source": "MSN"
+        }
+      ]
+    },
+    {
+      "title": "Social Engineering & Crypto Security Escalation",
+      "description": "65% of recent crypto hacks now use social engineering tactics; $17 billion in losses tied to behavioral attacks versus technical exploits.",
+      "relevance": "Our security research on non-technical attack vectors reinforces demand for behavioral threat intelligence and user education\u2014expanding our positioning beyond transaction analysis.",
+      "cadence": "recurring",
+      "momentum": "stable",
+      "appearances": 3,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXpzYU85SHV4cTNXR0s2M2FHQWVyX1V5T0RqOFYwa1gwSUJGQl9WMlcxVEVaLXp2VXUtT24wUmc2dUM4a0xHUFFjMFVweHF0RWFKUkFvY2hta1VNR21RWDRhalBSSjI0R3FidHRCcUNWWGY1Yzdpd19wU3FNenJZRVVjR1luTHBZ?oc=5",
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QQ3FmUkw1NjF4akVETHk0VjMzbWRNMHJtMEg0Tm5fbGNiMDV0bXVsbmRQRFNaYm1ncGFseVppS01mcU9HbUhZNmRXdjVUZGNZZEFVektMZFJEQQ?oc=5",
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Crypto companies have tightened compliance, but gaps remain: Chainalysis - MSN",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXFUdmJ6LW5BUDU2cXdkXzNvS3l5ekd1bW9FaDlhRGRfbm1Uc3R2VW1Xc1p0SU5qT1hHZTg5NDZrNy00V3RaMVVEY01Fa2NwaHNHdE9yeFVUWGl5NkdfYkVxNWdIYTl5eXBWQ20xTEhWVmdJUUhQM2syeEc3Q2kzTjZ3ZGh0Q0pmNFVkNjh4QV80SUZhLUZuR2dKX09PYzlkSGFzY0FLczVWUWYwMkNQcy1vZ3ZZYXo3Si1IRWRnZw?oc=5",
+          "source": "MSN"
+        }
+      ]
+    },
+    {
+      "title": "Sanctions Enforcement & Iran Crypto Crackdown Intensification",
+      "description": "OFAC sanctions Nobitex and major Iranian exchanges; US Treasury seizes $1 billion in Iranian crypto assets as geopolitical tensions escalate.",
+      "relevance": "Our sanctions intelligence and Iranian crypto network attribution capabilities are directly enabling enforcement actions\u2014reinforcing our strategic value to Treasury, OFAC, and law enforcement agencies.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 6,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "OFAC Sanctions Nobitex and Major Iranian Cryptocurrency Exchanges in Sweeping Evasion Crackdown",
+          "url": "https://www.chainalysis.com/blog/ofac-sanctions-iranian-crypto-exchanges-june-2026/",
+          "source": "Chainalysis Blog"
+        },
+        {
+          "title": "US Sanctions Iran\u2019s Top Crypto Exchange in Ongoing Push for Deal - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNTh6ekd0bm1NOUtuMGpJV25XMUhMd09XeEZ2bk5yUTZieFFkdEZrQVRhQmxuNUFza0gtcUdGV09QQ085SFMtYnFYbDU2dC1Ldnc4MmktNVJDTDlMLVF2V2hpZ0lkLU1udl80V0NrUkFaZ21VYk8zTjkxMW1ZblNuakdtQm1Zb2ZYVWZicDFnYnZDeHY3emZtOU9adUhjRzdSYkZWbm13STY1Z1prTl8wRmdmcDBtQQ?oc=5",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "US sanctions Iran's largest crypto exchange over IRGC links - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdlg5TE9NT092Z3lQQnBKS2RrcTRSOHFIZXdXaFpfS2tVenVPemg4OHRyaktHUnRMUkVoTU9FcUU3cE9HZWJZWnNSNm90LUsxNWJYOUdCcXViSTFlT0NheFRfdWFxSm9EdXdxdUdfTVFkb3NNUEdramUzWDZ2RUhNX2ZUTkh1am5SZjVucjdxVUk1SWFLYkJGZVN4QWdqUVZVMGYwZ3RvdDZvb1FCX2JFZGd3?oc=5",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "Stablecoin Infrastructure & Quadrillion-Dollar Payment Future",
+      "description": "Stablecoins projected to process $1.5 quadrillion annually by 2035; yen and lira-pegged tokens gaining traction in emerging markets.",
+      "relevance": "Our stablecoin transaction research and regional adoption tracking positions us as critical infrastructure intelligence provider for payment system monitoring and geopolitical dollar-dominance dynamics.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 6,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Payment giants Stripe, Visa, Mastercard said to be among backers of soon-to-debut stablecoin platform",
+          "url": "https://www.coindesk.com/business/2026/06/03/payment-giants-stripe-visa-mastercard-said-to-be-among-backers-of-soon-to-debut-stablecoin-platform",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "Agentic payment activity tops 100M transactions on Base - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2pkcnF6WE9ub1ZCcE5nMGt0OUFfRFBNV3h6WXl0aVRYNW1wQnZ6R0N0Ty0xbVNPNFFJc3VSS2V0c05YSVRHZ0UyMWhPbzNxeXBBRklGUE9mSnNhcEc1cHpYaVhVTGo3NlN6STgxc2NuVVlhc3kxQnRHbWg0Vm5oaUo0dVU1alNpYUNKMjNwbXZJMTJRR3gydER6c3d4Q2FhV0kybU5PdlBSYWYyVVNQZUdGcmxzeFgxR01F?oc=5",
+          "source": "TradingView"
+        },
+        {
+          "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+          "source": "CoinMarketCap"
+        }
+      ]
+    },
+    {
+      "title": "Institutional TradFi-Crypto Convergence & Market Surveillance Demand",
+      "description": "Bitcoin ETF outflows persist ($2.8B bleeding); Binance launches US equity trading; Kraken explores tokenized IPO access; institutional players racing to acquire crypto infrastructure.",
+      "relevance": "Institutional adoption creates new surveillance and market integrity challenges we can address\u2014cross-asset monitoring, tokenized securities tracking, and hybrid market manipulation detection are becoming competitive differentiators.",
+      "cadence": "recurring",
+      "momentum": "stable",
+      "appearances": 5,
+      "window_days": 9,
+      "articles": [
+        {
+          "title": "Bitcoin Falls to Six-Week Low Amid War Jitters, ETF Outflows - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTFJVOVZLbWo1WnBKcDJDQUlJUVMtd2RhUUtSaWZiZDY0dVFpZ2NReUpsYmtsRHl1SWhudHlkMWpPcHJBZktHRWRENGpOM2xSTHZPY3VHMks3YS1mYS1EUzNrMk9YZUtXbXFLSHMyU3plazctLWRBeGN6ZDlWRzNybFliOHYydk9xdW9KT2paOUxSNjlqQVJQNkFFbXptSlZPZXBqX1hSaV9iQmtFUzIzag?oc=5",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Crypto exchange Binance rolls out trading in US stocks, ETFs - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMnBhM1JoQU5hdjc3U2JzTFBKbUg0Y182SXdxQ2lOQVdmaExSdVBGcURyamV0RjZsYzQ5WDRrNmNOU1BJSGJZS0VFTzR3LUhUUS1OTDcxOHZxd0JKbUQySmdodW1SeTg3dlFTS2V4anJWeGI3bTZvNjdFVzRwR3NmWUh6aWJSUDRQeTlFXzZ6VDNoYm1uX0tNcW5CM3lJMV8yeTNWMUtCTWw5aHdnVmc?oc=5",
+          "source": "Reuters"
+        },
+        {
+          "title": "47% of 2026 Crypto Firms Meet Old Top Standards, Chainalysis Says - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaTRoMTRKeWNvbHM1NGJDQlVUNndteGQ2MXdDc0xLem1TM0xUNDNaMUJGWTVIWkpUX1JCZVJBcml5WGxsNlFBZ0Q3YkhsSUtObFdZVm53SUtZQXB0OG50QV80aDFCdmRKcDZoSmFaYm5nN1dHMkxCSDVtcHdSOUxYNHIyYw?oc=5",
+          "source": "CoinMarketCap"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 159
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 144
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 89
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 65
+    },
+    {
+      "name": "Stablecoins & Digital Payments",
+      "count": 64
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 54
+    },
+    {
+      "name": "TradFi Integration & Institutional Adoption",
+      "count": 42
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 42
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Arkham Intelligence",
+      "count": 8,
+      "top_title": "Mt. Gox moves $739 million worth of bitcoin to two addresses: Arkham - The Block",
+      "top_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54SEZlRUhlY2dvQ0dYN1lFRW9Ra3NEb0RrVHFJc0Zmc3NwX3RqY0w4Y3duVFNtajBSUFZzU3BoOEp1OUdzV3otZmJWWGRUOEtrV01WX1RPZnIxLVBhUWFVYVllWlZBcVdPZTdXQjJjS0YzZw?oc=5",
+      "top_source": "The Block"
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 3,
+      "top_title": "EXIO Group Partners with Solidus Labs to Strengthen Trade Surveillance and AML Compliance - Business",
+      "top_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNU5OQ0g5V3c1dkdJRWRkejBkTlRuUVVHT1lNU19teFhkNG1zTmdaZUR6M01oNjNHUVN2QlNHWnVwaURxdUd0VkxFTDV1QmwxR0tKTmw4NGhyZDEweXJTRkJMcGh1TkFfUW8wYkVlWHFTZ1JuczdZVF94RWFDd09qWmtDRjNqbEVDYVBUajBqOVdMRWJoNGRjSGtEdFlXMFcxMHVpTEZ1TEdOZHlkaDNpenlyTXI1czNha3p4ZDlYV2tGWkJITkQyNl9pRnVOc1JLOUhDRzI4bnNYN1Rpb2dz?oc=5",
+      "top_source": "Business Wire"
+    },
+    {
+      "name": "Elliptic",
+      "count": 2,
+      "top_title": "Tapbit Partners With Elliptic to Strengthen Institutional-Grade Compliance Infrastructure - markets.",
+      "top_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYlUxWnRILTVNenBRMGJSbWNPd2d5N3VtWnBNMXVvOFBWcjZkTmxVVnlHSzVxVlNvdW9LeUpUWEE3clY3X3E3RmN4bkl6QXZHR2FnT2Z5SlpLbGtNWnBMT2dyUU1JZVYtTWlJZlc0cUxZd1EyN0M4WHFzQ2pEZ3NsYVQ3RUx5cnJYdkJRTFVEaHo2bDkxR1BQaGJQMTVXdkt1OHRuaEI1dllpeHBKOXVOZkdiYWo0S0NfYnRnMGNtTHpRMFRrTXVEeXd3VEtTem5IekVUTmJmUm5xanlJQ3NUWWF3?oc=5",
+      "top_source": "markets.businessinsider.com"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 2,
+      "top_title": "ampersend and TRM Labs launch real-time compliance screening for AI agents - Crypto Briefing",
+      "top_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbEd4U0NGTWFhY3pERDYzWXZaaUtTbXlnOEk5RjMtbWd6R3dmbkxPaHBNckFjZHlsZFMwTnRwY2VqMFNLTjl2d0R5b0M3cmhTWTJ5YTRXcDVqRGRFejYtM1ViUTQ4QmR0c1BxdDBxNzQzWmZGVUx0UndxenFuak9UTkpTdktCNGNw?oc=5",
+      "top_source": "Crypto Briefing"
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Nansen",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Merkle Science",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Compliance & Institutional Standards Crystallizing",
+      "body": "Industry compliance baseline is hardening with 47% of firms meeting strict standards, while institutional financial institutions now monitor crypto more aggressively than retail exchanges. This creates a two-tier surveillance ecosystem where regulatory grade vs. exchange-grade monitoring diverges."
+    },
+    {
+      "title": "Geopolitical Enforcement & Iran Attribution Accelerating",
+      "body": "US sanctions and $1B Iranian asset seizures signal sustained regulatory focus on geopolitical crypto attribution and enforcement. Treasury's operational intensity on Iranian networks is increasing our relevance to law enforcement agencies seeking transaction intelligence."
+    },
+    {
+      "title": "Stablecoin Mainstreaming With Regional Variance",
+      "body": "Stablecoin infrastructure is scaling toward $1.5 quadrillion annual transactions by 2035, but regional adoption patterns (yen, lira, rupee pegging) suggest fragmented payment ecosystem rather than dollar-only dominance. This creates monitoring complexity and emerging markets opportunity."
+    }
+  ],
+  "competitor_reads": {
+    "Elliptic": "Positioning as institutional-grade compliance infrastructure partner through enterprise integrations (Tapbit); doubling down on DeFi compliance content strategy to establish thought leadership in regulatory-gray areas.",
+    "TRM Labs": "Aggressively expanding into AI agent compliance and real-time screening (ampersend partnership) while bridging crypto-fiat compliance gaps (Finray integration)\u2014signaling pivot toward broader financial system integration.",
+    "Arkham Intelligence": "Mt. Gox transaction tracking (8 articles) has become their flagship intelligence narrative; exchange decentralization pivot signals product differentiation away from pure blockchain analytics toward decentralized infrastructure.",
+    "Solidus Labs": "Securing institutional partnerships (EXIO Group, B2C2) to establish market surveillance and trade compliance as premium institutional offering\u2014positioning as specialized surveillance layer for institutional-grade crypto trading."
+  },
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
+  "mention_categories": {
+    "mainstream": 0,
+    "crypto": 2,
+    "fintech": 0,
+    "blog": 2,
+    "niche": 10
+  },
+  "sentiment": {
+    "positive": 9,
+    "neutral": 5,
+    "negative": 0
+  }
+}
