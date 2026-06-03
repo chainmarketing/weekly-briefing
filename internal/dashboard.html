@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Internal — Media Intelligence Dashboard</title>
+    <style>
+      :root {
+        --bg: #f8f9fa;
+        --card: #ffffff;
+        --text: #1a1a2e;
+        --text-muted: #6b7280;
+        --border: #e5e7eb;
+        --primary: #1a73e8;
+        --success: #16a34a;
+        --warning: #d97706;
+        --danger: #dc2626;
+        --info: #2563eb;
+        --chart-us: #1a73e8;
+        --chart-comp: #f57c00;
+        --chart-mainstream: #1a73e8;
+        --chart-crypto: #7c3aed;
+        --chart-fintech: #0891b2;
+        --chart-blog: #d97706;
+        --chart-niche: #9ca3af;
+        --chart-pos: #16a34a;
+        --chart-neu: #9ca3af;
+        --chart-neg: #dc2626;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #111118;
+          --card: #1c1c27;
+          --text: #e4e4e7;
+          --text-muted: #9ca3af;
+          --border: #2e2e3a;
+          --primary: #60a5fa;
+          --success: #4ade80;
+          --warning: #fbbf24;
+          --danger: #f87171;
+          --info: #60a5fa;
+          --chart-us: #60a5fa;
+          --chart-comp: #fbbf24;
+          --chart-mainstream: #60a5fa;
+          --chart-crypto: #a78bfa;
+          --chart-fintech: #22d3ee;
+          --chart-blog: #fbbf24;
+          --chart-niche: #6b7280;
+          --chart-pos: #4ade80;
+          --chart-neu: #6b7280;
+          --chart-neg: #f87171;
+        }
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        line-height: 1.6;
+        min-height: 100vh;
+      }
+      .container { max-width: 900px; margin: 0 auto; padding: 40px 16px; }
+      h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
+      h2 { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+      .subtitle { font-size: 13px; color: var(--text-muted); }
+      .text-center { text-align: center; }
+      a { color: var(--primary); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .footer { text-align: center; font-size: 11px; color: var(--text-muted); padding: 20px 0 40px; }
+
+      h3 { font-size: 13px; font-weight: 600; margin-bottom: 4px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
+      .card-header { padding: 16px 20px 0; }
+      .card-body { padding: 16px 20px 20px; }
+      .card-caption { font-size: 11px; color: var(--text-muted); margin-bottom: 12px; font-style: italic; line-height: 1.4; }
+
+      /* Internal-only badge */
+      .internal-badge {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 4px 10px;
+        border-radius: 99px;
+        background: rgba(220, 38, 38, 0.12);
+        color: var(--danger);
+        margin-bottom: 10px;
+      }
+
+      /* Back link */
+      .back-link {
+        display: inline-block;
+        font-size: 12px;
+        color: var(--text-muted);
+        margin-bottom: 16px;
+      }
+
+      /* Period filter */
+      .filter-bar {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 16px;
+        font-size: 12px;
+      }
+      .filter-bar label { color: var(--text-muted); }
+      .filter-bar select {
+        padding: 4px 10px;
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--text);
+        border-radius: 6px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .dash-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 8px; }
+      @media (max-width: 640px) { .dash-grid { grid-template-columns: 1fr; } }
+
+      /* Delta pills */
+      .delta-row { display: flex; gap: 16px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); flex-wrap: wrap; }
+      .delta-item { font-size: 11px; color: var(--text-muted); display: flex; align-items: baseline; gap: 4px; }
+      .delta-item strong { color: var(--text); font-weight: 600; }
+      .delta-up { color: var(--success); font-weight: 600; }
+      .delta-down { color: var(--danger); font-weight: 600; }
+      .delta-flat { color: var(--text-muted); font-weight: 600; }
+
+      /* Stacked bars */
+      .spark-row { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+      .spark-label { width: 80px; font-size: 11px; color: var(--text-muted); flex-shrink: 0; text-align: right; }
+      .spark-bar { flex: 1; height: 20px; border-radius: 4px; overflow: hidden; display: flex; }
+      .spark-segment { height: 100%; }
+      .spark-value { width: 24px; text-align: right; font-size: 11px; font-weight: 600; flex-shrink: 0; }
+      .chart-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+      .legend-item { display: flex; align-items: center; gap: 4px; font-size: 10px; color: var(--text-muted); }
+      .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+      /* Share of voice */
+      .sov-row { display: flex; align-items: center; gap: 10px; margin-bottom: 7px; position: relative; }
+      .sov-row.has-tooltip { cursor: help; }
+      .sov-name { width: 130px; font-size: 12px; flex-shrink: 0; }
+      .sov-name.us { font-weight: 600; color: var(--primary); }
+      .sov-track { flex: 1; height: 18px; background: var(--border); border-radius: 4px; overflow: hidden; }
+      .sov-fill { height: 100%; border-radius: 4px; }
+      .sov-fill.us { background: var(--chart-us); }
+      .sov-fill.comp { background: var(--chart-comp); opacity: 0.7; }
+      .sov-count { width: 28px; text-align: right; font-size: 12px; font-weight: 600; flex-shrink: 0; }
+
+      /* Sentiment */
+      .sentiment-track { height: 22px; border-radius: 4px; overflow: hidden; display: flex; margin-bottom: 10px; }
+      .sentiment-seg { height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 11px; font-weight: 600; }
+      .sentiment-row { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted); }
+
+      /* Narrative continuity */
+      .nc-section { margin-bottom: 12px; }
+      .nc-label { font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+      .nc-tag-list { display: flex; flex-wrap: wrap; gap: 6px; }
+      .nc-tag {
+        font-size: 11px;
+        padding: 3px 10px;
+        border-radius: 99px;
+        background: var(--border);
+        color: var(--text);
+      }
+      .nc-tag.persistent { background: rgba(217, 119, 6, 0.15); color: var(--warning); }
+      .nc-tag.new { background: rgba(37, 99, 235, 0.12); color: var(--info); }
+      .nc-tag.dropped { background: rgba(107, 114, 128, 0.15); color: var(--text-muted); text-decoration: line-through; }
+      .nc-empty { font-size: 12px; color: var(--text-muted); font-style: italic; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <a class="back-link" href="../">← Back to Archive</a>
+
+      <div style="margin-bottom: 24px;">
+        <span class="internal-badge">🔒 Internal — Not for distribution</span>
+        <h1>📈 Media Intelligence Dashboard</h1>
+        <p class="subtitle" style="margin-top: 4px;">Strategic analytics across weekly briefings — share of voice, source quality, sentiment, narrative continuity.</p>
+      </div>
+
+      <div class="filter-bar">
+        <label for="period-filter">Show:</label>
+        <select id="period-filter">
+          <option value="4">Last 4 weeks</option>
+          <option value="12" selected>Last 12 weeks</option>
+          <option value="all">All time</option>
+        </select>
+      </div>
+
+      <div id="dashboard"></div>
+
+      <div class="footer">Chainalysis Media Intelligence — Internal Use Only</div>
+    </div>
+
+    <script>
+      let ALL_DATA = [];
+
+      async function init() {
+        try {
+          const resp = await fetch('../data/weekly-data.json');
+          ALL_DATA = await resp.json();
+        } catch (e) {
+          document.getElementById('dashboard').innerHTML =
+            '<p style="text-align:center;color:var(--text-muted);padding:40px;">Could not load briefing data.</p>';
+          return;
+        }
+        ALL_DATA.sort((a, b) => b.date.localeCompare(a.date));
+
+        const select = document.getElementById('period-filter');
+        select.addEventListener('change', () => renderAll(select.value));
+        renderAll(select.value);
+      }
+
+      function renderAll(period) {
+        const filtered = filterByPeriod(ALL_DATA, period);
+        renderDashboard(filtered);
+      }
+
+      function filterByPeriod(data, period) {
+        if (period === 'all') return data;
+        const n = parseInt(period, 10);
+        return data.slice(0, n);
+      }
+
+      function fmtDate(d) {
+        return new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      }
+      function shortDate(d) {
+        return new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      }
+
+      function renderDashboard(data) {
+        const el = document.getElementById('dashboard');
+        if (!data.length) {
+          el.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">No data in this period.</p>';
+          return;
+        }
+        const chrono = [...data].reverse();
+        const latest = data[0];
+        const prev = data[1];
+
+        let html = '<div class="dash-grid">';
+
+        html += `<div class="card">
+          <div class="card-header">
+            <h3>📊 Share of Voice</h3>
+            <div class="card-caption">How often we appeared this week vs. each tracked competitor. Hover a bar for context.</div>
+          </div>
+          <div class="card-body">${renderShareOfVoice(latest)}${renderShareOfVoiceDeltas(latest, prev)}</div>
+        </div>`;
+
+        html += `<div class="card">
+          <div class="card-header">
+            <h3>📡 Source Quality</h3>
+            <div class="card-caption">Where our mentions came from each week. Tier-1 mainstream press carries more weight than blog/niche pickups.</div>
+          </div>
+          <div class="card-body">${renderSourceBars(chrono)}</div>
+        </div>`;
+
+        html += '</div>';
+
+        html += `<div class="card">
+          <div class="card-header">
+            <h3>💬 Coverage Sentiment</h3>
+            <div class="card-caption">Tone of this week's mentions — positive, neutral, or negative. Most mentions are neutral; watch for swings.</div>
+          </div>
+          <div class="card-body">${renderSentiment(latest, prev)}</div>
+        </div>`;
+
+        if (data.length >= 2) {
+          html += `<div class="card">
+            <div class="card-header">
+              <h3>📈 Mention Trend</h3>
+              <div class="card-caption">Our weekly mention volume over time. Look for sustained direction over multiple weeks, not week-to-week noise.</div>
+            </div>
+            <div class="card-body">${renderMentionTrend(chrono)}</div>
+          </div>`;
+        }
+
+        if (data.length >= 2) {
+          html += `<div class="card">
+            <div class="card-header">
+              <h3>🧵 Narrative Continuity</h3>
+              <div class="card-caption">Which themes carried over from last week, which are new, and which dropped off. Persistent themes signal sustained narrative pressure.</div>
+            </div>
+            <div class="card-body">${renderNarrativeContinuity(latest, prev)}</div>
+          </div>`;
+        }
+
+        el.innerHTML = html;
+      }
+
+      function renderShareOfVoice(latest) {
+        const comps = latest.competitors || {};
+        const entries = [
+          { name: 'Chainalysis', count: latest.mentions, isUs: true },
+          ...Object.entries(comps)
+            .filter(([_, c]) => c > 0)
+            .sort((a, b) => b[1] - a[1])
+            .map(([name, count]) => ({ name, count, isUs: false }))
+        ];
+        const max = Math.max(...entries.map(e => e.count), 1);
+
+        let html = '';
+        for (const e of entries) {
+          const tooltip = e.isUs
+            ? `Chainalysis: ${e.count} mention${e.count === 1 ? '' : 's'} this week`
+            : `${e.name}: ${e.count} article${e.count === 1 ? '' : 's'} this week`;
+          html += `<div class="sov-row has-tooltip" title="${tooltip.replace(/"/g, '&quot;')}">
+            <span class="sov-name ${e.isUs ? 'us' : ''}">${e.isUs ? '● ' : ''}${e.name}</span>
+            <div class="sov-track">
+              <div class="sov-fill ${e.isUs ? 'us' : 'comp'}" style="width:${e.count/max*100}%"></div>
+            </div>
+            <span class="sov-count">${e.count}</span>
+          </div>`;
+        }
+        return html;
+      }
+
+      function renderShareOfVoiceDeltas(latest, prev) {
+        if (!prev) return '';
+        const ours = deltaPill('Us', latest.mentions, prev.mentions);
+        const comp = deltaPill('Comp.', latest.competitor_total, prev.competitor_total);
+        const mainstream = deltaPill('Mainstream', (latest.mention_categories?.mainstream) || 0, (prev.mention_categories?.mainstream) || 0);
+        return `<div class="delta-row">${ours}${comp}${mainstream}</div>`;
+      }
+
+      function deltaPill(label, current, previous) {
+        const diff = current - previous;
+        let arrow, cls;
+        if (diff > 0) { arrow = `▲ ${diff}`; cls = 'delta-up'; }
+        else if (diff < 0) { arrow = `▼ ${Math.abs(diff)}`; cls = 'delta-down'; }
+        else { arrow = '— 0'; cls = 'delta-flat'; }
+        return `<span class="delta-item">${label}: <strong>${current}</strong> <span class="${cls}">${arrow}</span> <span style="opacity:0.6">vs ${previous}</span></span>`;
+      }
+
+      function renderSourceBars(data) {
+        const cats = ['mainstream', 'crypto', 'fintech', 'blog', 'niche'];
+        const colors = {
+          mainstream: 'var(--chart-mainstream)',
+          crypto: 'var(--chart-crypto)',
+          fintech: 'var(--chart-fintech)',
+          blog: 'var(--chart-blog)',
+          niche: 'var(--chart-niche)'
+        };
+        let html = '';
+        for (const week of data) {
+          const mc = week.mention_categories || {};
+          const total = Object.values(mc).reduce((s, v) => s + v, 0) || 1;
+          const breakdown = cats.map(c => `${c}: ${mc[c] || 0}`).join(', ');
+          html += `<div class="spark-row" title="${shortDate(week.date)} — ${breakdown}">
+            <span class="spark-label">${shortDate(week.date)}</span>
+            <div class="spark-bar">`;
+          for (const cat of cats) {
+            const pct = (mc[cat] || 0) / total * 100;
+            if (pct > 0) {
+              html += `<div class="spark-segment" style="width:${pct}%;background:${colors[cat]}" title="${cat}: ${mc[cat] || 0}"></div>`;
+            }
+          }
+          html += `</div><span class="spark-value">${total}</span></div>`;
+        }
+        html += '<div class="chart-legend">';
+        for (const cat of cats) {
+          html += `<span class="legend-item"><span class="legend-dot" style="background:${colors[cat]}"></span>${cat}</span>`;
+        }
+        html += '</div>';
+        return html;
+      }
+
+      function renderSentiment(latest, prev) {
+        const s = latest.sentiment || {};
+        const pos = s.positive || 0;
+        const neu = s.neutral || 0;
+        const neg = s.negative || 0;
+        const total = pos + neu + neg;
+        if (total === 0) {
+          return `<p style="font-size:12px;color:var(--text-muted);">No sentiment data this week.</p>`;
+        }
+        const posPct = pos / total * 100;
+        const neuPct = neu / total * 100;
+        const negPct = neg / total * 100;
+
+        let track = `<div class="sentiment-track">`;
+        if (pos > 0) track += `<div class="sentiment-seg" style="width:${posPct}%;background:var(--chart-pos)" title="Positive: ${pos}">${posPct > 10 ? pos : ''}</div>`;
+        if (neu > 0) track += `<div class="sentiment-seg" style="width:${neuPct}%;background:var(--chart-neu)" title="Neutral: ${neu}">${neuPct > 10 ? neu : ''}</div>`;
+        if (neg > 0) track += `<div class="sentiment-seg" style="width:${negPct}%;background:var(--chart-neg)" title="Negative: ${neg}">${negPct > 10 ? neg : ''}</div>`;
+        track += `</div>`;
+
+        let row = `<div class="sentiment-row">
+          <span><span class="legend-dot" style="background:var(--chart-pos);display:inline-block;vertical-align:middle;margin-right:4px;"></span>Positive ${pos}</span>
+          <span><span class="legend-dot" style="background:var(--chart-neu);display:inline-block;vertical-align:middle;margin-right:4px;"></span>Neutral ${neu}</span>
+          <span><span class="legend-dot" style="background:var(--chart-neg);display:inline-block;vertical-align:middle;margin-right:4px;"></span>Negative ${neg}</span>
+        </div>`;
+
+        let delta = '';
+        if (prev && prev.sentiment) {
+          const prevPos = prev.sentiment.positive || 0;
+          delta = `<div class="delta-row">${deltaPill('Positive', pos, prevPos)}</div>`;
+        }
+
+        return track + row + delta;
+      }
+
+      function renderMentionTrend(data) {
+        const max = Math.max(...data.map(d => d.mentions), 1);
+        const h = 100, pad = 15;
+        const w = 300;
+        const step = (w - pad * 2) / Math.max(data.length - 1, 1);
+
+        let svg = `<svg viewBox="0 0 ${w} ${h + 20}" style="width:100%;height:${h + 20}px;">`;
+        for (let i = 0; i <= 3; i++) {
+          const y = pad + (h - pad * 2) / 3 * i;
+          svg += `<line x1="${pad}" y1="${y}" x2="${w - pad}" y2="${y}" stroke="var(--border)" stroke-width="0.5"/>`;
+        }
+        const pts = data.map((d, i) => {
+          const x = pad + i * step;
+          const y = pad + (h - pad * 2) - (d.mentions / max * (h - pad * 2));
+          return { x, y, mentions: d.mentions, date: d.date };
+        });
+        svg += `<polyline points="${pts.map(p => `${p.x},${p.y}`).join(' ')}" fill="none" stroke="var(--chart-us)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`;
+        for (const p of pts) {
+          svg += `<circle cx="${p.x}" cy="${p.y}" r="4" fill="var(--chart-us)"><title>${shortDate(p.date)}: ${p.mentions} mentions</title></circle>`;
+          svg += `<text x="${p.x}" y="${p.y - 8}" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text)">${p.mentions}</text>`;
+          svg += `<text x="${p.x}" y="${h + 12}" text-anchor="middle" font-size="9" fill="var(--text-muted)">${shortDate(p.date)}</text>`;
+        }
+        svg += '</svg>';
+        return svg;
+      }
+
+      function renderNarrativeContinuity(latest, prev) {
+        const latestNarr = (latest.narratives || []).map(n => n.trim());
+        const prevNarr = (prev.narratives || []).map(n => n.trim());
+
+        const norm = s => s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
+        const latestSet = latestNarr.map(norm);
+        const prevSet = prevNarr.map(norm);
+
+        const persistent = [];
+        const newOnes = [];
+        const dropped = [];
+
+        latestNarr.forEach((n, i) => {
+          const ln = latestSet[i];
+          const matched = prevSet.some(p => p.includes(ln.slice(0, 18)) || ln.includes(p.slice(0, 18)));
+          if (matched) persistent.push(n);
+          else newOnes.push(n);
+        });
+        prevNarr.forEach((n, i) => {
+          const pn = prevSet[i];
+          const matched = latestSet.some(l => l.includes(pn.slice(0, 18)) || pn.includes(l.slice(0, 18)));
+          if (!matched) dropped.push(n);
+        });
+
+        let html = '';
+        html += renderNCSection('Persistent (carried over)', persistent, 'persistent');
+        html += renderNCSection('New this week', newOnes, 'new');
+        html += renderNCSection('Dropped off', dropped, 'dropped');
+        return html;
+      }
+
+      function renderNCSection(label, items, cls) {
+        if (items.length === 0) {
+          return `<div class="nc-section"><div class="nc-label">${label}</div><div class="nc-empty">none</div></div>`;
+        }
+        const tags = items.map(n => `<span class="nc-tag ${cls}">${n.length > 60 ? n.slice(0, 60) + '…' : n}</span>`).join('');
+        return `<div class="nc-section"><div class="nc-label">${label}</div><div class="nc-tag-list">${tags}</div></div>`;
+      }
+
+      init();
+    </script>
+  </body>
+</html>
