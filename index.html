@@ -78,31 +78,6 @@
       a { color: var(--primary); text-decoration: none; }
       a:hover { text-decoration: underline; }
 
-      /* Headline takeaway */
-      .headline-card {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-left: 4px solid var(--primary);
-        border-radius: 12px;
-        padding: 24px 28px;
-        margin-bottom: 24px;
-      }
-      .headline-label {
-        font-size: 11px;
-        font-weight: 600;
-        color: var(--text-muted);
-        text-transform: uppercase;
-        letter-spacing: 0.06em;
-        margin-bottom: 8px;
-      }
-      .headline-quote {
-        font-size: 18px;
-        line-height: 1.5;
-        color: var(--text);
-        font-weight: 500;
-        font-style: italic;
-      }
-      .headline-attrib { font-size: 13px; color: var(--text-muted); margin-top: 10px; }
 
       /* Period filter */
       .filter-bar {
@@ -217,8 +192,6 @@
         <p class="subtitle" style="margin-top: 4px;">Chainalysis media intelligence — trend tracking across weekly briefings.</p>
       </div>
 
-      <div id="headline"></div>
-
       <div class="filter-bar">
         <label for="period-filter">Show:</label>
         <select id="period-filter">
@@ -248,9 +221,6 @@
         }
         ALL_DATA.sort((a, b) => b.date.localeCompare(a.date));
 
-        // Headline always reflects latest week (regardless of filter)
-        renderHeadline(ALL_DATA[0]);
-
         // Initial render with default period
         const select = document.getElementById('period-filter');
         select.addEventListener('change', () => renderAll(select.value));
@@ -276,19 +246,6 @@
         return new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
       }
 
-      // ── Headline (always latest week) ──────────────────
-      function renderHeadline(latest) {
-        if (!latest) return;
-        const el = document.getElementById('headline');
-        const headline = latest.headline || latest.executive_summary || 'No headline available for this week.';
-        el.innerHTML = `
-          <div class="headline-card">
-            <div class="headline-label">Latest week takeaway</div>
-            <div class="headline-quote">“${headline.replace(/"/g, '&quot;')}”</div>
-            <div class="headline-attrib">— Week of ${fmtDate(latest.date)}</div>
-          </div>
-        `;
-      }
 
       // ── Dashboard ──────────────────────────────────────
       function renderDashboard(data) {
