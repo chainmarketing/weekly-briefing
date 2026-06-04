@@ -1,5 +1,78 @@
 [
   {
+    "date": "2026-06-04",
+    "url": "briefings/2026-06-04.html",
+    "mentions": 11,
+    "narrative": 603,
+    "competitor_total": 13,
+    "persistent_count": 4,
+    "emerging_count": 0,
+    "articles_analysed": 984,
+    "mention_categories": {
+      "mainstream": 1,
+      "crypto": 2,
+      "fintech": 0,
+      "blog": 2,
+      "niche": 8
+    },
+    "sentiment": {
+      "positive": 9,
+      "neutral": 4,
+      "negative": 0
+    },
+    "competitors": {
+      "Arkham Intelligence": 8,
+      "Elliptic": 3,
+      "TRM Labs": 1,
+      "Solidus Labs": 1,
+      "CipherTrace": 0,
+      "Nansen": 0,
+      "Crystal Intelligence": 0,
+      "Merkle Science": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 171
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 154
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 90
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 64
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 64
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 56
+      },
+      {
+        "name": "TradFi Integration & Institutional Adoption",
+        "count": 46
+      },
+      {
+        "name": "MiCA & EU Regulation",
+        "count": 46
+      }
+    ],
+    "narratives": [
+      "Institutional Surveillance Outpaces Exchange Vigilance",
+      "Stablecoin Infrastructure & Quadrillion-Dollar Payment Future",
+      "Sanctions Enforcement & Iran Crypto Crackdown Intensification",
+      "Agentic Payments Crossing Mainstream Adoption Threshold"
+    ],
+    "headline": "In highlight coverage, our latest chapter of the New Rails Report featuring crypto compliance benchmarking and agentic payments has driven widespread coverage across Yahoo Finance, CoinMarketCap, Trad"
+  },
+  {
     "date": "2026-06-02",
     "url": "briefings/2026-06-02.html",
     "mentions": 11,
