@@ -1,14 +1,16 @@
-name: Deploy Media Monitor
+name: Media Monitor — Validate & Remind
 
 on:
   push:
     branches: [main]
     paths:
       - 'workflow/**'
-  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'workflow/**'
 
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,29 +20,31 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Deploy to Chainalysis Workflows
-        env:
-          CHAINALYSIS_API_KEY: ${{ secrets.CHAINALYSIS_API_KEY }}
-        run: |
-          pip install chainalysis-skill-workflows
-          python -c "
-          from chainalysis_skill_workflows import WorkflowsClient
-          import os
+      - name: Validate syntax
+        run: python -m py_compile workflow/workflow.py
 
-          client = WorkflowsClient(api_key=os.environ['CHAINALYSIS_API_KEY'])
-          
-          build = WorkflowsClient.initialize_build()
-          build.add_files('workflow/')
-          build.add_package('chainalysis_skill_workflows')
-          zip_path = build.zip()
-          
-          client.deploy('media-monitor', zip_path=zip_path, handler='workflow.handler')
-          print('Deployed to \$LATEST')
-          
-          version = client.publish('media-monitor', description='Deployed from GitHub commit ${{ github.sha }}')
-          vnum = version['versionNumber']
-          print(f'Published v{vnum}')
-          
-          client.set_alias('media-monitor', 'prod', version=vnum)
-          print(f'prod alias -> v{vnum}')
-          "
+      - name: Check migration rules
+        run: |
+          echo "Checking for common regressions..."
+          # Bare requests.get/post without create_session — will bypass egress proxy
+          if grep -n 'requests\.get\|requests\.post' workflow/workflow.py | grep -v create_session | grep -v '#' | grep -v 'import'; then
+            echo "❌ FAIL: Found bare requests.get/post calls. Use create_session().get/post instead."
+            exit 1
+          fi
+          # os.environ.get — should use skills_core context.get
+          if grep -n 'os\.environ\.get' workflow/workflow.py; then
+            echo "❌ FAIL: Found os.environ.get(). Use context.get() from skills_core instead."
+            exit 1
+          fi
+          # Legacy skills.chainalysis imports
+          if grep -n 'from skills\.' workflow/workflow.py; then
+            echo "❌ FAIL: Found legacy skills.* import. Use chainalysis_skill_* packages."
+            exit 1
+          fi
+          echo "✅ All migration checks passed."
+
+      - name: Deploy reminder
+        if: github.event_name == 'push'
+        run: |
+          echo "::notice::Workflow source updated. Deploy to Chainalysis Workflows via Chain:"
+          echo "::notice::Ask Chain to deploy media-monitor from the repo."
