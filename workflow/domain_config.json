@@ -1,0 +1,694 @@
+{
+  "stablecoins": {
+    "name": "Stablecoins & Digital Payments",
+    "category": "core_regulatory",
+    "signals": [
+      "stablecoin",
+      "reserve",
+      "tether",
+      "usdc",
+      "usdt",
+      "circle",
+      "peg",
+      "genius act",
+      "redemption",
+      "e-money",
+      "emt",
+      "payment stablecoin",
+      "backing asset",
+      "issuer",
+      "stablecoin issuer"
+    ],
+    "confluence_queries": [
+      "stablecoin",
+      "GENIUS",
+      "stablecoin issuer",
+      "e-money"
+    ],
+    "gdrive_queries": [
+      "stablecoin",
+      "GENIUS Act",
+      "USDC"
+    ],
+    "web_angles": [
+      "stablecoin regulation {year} latest developments",
+      "GENIUS Act implementation stablecoin compliance",
+      "global stablecoin regulatory framework FATF {year}",
+      "stablecoin market cap reserves transparency {year}"
+    ]
+  },
+  "defi": {
+    "name": "DeFi Regulation & Governance",
+    "category": "core_regulatory",
+    "signals": [
+      "defi",
+      "decentrali",
+      "protocol",
+      "smart contract",
+      "dex",
+      "bridge",
+      "swap",
+      "dao",
+      "web3",
+      "tornado",
+      "liquidity pool",
+      "amm",
+      "decentralized finance",
+      "yield",
+      "governance token"
+    ],
+    "confluence_queries": [
+      "DeFi",
+      "decentralized finance",
+      "smart contract"
+    ],
+    "gdrive_queries": [
+      "DeFi",
+      "decentralized",
+      "protocol"
+    ],
+    "web_angles": [
+      "DeFi regulation {year} latest regulatory approach",
+      "IOSCO DeFi policy recommendations {year}",
+      "DeFi compliance AML sanctions requirements",
+      "DeFi governance DAO legal frameworks {year}"
+    ]
+  },
+  "uk_regulation": {
+    "name": "UK Crypto Regulation",
+    "category": "core_regulatory",
+    "signals": [
+      "fca",
+      "hmt",
+      "hm treasury",
+      "labour",
+      "financial promotion",
+      "conservative",
+      "fsm bill",
+      "financial services and markets",
+      "uk crypto",
+      "crypto uk",
+      "uk reg",
+      "bank of england",
+      "boe",
+      "pra",
+      "edinburgh reform"
+    ],
+    "confluence_queries": [
+      "FCA",
+      "UK regulation",
+      "HMT",
+      "financial promotion"
+    ],
+    "gdrive_queries": [
+      "FCA",
+      "UK regulation",
+      "HMT crypto"
+    ],
+    "web_angles": [
+      "FCA crypto regulation {year} latest consultation",
+      "UK digital assets regulation framework {year}",
+      "FCA cryptoasset rules market abuse admissions {year}",
+      "UK Labour government crypto policy stance"
+    ]
+  },
+  "mica_eu": {
+    "name": "MiCA & EU Regulation",
+    "category": "core_regulatory",
+    "signals": [
+      "mica",
+      "european",
+      "casp",
+      "esma",
+      "eba",
+      "european commission",
+      "eu reg",
+      "emir",
+      "eea",
+      "dora",
+      "amld",
+      "amlr",
+      "markets in crypto",
+      "eu crypto"
+    ],
+    "confluence_queries": [
+      "MiCA",
+      "EU regulation",
+      "ESMA",
+      "EBA"
+    ],
+    "gdrive_queries": [
+      "MiCA",
+      "EU regulation",
+      "ESMA"
+    ],
+    "web_angles": [
+      "MiCA implementation progress {year}",
+      "EU crypto regulation ESMA guidelines {year}",
+      "MiCA stablecoin rules CASP authorization",
+      "EU AMLR anti-money laundering crypto {year}"
+    ]
+  },
+  "aml_cft": {
+    "name": "AML/CFT & Financial Crime Compliance",
+    "category": "core_regulatory",
+    "signals": [
+      "aml",
+      "cft",
+      "money laundering",
+      "fatf",
+      "kyc",
+      "risk assessment",
+      "travel rule",
+      "suspicious activity",
+      "typolog",
+      "bsa",
+      "counter terrorist",
+      "financial crime",
+      "compliance program"
+    ],
+    "confluence_queries": [
+      "AML",
+      "FATF",
+      "travel rule",
+      "financial crime"
+    ],
+    "gdrive_queries": [
+      "AML",
+      "FATF",
+      "compliance"
+    ],
+    "web_angles": [
+      "cryptocurrency AML compliance requirements {year}",
+      "FATF virtual assets latest update {year}",
+      "crypto travel rule implementation global status",
+      "blockchain analytics AML best practices {year}"
+    ]
+  },
+  "sanctions": {
+    "name": "Sanctions & Illicit Finance",
+    "category": "core_regulatory",
+    "signals": [
+      "sanction",
+      "illicit",
+      "russia",
+      "ransomware",
+      "crypto crime",
+      "seizure",
+      "iran",
+      "ofac",
+      "terrorist financ",
+      "ofsi",
+      "north korea",
+      "lazarus",
+      "confiscat",
+      "asset recovery"
+    ],
+    "confluence_queries": [
+      "sanctions",
+      "illicit finance",
+      "ransomware",
+      "OFAC"
+    ],
+    "gdrive_queries": [
+      "sanctions",
+      "illicit",
+      "ransomware"
+    ],
+    "web_angles": [
+      "cryptocurrency sanctions enforcement {year}",
+      "OFAC crypto sanctions designations latest",
+      "ransomware cryptocurrency payments trends {year}",
+      "illicit cryptocurrency flows annual report {year}"
+    ]
+  },
+  "market_abuse": {
+    "name": "Market Integrity & Surveillance",
+    "category": "core_regulatory",
+    "signals": [
+      "market abuse",
+      "manipulation",
+      "market integrity",
+      "wash trad",
+      "insider trad",
+      "pump and dump",
+      "mev",
+      "market surveillance",
+      "market maker",
+      "spoofing",
+      "front running",
+      "mar"
+    ],
+    "confluence_queries": [
+      "market abuse",
+      "market integrity",
+      "surveillance"
+    ],
+    "gdrive_queries": [
+      "market abuse",
+      "market integrity",
+      "manipulation"
+    ],
+    "web_angles": [
+      "crypto market abuse regulation {year}",
+      "market surveillance blockchain analytics requirements",
+      "crypto wash trading detection enforcement {year}",
+      "digital asset market integrity framework regulators"
+    ]
+  },
+  "international": {
+    "name": "International & Emerging Markets",
+    "category": "core_regulatory",
+    "signals": [
+      "mas",
+      "singapore",
+      "japan",
+      "apac",
+      "cbuae",
+      "australia",
+      "hong kong",
+      "imf",
+      "africa",
+      "bis",
+      "brazil",
+      "india",
+      "caribbean",
+      "latam",
+      "emerging market"
+    ],
+    "confluence_queries": [
+      "APAC",
+      "international regulation",
+      "Singapore",
+      "Hong Kong"
+    ],
+    "gdrive_queries": [
+      "APAC",
+      "international",
+      "emerging markets"
+    ],
+    "web_angles": [
+      "Asia Pacific crypto regulation updates {year}",
+      "global cryptocurrency adoption index {year}",
+      "emerging markets digital assets policy",
+      "IMF BIS cryptocurrency policy recommendations {year}"
+    ]
+  },
+  "tokenization": {
+    "name": "Tokenization & Digital Securities",
+    "category": "asset_technology",
+    "signals": [
+      "rwa",
+      "custody",
+      "settlement",
+      "tokeniz",
+      "tokenised",
+      "security token",
+      "real world asset",
+      "post trade",
+      "csd",
+      "fractional",
+      "digital securities",
+      "cass"
+    ],
+    "confluence_queries": [
+      "tokenization",
+      "digital securities",
+      "RWA",
+      "custody"
+    ],
+    "gdrive_queries": [
+      "tokenization",
+      "tokenized",
+      "RWA",
+      "custody"
+    ],
+    "web_angles": [
+      "tokenized real world assets regulation {year}",
+      "digital securities custody regulation framework",
+      "institutional tokenization adoption trends {year}",
+      "securities settlement blockchain DLT {year}"
+    ]
+  },
+  "cbdc": {
+    "name": "CBDCs & Digital Currencies",
+    "category": "asset_technology",
+    "signals": [
+      "cbdc",
+      "digital currency",
+      "digital pound",
+      "central bank digital",
+      "programmable money",
+      "digital euro",
+      "e-cny",
+      "wholesale cbdc",
+      "retail cbdc"
+    ],
+    "confluence_queries": [
+      "CBDC",
+      "digital pound",
+      "digital currency"
+    ],
+    "gdrive_queries": [
+      "CBDC",
+      "digital pound",
+      "digital euro"
+    ],
+    "web_angles": [
+      "CBDC global progress implementation {year}",
+      "digital pound Bank of England latest update",
+      "CBDC versus stablecoin policy debate {year}",
+      "central bank digital currency privacy design"
+    ]
+  },
+  "cybersecurity": {
+    "name": "Cybersecurity & Operational Resilience",
+    "category": "asset_technology",
+    "signals": [
+      "cybersecurity",
+      "cyber security",
+      "operational resilience",
+      "dora",
+      "hack",
+      "exploit",
+      "smart contract audit",
+      "key management",
+      "cold storage",
+      "incident response",
+      "vulnerability",
+      "security audit",
+      "csrb"
+    ],
+    "confluence_queries": [
+      "cybersecurity",
+      "operational resilience",
+      "DORA",
+      "hack"
+    ],
+    "gdrive_queries": [
+      "cybersecurity",
+      "operational resilience"
+    ],
+    "web_angles": [
+      "crypto exchange hack security incidents {year}",
+      "DORA digital operational resilience implementation",
+      "blockchain cybersecurity best practices regulation",
+      "smart contract audit standards requirements {year}"
+    ]
+  },
+  "payments_infrastructure": {
+    "name": "Payments Infrastructure & Cross-Border",
+    "category": "asset_technology",
+    "signals": [
+      "cross-border payment",
+      "cross border payment",
+      "remittance",
+      "payment rail",
+      "payment system",
+      "swift",
+      "payment network",
+      "instant payment",
+      "payment service",
+      "psr",
+      "payment processor",
+      "payment gateway",
+      "money transfer",
+      "correspondent bank",
+      "faster payment",
+      "cpn",
+      "circle payments"
+    ],
+    "confluence_queries": [
+      "payments",
+      "cross-border",
+      "payment infrastructure"
+    ],
+    "gdrive_queries": [
+      "payments",
+      "cross-border",
+      "remittance"
+    ],
+    "web_angles": [
+      "stablecoin cross-border payments infrastructure {year}",
+      "crypto payment networks versus SWIFT {year}",
+      "digital asset payment regulation global status",
+      "Circle Payments Network institutional adoption"
+    ]
+  },
+  "ai_compliance": {
+    "name": "AI & Compliance Automation",
+    "category": "strategic_priorities",
+    "signals": [
+      "artificial intelligence",
+      "machine learning",
+      "ai ",
+      "llm",
+      "chatgpt",
+      "generative ai",
+      "agentic ai",
+      "deep learning",
+      "large language model",
+      "automation",
+      "ai agent",
+      "ai risk",
+      "ai compliance",
+      "ai fraud"
+    ],
+    "confluence_queries": [
+      "AI",
+      "machine learning",
+      "artificial intelligence"
+    ],
+    "gdrive_queries": [
+      "AI",
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "web_angles": [
+      "AI compliance automation financial services {year}",
+      "artificial intelligence anti-money laundering crypto",
+      "generative AI fraud detection blockchain {year}",
+      "AI regulation impact on crypto compliance {year}"
+    ]
+  },
+  "tradfi_integration": {
+    "name": "TradFi Integration & Institutional Adoption",
+    "category": "strategic_priorities",
+    "signals": [
+      "tradfi",
+      "traditional finance",
+      "institutional adopt",
+      "etf",
+      "bank custody",
+      "bank crypto",
+      "institutional investor",
+      "wall street",
+      "asset manager",
+      "pension fund",
+      "401k",
+      "institutional grade",
+      "prime broker",
+      "hedge fund",
+      "financial institution",
+      "mainstream"
+    ],
+    "confluence_queries": [
+      "institutional",
+      "ETF",
+      "traditional finance",
+      "TradFi"
+    ],
+    "gdrive_queries": [
+      "TradFi",
+      "institutional",
+      "ETF"
+    ],
+    "web_angles": [
+      "institutional crypto adoption trends {year}",
+      "Bitcoin ETF institutional inflows {year}",
+      "banks offering cryptocurrency services {year}",
+      "traditional finance blockchain integration"
+    ]
+  },
+  "data_quality": {
+    "name": "Data Quality, Analytics & Methodology",
+    "category": "strategic_priorities",
+    "signals": [
+      "data quality",
+      "data gap",
+      "data solution",
+      "methodology",
+      "data ambassador",
+      "attribution",
+      "clustering",
+      "heuristic",
+      "on-chain data",
+      "on chain data",
+      "data accuracy",
+      "data governance",
+      "geographic data",
+      "geo data",
+      "data reporting",
+      "blockchain analytics",
+      "market intel"
+    ],
+    "confluence_queries": [
+      "data quality",
+      "methodology",
+      "blockchain analytics"
+    ],
+    "gdrive_queries": [
+      "data quality",
+      "methodology",
+      "analytics"
+    ],
+    "web_angles": [
+      "blockchain analytics data quality methodology {year}",
+      "on-chain data attribution geographic signals",
+      "Chainalysis data methodology comparison {year}",
+      "crypto market data standards regulation"
+    ]
+  },
+  "fraud_consumer": {
+    "name": "Fraud, Scams & Consumer Protection",
+    "category": "strategic_priorities",
+    "signals": [
+      "fraud",
+      "scam",
+      "consumer protect",
+      "app fraud",
+      "pig butcher",
+      "romance scam",
+      "consumer duty",
+      "rug pull",
+      "investment fraud",
+      "ponzi",
+      "authorised push payment",
+      "victim"
+    ],
+    "confluence_queries": [
+      "fraud",
+      "scam",
+      "consumer protection"
+    ],
+    "gdrive_queries": [
+      "fraud",
+      "scam",
+      "consumer protection"
+    ],
+    "web_angles": [
+      "cryptocurrency fraud trends {year} statistics",
+      "pig butchering scam crypto enforcement {year}",
+      "consumer protection digital assets regulation",
+      "APP fraud liability crypto payment providers {year}"
+    ]
+  },
+  "privacy_surveillance": {
+    "name": "Privacy, Surveillance & Data Protection",
+    "category": "strategic_priorities",
+    "signals": [
+      "privacy",
+      "surveillance",
+      "gdpr",
+      "data protection",
+      "zero knowledge",
+      "zk proof",
+      "mixer",
+      "tornado cash",
+      "privacy coin",
+      "monero",
+      "zcash",
+      "anonymity",
+      "pseudonymity",
+      "privacy enhancing"
+    ],
+    "confluence_queries": [
+      "privacy",
+      "surveillance",
+      "Tornado Cash",
+      "mixer"
+    ],
+    "gdrive_queries": [
+      "privacy",
+      "surveillance",
+      "zero knowledge"
+    ],
+    "web_angles": [
+      "cryptocurrency privacy regulation {year}",
+      "Tornado Cash legal status sanctions {year}",
+      "zero knowledge proof compliance applications",
+      "blockchain privacy versus transparency policy debate"
+    ]
+  },
+  "geopolitics_macro": {
+    "name": "Geopolitics, Macro & Dollar Dominance",
+    "category": "strategic_priorities",
+    "signals": [
+      "geopolitic",
+      "dollar dominance",
+      "de-dollariz",
+      "tariff",
+      "trade war",
+      "brics",
+      "reserve currency",
+      "monetary policy",
+      "fed rate",
+      "interest rate",
+      "inflation",
+      "fiscal policy",
+      "foreign policy",
+      "economic sanction"
+    ],
+    "confluence_queries": [
+      "geopolitics",
+      "tariff",
+      "dollar dominance"
+    ],
+    "gdrive_queries": [
+      "geopolitics",
+      "tariffs",
+      "dollar"
+    ],
+    "web_angles": [
+      "cryptocurrency geopolitics dollar dominance {year}",
+      "US tariffs impact crypto markets {year}",
+      "stablecoins dollar hegemony global finance",
+      "BRICS de-dollarization digital assets {year}"
+    ]
+  },
+  "national_security": {
+    "name": "National Security, Defence & Intelligence",
+    "category": "strategic_priorities",
+    "signals": [
+      "intelligence",
+      "defence",
+      "defense",
+      "national security",
+      "military",
+      "nato",
+      "critical infrastructure",
+      "ncsc",
+      "five eyes",
+      "homeland security",
+      "proliferation",
+      "weapons",
+      "strategic threat"
+    ],
+    "confluence_queries": [
+      "national security",
+      "defence",
+      "intelligence"
+    ],
+    "gdrive_queries": [
+      "national security",
+      "defence",
+      "intelligence"
+    ],
+    "web_angles": [
+      "cryptocurrency national security threat assessment {year}",
+      "North Korea crypto theft latest intelligence",
+      "defence sector blockchain technology applications",
+      "critical infrastructure cybersecurity cryptocurrency"
+    ]
+  }
+}

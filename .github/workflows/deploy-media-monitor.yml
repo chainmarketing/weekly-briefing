@@ -1,0 +1,46 @@
+name: Deploy Media Monitor
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'workflow/**'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Deploy to Chainalysis Workflows
+        env:
+          CHAINALYSIS_API_KEY: ${{ secrets.CHAINALYSIS_API_KEY }}
+        run: |
+          pip install chainalysis-skill-workflows
+          python -c "
+          from chainalysis_skill_workflows import WorkflowsClient
+          import os
+
+          client = WorkflowsClient(api_key=os.environ['CHAINALYSIS_API_KEY'])
+          
+          build = WorkflowsClient.initialize_build()
+          build.add_files('workflow/')
+          build.add_package('chainalysis_skill_workflows')
+          zip_path = build.zip()
+          
+          client.deploy('media-monitor', zip_path=zip_path, handler='workflow.handler')
+          print('Deployed to \$LATEST')
+          
+          version = client.publish('media-monitor', description='Deployed from GitHub commit ${{ github.sha }}')
+          vnum = version['versionNumber']
+          print(f'Published v{vnum}')
+          
+          client.set_alias('media-monitor', 'prod', version=vnum)
+          print(f'prod alias -> v{vnum}')
+          "

@@ -1,0 +1,120 @@
+{
+  "input": {
+    "type": "object",
+    "properties": {
+      "mode": {
+        "type": "string",
+        "enum": ["daily", "weekly"],
+        "default": "daily",
+        "description": "Digest mode: 'daily' for operational (all articles, granular), 'weekly' for strategic (persistent themes, leadership-level)"
+      },
+      "days_back": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 30,
+        "default": 1,
+        "description": "Number of days to look back (auto-set: 1 for daily, 7 for weekly; override if needed)"
+      },
+      "include_html": {
+        "type": "boolean",
+        "default": true,
+        "description": "Generate an HTML digest of the results"
+      },
+      "include_slack": {
+        "type": "boolean",
+        "default": true,
+        "description": "Generate and send a Slack digest (requires SLACK_WEBHOOK_URL env var)"
+      },
+      "include_competitors": {
+        "type": "boolean",
+        "default": true,
+        "description": "Track competitor mentions (Elliptic, TRM Labs, CipherTrace, Arkham, Nansen, Crystal)"
+      },
+      "include_email": {
+        "type": "boolean",
+        "default": true,
+        "description": "Generate HTML email digest in the Chainalysis News Digest format"
+      },
+      "trend_lookback_days": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 60,
+        "default": 14,
+        "description": "How many days of prior runs to check for recurring narratives (auto-set: 14 for daily, 30 for weekly)"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string",
+        "description": "Execution status (completed or no_articles)"
+      },
+      "mode": {
+        "type": "string",
+        "description": "Digest mode used (daily or weekly)"
+      },
+      "period_days": {
+        "type": "integer",
+        "description": "Number of days covered"
+      },
+      "classification_stats": {
+        "type": "object",
+        "description": "Counts of articles by classification"
+      },
+      "feed_stats": {
+        "type": "object",
+        "description": "Per-feed fetch status and counts"
+      },
+      "google_news_publications": {
+        "type": "array",
+        "description": "List of unique publications that mentioned Chainalysis (via Google News)"
+      },
+      "google_news_publication_count": {
+        "type": "integer",
+        "description": "Number of unique publications covering Chainalysis"
+      },
+      "executive_summary": {
+        "type": "string",
+        "description": "AI-generated overview of the day's key themes"
+      },
+      "key_narratives": {
+        "type": "array",
+        "description": "Major narrative threads with recurrence tracking (cadence, momentum, articles, Chainalysis relevance)"
+      },
+      "chainalysis_mentions": {
+        "type": "array",
+        "description": "Articles directly mentioning Chainalysis (from Google News + RSS)"
+      },
+      "narrative_coverage": {
+        "type": "array",
+        "description": "Articles relevant to Chainalysis policy domains"
+      },
+      "action_items": {
+        "type": "array",
+        "description": "Articles flagged as requiring attention"
+      },
+      "competitor_intelligence": {
+        "type": "object",
+        "description": "Competitor tracking: summary, highlights, per-competitor stats, and articles"
+      },
+      "html_digest": {
+        "type": "string",
+        "description": "Full HTML digest with all three prongs (if include_html=true)"
+      },
+      "email_digest": {
+        "type": "string",
+        "description": "HTML email — daily operational digest or weekly strategic briefing depending on mode"
+      },
+      "slack_summary": {
+        "type": "object",
+        "description": "Slack Block Kit payload with text and blocks (if include_slack=true)"
+      },
+      "slack_delivery": {
+        "type": "object",
+        "description": "Slack webhook delivery result — sent status and any errors (if include_slack=true)"
+      }
+    }
+  }
+}
