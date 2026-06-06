@@ -1,0 +1,369 @@
+{
+  "date": "2026-06-06",
+  "date_display": "June 06, 2026",
+  "mentions_count": 21,
+  "narrative_count": 584,
+  "competitor_total": 10,
+  "persistent_count": 5,
+  "articles_analysed": 993,
+  "executive_summary": "We dominated coverage this week with two major research drops: a $100M gray-market peptide economy powered by Bitcoin and stablecoins, and a critical finding that 65% of crypto hacks now use social engineering tactics resulting in $17B in losses. Separately, we released analysis on agentic payments crossing 100M transactions on Base and provided key insights into the OFAC sanctions sweep against Iranian crypto exchanges, positioning us as the authoritative voice on illicit finance trends and emerging payment infrastructure.",
+  "mentions": [
+    {
+      "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - The Block",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa3o2OEVYZHBMTkZDNXJFMlpCMHRvXzU0cHhEVUJ5RVk1emdyMmZBWno4QmRNUEl0aFVxeUJsYmdSeEVwcGoyaWtnbGlOb1EyNVdOSDc1X1NjVTYtelllT0g5LWVrcTVHQlZUam9HTVZHLU9tQ0xmaHRwaEZwNGd4RmVxZmZGeUtVQlVnTjAxZnF3OGFxRFNnbkYzNTJMQTE0TU9aTG5ydGZucFBFOEx0ZnNlV3pvbzBuQWZnSi1n?oc=5",
+      "source": "The Block"
+    },
+    {
+      "title": "Chainalysis Shares Insights on Agentic Payments Reaching Key Milestone : x402 Protocol Shows Signs of Traction on Base - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdEhmNll3MlNLTkJ6THNnUmxIRExkUXVwWDZDSmxtbnA0ckVRTE5HM2FteEp1bm9iM0Z3UW4xLTdxaW9wOUFvVTVpdzh6WWxtTTUzUHZYcTlQcm8yN2pYVHEzcUdsMU5LbXZzZHgxV1FTQ01jeklNeDNtbERMcGV2dWc4eUFkVHdYQ0hCd2VMRndaSEwwOVUwd2RXSmJjTnFWSXNXSGJwYkZ3bXF4N19tejJoYUhEZ18tQmdUTVZxYTNkWTRkNm1mQ2JYV0ZaOHJ2ZEdUSEpuNjg1M04yV0J6RnBzam0yeW5xQzVIQW9peFdEb3d6cDM2bA?oc=5",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "I bought peptides with crypto. How my purchase helped fuel a $100 million gray-market, \u2018looksmaxxing\u2019 economy - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0NuV3hTVzZEbHU2VHhaaVYtUzk4UUQtS2VKYXJwb0Q4UjgyalhkdHBINFJPN0VpcEF1U3JyVlpIOV9zaVNOWEEtM2p6V3lRUWdmY3B5S2hnSm9mT1FKUml5dUM1TlZLTVlfOWRVVDRPRDVDQkF5a0Z1Ukt6Y01PS3pQd3NGRGJPQXRLd1o4Y1E1VmRFYUJINU9rS05UN0hl?oc=5",
+      "source": "Fortune"
+    },
+    {
+      "title": "'Looksmaxxing' Trend Spawns $100M Gray Market Fueled By Bitcoin, Stablecoins: Chainalysis - Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPamh6aEpudWxRQVppZE9ZeWNwOGs5ZFJNejQyMEp6YUpUYW4tVHdtbzVyNVV4bXVDeWJuTmFWMkxzbEpmWmFzVElweWh0UG1MaTdmZTFQbFJxV3RaaXVXeW40RU9NY2pOZ2pJVlBVZGtqZGZvUURLcmZ0WTdHMmptWGN1NjR1OEZLYzQ4elA4Z0d5TGRRcWxZeNIBoAFBVV95cUxPekgyZERpZm5iN2pWUWMzd21vRHdCQ0VzeVlaRnNGVHhXaU95RDJiaHRfTVM5eXduRDZtTHZ0RTd2Y2tzMHpTbTIwUHJCaXlHWEhENVVjcm9kR1pOWDhKZEJBa1MzVHJlSG5QNUVMcTZqRDhEZXJMVk00NWJxQXlyN0dlUWlpUklHcWM3VTNTU05CM0hRMGZ6WHktRFIzVW5U?oc=5",
+      "source": "Decrypt"
+    },
+    {
+      "title": "Chainalysis reports surge in gray market peptide trade using bitcoin and stablecoins - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93MXFkbHdTQzBMcDV3WHg1Zm9faVkyV1RBcHRsRDZhWmhCVU5RV3dWdUljQldfWFZZSXo5X2pnbXBDU2d6TklBdmctbjNZdm5NTk9XM1AzdF9idnNMa2FiMXlTdUNFQWhLM3Z6UllMU21HY2tNNWNhd2VYTE0?oc=5",
+      "source": "Crypto Briefing"
+    },
+    {
+      "title": "Chainalysis reveals $100 million peptide market built on crypto - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51NVViQ2phRk1Od25nNkdFQTlZY3dUZXRiVGhSY0Q2dmxobHNiZm9DVUhhbmVPSnV1YWpwM05CM3lVdjNtd3V3ZnNOUlB2STB1emwtWExHSTM?oc=5",
+      "source": "Cryptonews.net"
+    },
+    {
+      "title": "Chainalysis Uncovers $100 Million Gray Market for Peptides - ForkLog",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQmMwamtRX0V4dVkwdXhxUFNndXRPOTdMVzJJSXBNb0V2bXE0NXEyMmREYk5VZzRMT28xbnd5MGRBLWU2OU8taVl6YXFpN0lDdzlQUy1HMm9mUmYzWXYzbWtTX05aemxROGFjbXBVZTh4QVZ4cmpscUM0TklkZ0FzZmQzbVlJck84?oc=5",
+      "source": "ForkLog"
+    },
+    {
+      "title": "$100M Gray-Market Peptide Trade Runs on Crypto, Chainalysis Reports - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUZ3Y0phek1CR0hCc295bnVCQWZocWlGZDVDVjRLZW5FWHUzNk1Qd3Y0SjFid2s2SUpNREpueVNkM2V4UEVVelJOb3NCMTlXSUhhcU1XVlZYWGZPSExJdXF4dmI0Z3BRRmZFLUZYMExjd0pNOVpKWkpxRmQ0blludHEyMURzYTdVblc5d1JIZnh5RV9OM1E?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mS1ZFSE1ITlg0d3JiZUc1SWxIX0NycmVXZDNYVFdLQ21kR3BrSXVEMlJpdGljU3lyc2dEeUk3d2ZOR3k3ZTJmQ21FU0pVQlpPM3pHbHFMX194M1U?oc=5",
+      "source": "Cryptonews.net"
+    },
+    {
+      "title": "Chainalysis: Peptide suppliers in the grey market are increasingly using Bitcoin and stablecoins - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NaGFTU1pQaUlxTTB6QnVVSE5qeWJEaUpMQ3Izb2ZXLUswekJPZW4xMVFPNjYzRUVfSTV6WXFtUmpVTUlSY1phRFpTbFVqY1E3RU1yNVZvNHdYb2k5Y0JrOXByRdIBY0FVX3lxTE5NaGFTU1pQaUlxTTB6QnVVSE5qeWJEaUpMQ3Izb2ZXLUswekJPZW4xMVFPNjYzRUVfSTV6WXFtUmpVTUlSY1phRFpTbFVqY1E3RU1yNVZvNHdYb2k5Y0JrOXByRQ?oc=5",
+      "source": "Bitget"
+    },
+    {
+      "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QQ3FmUkw1NjF4akVETHk0VjMzbWRNMHJtMEg0Tm5fbGNiMDV0bXVsbmRQRFNaYm1ncGFseVppS01mcU9HbUhZNmRXdjVUZGNZZEFVektMZFJEQQ?oc=5",
+      "source": "Cryptonews.net"
+    },
+    {
+      "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXpzYU85SHV4cTNXR0s2M2FHQWVyX1V5T0RqOFYwa1gwSUJGQl9WMlcxVEVaLXp2VXUtT24wUmc2dUM4a0xHUFFjMFVweHF0RWFKUkFvY2hta1VNR21RWDRhalBSSjI0R3FidHRCcUNWWGY1Yzdpd19wU3FNenJZRVVjR1luTHBZ?oc=5",
+      "source": "CryptoRank"
+    },
+    {
+      "title": "Gray peptide vendors embrace stablecoins as safety fears deepen - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5MbVgwdDhiZ09lU3k3WFZQQ19Hd2RFMUdLTkpuUmZlTmJnMUZXaHJKUGkxVm9HZHVnR1RPY1ZKWW41MmIyVWk1YmM1N05tZWJWVlJ6ZXdaNThHUlUzWnBxNU9Nd9IBY0FVX3lxTE5MbVgwdDhiZ09lU3k3WFZQQ19Hd2RFMUdLTkpuUmZlTmJnMUZXaHJKUGkxVm9HZHVnR1RPY1ZKWW41MmIyVWk1YmM1N05tZWJWVlJ6ZXdaNThHUlUzWnBxNU9Ndw?oc=5",
+      "source": "Bitget"
+    },
+    {
+      "title": "News Explorer \u2014 Bitcoin and Stablecoins Drive a 'Looksmaxxing'-Fueled $100 Million Peptides Gray Market: Chainalysis - Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPREluTUdWcmNveHlHXzNETk5hNTJ1bVJRTXlBdEZ1MDVnS3l5NmJUM014c25aSGxtQWFuRUd5RlhoVU1vTkVnNmJ2c2tuY29WblRENy1QLXU2ZGlwdXQ2d014LWozR0U5S2U5d2RqZXRSalhQLW9TRXBHaDFSdEx1OWFPeWZjc2JPRl8zUmlHYUI0ZEpGSTVWYzdPeWw5SlphVVZvVTRqY3V3cmlYS011bUtmb2k5WkRwWFd6dEFnZlo0azdOdWxGRDBaVnU4UDFRaDZKa3dfTVI1bjlURUQyWktxaE0?oc=5",
+      "source": "Decrypt"
+    },
+    {
+      "title": "Crypto companies have tightened compliance, but gaps remain: Chainalysis - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOQ0FTTjViTTlpaUx5MkhOVGFZZkR6TWxqQlNjNzBfWmFoLURrZ0sxZmxvamM0VkU2ZFhiUlFiVTQ0REdCZmtGSjJ1dnJvV00wSC1yTXh6dTlwVWhUU1VjRHcydVUxcGFGOTNhTDNaV2QxakhXZjJ2SmkzQmNmUnRKOHhETlg5TUM0WDlmMWFoa0ZwZ2hHc1kyd2M1TVp0NUszMGpqMkxZNFdDUXBkQmZrc3lBVHUzRXoxUzllMGxfVlc2UVhGT0VwSWlwdjl4RTFyajA4OTNqWTl5TTdLQTU3VGQtX0MtTDVDV3RUZllhMTRoZExtTjFVRnVMQVBSQUNXTzh1Y01VS2VJRklSZGpZVFlWbzh3QWFoa3FwUGNyVzVINXl5Uk5vVkdfMVRLczloTmNCOTVuTU5TbGtzemtzbnQ2NENaZThtQzl0dEdGbVE2Y3E3YUE?oc=5",
+      "source": "MSN"
+    },
+    {
+      "title": "Agentic payment activity tops 100M transactions on Base - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2pkcnF6WE9ub1ZCcE5nMGt0OUFfRFBNV3h6WXl0aVRYNW1wQnZ6R0N0Ty0xbVNPNFFJc3VSS2V0c05YSVRHZ0UyMWhPbzNxeXBBRklGUE9mSnNhcEc1cHpYaVhVTGo3NlN6STgxc2NuVVlhc3kxQnRHbWg0Vm5oaUo0dVU1alNpYUNKMjNwbXZJMTJRR3gydER6c3d4Q2FhV0kybU5PdlBSYWYyVVNQZUdGcmxzeFgxR01F?oc=5",
+      "source": "TradingView"
+    },
+    {
+      "title": "Gray-market peptide suppliers increasingly use Bitcoin and stablecoins for payments, says Chainalysis. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1NDMFlpTVFyaGhjcW0zR3ZsbjAzaFFXT2VGbFNfOC1POEhDT2F3S0hNdXVGS2piWDJ2cGo4M3l4RHNCRzVzRnRjVXRtMFB1U0NiUXpTNkRwTTZvRUxRZlpCTXVZaDZnNmJsQ3dFN2VlWmZNU0VTZEx2UDFuUHY4S1REYmdLRGxiVTFiZFdRSm5jWkI5VFVSLWM0OV9xZGs0TzU0dnJvQQ?oc=5",
+      "source": "Pluang"
+    },
+    {
+      "title": "Crypto-Fueled Peptide Boom Surges Past US$100M as Biohacking Meets Looksmaxxing - Crypto News Australia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNRWmhqY2Juc1NSQjRWTS00Ny1hUHlZMDdFazNod0FVdEJRdEhBOG5fSjJjY2kxV2RRV2MwVS1YNEE2ZE4zQ0xjYVkySDdKOW1KWmRNeFRBOTVrdkd0U0VVR2JiTEx4dHVPWU80ejRwdE1DYmVvOTI1VUFPSEs5ckwzQmtYWU91cFUtMjByY2hSd0dVNUVDZW1pN0kwRmluRWNMc3RQcWVpdWR6SGhvaFZUZzZKU0I1?oc=5",
+      "source": "Crypto News Australia"
+    },
+    {
+      "title": "'Looksmaxxing' Trend Spawns $100M Gray Market Fueled By Bitcoin, Stablecoins: Chainalysis",
+      "url": "https://decrypt.co/370078/looksmaxxing-trend-100m-gray-market-bitcoin-stablecoins-chainalysis",
+      "source": "Decrypt"
+    },
+    {
+      "title": "Agentic Payments Cross the Threshold: Inside x402\u2019s Path to Meaningful Adoption",
+      "url": "https://www.chainalysis.com/blog/x402-agentic-payments-adoption/",
+      "source": "Chainalysis Blog"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Gray-Market Peptide Economy & Crypto Payment Adoption",
+      "description": "Our research uncovered a $100M illicit peptide market driven by 'looksmaxxing' trends, with vendors increasingly adopting Bitcoin and stablecoins to evade traditional payment rails.",
+      "relevance": "We established ourselves as the primary source for quantifying emerging illicit use cases and demonstrating real-world crypto adoption patterns outside traditional finance narratives.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 2,
+      "window_days": 5,
+      "articles": [
+        {
+          "title": "I bought peptides with crypto. How my purchase helped fuel a $100 million gray-market, \u2018looksmaxxing\u2019 economy - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0NuV3hTVzZEbHU2VHhaaVYtUzk4UUQtS2VKYXJwb0Q4UjgyalhkdHBINFJPN0VpcEF1U3JyVlpIOV9zaVNOWEEtM2p6V3lRUWdmY3B5S2hnSm9mT1FKUml5dUM1TlZLTVlfOWRVVDRPRDVDQkF5a0Z1Ukt6Y01PS3pQd3NGRGJPQXRLd1o4Y1E1VmRFYUJINU9rS05UN0hl?oc=5",
+          "source": "Fortune"
+        },
+        {
+          "title": "News Explorer \u2014 Bitcoin and Stablecoins Drive a 'Looksmaxxing'-Fueled $100 Million Peptides Gray Market: Chainalysis - Decrypt",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPREluTUdWcmNveHlHXzNETk5hNTJ1bVJRTXlBdEZ1MDVnS3l5NmJUM014c25aSGxtQWFuRUd5RlhoVU1vTkVnNmJ2c2tuY29WblRENy1QLXU2ZGlwdXQ2d014LWozR0U5S2U5d2RqZXRSalhQLW9TRXBHaDFSdEx1OWFPeWZjc2JPRl8zUmlHYUI0ZEpGSTVWYzdPeWw5SlphVVZvVTRqY3V3cmlYS011bUtmb2k5WkRwWFd6dEFnZlo0azdOdWxGRDBaVnU4UDFRaDZKa3dfTVI1bjlURUQyWktxaE0?oc=5",
+          "source": "Decrypt"
+        },
+        {
+          "title": "'Looksmaxxing' Trend Spawns $100M Gray Market Fueled By Bitcoin, Stablecoins: Chainalysis - Decrypt",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPamh6aEpudWxRQVppZE9ZeWNwOGs5ZFJNejQyMEp6YUpUYW4tVHdtbzVyNVV4bXVDeWJuTmFWMkxzbEpmWmFzVElweWh0UG1MaTdmZTFQbFJxV3RaaXVXeW40RU9NY2pOZ2pJVlBVZGtqZGZvUURLcmZ0WTdHMmptWGN1NjR1OEZLYzQ4elA4Z0d5TGRRcWxZeNIBoAFBVV95cUxPekgyZERpZm5iN2pWUWMzd21vRHdCQ0VzeVlaRnNGVHhXaU95RDJiaHRfTVM5eXduRDZtTHZ0RTd2Y2tzMHpTbTIwUHJCaXlHWEhENVVjcm9kR1pOWDhKZEJBa1MzVHJlSG5QNUVMcTZqRDhEZXJMVk00NWJxQXlyN0dlUWlpUklHcWM3VTNTU05CM0hRMGZ6WHktRFIzVW5U?oc=5",
+          "source": "Decrypt"
+        }
+      ]
+    },
+    {
+      "title": "Social Engineering Dominance in Crypto Hacks",
+      "description": "Our analysis revealed social engineering now accounts for 65% of crypto hacks, with $17B in cumulative losses, signaling a fundamental shift in attack vectors away from technical exploits.",
+      "relevance": "Our research underscores why institutional compliance and transaction monitoring demand our services\u2014social engineering requires behavioral analytics and pattern recognition we uniquely provide.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 4,
+      "window_days": 5,
+      "articles": [
+        {
+          "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QQ3FmUkw1NjF4akVETHk0VjMzbWRNMHJtMEg0Tm5fbGNiMDV0bXVsbmRQRFNaYm1ncGFseVppS01mcU9HbUhZNmRXdjVUZGNZZEFVektMZFJEQQ?oc=5",
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Chainalysis: 65% of Crypto Hacks Now Use Social Engineering, $17 Billion Lost - CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXpzYU85SHV4cTNXR0s2M2FHQWVyX1V5T0RqOFYwa1gwSUJGQl9WMlcxVEVaLXp2VXUtT24wUmc2dUM4a0xHUFFjMFVweHF0RWFKUkFvY2hta1VNR21RWDRhalBSSjI0R3FidHRCcUNWWGY1Yzdpd19wU3FNenJZRVVjR1luTHBZ?oc=5",
+          "source": "CryptoRank"
+        },
+        {
+          "title": "I bought peptides with crypto. How my purchase helped fuel a $100 million gray-market, \u2018looksmaxxing\u2019 economy - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0NuV3hTVzZEbHU2VHhaaVYtUzk4UUQtS2VKYXJwb0Q4UjgyalhkdHBINFJPN0VpcEF1U3JyVlpIOV9zaVNOWEEtM2p6V3lRUWdmY3B5S2hnSm9mT1FKUml5dUM1TlZLTVlfOWRVVDRPRDVDQkF5a0Z1Ukt6Y01PS3pQd3NGRGJPQXRLd1o4Y1E1VmRFYUJINU9rS05UN0hl?oc=5",
+          "source": "Fortune"
+        }
+      ]
+    },
+    {
+      "title": "Agentic Payments Mainstream Milestone on Base",
+      "description": "Our analysis highlighted x402 Protocol surpassing 100M transactions on Base, demonstrating agentic payment infrastructure reaching meaningful adoption thresholds.",
+      "relevance": "We positioned ourselves as leading observers of emerging payment paradigms and layer-2 scaling solutions, signaling future monitoring and compliance needs as agentic systems scale.",
+      "cadence": "persistent",
+      "momentum": "stable",
+      "appearances": 3,
+      "window_days": 5,
+      "articles": [
+        {
+          "title": "Chainalysis Shares Insights on Agentic Payments Reaching Key Milestone : x402 Protocol Shows Signs of Traction on Base - Crowdfund Insider",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdEhmNll3MlNLTkJ6THNnUmxIRExkUXVwWDZDSmxtbnA0ckVRTE5HM2FteEp1bm9iM0Z3UW4xLTdxaW9wOUFvVTVpdzh6WWxtTTUzUHZYcTlQcm8yN2pYVHEzcUdsMU5LbXZzZHgxV1FTQ01jeklNeDNtbERMcGV2dWc4eUFkVHdYQ0hCd2VMRndaSEwwOVUwd2RXSmJjTnFWSXNXSGJwYkZ3bXF4N19tejJoYUhEZ18tQmdUTVZxYTNkWTRkNm1mQ2JYV0ZaOHJ2ZEdUSEpuNjg1M04yV0J6RnBzam0yeW5xQzVIQW9peFdEb3d6cDM2bA?oc=5",
+          "source": "Crowdfund Insider"
+        },
+        {
+          "title": "Agentic Payments Cross the Threshold: Inside x402\u2019s Path to Meaningful Adoption",
+          "url": "https://www.chainalysis.com/blog/x402-agentic-payments-adoption/",
+          "source": "Chainalysis Blog"
+        },
+        {
+          "title": "Agentic payment activity tops 100M transactions on Base - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2pkcnF6WE9ub1ZCcE5nMGt0OUFfRFBNV3h6WXl0aVRYNW1wQnZ6R0N0Ty0xbVNPNFFJc3VSS2V0c05YSVRHZ0UyMWhPbzNxeXBBRklGUE9mSnNhcEc1cHpYaVhVTGo3NlN6STgxc2NuVVlhc3kxQnRHbWg0Vm5oaUo0dVU1alNpYUNKMjNwbXZJMTJRR3gydER6c3d4Q2FhV0kybU5PdlBSYWYyVVNQZUdGcmxzeFgxR01F?oc=5",
+          "source": "TradingView"
+        }
+      ]
+    },
+    {
+      "title": "OFAC Sanctions Enforcement & Iranian Crypto Crackdown",
+      "description": "We published critical analysis of the US Treasury's sweep against Nobitex and major Iranian exchanges, reinforcing sanctions evasion risks and enforcement urgency.",
+      "relevance": "Our sanctions research positions us as essential to government enforcement operations and demonstrates our direct role in shaping compliance policy and regulatory action.",
+      "cadence": "persistent",
+      "momentum": "rising",
+      "appearances": 5,
+      "window_days": 5,
+      "articles": [
+        {
+          "title": "OFAC Sanctions Nobitex and Major Iranian Cryptocurrency Exchanges in Sweeping Evasion Crackdown",
+          "url": "https://www.chainalysis.com/blog/ofac-sanctions-iranian-crypto-exchanges-june-2026/",
+          "source": "Chainalysis Blog"
+        },
+        {
+          "title": "US Sanctions Iran\u2019s Top Crypto Exchange in Ongoing Push for Deal - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNTh6ekd0bm1NOUtuMGpJV25XMUhMd09XeEZ2bk5yUTZieFFkdEZrQVRhQmxuNUFza0gtcUdGV09QQ085SFMtYnFYbDU2dC1Ldnc4MmktNVJDTDlMLVF2V2hpZ0lkLU1udl80V0NrUkFaZ21VYk8zTjkxMW1ZblNuakdtQm1Zb2ZYVWZicDFnYnZDeHY3emZtOU9adUhjRzdSYkZWbm13STY1Z1prTl8wRmdmcDBtQQ?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "US sanctions Iran's largest crypto exchange over IRGC links - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdlg5TE9NT092Z3lQQnBKS2RrcTRSOHFIZXdXaFpfS2tVenVPemg4OHRyaktHUnRMUkVoTU9FcUU3cE9HZWJZWnNSNm90LUsxNWJYOUdCcXViSTFlT0NheFRfdWFxSm9EdXdxdUdfTVFkb3NNUEdramUzWDZ2RUhNX2ZUTkh1am5SZjVucjdxVUk1SWFLYkJGZVN4QWdqUVZVMGYwZ3RvdDZvb1FCX2JFZGd3?oc=5",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "Compliance Maturation & Persistent Industry Gaps",
+      "description": "We released findings showing crypto firms have tightened compliance frameworks, yet material gaps remain in transaction monitoring and emerging risk detection.",
+      "relevance": "Our gap analysis reinforces why ongoing platform innovation and institutional partnerships are critical to our market positioning and competitive differentiation.",
+      "cadence": "recurring",
+      "momentum": "stable",
+      "appearances": 3,
+      "window_days": 5,
+      "articles": [
+        {
+          "title": "Crypto companies have tightened compliance, but gaps remain: Chainalysis - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOQ0FTTjViTTlpaUx5MkhOVGFZZkR6TWxqQlNjNzBfWmFoLURrZ0sxZmxvamM0VkU2ZFhiUlFiVTQ0REdCZmtGSjJ1dnJvV00wSC1yTXh6dTlwVWhUU1VjRHcydVUxcGFGOTNhTDNaV2QxakhXZjJ2SmkzQmNmUnRKOHhETlg5TUM0WDlmMWFoa0ZwZ2hHc1kyd2M1TVp0NUszMGpqMkxZNFdDUXBkQmZrc3lBVHUzRXoxUzllMGxfVlc2UVhGT0VwSWlwdjl4RTFyajA4OTNqWTl5TTdLQTU3VGQtX0MtTDVDV3RUZllhMTRoZExtTjFVRnVMQVBSQUNXTzh1Y01VS2VJRklSZGpZVFlWbzh3QWFoa3FwUGNyVzVINXl5Uk5vVkdfMVRLczloTmNCOTVuTU5TbGtzemtzbnQ2NENaZThtQzl0dEdGbVE2Y3E3YUE?oc=5",
+          "source": "MSN"
+        },
+        {
+          "title": "I bought peptides with crypto. How my purchase helped fuel a $100 million gray-market, \u2018looksmaxxing\u2019 economy - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0NuV3hTVzZEbHU2VHhaaVYtUzk4UUQtS2VKYXJwb0Q4UjgyalhkdHBINFJPN0VpcEF1U3JyVlpIOV9zaVNOWEEtM2p6V3lRUWdmY3B5S2hnSm9mT1FKUml5dUM1TlZLTVlfOWRVVDRPRDVDQkF5a0Z1Ukt6Y01PS3pQd3NGRGJPQXRLd1o4Y1E1VmRFYUJINU9rS05UN0hl?oc=5",
+          "source": "Fortune"
+        },
+        {
+          "title": "Chainalysis reports surge in gray market peptide trade using bitcoin and stablecoins - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93MXFkbHdTQzBMcDV3WHg1Zm9faVkyV1RBcHRsRDZhWmhCVU5RV3dWdUljQldfWFZZSXo5X2pnbXBDU2d6TklBdmctbjNZdm5NTk9XM1AzdF9idnNMa2FiMXlTdUNFQWhLM3Z6UllMU21HY2tNNWNhd2VYTE0?oc=5",
+          "source": "Crypto Briefing"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 175
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 130
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 87
+    },
+    {
+      "name": "Stablecoins & Digital Payments",
+      "count": 66
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 63
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 59
+    },
+    {
+      "name": "TradFi Integration & Institutional Adoption",
+      "count": 41
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 36
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Arkham Intelligence",
+      "count": 8,
+      "top_title": "Ethereum Co-founder Linked Wallet Move 80,001 ETH, Is he Dumping ETH? - Cryptonews.net",
+      "top_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84LTBJM1RyQ1pxRGl4RVNoS3J3RW4zTGdBRE1OQnhEYUM5dmROQk5SYW4waS1uNU9HcUdoT0NIWHlUSEE3cV9LamV2ZDRpQnpkRHpieXFlXzRNQQ?oc=5",
+      "top_source": "Cryptonews.net"
+    },
+    {
+      "name": "Elliptic",
+      "count": 1,
+      "top_title": "Tapbit Partners With Elliptic to Strengthen Institutional-Grade Compliance Infrastructure - markets.",
+      "top_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYlUxWnRILTVNenBRMGJSbWNPd2d5N3VtWnBNMXVvOFBWcjZkTmxVVnlHSzVxVlNvdW9LeUpUWEE3clY3X3E3RmN4bkl6QXZHR2FnT2Z5SlpLbGtNWnBMT2dyUU1JZVYtTWlJZlc0cUxZd1EyN0M4WHFzQ2pEZ3NsYVQ3RUx5cnJYdkJRTFVEaHo2bDkxR1BQaGJQMTVXdkt1OHRuaEI1dllpeHBKOXVOZkdiYWo0S0NfYnRnMGNtTHpRMFRrTXVEeXd3VEtTem5IekVUTmJmUm5xanlJQ3NUWWF3?oc=5",
+      "top_source": "markets.businessinsider.com"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 1,
+      "top_title": "ampersend and TRM Labs launch real-time compliance screening for AI agents - Cryptonews.net",
+      "top_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Zclp4dTB2OW5naVFfUl9vQ2wwZzRSaGpRUWJGcmdvZGdjOHBXdVhZQUdVVjg4eVVHOVp0VzlyV1V2ZkdFNEl6U2hJSzRnVE9BZnVycnlpODdaenlP?oc=5",
+      "top_source": "Cryptonews.net"
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Nansen",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Merkle Science",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Stablecoin Payment Infrastructure Solidifying",
+      "body": "Stablecoins are rapidly becoming the preferred payment method for gray-market actors and emerging agentic payment systems, with institutional adoption accelerating through platforms like Revolut and Binance. This underscores the critical need for real-time monitoring across payment rails we now dominate."
+    },
+    {
+      "title": "Bitcoin Volatility Pressures Store-of-Value Narrative",
+      "body": "Bitcoin's 36% plunge and retreat to pre-Iran conflict lows are eroding inflation-hedge positioning while driving institutional flight toward AI equities and megacap stocks. This volatility may paradoxically increase institutional demand for our compliance and risk assessment tools amid market stress."
+    },
+    {
+      "title": "Sanctions Enforcement Accelerating, Evasion Sophistication Rising",
+      "body": "The US Treasury's Iranian crypto exchange sweep and ongoing Russia attribution work signal intensifying enforcement activity alongside increasingly sophisticated circumvention tactics. We're positioned as the critical intelligence layer enabling government action and institutional compliance."
+    }
+  ],
+  "competitor_reads": {
+    "Elliptic": "Tapbit partnership signals Elliptic's focus on institutional custody and compliance infrastructure, positioning against pure-play monitoring by emphasizing turnkey solutions.",
+    "TRM Labs": "Real-time compliance screening for AI agents demonstrates TRM's strategic pivot toward automated compliance workflows and agentic system monitoring\u2014a space we're also active in.",
+    "Arkham Intelligence": "Mt. Gox transaction tracking and Ethereum co-founder wallet monitoring showcase Arkham's strength in on-chain transparency and public blockchain analysis, though their decentralization pivot suggests positioning away from institutional compliance toward retail analytics."
+  },
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
+  "mention_categories": {
+    "mainstream": 1,
+    "crypto": 8,
+    "fintech": 1,
+    "blog": 2,
+    "niche": 9
+  },
+  "sentiment": {
+    "positive": 16,
+    "neutral": 5,
+    "negative": 0
+  }
+}
