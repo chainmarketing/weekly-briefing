@@ -1,7 +1,7 @@
 {
   "date": "2026-06-11",
   "date_display": "June 11, 2026",
-  "mentions_count": 14,
+  "mentions_count": 13,
   "narrative_count": 702,
   "competitor_total": 16,
   "persistent_count": 0,
@@ -12,11 +12,6 @@
       "title": "Chainalysis Crypto 100 - Fortune",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZeURUS0tILWlGMUNnN0VZcWZqOW1mMDNMVE1YaHcweWFVbnk2TkFmeTJwdDZjMEZoSUVTb3lFVmphUmNRaDhaTkczTEhpRXlTU2lILW5aRmx0SXZHTEpkTGRR?oc=5",
       "source": "Fortune"
-    },
-    {
-      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
-      "source": "CoinMarketCap"
     },
     {
       "title": "AI Pipelines Give Attackers Structural Advantage Over Crypto Defenders, Chainalysis Says - Yahoo Finance",
@@ -266,10 +261,10 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 Elliptic secured a compliance decisioning deal with KAST in The Manila Times.",
-    "TRM Labs": "💡 TRM reported $14B in Q1 onchain gambling activity, establishing market surveillance expertise; also joined Binance's expanded T3+ anti-crime initiative, deepening law enforcement partnerships.",
-    "Arkham Intelligence": "💡 Arkham gained visibility through high-profile wallet tracking analysis (Trump Media collateral pledge, whale Ethereum movements).",
-    "Nansen": "💡 Nansen secured Fortune's Crypto Innovators 2026 recognition and launched Hyperliquid perps integration, pivoting from pure analytics toward a trading terminal."
+    "Elliptic": "💡 💡 Elliptic secured a compliance decisioning deal with KAST in The Manila Times.",
+    "TRM Labs": "💡 💡 TRM reported $14B in Q1 onchain gambling activity, establishing market surveillance expertise; also joined Binance's expanded T3+ anti-crime initiative, deepening law enforcement partnerships.",
+    "Arkham Intelligence": "💡 💡 Arkham gained visibility through high-profile wallet tracking analysis (Trump Media collateral pledge, whale Ethereum movements).",
+    "Nansen": "💡 💡 Nansen secured Fortune's Crypto Innovators 2026 recognition and launched Hyperliquid perps integration, pivoting from pure analytics toward a trading terminal."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
