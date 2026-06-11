@@ -1,12 +1,12 @@
 {
   "date": "2026-06-11",
   "date_display": "June 11, 2026",
-  "mentions_count": 13,
-  "narrative_count": 702,
-  "competitor_total": 16,
+  "mentions_count": 30,
+  "narrative_count": 696,
+  "competitor_total": 19,
   "persistent_count": 0,
-  "articles_analysed": 1129,
-  "executive_summary": "In highlight coverage, our most impactful placements this week centered on two major research findings: our $100M gray-market peptide economy analysis across Fortune, Decrypt, The Block, and Cryptonews.net established us as the definitive source on emerging illicit use cases; and our AI security research in Yahoo Finance underscored our relevance to enterprise crypto defenders. We also secured strategic partnership coverage with South Korean police (Crypto Briefing, CoinMarketCap, 매일경제). In crypto news, major developments included Japan's three largest banks announcing joint stablecoin issuance by March 2027 (Reuters), Canton Network raising $355M to bring Wall Street onchain (CoinDesk), and Bybit launching SpaceX tokenized IPO access (Reuters). In competitor news, Arkham gained visibility through Trump Media collateral analysis on Stocktwits; Nansen secured Fortune's Crypto Innovators 2026 recognition; TRM Labs reported $14B in Q1 onchain gambling; and Elliptic won KAST compliance deal via The Manila Times.",
+  "articles_analysed": 1164,
+  "executive_summary": "In highlight coverage, our most impactful placements centered on three flagship analyses: the Crypto 100 report (Fortune), our $100M gray-market peptide economy investigation (covered across Fortune, blockhead.co, Crypto Briefing, Cryptonews.net, CryptoRank, and ForkLog), and our AI security research on structural advantages for attackers (Yahoo Finance, BeInCrypto). We also secured significant institutional validation through our South Korean National Police Agency partnership MoU (Crypto Briefing, CoinMarketCap, \ub9e4\uc77c\uacbd\uc81c), INDODAX compliance integration (VOI.ID), and research on unverified DeFi contract losses ($36.7M, Binance and CoinMarketCap). In crypto news, the industry faced a $235B Bitcoin correction amid macro headwinds and AI capital flight (Bloomberg, Reuters), while stablecoin infrastructure matured with Japan's mega-banks committing to joint issuance by March 2027 and Singapore's DBS tokenizing physical gold for retail (Reuters). SpaceX tokenized IPO access via Bybit and OpenAI's pre-IPO \"superapp\" pivot dominated institutional narrative. In competitor news, Elliptic won KAST's global AML/sanctions mandate across three outlets; TRM Labs reported $14B Q1 2025 onchain gambling despite market downturn; Arkham Intelligence tracked institutional whale movements (Grayscale, Lubin wallets, Trump Media collateral); and Nansen made Fortune's Crypto Innovators 2026 list while integrating Hyperliquid perps into its terminal.",
   "mentions": [
     {
       "title": "Chainalysis Crypto 100 - Fortune",
@@ -24,6 +24,11 @@
       "source": "blockhead.co"
     },
     {
+      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
       "title": "Chainalysis Reports Surge in Gray-Market Peptide Economy, Enabled by Crypto Transactions - Crowdfund Insider",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZXhwczdqZUJQcE9ncllFdDdJbU1BeXVhWWpnNi1SZGNfai0wWUVrWkdIWi1HVHhHUklwTGZtQWlHSjNvOVZrM0lOT25ESWF5MGoxMDNLcUwzRTNKdVZpODZCRnIxMjFVYmRRMFZjb2VUYmdnbDRDeHNmdmRXUXFGLU1XMGR3VjNYQ0o1RERsS1dEUFctd0pRSkI4NElnWHFqTEZKaXlaODh5WUNtNHFuUEE0R093M1VHWW9pWWMtQVlBVVFudWJLODhNMl9ZT2dkcmc?oc=5",
       "source": "Crowdfund Insider"
@@ -34,9 +39,19 @@
       "source": "Crypto Briefing"
     },
     {
-      "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - The Block",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa3o2OEVYZHBMTkZDNXJFMlpCMHRvXzU0cHhEVUJ5RVk1emdyMmZBWno4QmRNUEl0aFVxeUJsYmdSeEVwcGoyaWtnbGlOb1EyNVdOSDc1X1NjVTYtelllT0g5LWVrcTVHQlZUam9HTVZHLU9tQ0xmaHRwaEZwNGd4RmVxZmZGeUtVQlVnTjAxZnF3OGFxRFNnbkYzNTJMQTE0TU9aTG5ydGZucFBFOEx0ZnNlV3pvbzBuQWZnSi1n?oc=5",
-      "source": "The Block"
+      "title": "Unverified DeFi contracts linked to $36.7M in losses: Chainalysis - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBONGRqNWgwaHlaQ1U1ZzAteWxQNkx0Mm1mSTZ6TlNfN1d1dmd4Y0tSWWlieTR6eWNDd241ZEVENnpWWXZEZENJeGRHeEhEMElXOVN3RHRyM1ZPVGNBN1lMZ240M2Y?oc=5",
+      "source": "Binance"
+    },
+    {
+      "title": "Chainalysis joins South Korea\u2019s crypto crime crackdown - grafa.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QTm5pc3FUaC1FYTkwX1VISlVqaEFFVlRvZTZWMDI4b1BPUXlCMkY4NVdsWkFLOTY0Nnp5Q01oX3hjRTFOMnoyZXFILU9oQ2JTMEFvZmNoN0ZBWDNPQ3VOOWZLRHdtaFV2c2NkMVpFdjhVdXRvYkprZQ?oc=5",
+      "source": "grafa.com"
+    },
+    {
+      "title": "Chainalysis and South Korean Police Sign Crypto Crime MoU - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUVFZZHVkNDdwVnVROHRxV3pIbUNYREF3RzB6d1VoTmw1amlydm1qWTVHdlFMYktpb1pIbF8tUGthWV9ZbXh4QkxCUVhpSHdFal9IcHRZLVFrazFfNG1xTFJhano2aG5IdlFYT0p6ajRJelNfMi1yekhtR29GV3V4aDVBdHRPUk1GUTdUMHRaZFRDaGlSdGpkRXl6VzNFWGlHcS1LU1duWFdSZkVOZ3EyM0dZdVlXQQ?oc=5",
+      "source": "CoinMarketCap"
     },
     {
       "title": "Chainalysis flags $36.7M tied to hidden DeFi code - grafa.com",
@@ -44,19 +59,19 @@
       "source": "grafa.com"
     },
     {
+      "title": "INDODAX Partners with Chainalysis to Strengthen Indonesian Crypto Industry Security and Compliance Standards - VOI.ID",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB5ODhZNElrLWhPb3daZEVVT2pvaWRXS3Mzb2hPcXFwVXZMb0RuQ0ozQ3QyVFAzVkFfUlgtSGs0dEcxYXp0T3hZ0gFCQVVfeXFMUDZGVTRIUUtTdnJoa1hJTGY3b1JwcllTTzZadWx0UVZVMGNGVUVfUjNPYVk3c3RpakhodkZaaUJLLTFB?oc=5",
+      "source": "VOI.ID"
+    },
+    {
+      "title": "Chainalysis, South Korean police link up to fight crypto crime - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aeExoVXlDVlJtZTlYNTBiUWlMSlhuc3JfakZNZVFZZGVRZ00yUGVoYWt4bWV2MDltTWo2eks1THZ3OEpxNk5URzRBTWJpYlhReXVGNUFFTjZ4dDZESVN1NWYySdIBY0FVX3lxTE9aeExoVXlDVlJtZTlYNTBiUWlMSlhuc3JfakZNZVFZZGVRZ00yUGVoYWt4bWV2MDltTWo2eks1THZ3OEpxNk5URzRBTWJpYlhReXVGNUFFTjZ4dDZESVN1NWYySQ?oc=5",
+      "source": "Bitget"
+    },
+    {
       "title": "Chainalysis Shares Insights on Agentic Payments Reaching Key Milestone : x402 Protocol Shows Signs of Traction on Base - Crowdfund Insider",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdEhmNll3MlNLTkJ6THNnUmxIRExkUXVwWDZDSmxtbnA0ckVRTE5HM2FteEp1bm9iM0Z3UW4xLTdxaW9wOUFvVTVpdzh6WWxtTTUzUHZYcTlQcm8yN2pYVHEzcUdsMU5LbXZzZHgxV1FTQ01jeklNeDNtbERMcGV2dWc4eUFkVHdYQ0hCd2VMRndaSEwwOVUwd2RXSmJjTnFWSXNXSGJwYkZ3bXF4N19tejJoYUhEZ18tQmdUTVZxYTNkWTRkNm1mQ2JYV0ZaOHJ2ZEdUSEpuNjg1M04yV0J6RnBzam0yeW5xQzVIQW9peFdEb3d6cDM2bA?oc=5",
       "source": "Crowdfund Insider"
-    },
-    {
-      "title": "'Looksmaxxing' Trend Spawns $100M Gray Market Fueled By Bitcoin, Stablecoins: Chainalysis - Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPamh6aEpudWxRQVppZE9ZeWNwOGs5ZFJNejQyMEp6YUpUYW4tVHdtbzVyNVV4bXVDeWJuTmFWMkxzbEpmWmFzVElweWh0UG1MaTdmZTFQbFJxV3RaaXVXeW40RU9NY2pOZ2pJVlBVZGtqZGZvUURLcmZ0WTdHMmptWGN1NjR1OEZLYzQ4elA4Z0d5TGRRcWxZeNIBoAFBVV95cUxPekgyZERpZm5iN2pWUWMzd21vRHdCQ0VzeVlaRnNGVHhXaU95RDJiaHRfTVM5eXduRDZtTHZ0RTd2Y2tzMHpTbTIwUHJCaXlHWEhENVVjcm9kR1pOWDhKZEJBa1MzVHJlSG5QNUVMcTZqRDhEZXJMVk00NWJxQXlyN0dlUWlpUklHcWM3VTNTU05CM0hRMGZ6WHktRFIzVW5U?oc=5",
-      "source": "Decrypt"
-    },
-    {
-      "title": "The National Police Agency has joined hands with global blockchain data analysis company Chainalysis.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96eUJhYlk1WU5Ka3dadU0xb2JWS01VcVdNQk5qZDR3eUJ5MWhoMGZmaGtwbzlYU2lzM2NjUFp1UmNfQTQ1cjNFUmJyZVYzcWc?oc=5",
-      "source": "매일경제"
     },
     {
       "title": "Chainalysis reports surge in gray market peptide trade using bitcoin and stablecoins - Crypto Briefing",
@@ -64,21 +79,41 @@
       "source": "Crypto Briefing"
     },
     {
+      "title": "The National Police Agency has joined hands with global blockchain data analysis company Chainalysis.. - \ub9e4\uc77c\uacbd\uc81c",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96eUJhYlk1WU5Ka3dadU0xb2JWS01VcVdNQk5qZDR3eUJ5MWhoMGZmaGtwbzlYU2lzM2NjUFp1UmNfQTQ1cjNFUmJyZVYzcWc?oc=5",
+      "source": "\ub9e4\uc77c\uacbd\uc81c"
+    },
+    {
+      "title": "Chainalysis reveals $100 million peptide market built on crypto - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51NVViQ2phRk1Od25nNkdFQTlZY3dUZXRiVGhSY0Q2dmxobHNiZm9DVUhhbmVPSnV1YWpwM05CM3lVdjNtd3V3ZnNOUlB2STB1emwtWExHSTM?oc=5",
+      "source": "Cryptonews.net"
+    },
+    {
+      "title": "Chainalysis Uncovers $100 Million Gray Market for Peptides - ForkLog",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQmMwamtRX0V4dVkwdXhxUFNndXRPOTdMVzJJSXBNb0V2bXE0NXEyMmREYk5VZzRMT28xbnd5MGRBLWU2OU8taVl6YXFpN0lDdzlQUy1HMm9mUmYzWXYzbWtTX05aemxROGFjbXBVZTh4QVZ4cmpscUM0TklkZ0FzZmQzbVlJck84?oc=5",
+      "source": "ForkLog"
+    },
+    {
       "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - Cryptonews.net",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mS1ZFSE1ITlg0d3JiZUc1SWxIX0NycmVXZDNYVFdLQ21kR3BrSXVEMlJpdGljU3lyc2dEeUk3d2ZOR3k3ZTJmQ21FU0pVQlpPM3pHbHFMX194M1U?oc=5",
       "source": "Cryptonews.net"
     },
     {
-      "title": "I bought peptides with crypto. How my purchase helped fuel a $100 million gray-market, ‘looksmaxxing’ economy",
-      "url": "https://fortune.com/2026/06/04/peptides-crypto-looksmaxxing-economy-chainalysis-report-100-million/",
-      "source": "Fortune"
+      "title": "Crypto-Powered Peptide Black Market Surpasses $100 Million Annually, Chainalysis Reveals - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMlNRcDZVYWxaYmlrb25pakNfTlV6bThROG1hYlNFVFNmRWM5RkthYjlFMnNFZ05Ocm5yd2dDdVJjUURrdnlJYTlubmFlNnh0VVptaFp1dGVQNExkSTFSbjlMQU1ja1ZnaS1lTkZCdm5xZmNNbkVVVHhwYmlkdVFJQ2ltVGszanU3dy10Z29lakRENEU?oc=5",
+      "source": "CryptoRank"
+    },
+    {
+      "title": "Crypto rails are powering a $100 million peptide gray market - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeW9OZXlMQ1haNGk2SWZFX3Q4dFdEb0wyZVJDRGxJUXpHemdNX1cyRm1KbktiTVQ3SzFmaFI1Vi1sQUFJOFl4RnA5ekMzcnYtYU9iUjBsb3pKM3N3eHBoS0wyaFV4LW9EMlJNRm00dExVTkw3djNmV01vSV9GS1dNTjR3ZzNVZWItd3IxbDVyRW0?oc=5",
+      "source": "Startup Fortune"
     }
   ],
   "narratives": [
     {
-      "title": "Gray Market Expansion via Crypto Rails",
-      "description": "Our research identified a $100M annual peptide gray market powered by Bitcoin and stablecoins, signaling crypto's role in novel illicit economies.",
-      "relevance": "We are positioned as the primary authority on emerging illicit use cases, differentiating our intelligence capabilities and supporting our compliance product roadmap.",
+      "title": "Crypto as Gray-Market Payment Rail",
+      "description": "Our peptide economy research revealed $100M+ annual illicit pharmaceutical trade via Bitcoin and stablecoins, with top-tier vendors systematizing crypto adoption.",
+      "relevance": "Positions us as the authority on crypto's role in emerging illicit verticals beyond traditional AML; validates our forensic methodology and data depth.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
@@ -90,66 +125,118 @@
           "source": "Crypto Briefing"
         },
         {
+          "title": "Chainalysis: Crypto is Bankrolling a $100M Gray-Market GLP-1 Economy - blockhead.co",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY28wWUZOWmF1dFNyMU5mcTZxaXNxdHhKdDdDNmo1RDUxMkE3RUpmcFNERVBpY3otSHctT3BDUmlPRWp1VGdISndJQlhNMFFsTzRRbnNEdWtCTUFZZXVHbHY4YkpwdEM0RUhoM0xCWUFBUXAtaUJuaEhvSmJjWXBBajh5V1ctbkJibjE4ODBzak50d1loM1hLWW9CTVJtcDJ6MEY0NjBQNmwzcFBOVi03bzBKeUQ2LW13MFFoVW9LQzUwT0tpeWlxWVBrVWpVQQ?oc=5",
+          "source": "blockhead.co"
+        },
+        {
           "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - Cryptonews.net",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mS1ZFSE1ITlg0d3JiZUc1SWxIX0NycmVXZDNYVFdLQ21kR3BrSXVEMlJpdGljU3lyc2dEeUk3d2ZOR3k3ZTJmQ21FU0pVQlpPM3pHbHFMX194M1U?oc=5",
           "source": "Cryptonews.net"
-        },
-        {
-          "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - The Block",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa3o2OEVYZHBMTkZDNXJFMlpCMHRvXzU0cHhEVUJ5RVk1emdyMmZBWno4QmRNUEl0aFVxeUJsYmdSeEVwcGoyaWtnbGlOb1EyNVdOSDc1X1NjVTYtelllT0g5LWVrcTVHQlZUam9HTVZHLU9tQ0xmaHRwaEZwNGd4RmVxZmZGeUtVQlVnTjAxZnF3OGFxRFNnbkYzNTJMQTE0TU9aTG5ydGZucFBFOEx0ZnNlV3pvbzBuQWZnSi1n?oc=5",
-          "source": "The Block"
         }
       ]
     },
     {
-      "title": "Stablecoin Infrastructure Maturation",
-      "description": "Japan's largest banks plan joint stablecoin issuance by 2027; we forecast stablecoins could process $1.5Q annually by 2035.",
-      "relevance": "Institutional stablecoin adoption increases compliance demand for our rails monitoring and settlement layer surveillance tools.",
+      "title": "Government-Private Sector Crime Partnerships",
+      "description": "Our MoU with South Korean National Police Agency signals institutional maturation of public-private crypto crime enforcement models.",
+      "relevance": "We're now embedded as critical infrastructure in sovereign law enforcement\u2014differentiates us from competitors on regulatory legitimacy and access to state-level datasets.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
       "window_days": 1,
       "articles": [
         {
-          "title": "Chainalysis reports surge in gray market peptide trade using bitcoin and stablecoins - Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93MXFkbHdTQzBMcDV3WHg1Zm9faVkyV1RBcHRsRDZhWmhCVU5RV3dWdUljQldfWFZZSXo5X2pnbXBDU2d6TklBdmctbjNZdm5NTk9XM1AzdF9idnNMa2FiMXlTdUNFQWhLM3Z6UllMU21HY2tNNWNhd2VYTE0?oc=5",
+          "title": "Chainalysis partners with South Korean police to combat crypto crime - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rd0FpUHNlTmo5Z3VrWHhxODJTNzdCaUdJRFZjOXg5M1NJeDlDWWlScUxlRmhYTUVWRFJYR3E5QXZ0Tkk2N0ZtS0tJSlozRzVJdHNvUVZLWVRVSF9vWm5nVlpQVEZ5Z2VDSU1XbTllNlFwNTBMdllpQ0VCVQ?oc=5",
           "source": "Crypto Briefing"
         },
         {
-          "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - Cryptonews.net",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mS1ZFSE1ITlg0d3JiZUc1SWxIX0NycmVXZDNYVFdLQ21kR3BrSXVEMlJpdGljU3lyc2dEeUk3d2ZOR3k3ZTJmQ21FU0pVQlpPM3pHbHFMX194M1U?oc=5",
-          "source": "Cryptonews.net"
+          "title": "Chainalysis and South Korean Police Sign Crypto Crime MoU - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUVFZZHVkNDdwVnVROHRxV3pIbUNYREF3RzB6d1VoTmw1amlydm1qWTVHdlFMYktpb1pIbF8tUGthWV9ZbXh4QkxCUVhpSHdFal9IcHRZLVFrazFfNG1xTFJhano2aG5IdlFYT0p6ajRJelNfMi1yekhtR29GV3V4aDVBdHRPUk1GUTdUMHRaZFRDaGlSdGpkRXl6VzNFWGlHcS1LU1duWFdSZkVOZ3EyM0dZdVlXQQ?oc=5",
+          "source": "CoinMarketCap"
         },
         {
-          "title": "Japan's largest banks to jointly issue stablecoins by March 2027 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd0lWS2Zhd2JHMWdMMGZZblBmcVpXdmFvNUp3dF80T1hnWG5SQ0RNVlJRRDRFTGZ4ZjdyY1Q4ZF9rWWlpeVlYelQwUk4zVzFTRE1jYzV3dFA1Y2hhRExBc1hPOEFVT3cxbDBJeTVYLWViSGhpUVk3VHk4TS1EZk1aalNuaXNzdV9heVV1Uk9ybjhJaUFVckRlNkR5NVgxN2ctS0NneHE5aE5aOGp2T0loSVhSRQ?oc=5",
-          "source": "Reuters"
+          "title": "Chainalysis, South Korean police link up to fight crypto crime - Bitget",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aeExoVXlDVlJtZTlYNTBiUWlMSlhuc3JfakZNZVFZZGVRZ00yUGVoYWt4bWV2MDltTWo2eks1THZ3OEpxNk5URzRBTWJpYlhReXVGNUFFTjZ4dDZESVN1NWYySdIBY0FVX3lxTE9aeExoVXlDVlJtZTlYNTBiUWlMSlhuc3JfakZNZVFZZGVRZ00yUGVoYWt4bWV2MDltTWo2eks1THZ3OEpxNk5URzRBTWJpYlhReXVGNUFFTjZ4dDZESVN1NWYySQ?oc=5",
+          "source": "Bitget"
         }
       ]
     },
     {
-      "title": "DeFi Smart Contract Risks Emerging",
-      "description": "We identified $36.7M in losses tied to unverified DeFi contracts, highlighting governance and verification gaps.",
-      "relevance": "Smart contract risk intelligence strengthens our DeFi monitoring capabilities and supports customer due diligence on counterparty exposure.",
+      "title": "AI Security Asymmetry in Crypto",
+      "description": "Our research found AI pipelines structurally favor attackers over defenders, with automation enabling mass exploitation of DeFi and custody systems.",
+      "relevance": "Positions us at the intersection of AI governance and crypto security; supports case for real-time monitoring and predictive threat modeling services.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
       "window_days": 1,
       "articles": [
+        {
+          "title": "AI Pipelines Give Attackers Structural Advantage Over Crypto Defenders, Chainalysis Says - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVUE0YUxyY3pva25EenNJT1N0QkRhaFppdGJsdXBLa09xUHVWVGZQbGozQl8xTzBuTktYc2RyQ1VaWUhxMDZzU0RtMWxILWlSSGx6SHFpa0VUTTJ6d1J0ZFkyWWhvSlBWaUhRS1RETXRHUnpUSzlfREltdGQ5MVFVVk1jNEVXaXpaQXRNeHVuRUJWR3I3MHc2Znh6Z2QyN0ZvakxoX1RkUDlKMm1s?oc=5",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "AI Pipelines Give Attackers Structural Advantage Over Crypto Defenders, Chainalysis Says - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QNEJNZHo5WXEwdmNQM3htanFPR3RCSGoxUVNvNHV0cjdOdTNjalFoYWdQazgta2w0Rl9BQk5LRUllbmMxblFMOGtMN2tsb3FRU3hKUVJoNkd0SExZZTlTM09NOUEwalhvRFdwOGJDNmpxT1JYSjhRVlJfcw?oc=5",
+          "source": "BeInCrypto"
+        },
         {
           "title": "Unverified DeFi contracts linked to $36.7M in losses: Chainalysis - Binance",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBONGRqNWgwaHlaQ1U1ZzAteWxQNkx0Mm1mSTZ6TlNfN1d1dmd4Y0tSWWlieTR6eWNDd241ZEVENnpWWXZEZENJeGRHeEhEMElXOVN3RHRyM1ZPVGNBN1lMZ240M2Y?oc=5",
           "source": "Binance"
+        }
+      ]
+    },
+    {
+      "title": "Stablecoin Infrastructure Scaling",
+      "description": "Japan's mega-banks target March 2027 joint stablecoin launch; Reuters forecasts $1.5Q annual throughput by 2035; institutional tokenization accelerates.",
+      "relevance": "Our stablecoin flow data and compliance frameworks become increasingly critical as central bank and institutional issuance replaces retail speculation.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Japan's largest banks to jointly issue stablecoins by March 2027 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd0lWS2Zhd2JHMWdMMGZZblBmcVpXdmFvNUp3dF80T1hnWG5SQ0RNVlJRRDRFTGZ4ZjdyY1Q4ZF9rWWlpeVlYelQwUk4zVzFTRE1jYzV3dFA1Y2hhRExBc1hPOEFVT3cxbDBJeTVYLWViSGhpUVk3VHk4TS1EZk1aalNuaXNzdV9heVV1Uk9ybjhJaUFVckRlNkR5NVgxN2ctS0NneHE5aE5aOGp2T0loSVhSRQ?oc=5",
+          "source": "Reuters"
         },
         {
-          "title": "Unverified DeFi contracts linked to $36.7M in losses: Chainalysis - MSN",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX0dmd1U2OWZGQ1hiWmtwcC0taXZXY1RZNnI1TXNURUs5Qm9sdUVaWWYtTXNQQkhUZ09VQU9EQVVlYi1ua3lCd1Z1ODc4R0VkUDloU1F6ZTlOVWgwTzVsdjJDZmNRT3VaSXZGNjkyQjJjbGQwSnpzSkF4SEx3a1hjSUZuczRUY2dHMUVSZUlJa2xnajZtMjJKS3UyNzU3MlVDMjVuZHFjZHVUUm5tSHlld2hQSzlmRENCQ0pvdHFWa0xEOHlWSGJjVA?oc=5",
-          "source": "MSN"
+          "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+          "source": "CoinMarketCap"
         },
         {
-          "title": "Chainalysis flags $36.7M tied to hidden DeFi code - grafa.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ubjRGOUFOUXBJX1h2NUM0QkJNZFcwUEJhSVM0S3NZX2MtOXEtTG5ZNl8tNU1BcHNSUUtpTnYxY29NLVltTm9YYWdXY1lJTjh5UFNHV0o2TXNBX1Z6VWRvN0piQWpkbHJuR0lUekJOU29Ia0hwaC00?oc=5",
-          "source": "grafa.com"
+          "title": "Chainalysis reports surge in gray market peptide trade using bitcoin and stablecoins - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93MXFkbHdTQzBMcDV3WHg1Zm9faVkyV1RBcHRsRDZhWmhCVU5RV3dWdUljQldfWFZZSXo5X2pnbXBDU2d6TklBdmctbjNZdm5NTk9XM1AzdF9idnNMa2FiMXlTdUNFQWhLM3Z6UllMU21HY2tNNWNhd2VYTE0?oc=5",
+          "source": "Crypto Briefing"
+        }
+      ]
+    },
+    {
+      "title": "Macro Headwinds Redirect Capital Flow",
+      "description": "$235B Bitcoin correction driven by AI megacap rotation, rate-hike uncertainty, and Treasury volatility; crypto loses lustre as alternative asset.",
+      "relevance": "Downturns historically accelerate illicit migration; we anticipate demand surge for our sanctions evasion and dark market tracking.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis reports surge in gray market peptide trade using bitcoin and stablecoins - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93MXFkbHdTQzBMcDV3WHg1Zm9faVkyV1RBcHRsRDZhWmhCVU5RV3dWdUljQldfWFZZSXo5X2pnbXBDU2d6TklBdmctbjNZdm5NTk9XM1AzdF9idnNMa2FiMXlTdUNFQWhLM3Z6UllMU21HY2tNNWNhd2VYTE0?oc=5",
+          "source": "Crypto Briefing"
+        },
+        {
+          "title": "Chainalysis says 'top-tier' gray market peptide vendors turn to bitcoin and stablecoins - Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mS1ZFSE1ITlg0d3JiZUc1SWxIX0NycmVXZDNYVFdLQ21kR3BrSXVEMlJpdGljU3lyc2dEeUk3d2ZOR3k3ZTJmQ21FU0pVQlpPM3pHbHFMX194M1U?oc=5",
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Chainalysis: Crypto is Bankrolling a $100M Gray-Market GLP-1 Economy - blockhead.co",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY28wWUZOWmF1dFNyMU5mcTZxaXNxdHhKdDdDNmo1RDUxMkE3RUpmcFNERVBpY3otSHctT3BDUmlPRWp1VGdISndJQlhNMFFsTzRRbnNEdWtCTUFZZXVHbHY4YkpwdEM0RUhoM0xCWUFBUXAtaUJuaEhvSmJjWXBBajh5V1ctbkJibjE4ODBzak50d1loM1hLWW9CTVJtcDJ6MEY0NjBQNmwzcFBOVi03bzBKeUQ2LW13MFFoVW9LQzUwT0tpeWlxWVBrVWpVQQ?oc=5",
+          "source": "blockhead.co"
         }
       ]
     }
@@ -157,15 +244,15 @@
   "top_domains": [
     {
       "name": "Market Integrity & Surveillance",
-      "count": 194
+      "count": 175
     },
     {
       "name": "AI & Compliance Automation",
-      "count": 178
+      "count": 172
     },
     {
       "name": "Sanctions & Illicit Finance",
-      "count": 121
+      "count": 128
     },
     {
       "name": "International & Emerging Markets",
@@ -173,49 +260,49 @@
     },
     {
       "name": "DeFi Regulation & Governance",
-      "count": 85
+      "count": 86
     },
     {
       "name": "National Security, Defence & Intelligence",
-      "count": 69
-    },
-    {
-      "name": "Stablecoins & Digital Payments",
-      "count": 63
+      "count": 68
     },
     {
       "name": "TradFi Integration & Institutional Adoption",
-      "count": 62
+      "count": 61
+    },
+    {
+      "name": "Stablecoins & Digital Payments",
+      "count": 54
     }
   ],
   "competitors": [
     {
       "name": "Arkham Intelligence",
       "count": 8,
-      "top_title": "Nansen named to Fortune’s Crypto Innovators 2026 list - Crypto Briefing",
+      "top_title": "Nansen named to Fortune\u2019s Crypto Innovators 2026 list - Crypto Briefing",
       "top_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kaUxOSUZMMGdfZ2hOeFlPYXhkR1VGbk42TWZUY2pwclowNWh2aWVfM3NjWkp4VkNqOXc2ZlFOLV9FZ3V1TGFGT0tFZTVyaVZGRGotQXE5bm4wanhvMnJOeWhjTXM4c1dTdVRsX2Z4NnJGM2s?oc=5",
       "top_source": "Crypto Briefing"
     },
     {
       "name": "TRM Labs",
+      "count": 4,
+      "top_title": "ISIS Supporters Charged With Using Crypto to Procure Weapons - TRM Labs",
+      "top_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdTBtSEJOOFdtYjJFRTFHTHBEd2wycnFVSmx4d21RUXY0cW9va0dXYnpuMi1zSTJadWxFOWZoajBERzFXZ1RzM284Z2UyYnp3WWRlUkloSVM1VGN5enZydl9GWjN1dTJOUWN4dVVJUnFubDdGcW1UeXY4OW1BV2NYb2dPVno4U3hIYXJPYVdkc0UzWjFEUnl6OWVySnpmdG5J?oc=5",
+      "top_source": "TRM Labs"
+    },
+    {
+      "name": "Elliptic",
       "count": 3,
-      "top_title": "Onchain gambling keeps rolling with $14B quarter despite crypto slump: TRM Labs - Cryptonews.net",
-      "top_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03UWNTVkZDS3ZKM3lqRzlhYnpWM0MwcFp3dWZFcGJyRmM3NUtzWjl6MU9PYWJqS1hXMFFIUzg5eDdGcFhVNTdsNUZqUGJLYURWMVM2Z1IwTTI4a3M?oc=5",
-      "top_source": "Cryptonews.net"
+      "top_title": "KAST chooses Elliptic digital asset decisioning for global AML and sanctions compliance - The Manila",
+      "top_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPelVJTk92S0hwLUh2akR0c29RcTNaeHJMYzRIclkwR0VyQ2Z3TGlVWk9NU3hzSkt5ZHZobk80eXV6akczYUl6NFVJd2tHemExa3hBNnZNMFRVUWQyVWg1ZUNscGx4bWJzUDVGYU81STRnYW12T2VocW81N09FUl9fVHdtREhPeklLVEtGd1VqbnM5dlJtQWVHck9PaHBaZUdCWHA2elRSNG5FOU05UUxfaTdwX0xoRGJJOS01bmlMZmNIMU1KM09OVzM2RmtCekhYc2oxUnJhUVFYRzYyS21nQTI3T2xQVnp3QW5PMUwtOXF5RFk1Nld4ZklEakhmemgy?oc=5",
+      "top_source": "The Manila Times"
     },
     {
       "name": "Nansen",
       "count": 3,
-      "top_title": "Nansen named to Fortune’s Crypto Innovators 2026 list - Crypto Briefing",
+      "top_title": "Nansen named to Fortune\u2019s Crypto Innovators 2026 list - Crypto Briefing",
       "top_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kaUxOSUZMMGdfZ2hOeFlPYXhkR1VGbk42TWZUY2pwclowNWh2aWVfM3NjWkp4VkNqOXc2ZlFOLV9FZ3V1TGFGT0tFZTVyaVZGRGotQXE5bm4wanhvMnJOeWhjTXM4c1dTdVRsX2Z4NnJGM2s?oc=5",
       "top_source": "Crypto Briefing"
-    },
-    {
-      "name": "Elliptic",
-      "count": 1,
-      "top_title": "KAST chooses Elliptic digital asset decisioning for global AML and sanctions compliance - The Manila",
-      "top_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPelVJTk92S0hwLUh2akR0c29RcTNaeHJMYzRIclkwR0VyQ2Z3TGlVWk9NU3hzSkt5ZHZobk80eXV6akczYUl6NFVJd2tHemExa3hBNnZNMFRVUWQyVWg1ZUNscGx4bWJzUDVGYU81STRnYW12T2VocW81N09FUl9fVHdtREhPeklLVEtGd1VqbnM5dlJtQWVHck9PaHBaZUdCWHA2elRSNG5FOU05UUxfaTdwX0xoRGJJOS01bmlMZmNIMU1KM09OVzM2RmtCekhYc2oxUnJhUVFYRzYyS21nQTI3T2xQVnp3QW5PMUwtOXF5RFk1Nld4ZklEakhmemgy0gGGAkFVX3lxTE9sYTIxZF92ZnVfcEEzUmNMVEJZOG0tWkhXb0RIdzRqODNpNnY4QllEVnRPT1VyN3FEVmpxWWxTbHA2cU9SeGZVU2NUREdlRDRvdG4tTE5KcnNZWlpOYWRzakN0a1VVaGZibThxaUlha2loclAzSUpSeUg3VmFZLUNGOE9iVTkyeXlGblFWbDB1djJ4c3dXaXgxTHMxNHZFTnVPWGtzX3lTcjFzVUlkX01WSVY4X3FDNnE1R0dzYlltMzk2M3ZGQ3dKNU15SGpQWHNLRUgtOWNoSFF0Nkt2bjVZcVBaMFN5MmVVY1hMQW1DckdLeFVUdkVpVmF0VHd4cFRDSWo5R1E?oc=5",
-      "top_source": "The Manila Times"
     },
     {
       "name": "Merkle Science",
@@ -248,36 +335,36 @@
   ],
   "market_landscape": [
     {
-      "title": "Institutional Crypto Infrastructure Buildout",
-      "body": "Major institutional players are accelerating digital asset infrastructure: Japan's banking consortium plans joint stablecoin launch by March 2027, Canton Network raised $355M for Wall Street onchain settlement, and SpaceX tokenized IPO access via Bybit signals mainstream asset tokenization. This infrastructure expansion directly increases compliance and monitoring demand."
+      "title": "Institutional Tokenization Inflection",
+      "body": "Japan's mega-banks committing to stablecoin infrastructure by 2027 and Singapore DBS launching tokenized gold for retail mark a structural shift from crypto speculation to sovereign/institutional settlement rails. We anticipate regulatory frameworks hardening around compliance infrastructure as on-ramps and off-ramps for these systems."
     },
     {
-      "title": "Emerging Illicit Crypto Use Cases",
-      "body": "Crypto is now fueling novel gray markets beyond traditional narcotics—our research identified a $100M annual peptide economy and ongoing $14B quarterly onchain gambling. Regulators and institutions are scrambling to understand and monitor these new use cases, creating urgency for comprehensive surveillance tools."
+      "title": "AI Security Gap Widens",
+      "body": "Attackers' structural advantage via AI automation creates asymmetric risk in DeFi and custody\u2014unverified contract losses hit $36.7M this week. Real-time forensic monitoring and predictive threat detection become table-stakes for institutional adoption."
     },
     {
-      "title": "AI-Driven Security and Compliance Risk",
-      "body": "AI automation is reshaping both attack and defense: we flagged AI pipelines giving attackers structural advantage, while competitors integrate agentic trading and analytics. Organizations must reconcile AI efficiency gains against new attack surfaces, making intelligent threat detection and compliance automation critical."
+      "title": "Macro Correction Stabilizes Illicit Demand",
+      "body": "Bitcoin's $235B correction and capital reallocation to AI/megacaps historically increase dark market and sanctions-evasion activity as volatility hedges. Law enforcement and sanctions intelligence become countercyclical revenue drivers for compliance vendors."
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 💡 💡 💡 Elliptic secured a compliance decisioning deal with KAST in The Manila Times.",
-    "TRM Labs": "💡 💡 💡 💡 TRM reported $14B in Q1 onchain gambling activity, establishing market surveillance expertise; also joined Binance's expanded T3+ anti-crime initiative, deepening law enforcement partnerships.",
-    "Arkham Intelligence": "💡 💡 💡 💡 Arkham gained visibility through high-profile wallet tracking analysis (Trump Media collateral pledge, whale Ethereum movements).",
-    "Nansen": "💡 💡 💡 💡 Nansen secured Fortune's Crypto Innovators 2026 recognition and launched Hyperliquid perps integration, pivoting from pure analytics toward a trading terminal."
+    "Elliptic": "Secured KAST's global AML/sanctions decisioning mandate (Manila Times, MonitorRiau, Sin Chew Daily)\u2014signals traction in Southeast Asia compliance but narrower institutional footprint than our multi-jurisdiction law enforcement partnerships.",
+    "TRM Labs": "$14B Q1 2025 onchain gambling report (Crypto Briefing, Cryptonews, CoinMarketCap) establishes their niche in gaming analytics, but no law enforcement or emerging-economy traction comparable to our South Korea MoU.",
+    "Arkham Intelligence": "Positioned as onchain transparency tool via whale tracking (Grayscale $32M moves, Trump Media collateral) and Fortune Crypto Innovators nod\u2014gaining traction in institutional alerting but lacks our regulatory partnership depth.",
+    "Nansen": "Made Fortune's Crypto Innovators 2026 and integrated Hyperliquid perps trading\u2014shifting from pure analytics to trading terminal; competing on UX/feature velocity rather than compliance/enforcement credibility where we lead."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
   "mention_categories": {
     "mainstream": 3,
-    "crypto": 7,
+    "crypto": 5,
     "fintech": 2,
-    "blog": 3,
+    "blog": 4,
     "niche": 16
   },
   "sentiment": {
-    "positive": 22,
-    "neutral": 8,
-    "negative": 0
+    "positive": 24,
+    "neutral": 5,
+    "negative": 1
   }
 }
