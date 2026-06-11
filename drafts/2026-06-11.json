@@ -6,7 +6,7 @@
   "competitor_total": 16,
   "persistent_count": 0,
   "articles_analysed": 1129,
-  "executive_summary": "In highlight coverage, our most impactful placements this week centered on three major research findings: our Crypto 100 report in Fortune positioned us as institutional thought leaders; our $100M gray-market peptide economy analysis across Fortune, Decrypt, The Block, and Cryptonews.net established us as the definitive source on emerging illicit use cases; and our AI security research in Yahoo Finance underscored our relevance to enterprise crypto defenders. We also secured strategic partnership coverage with South Korean police (Crypto Briefing, CoinMarketCap, 매일경제) and INDODAX (VOI.id), plus research on $36.7M in DeFi losses across Binance and MSN. In crypto news, major developments included Japan's three largest banks announcing joint stablecoin issuance by March 2027 (Reuters), Canton Network raising $355M to bring Wall Street onchain (CoinDesk), and Bybit launching SpaceX tokenized IPO access (Reuters). In competitor news, Arkham gained visibility through Trump Media collateral analysis on Stocktwits; Nansen secured Fortune's Crypto Innovators 2026 recognition; TRM Labs reported $14B in Q1 onchain gambling; and Elliptic won KAST compliance deal via The Manila Times.",
+  "executive_summary": "In highlight coverage, our most impactful placements this week centered on two major research findings: our $100M gray-market peptide economy analysis across Fortune, Decrypt, The Block, and Cryptonews.net established us as the definitive source on emerging illicit use cases; and our AI security research in Yahoo Finance underscored our relevance to enterprise crypto defenders. We also secured strategic partnership coverage with South Korean police (Crypto Briefing, CoinMarketCap, 매일경제) and INDODAX (VOI.id), plus research on $36.7M in DeFi losses across Binance and MSN. In crypto news, major developments included Japan's three largest banks announcing joint stablecoin issuance by March 2027 (Reuters), Canton Network raising $355M to bring Wall Street onchain (CoinDesk), and Bybit launching SpaceX tokenized IPO access (Reuters). In competitor news, Arkham gained visibility through Trump Media collateral analysis on Stocktwits; Nansen secured Fortune's Crypto Innovators 2026 recognition; TRM Labs reported $14B in Q1 onchain gambling; and Elliptic won KAST compliance deal via The Manila Times.",
   "mentions": [
     {
       "title": "Chainalysis Crypto 100 - Fortune",
@@ -261,10 +261,10 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 💡 Elliptic secured a compliance decisioning deal with KAST in The Manila Times.",
-    "TRM Labs": "💡 💡 TRM reported $14B in Q1 onchain gambling activity, establishing market surveillance expertise; also joined Binance's expanded T3+ anti-crime initiative, deepening law enforcement partnerships.",
-    "Arkham Intelligence": "💡 💡 Arkham gained visibility through high-profile wallet tracking analysis (Trump Media collateral pledge, whale Ethereum movements).",
-    "Nansen": "💡 💡 Nansen secured Fortune's Crypto Innovators 2026 recognition and launched Hyperliquid perps integration, pivoting from pure analytics toward a trading terminal."
+    "Elliptic": "💡 💡 💡 Elliptic secured a compliance decisioning deal with KAST in The Manila Times.",
+    "TRM Labs": "💡 💡 💡 TRM reported $14B in Q1 onchain gambling activity, establishing market surveillance expertise; also joined Binance's expanded T3+ anti-crime initiative, deepening law enforcement partnerships.",
+    "Arkham Intelligence": "💡 💡 💡 Arkham gained visibility through high-profile wallet tracking analysis (Trump Media collateral pledge, whale Ethereum movements).",
+    "Nansen": "💡 💡 💡 Nansen secured Fortune's Crypto Innovators 2026 recognition and launched Hyperliquid perps integration, pivoting from pure analytics toward a trading terminal."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
