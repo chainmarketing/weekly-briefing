@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-06-11",
+    "url": "briefings/2026-06-11.html",
+    "mentions": 13,
+    "narrative": 702,
+    "competitor_total": 16,
+    "persistent_count": 0,
+    "emerging_count": 3,
+    "articles_analysed": 1129,
+    "mention_categories": {
+      "mainstream": 3,
+      "crypto": 7,
+      "fintech": 2,
+      "blog": 3,
+      "niche": 16
+    },
+    "sentiment": {
+      "positive": 22,
+      "neutral": 8,
+      "negative": 0
+    },
+    "competitors": {
+      "Arkham Intelligence": 8,
+      "TRM Labs": 3,
+      "Nansen": 3,
+      "Elliptic": 1,
+      "Merkle Science": 1,
+      "CipherTrace": 0,
+      "Crystal Intelligence": 0,
+      "Solidus Labs": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 194
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 178
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 121
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 90
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 85
+      },
+      {
+        "name": "National Security, Defence & Intelligence",
+        "count": 69
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 63
+      },
+      {
+        "name": "TradFi Integration & Institutional Adoption",
+        "count": 62
+      }
+    ],
+    "narratives": [
+      "Gray Market Expansion via Crypto Rails",
+      "Stablecoin Infrastructure Maturation",
+      "DeFi Smart Contract Risks Emerging"
+    ],
+    "headline": "In highlight coverage, our most impactful placements this week centered on two major research findings: our $100M gray-market peptide economy analysis across Fortune, Decrypt, The Block, and Cryptonew"
+  },
+  {
     "date": "2026-06-04",
     "url": "briefings/2026-06-04.html",
     "mentions": 11,
