@@ -2,11 +2,11 @@
   "date": "2026-06-29",
   "date_display": "June 29, 2026",
   "mentions_count": 6,
-  "narrative_count": 685,
+  "narrative_count": 683,
   "competitor_total": 22,
   "persistent_count": 0,
-  "articles_analysed": 1130,
-  "executive_summary": "In highlight coverage, our India crypto adoption ranking secured third consecutive year recognition in Crypto Briefing, while our sanctions enforcement work against ISIS-linked operators appeared in Crowdfund Insider and our own OFAC analysis. We elevated our policy credibility with Mary Elizabeth Taylor's Chief Policy Officer appointment covered by FF News, and expanded our compliance footprint through a Safaricom partnership targeting illegal wildlife trade financing featured in Cryptonews.net. In crypto news, spot Bitcoin ETF outflows hit $4 billion in the worst month on record (CoinDesk), Polymarket surged past $1 billion annualized revenue before suffering a $3.1 million hack (Reuters, CoinDesk), and Bank of England softened stablecoin rules in final policy draft (Reuters). In competitor news, TRM Labs dominated illicit finance narrative with exclusive CoinEx-Iran gateway investigation ($3.8 billion in sanctioned flows) across The Block, WSJ, and CoinDesk; Elliptic secured FBI partnership takedown of $134 billion Huione criminal network (FF News); and Merkle Science expanded wallet screening integrations with Request Network (CryptoPotato, ZyCrypto).",
+  "articles_analysed": 1135,
+  "executive_summary": "In highlight coverage, our India crypto adoption ranking earned prominent placement in Crypto Briefing for the third consecutive year, while our policy leadership elevated visibility as Treasury Department sources cited our sanctions analysis on ISIS-linked networks in Crowdfund Insider. Our appointment of former Robinhood VP Mary Elizabeth Taylor as Chief Policy Officer generated leadership thought leadership in FF News, and our Safaricom partnership on illicit wildlife trade detection demonstrated real-world compliance impact in Cryptonews.net. In crypto news, TRM Labs dominated with exclusive WSJ and CoinDesk coverage of CoinEx processing $3.8 billion in Iran-linked transactions, positioning compliance intelligence as critical infrastructure; Tether's $23 billion gold-backed lending program signaled stablecoin evolution beyond payments in CoinDesk; and MiCA deadline enforcement drove unlicensed firm exit narratives across CoinDesk and Bloomberg. In competitor news, Elliptic secured FBI partnership coverage on $134 billion Huione takedown in FF News; Arkham Intelligence surfaced Ethereum Foundation staff cuts and whale tracking narratives across thedefiant.io; CipherTrace closed Mastercard acquisition in FF News; and Merkle Science expanded wallet screening integrations across CryptoPotato and Crypto Briefing.",
   "mentions": [
     {
       "title": "Chainalysis ranks India as top country for crypto adoption for third year running - Crypto Briefing",
@@ -41,49 +41,75 @@
   ],
   "narratives": [
     {
-      "title": "Illicit Finance & Sanctions Enforcement Acceleration",
-      "description": "Law enforcement intensifying crypto sanctions enforcement with high-profile takedowns and network disruptions targeting Iran and terror financing.",
-      "relevance": "Our OFAC sanctions analysis and ISIS operator reporting validate our core compliance positioning; positions us as enforcement partner-of-choice against TRM Labs and Elliptic in regulatory channels.",
+      "title": "Compliance Intelligence as Law Enforcement Infrastructure",
+      "description": "TRM Labs, Elliptic, and our sanctions work position blockchain intelligence as essential to federal crime and sanctions enforcement operations.",
+      "relevance": "We are positioned as trusted authority on illicit finance detection; increased law enforcement adoption validates our core value proposition and creates regulatory tailwinds for our market.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
       "window_days": 1,
       "articles": [
         {
-          "title": "OFAC Sanctions ISIS Operators for Financing Terror Group with Crypto",
-          "url": "https://www.chainalysis.com/blog/ofac-sanctions-isis-financial-facilitators-june-2026/",
-          "source": "Chainalysis Blog"
+          "title": "Law enforcement groups warn Clarity Act could hinder crypto crime investigations - The Block",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNUxpVmNheGg1ZjVtTFF1MFA0SUJyZXRGRVB5Y3NDakRRMnFHS1RoRVd1V3ZhM0RSYXJjYWYtSGxQZnBJdzBYNWhJZG5wbFQzUG1OZ3RVRS10aHV3bkdtTk13OXdmMm96T2Ryd1JGakEyaHJBMUlxeFY5YnhsN3N4WA?oc=5",
+          "source": "The Block"
+        },
+        {
+          "title": "SEC Admits Certain Past Crypto Enforcement Helped No Investors - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdm5VU01ZVXdHUVVVcWlnUzQwczE2WWRVUDFxX0ZpNk9jaTkzQjlQV2dBUHVralEyQ3ZscXduWFl0b2VaVHZXc2pOaUtlMnFOdmdXbmhWR0JuZkNnbEpxb2pNazN2ZHctQ0JUZG0zQ2VMTEVIT0dqVjBxcjdLQ2M2cmItQ2wwMnY0SDlZSzRjMHh3V0djbldNOGdQZzBTeHpUaUpWd1ptcw?oc=5",
+          "source": "CoinMarketCap"
         },
         {
           "title": "US Department of Treasury Targets Crypto-Enabled Networks Supporting ISIS in June 2026 Sanctions - Crowdfund Insider",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV0ZZZEd4S2Rha0xPZ3JBMmM3a1dDTzhtcWFPbHliUWxYWFFfTjZBTFVZUWJUdFZETmxBNFI5azNUNUVBTi1ZSktrN3NqM2RSM0pyOHczNmxYY1ZvaENOa1lSQjBDQmlheFEzOElMUEQxcFZXWERLZmlteHRsb3dpSUFvTlZESTI0QWF2dWRZanFmbHNvUGFZZHA5cWhqT0lKU0h0TzhHdE5ST3ZDRnk4QjF4WW9HQmx1OWRhamxMcHE5dGpDdmF5ekY0NWtxYm9GQXROQ3haS1d0THVLTFE?oc=5",
           "source": "Crowdfund Insider"
-        },
-        {
-          "title": "Law enforcement groups warn Clarity Act could hinder crypto crime investigations - The Block",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNUxpVmNheGg1ZjVtTFF1MFA0SUJyZXRGRVB5Y3NDakRRMnFHS1RoRVd1V3ZhM0RSYXJjYWYtSGxQZnBJdzBYNWhJZG5wbFQzUG1OZ3RVRS10aHV3bkdtTk13OXdmMm96T2Ryd1JGakEyaHJBMUlxeFY5YnhsN3N4WA?oc=5",
-          "source": "The Block"
         }
       ]
     },
     {
-      "title": "Institutional Bitcoin ETF Volatility & Capital Flight",
-      "description": "Spot Bitcoin ETF outflows totaling $4 billion signal institutional hesitation amid market fragility and competing asset class competition from AI stocks.",
-      "relevance": "Market surveillance capability differentiates us from competitors; retail retreat data informs institutional compliance onboarding strategies we can monetize through surveillance products.",
+      "title": "Regulatory Crackdown Reshaping Market Structure",
+      "description": "MiCA enforcement, FBI Huione seizure, and DOJ money-laundering crackdowns are forcing unlicensed operators and bad actors to exit, consolidating the ecosystem.",
+      "relevance": "Regulatory clarity strengthens our position with compliant institutions while creating demand for transparency tools among surviving platforms and institutional entrants.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
       "window_days": 1,
       "articles": [
         {
-          "title": "Bitcoin\u2019s Retreating Retail Army Exposes Fresh Market Fragility - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMnFmTVljZklrd0tfUWZhZVlwbVZaNnBmZnZqRng2ZlRtR1RyMG9weVZKUmhETl9ienRmeF9zODVLT19JNHo3ek8ybV9LTVJKeHpQanNCbGpqSjZDLXptMTVEZEFaY3c1cDBPd0xSWGpzcVdoSFBLbzViRkFJTkpYLTlyS2ZCWndEekFXTjBXeGZEc2VJb3VwU0NwWFc1alJ0ajZUYW9EYTZBcFhUcld5ZU16OW0?oc=5",
-          "source": "Bloomberg.com"
+          "title": "Europe\u2019s unlicensed crypto firms face \u2018wipeout\u2019 as MiCA deadline hits",
+          "url": "https://www.coindesk.com/policy/2026/06/29/europe-s-unlicensed-crypto-firms-face-wipeout-as-final-regulatory-deadline-falls",
+          "source": "CoinDesk"
         },
         {
-          "title": "Bullish Bitcoin RSI divergence has analysts calling for 2022-style bear market bottom",
-          "url": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-sees-analysis-call-2022-bottom-repeat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "DOJ Seizes Huione Cloud Backbone In Crypto Scam Money-Laundering Crackdown - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNekVnQk5aTmQ1Tk1zTTllbVhPckpxYy04ZFBnTUVuX2dtUmZZSEFsdF9NazB4ZHVNZ0tzd1RUUnNMREZXc2ZlWUlpZnRXVUxBUndCalBEVGE0YVduNDVFTmQwUzd6cFZPVVdldG9KRjJjSE9zN3ZkdU1OQmZqbC1SaGdzdllJczMyekxoYkk2bWRCLUp0UmUtLTVqSGpQTUtwd294c0tOUEgzWDd3clZFZTlLakFXRURTRzhQQ3Y2VDdhd0dPV1J0aUwzN3I?oc=5",
+          "source": "TradingView"
+        },
+        {
+          "title": "Germany leads MiCA crypto authorization race as Europe's deadline looms",
+          "url": "https://cointelegraph.com/news/mica-licenses-cluster-germany-total-reach-244?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source": "CoinTelegraph"
+        }
+      ]
+    },
+    {
+      "title": "Institutional Adoption Hitting Technical Headwinds",
+      "description": "Spot Bitcoin ETFs lost $4 billion in worst month on record amid retail outflows and macro uncertainty, exposing fragility in institutional onramp narratives.",
+      "relevance": "Market volatility may slow institutional adoption cycles we track; however, regulatory clarity positions us as essential compliance infrastructure for serious institutional players.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis ranks India as top country for crypto adoption for third year running - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RazlJcHNvMzNXX0ZBYjQwWm1LOHlBdXdJcnBGNlpWcXh6OGd3cDlPM0s5aDNoY1Jxalh2dnZpajlCVkc4OXRtY0NzVjRjM194VTgyMm9nWGFuUldraEMwc0hQaEVuckFyazdVWkJ5ODd2bmx6T3dlZUZ3?oc=5",
+          "source": "Crypto Briefing"
+        },
+        {
+          "title": "Bitcoin\u2019s Retreating Retail Army Exposes Fresh Market Fragility - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMnFmTVljZklrd0tfUWZhZVlwbVZaNnBmZnZqRng2ZlRtR1RyMG9weVZKUmhETl9ienRmeF9zODVLT19JNHo3ek8ybV9LTVJKeHpQanNCbGpqSjZDLXptMTVEZEFaY3c1cDBPd0xSWGpzcVdoSFBLbzViRkFJTkpYLTlyS2ZCWndEekFXTjBXeGZEc2VJb3VwU0NwWFc1alJ0ajZUYW9EYTZBcFhUcld5ZU16OW0?oc=5",
+          "source": "Bloomberg"
         },
         {
           "title": "Bitcoin dips to $59,700 as Iran de-escalation lifts stocks but not crypto",
@@ -93,80 +119,54 @@
       ]
     },
     {
-      "title": "Stablecoin Regulatory Softening & Policy Clarity",
-      "description": "Bank of England and international regulators moderating stablecoin rules, reducing FX risk concerns and clarifying reserve requirements for payment tokens.",
-      "relevance": "Policy tailwinds create compliance demand for stablecoin transaction monitoring; Taylor's appointment positions us to capitalize on emerging regulatory frameworks.",
+      "title": "Stablecoins Evolving Beyond Payments",
+      "description": "Tether's gold-backed lending and BIS warnings on stablecoin-as-ETF risks signal stablecoins are becoming financial infrastructure, not just payment rails.",
+      "relevance": "Stablecoin complexity increases compliance monitoring demand; our work on Safaricom payments and sanctions networks positions us as authorities on emerging use cases.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
       "window_days": 1,
       "articles": [
         {
-          "title": "Bank of England softens stablecoin rules in final policy draft - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbVg2cVNqSVR0a0E0RTJ2WkNwNmVLYXNUMzd6eGwxLTQ5VG5IWkMzWGNOeXk0M3dqT1J5TDkyUU5fcFZ1dk5XMndRWVl5M3A4QTMzeVN5OVJzQV9JZUdUdzUxeVJFd2F5dlBlNG85MVZ0Nk1ybE5tbzIyc296T3FVZUtDSC04bE92ME12MnM5bUtMMnotb1RmZ1RCb3NIcEE?oc=5",
-          "source": "Reuters"
+          "title": "BIS warns stablecoins risk fragmenting global financial system",
+          "url": "https://cointelegraph.com/news/bis-warns-stablecoins-risk-fragmenting-global-financial-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph"
         },
         {
-          "title": "Chainalysis Names Former Robinhood VP Mary Elizabeth Taylor as Chief Policy Officer - FF News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWXUtLU50Yi1Mb2lPRC1UQTIwOUg0a19zOUcwbWFQTjNGY1F2NTdLYXU1R1k2NllJWElhVmJzaDJhLVBzVk43aEpxUjFSQ08wUUtQRE9PNXNzalA4Wm0zeHQ0QkdwU1hSWVpGR0JQOWs3eWdra2RJRnI0bTJTMUlNbFhkR2VYZTRCQ3ZYcVNPeEZWNWVUZ2E0d0wtTW1YVzdfOXppVWd4bFkwTjg?oc=5",
-          "source": "FF News"
+          "title": "BIS warns stablecoins are more like ETFs than actual money, and they're creating FX risk",
+          "url": "https://www.coindesk.com/markets/2026/06/29/bis-warns-stablecoins-are-more-like-etfs-than-actual-money-and-they-re-creating-fx-risk",
+          "source": "CoinDesk"
         },
         {
-          "title": "Crypto Weekly: Stablecoin rules soften, blockchain stocks beckon - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1S3MwNldycDJBU1JOb29QTktjUXVIeVJEX1dLZEUyMXJZbDdwWlJRdERUU0d0RU1wb0puM1ZvbzczY2s1RnRlbTZJTnlIQ00yOEdWSlc5MEpBazRycjc5UUpMbjRYWkE?oc=5",
-          "source": "Reuters"
+          "title": "Excessive AI spending risks global financial consequences, BIS warns",
+          "url": "https://cointelegraph.com/news/bis-sounds-alarm-on-ai-exuberance-as-debt-fueled-boom-risks-bust?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph"
         }
       ]
     },
     {
-      "title": "Crypto-to-AI Capital Competition Intensifying",
-      "description": "South Korea's $518 billion AI chip investment and Bitcoin losing capital race signals institutional capital flow away from crypto toward AI infrastructure.",
-      "relevance": "Market dynamics underscore value of our AI-powered compliance automation; positions AI & Compliance Automation as growth vector against competitors lacking machine learning depth.",
+      "title": "Global AI and Compliance Automation Race",
+      "description": "South Korea's $518 billion AI chip investment, Santander's 3,000 job cuts for AI, and emerging crypto-AI financing narratives underscore capital flowing to AI over crypto.",
+      "relevance": "Competitive pressure to embed AI into compliance tools; our sandbox work and automation narratives differentiate us in an evolving market.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
       "window_days": 1,
       "articles": [
         {
-          "title": "South Korea\u2019s $518 billion AI chip push shows crypto is still losing the capital race",
-          "url": "https://www.coindesk.com/markets/2026/06/29/south-korea-s-usd518-billion-ai-chip-push-shows-crypto-is-still-losing-the-capital-race",
+          "title": "Crypto's next frontier isn't crypto, it's financing AI and robotics, Framework's Anderson says",
+          "url": "https://www.coindesk.com/business/2026/06/28/crypto-s-next-frontier-isn-t-crypto-it-s-financing-ai-and-robotics-framework-s-anderson-says",
           "source": "CoinDesk"
+        },
+        {
+          "title": "OFAC Sanctions ISIS Operators for Financing Terror Group with Crypto",
+          "url": "https://www.chainalysis.com/blog/ofac-sanctions-isis-financial-facilitators-june-2026/",
+          "source": "Chainalysis Blog"
         },
         {
           "title": "What Robinhood\u2019s recent layoffs say about the current state of crypto investments",
           "url": "https://www.coindesk.com/opinion/2026/06/27/what-robinhood-s-recent-layoffs-say-about-the-current-state-of-crypto-investments",
           "source": "CoinDesk"
-        },
-        {
-          "title": "Chainalysis ranks India as top country for crypto adoption for third year running - Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RazlJcHNvMzNXX0ZBYjQwWm1LOHlBdXdJcnBGNlpWcXh6OGd3cDlPM0s5aDNoY1Jxalh2dnZpajlCVkc4OXRtY0NzVjRjM194VTgyMm9nWGFuUldraEMwc0hQaEVuckFyazdVWkJ5ODd2bmx6T3dlZUZ3?oc=5",
-          "source": "Crypto Briefing"
-        }
-      ]
-    },
-    {
-      "title": "Emerging Markets Consolidation & Cross-Border Expansion",
-      "description": "SBI's $289 million Bitbank deal and Binance's MiCA licensing failure signal consolidation in Japan and EU market share battles among exchanges.",
-      "relevance": "Cross-border transaction visibility and regional compliance expertise differentiate us; enables product positioning around consolidation winners and emerging market entry strategies.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
-      "window_days": 1,
-      "articles": [
-        {
-          "title": "SBI's $289 million Bitbank deal is symptomatic of Japan's crypto consolidation: Architect Partners",
-          "url": "https://www.coindesk.com/business/2026/06/28/sbi-s-usd289-million-bitbank-deal-is-symptomatic-of-japan-s-crypto-consolidation-architect-partners",
-          "source": "CoinDesk"
-        },
-        {
-          "title": "Chainalysis ranks India as top country for crypto adoption for third year running - Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RazlJcHNvMzNXX0ZBYjQwWm1LOHlBdXdJcnBGNlpWcXh6OGd3cDlPM0s5aDNoY1Jxalh2dnZpajlCVkc4OXRtY0NzVjRjM194VTgyMm9nWGFuUldraEMwc0hQaEVuckFyazdVWkJ5ODd2bmx6T3dlZUZ3?oc=5",
-          "source": "Crypto Briefing"
-        },
-        {
-          "title": "US Department of Treasury Targets Crypto-Enabled Networks Supporting ISIS in June 2026 Sanctions - Crowdfund Insider",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV0ZZZEd4S2Rha0xPZ3JBMmM3a1dDTzhtcWFPbHliUWxYWFFfTjZBTFVZUWJUdFZETmxBNFI5azNUNUVBTi1ZSktrN3NqM2RSM0pyOHczNmxYY1ZvaENOa1lSQjBDQmlheFEzOElMUEQxcFZXWERLZmlteHRsb3dpSUFvTlZESTI0QWF2dWRZanFmbHNvUGFZZHA5cWhqT0lKU0h0TzhHdE5ST3ZDRnk4QjF4WW9HQmx1OWRhamxMcHE5dGpDdmF5ekY0NWtxYm9GQXROQ3haS1d0THVLTFE?oc=5",
-          "source": "Crowdfund Insider"
         }
       ]
     }
@@ -174,15 +174,15 @@
   "top_domains": [
     {
       "name": "Market Integrity & Surveillance",
-      "count": 204
+      "count": 199
     },
     {
       "name": "AI & Compliance Automation",
-      "count": 157
+      "count": 158
     },
     {
       "name": "Sanctions & Illicit Finance",
-      "count": 123
+      "count": 116
     },
     {
       "name": "International & Emerging Markets",
@@ -190,19 +190,19 @@
     },
     {
       "name": "DeFi Regulation & Governance",
-      "count": 60
+      "count": 66
     },
     {
       "name": "Stablecoins & Digital Payments",
-      "count": 56
+      "count": 59
     },
     {
       "name": "MiCA & EU Regulation",
-      "count": 49
+      "count": 52
     },
     {
       "name": "National Security, Defence & Intelligence",
-      "count": 48
+      "count": 47
     }
   ],
   "competitors": [
@@ -215,14 +215,14 @@
     },
     {
       "name": "Merkle Science",
-      "count": 6,
+      "count": 7,
       "top_title": "Request Network Introduces One-Click Cross-Chain Mass Payouts and Expands Wallet Screening With Merk",
       "top_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbWFtWGVBejR3M2lrZEdpdU9mSE53TUVKajlic3ZSeW56Y3M3a3FTWlh0LUtVN2YxZmxSckF3cm0yNXJ5Z0pua0JoNTR2bFhVWW1iVXdiWE8yY3d2YlIzVFFvWjRCTTNNNklzU2dIRTFOZDV6Unhwal9HeFc0Mm02RUdsQnZTTncycHdsMnExVVZ5UFVGblpKR3pPRUNVeFVjZC1HVjd3U2txd2dwUWxRZFBvZ2JoTDdhclVHQ3ZIVmVQcWpYZFBwZ29Ra0prYUh3MXc?oc=5",
       "top_source": "CryptoPotato"
     },
     {
       "name": "Arkham Intelligence",
-      "count": 4,
+      "count": 3,
       "top_title": "Ethereum Foundation Cuts 20% of Staff in Sweeping Reorganization - thedefiant.io",
       "top_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcHcxSEVWRDRQem5SOFRBVlJjOHg5TFZaWDliTWpOeFNhS0FvMGl2SzRrek9WWTF0b1B2T242NnA4U2Jjc1lscGhRcS1oLWJEMlVCUUpRS0VYUXpPaHN2bTZNb2V6Q20tT3JRNUgxdEh3el9XM0N2LWhqczN5ZGhiNW5zek9WVnBVZ3NaV0YzQ0F0WHJlMDcxZzNMNA?oc=5",
       "top_source": "thedefiant.io"
@@ -265,28 +265,28 @@
   ],
   "market_landscape": [
     {
-      "title": "Institutional Confidence Cracking",
-      "body": "Bitcoin ETF outflows of $4 billion mark worst month on record, with retail army retreating as market volatility exposes fragility; Michael Saylor's MicroStrategy losses and Ripple CEO criticism of bitcoin accumulation strategy signal institutional consensus breakdown."
+      "title": "Enforcement Reshaping Ecosystem",
+      "body": "FBI, DOJ, and Treasury crackdowns on ISIS funding, Huione money laundering, and Iran sanctions are accelerating exit of bad actors and unlicensed platforms, consolidating around compliant players. Compliance intelligence tools are now central to law enforcement playbooks, validating blockchain transparency as geopolitical infrastructure."
     },
     {
-      "title": "Regulatory Framework Stabilizing",
-      "body": "Bank of England softens stablecoin rules, MiCA enforcement pressures consolidate EU exchanges, and US Treasury sanctions precision against ISIS operators indicates mature regulatory infrastructure; policy clarity reduces compliance friction but increases enforcement intensity."
+      "title": "Institutional Adoption Stalling",
+      "body": "Spot Bitcoin ETFs posted worst month on record with $4 billion in outflows as retail demand retreated amid macro headwinds, exposing fragility in TradFi integration narratives. Technical support levels breaking and capital flowing to AI infrastructure signal institutional appetite cooling for immediate crypto exposure."
     },
     {
-      "title": "Capital Reallocation Away From Crypto",
-      "body": "South Korea's $518 billion AI infrastructure push, Polymarket capture of prediction market revenue, and AI agent emergence redirect institutional capital toward adjacent tokenized assets and autonomous systems; crypto loses hardware and infrastructure investment race."
+      "title": "Stablecoins and Tokenization Diverging",
+      "body": "Stablecoins are evolving into complex financial instruments\u2014Tether's gold-backed lending and BIS warnings on FX risk reframe them as ETF-like products rather than simple payment rails. Tokenized securities and AI financing are emerging as higher-conviction capital allocation vectors than traditional crypto infrastructure."
     }
   ],
   "competitor_reads": {
-    "TRM Labs": "Dominated illicit finance narrative this week with exclusive CoinEx-Iran gateway story ($3.84 billion in sanctioned flows) across WSJ, The Block, and CoinDesk\u2014signaling aggressive investigative positioning but concentrated on single high-profile case rather than diversified compliance solutions.",
-    "Elliptic": "Leveraged FBI partnership for $134 billion Huione takedown coverage (FF News) and closed $60 million funding round, positioning as law enforcement-embedded intelligence provider; contrasts with our broader policy and institutional adoption narrative.",
-    "Merkle Science": "Expanded wallet screening integrations through Request Network partnerships and gained inclusion in \"Top Blockchain Intelligence Tools\" roundups (Blockchain Council), suggesting incremental feature expansion over transformative market positioning.",
-    "Arkham Intelligence": "Covered Ethereum Foundation 20% staff cuts and whale transfer analysis, maintaining focus on on-chain data commentary and market research rather than compliance or institutional use cases.",
-    "Solidus Labs": "Positioned market microstructure expertise via trading cost analysis in Traders Magazine\u2014niche buy-side focus signals narrow competitive footprint outside institutional surveillance space.",
-    "CipherTrace": "Integrated into Mastercard acquisition close (FF News), suggesting consolidation into traditional fintech rather than pure-play crypto compliance positioning."
+    "TRM Labs": "Dominated enforcement narrative with exclusive WSJ and CoinDesk coverage of CoinEx Iran sanctions investigation, establishing them as primary intelligence source for major financial crime cases and positioning compliance intelligence as dealmaker with law enforcement.",
+    "Elliptic": "Secured high-profile FBI partnership on $134 billion Huione criminal network takedown in FF News and raised $60 million, signaling strong market validation and resources to compete on scale of law enforcement relationships.",
+    "CipherTrace": "Closed Mastercard acquisition, positioning blockchain security within traditional fintech infrastructure and signaling consolidation play toward enterprise payment integration.",
+    "Arkham Intelligence": "Leveraged on-chain data analysis to surface high-stakes whale movements and organizational upheaval (Ethereum Foundation cuts), establishing real-time chain surveillance as investable narrative without direct regulatory/compliance positioning.",
+    "Merkle Science": "Expanded wallet screening integrations with Request Network and emerging DeFi platforms, positioning compliance as embedded middleware in payment and tokenized asset ecosystems.",
+    "Solidus Labs": "Positioned buy-side compliance gaps around true digital asset trading costs in Traders Magazine, targeting institutional risk management narratives distinct from law enforcement focus."
   },
-  "seizure_value": "",
-  "seizure_cases": "",
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
   "mention_categories": {
     "mainstream": 0,
     "crypto": 2,
@@ -295,8 +295,8 @@
     "niche": 1
   },
   "sentiment": {
-    "positive": 4,
-    "neutral": 2,
+    "positive": 5,
+    "neutral": 1,
     "negative": 0
   }
 }
