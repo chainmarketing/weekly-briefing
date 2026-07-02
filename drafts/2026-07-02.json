@@ -1,0 +1,369 @@
+{
+  "date": "2026-07-02",
+  "date_display": "July 02, 2026",
+  "mentions_count": 23,
+  "narrative_count": 629,
+  "competitor_total": 20,
+  "persistent_count": 0,
+  "articles_analysed": 1153,
+  "executive_summary": "In highlight coverage, our most impactful earned media placements this week centered on three strategic initiatives: our proposal for blockchain tracing standards published in CoinDesk, PYMNTS.com, and Crypto Briefing positioning us as thought leaders on data quality and compliance standardization; our analysis of OFAC's ISIS-K sanctions expansion across Tether/TRON wallets covered by CoinDesk, CoinTelegraph, BeInCrypto, and TradingView establishing us as the authoritative source on illicit finance enforcement; and our new partnership with South Korean police on crypto crime fighting highlighted in CoinMarketCap and MSN. In crypto news, three developments shaped the landscape: stablecoin mainstream adoption accelerated with Visa and Stripe backing a new standard (Bloomberg), Bitcoin ETF momentum reversed with $4 billion in outflows and major bank forecast cuts (Bloomberg, Reuters, Citi), and prediction markets surged with Polymarket crossing $1 billion in annualized revenue (Reuters). In competitor news, Arkham Intelligence launched a ranking system for prediction market traders (The Block, CoinMarketCap), TRM Labs expanded partnerships with MultiHopper for compliant routing (Morningstar) and joined wildlife trafficking initiatives (Crowdfund Insider), and Elliptic highlighted MiCA's transitional period implications for compliance.",
+  "mentions": [
+    {
+      "title": "Chainalysis CEO Jonathan Levin talks blockchain intelligence agents at HumanX - qz.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5weTZOdGtYM0d6VndodVJzaFhkMFFhNktBNW00SWdDVnJiUTk3MUpPMEFKbzVjU1A5VHZjQllrSDd6ME5RVWhVMmlkOUN0RDNWZTdFX3RxRW1oQUVLYzlLZDE3Q0pydGk5Qm1yRngtNENzY3Z1YTlr?oc=5",
+      "source": "qz.com"
+    },
+    {
+      "title": "Tether freezes USDT in 131 ISIS-K-linked TRON wallets: Chainalysis - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JR2hCYk9XdngxSTZvRG5iZ1gzYm5GQ1lOQVZfNHBsVHdLbXVVblF3WENfNDFPVTBQV3JOMTctdTViRXd4eUc1TTdJaGNDT1UxdkVYMlYwN2JuZw?oc=5",
+      "source": "Cryptonews.net"
+    },
+    {
+      "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa25KMGs2SlF5WVpWeFJIMUhWSUI1TkJZR3hTTjNDNllOV3ZkUUoxcHA4cTZfdGRqNWI3cFBwOXYzT2lsajhScWxWbkJoV3BDWFhXUmJ5bWFxanlmLUtpbDZKblFvQ1dFRlpaOVd2Vi1oRTVPX0pQY3hDMEJlVWxkdjROSzBxWnZ0bVkwQ1ZKMGltNVNDRXpyUVA0bFhhRmVWZXJBVUgzam5Dam1Ma1dDSEJOa1dRa1VVZHc?oc=5",
+      "source": "CoinDesk"
+    },
+    {
+      "title": "Blockchain Analytics Firm Chainalysis Analyzes OFAC\u2019s Expansion of ISIS-K Crypto Sanctions - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPU1NIRWtYZnpoNV9QdWFzdnV3dG9QX2lQaFNPUk5UZnoxakUzZnE2UmxPS2xVdVIxMlN5SmVjNVZUZnNJbnpCSFo5VVdUSFBybTR4STFJYXFKVFlJQTNRYmg2SklFVVg3LXhodlF0TUs3NjRpblZGYW8zbDRyeUFjRUZjMmIyaGVibUpZZURzdXhTSk04RDBULTFBMGRMVy1rSHNjWDRCblBON2tjSi1NMmExaVAtSVZWWlhmLXBjUVd1cGtydjJYS2JjQ0E0Nm5ZSEFpeQ?oc=5",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "Chainalysis Proposes Standards for Tracing Blockchain Transactions - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNmhIME9ocXo3a01Pc3NnLXJqUjJMR0RpZkc0UU1wMTRhd3lFZmZSNXcyZFU3ekVETGJUY1BJYVVjWFVQMUx2LXV3SC00a1lhbzc4blVGaDgzWGhMdUkwUnNrNHpoUWRybzdXckh5UGMtOFVqQlZfemtPa2FtMF8talRJWTFlSVNCLTFtSGhhVUxpWlBlalJ0MXM2ZWZRaS1uSk1KRXJpRXdzdw?oc=5",
+      "source": "PYMNTS.com"
+    },
+    {
+      "title": "Chainalysis CEO Jonathan Levin Talks Blockchain Intelligence Agents at HumanX - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMXh0SUVwN01Qaml0bWw4anZWX0gxVVRiUEQ5MFptVHlPR2UzTTJIbU1Nam1IRDNwUlhiWUQ3dDZqbVVocGx4a3RoZ0FKSFR2clc5RmhBQ1NiQ19NTFI3aEJwdS1iRzZWdmdpYmRoajVzSkVwMHRTSVdCMDZXdHZLck15RkozSVp0VG5Z?oc=5",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "OFAC sanctions 134 ISIS-K crypto wallet addresses as Tether freezes funds - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVJSX2p3elRYUHg4WXAzVi1hVGpJOFpMRUVPMnozOHkwclBQd3c0TndENmJVRHJHS0NmWExPWXBKWkExc3licEVoUi1IOVgxMGNHZjNYSzRlOXVUZFlMcks4b2VTbUhFZE14eFRESGxYUjZ4MnF2RlRHUGRrMDg5YUVpNnBNc1lIN3JOS1hlQ2t1Nk1xSWk5Mk5HQlBVY1lYNFBRX2xNNVhBVVNidC1aZjh5NUpOTVJOOXhLSFhBTWhyTUlNdVVRR2JCZkF0VGNLZWFv?oc=5",
+      "source": "TradingView"
+    },
+    {
+      "title": "Tether Freezes All 131 TRON Wallets on Updated ISIS-K Sanctions List - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85aGVUV0J2eDdHUXcxeUhCSFZCYlRiZGFMV25nNG1KRXc3R2hsYWx3UkpxcVM4VVhaMTlRZVYtYUNJSVl6NVJuRUFSUHRobnFseF9lbXdScFpQaFg3bzRacGd4d3JXNlVGWXc?oc=5",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "Crypto Analytics Firm Chainalysis Proposes Standards for Blockchain Tracing - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFNwejhrMXBuZzNyaFp2cEUxQm05a1N4YWJJRjFGZVAzZF95NzJzb1FaQUZkM25Sc0ZiZnVtd1VfaEM5aXJSNmlOOHhyTzlmOFdPVXVyY0xEaWdlY0Jzd0RaY1QyRU5hWDdySFhXS3lxZ3hITG1pclk2RC1wT3JBYjJNcnduczlTTG9XOV8zZ3VlcWIxUXJkTDR1T0lyb0JoamF6RkgwLUo2NVBBVExhVEVfOWg0UU1X?oc=5",
+      "source": "Moomoo"
+    },
+    {
+      "title": "Chainalysis and South Korean Police Sign Crypto Crime MoU - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWVRjZV82NTZMd1FyTXNoUjhmeVczaTlfcWZxaDRmLTNMOHpyb21JR0VOX045UlFxVlR1Rmp1Mm5reFFPY0lwVENycFpsa1JFMWNWVzRuZ29rUlB5NTByYl96am4yM2FiTlNyRWFQZFJfZGdLa2JoRFVYTTFTTXdjREdVQ3BheWF2R0lJYWxtSFJ3Q0ktcVVYX1FOZ2FWdmNWNXNORXlwQTlud3FtNVZ3ZHpB?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Chainalysis proposes standards for blockchain tracing in letter to FDIC - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbXBkdWlsQTFleXNhUnctQXhyMFFlajZpRlA5YU1ZV1JzZUFTNzBSN3ZhSHJOVmU4Y2RGdUlNRnBYVHBzN25QT2pYMHYtNURuS1pfc2JpZGhjRHN6MkEwa3FQUGQ5UTljQ3FxYjRETVFCYzJUQ2d4ZnNZalBxV1E1Q3Nqbw?oc=5",
+      "source": "Crypto Briefing"
+    },
+    {
+      "title": "Chainalysis plans to introduce an on-chain tracking standard system, proposing an \"address clustering ontology\" to unify blockchain forensic methods - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sNW5CYW9sM1NLNkwwZjFSakhDSG1ZM0phTHB3N0ljQUdpdW5iSXhhNGp2X1BxLWxROHhoelZOenhJdUhnSWJpWm42cUtwRXQ1UGdCYzY0VEZWSWZMVm13b081UjhVaF9xZGfSAWpBVV95cUxObDVuQmFvbDNTSzZMMGYxUmpIQ0htWTNKYUxwdzdJY0FHaXVuYkl4YTRqdl9QcS1sUTh4aHpWTnp4SXVIZ0liaVpuNnFLcEV0NVBnQmM2NFRGVklmTFZtd29PNVI4VWhfcWRn?oc=5",
+      "source": "Bitget"
+    },
+    {
+      "title": "Chainalysis Shares Insights on $7.5 Million Reverse Honeypot Exploit Against Ethereum\u2019s Top Sandwich Bot - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUDA5UTBtZ084Z2FuTG9Kd21FRlVFQUpGQlRpZGhRRUc0MUN0ZVZIdXBqOTdFNWtzWUJmcEpZU1JDcWlyWmRQWFk5ZG94bk00UjlxN0dwNjFWWHU1ZE5LVGk0V2FsZ1RwT244ME91NzloVFEtZDR5U296dkNtcElBZWI3TWY0enNTX1JzSHhPNkVZRkpxbUtuT1RaNTgyVnV1dXozMFJoMjU2VWsyNzZQRXJNZDREUC1xT0s2ZUxkTHF3X3Jmd21mbXNqQnVIQ0kzNDhyT2luMXpsUWI5cExjN0k2aXRFQQ?oc=5",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "Chainalysis ranks India as top country for crypto adoption for third year running - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RazlJcHNvMzNXX0ZBYjQwWm1LOHlBdXdJcnBGNlpWcXh6OGd3cDlPM0s5aDNoY1Jxalh2dnZpajlCVkc4OXRtY0NzVjRjM194VTgyMm9nWGFuUldraEMwc0hQaEVuckFyazdVWkJ5ODd2bmx6T3dlZUZ3?oc=5",
+      "source": "Crypto Briefing"
+    },
+    {
+      "title": "Tether freezes USDT in 131 ISIS-K-linked TRON wallets: Chainalysis - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQWNfalBsVE51TGoxRVQzMGpWSi12MEdLSTZqS2d5YnZhTEJzXzUwR3l4WTB6T3ByQTYyMTl3S1ZGbTdZdV9YLThkSVU3cTNudGoyWXVyT2R5RF9RRVFWdFNUV0FkWFRVWnBFR25jUTBEcGxsNmVMZHRRMlU0SWprdDdUMEw5dHBDV1UwUkFLVQ?oc=5",
+      "source": "Crypto News"
+    },
+    {
+      "title": "Chainalysis, South Korean police link up to fight crypto crime - MSN",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb2RYTGx1OUFQZlI0Z1JRQlRSZ3FQTUxlTVBGMm9UV0lTYzZTc3BITjctNWxLeTlnS0VkTmh6Tk81MUUzVTlQbTI3ZFY3Ym9ENUlTOVMwN3ZkNTlGRDVjZFNOb3FxZEM0SVdwOHpOazBKR3pWZ21Tb3hUUFV5X0l2VW0zTmxvdVFrT01qRVZ3bUNEc0FLN0dQcmQ5Nk5QcXBBT1Z4TFV1NDZ1Y19nZHExWDRvMXVXSkRTc0NieFNIRDJRTWVXMUZmN2tyVQ?oc=5",
+      "source": "MSN"
+    },
+    {
+      "title": "OFAC sanctions 134 ISIS-K crypto wallet addresses as Tether freezes funds",
+      "url": "https://cointelegraph.com/news/ofac-134-isis-k-crypto-wallets-tether-freezes-131?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph"
+    },
+    {
+      "title": "Blockchain Analytics Firm Chainalysis Analyzes OFAC\u2019s Expansion of ISIS-K Crypto Sanctions",
+      "url": "https://www.crowdfundinsider.com/2026/07/288998-blockchain-analytics-firm-chainalysis-analyzes-ofacs-expansion-of-isis-k-crypto-sanctions/",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "OFAC Updates ISIS-Khorasan Sanctions with Over 100 Cryptocurrency Wallets",
+      "url": "https://www.chainalysis.com/blog/isis-designation-crypto-addresses-july-2026/",
+      "source": "Chainalysis Blog"
+    },
+    {
+      "title": "Chainalysis Supports Robinhood Chain with Automatic Token Support",
+      "url": "https://www.chainalysis.com/blog/robinhood-chain-automatic-token-support/",
+      "source": "Chainalysis Blog"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Blockchain Analytics Standardization Push",
+      "description": "We proposed unified standards for on-chain tracing via address clustering ontology to FDIC, positioning data quality as compliance infrastructure.",
+      "relevance": "We're establishing ourselves as the regulatory-aligned standard-setter for blockchain forensics, creating competitive moat and enterprise adoption lever.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "An Ontology for Accountability: Defining What Data Quality Means in Blockchain Analytics",
+          "url": "https://www.chainalysis.com/blog/ontology-data-quality-blockchain-analytics/",
+          "source": "Chainalysis Blog"
+        },
+        {
+          "title": "Chainalysis plans to introduce an on-chain tracking standard system, proposing an \"address clustering ontology\" to unify blockchain forensic methods - Bitget",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sNW5CYW9sM1NLNkwwZjFSakhDSG1ZM0phTHB3N0ljQUdpdW5iSXhhNGp2X1BxLWxROHhoelZOenhJdUhnSWJpWm42cUtwRXQ1UGdCYzY0VEZWSWZMVm13b081UjhVaF9xZGfSAWpBVV95cUxObDVuQmFvbDNTSzZMMGYxUmpIQ0htWTNKYUxwdzdJY0FHaXVuYkl4YTRqdl9QcS1sUTh4aHpWTnp4SXVIZ0liaVpuNnFLcEV0NVBnQmM2NFRGVklmTFZtd29PNVI4VWhfcWRn?oc=5",
+          "source": "Bitget"
+        },
+        {
+          "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa25KMGs2SlF5WVpWeFJIMUhWSUI1TkJZR3hTTjNDNllOV3ZkUUoxcHA4cTZfdGRqNWI3cFBwOXYzT2lsajhScWxWbkJoV3BDWFhXUmJ5bWFxanlmLUtpbDZKblFvQ1dFRlpaOVd2Vi1oRTVPX0pQY3hDMEJlVWxkdjROSzBxWnZ0bVkwQ1ZKMGltNVNDRXpyUVA0bFhhRmVWZXJBVUgzam5Dam1Ma1dDSEJOa1dRa1VVZHc?oc=5",
+          "source": "CoinDesk"
+        }
+      ]
+    },
+    {
+      "title": "Illicit Finance Enforcement Acceleration",
+      "description": "OFAC sanctioned 134 ISIS-K wallets; Tether froze 131 TRON addresses in coordinated action we analyzed, demonstrating real-time enforcement capability.",
+      "relevance": "Our rapid analysis and Tether coordination validate our role as critical infrastructure for sanctions compliance and asset freezing workflows.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "OFAC sanctions 134 ISIS-K crypto wallet addresses as Tether freezes funds - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVJSX2p3elRYUHg4WXAzVi1hVGpJOFpMRUVPMnozOHkwclBQd3c0TndENmJVRHJHS0NmWExPWXBKWkExc3licEVoUi1IOVgxMGNHZjNYSzRlOXVUZFlMcks4b2VTbUhFZE14eFRESGxYUjZ4MnF2RlRHUGRrMDg5YUVpNnBNc1lIN3JOS1hlQ2t1Nk1xSWk5Mk5HQlBVY1lYNFBRX2xNNVhBVVNidC1aZjh5NUpOTVJOOXhLSFhBTWhyTUlNdVVRR2JCZkF0VGNLZWFv?oc=5",
+          "source": "TradingView"
+        },
+        {
+          "title": "OFAC sanctions 134 ISIS-K crypto wallet addresses as Tether freezes funds",
+          "url": "https://cointelegraph.com/news/ofac-134-isis-k-crypto-wallets-tether-freezes-131?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph"
+        },
+        {
+          "title": "Tether freezes USDT in 131 ISIS-K-linked TRON wallets: Chainalysis - Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JR2hCYk9XdngxSTZvRG5iZ1gzYm5GQ1lOQVZfNHBsVHdLbXVVblF3WENfNDFPVTBQV3JOMTctdTViRXd4eUc1TTdJaGNDT1UxdkVYMlYwN2JuZw?oc=5",
+          "source": "Cryptonews.net"
+        }
+      ]
+    },
+    {
+      "title": "Institutional Bitcoin Reversal Signals",
+      "description": "Bitcoin ETFs recorded worst month with $4 billion outflows; major banks cut forecasts as macro headwinds return amid geopolitical tensions.",
+      "relevance": "Institutional volatility increases demand for transaction monitoring and risk intelligence as flows shift; we should position portfolio compliance tools.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Bitcoin ETFs Set for Worst Month With $4 Billion in Outflows - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWkkxRW1EejFORmpvay1DdUNNTktUeFZxeHJLaXhDZGJRVjFLaFQycDVlUU1zT2V4dXYtNU1FUnhRT2pQWEsyajVfUFZyazlKekZFTnAtTVBCb3FNOVlTOE9SVi1yb1ZXVTJnRFRDUGJpQTB0ZE9IQ0p4TTdCaVV3OEpTQzdBOXc2dC1uaTVsRlhwbUxQS2Nlb1RIX0p6MzJJSUdTRkdDbVV0OEx6NUhxaldRb1A2cFh0WWlmMnNEN2tLWWc?oc=5",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets",
+          "url": "https://www.coindesk.com/markets/2026/07/02/jpmorgan-says-strategy-s-bitcoin-sales-policy-adds-two-way-risk-to-crypto-markets",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
+          "url": "https://www.coindesk.com/markets/2026/07/01/bitcoin-retakes-usd60-000-level-after-fed-chair-warsh-said-inflation-risks-has-come-down",
+          "source": "CoinDesk"
+        }
+      ]
+    },
+    {
+      "title": "Prediction Market Legitimacy Growth",
+      "description": "Polymarket exceeded $1 billion annualized revenue; Arkham launched trader ranking system, signaling market maturation and regulatory scrutiny focus.",
+      "relevance": "Emerging prediction market scale creates compliance risk profiles requiring our surveillance and market integrity tools for platform operators.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Prediction market platform Polymarket tops $1 billion in annualized revenue, source says - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSk1hd1VEaWszZ3ZoWXA3WkRSc0tEaktyT1ZmSnlYc2tMbkhYTlVEQVhTZmJQSUlXTlFUby16LVZaN2xjTjVIdW1uakp3Wmk3b3R0cEVEV1VVQzItWFJvd19fMGl0Yk90dnlrbkt6WUgtTXBOOE9KWlVxdnNkaTQzQ05aamNzRHdUa0JNOWktY19UV0hPRnB4UDV6TEZvUXhncFo4WVlRSVZ2VTZkTHNTU3dZS2R5amQ5WDExUGNocUJ6dXZQNXdxamJhTlZpMUU?oc=5",
+          "source": "Reuters"
+        },
+        {
+          "title": "Chainalysis and South Korean Police Sign Crypto Crime MoU - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWVRjZV82NTZMd1FyTXNoUjhmeVczaTlfcWZxaDRmLTNMOHpyb21JR0VOX045UlFxVlR1Rmp1Mm5reFFPY0lwVENycFpsa1JFMWNWVzRuZ29rUlB5NTByYl96am4yM2FiTlNyRWFQZFJfZGdLa2JoRFVYTTFTTXdjREdVQ3BheWF2R0lJYWxtSFJ3Q0ktcVVYX1FOZ2FWdmNWNXNORXlwQTlud3FtNVZ3ZHpB?oc=5",
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "People Are Worried About Stock Market Leverage - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNmUzRE9WTExXeVhGbVNyZmNzTF9zVC1fcE1KcXNzY0pqNUNmR2F3Z0hPQlp5VzVhWkc0SWltYWhxaHpFN0psd3hwXzN1QnlVbnVUZXhhTGFtVzBCOWhsd0N3Z0N6QmdrcTBBTHRoR2tnQnJXX3czMGJuVEoxbjhBWnZqRHlRQm1nSDJyS1M3YjhxN2tub1B6eEctSXNlTTJBSnNtX3RB?oc=5",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "title": "Stablecoin Regulatory Divergence",
+      "description": "UK diluted stablecoin capital requirements; Visa/Stripe launched mainstream standard; MiCA transitional rules under rethink across three jurisdictions.",
+      "relevance": "Fragmented stablecoin regulation creates compliance complexity; we should expand regulatory monitoring and cross-border transaction mapping capabilities.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "UK dilutes stablecoin capital requirement in final crypto rulebook - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUHRNOVJFb2lhNGdTdlV6am1nVHVodkNlSkswdERRSi1BN3pieDNIOHo1UnRsZm51WlljeWpoQnc4eEZoZ0taQ1lhWGVVUTZ5RmhMc3ZKVW5WTVVTSnFrSU9UZXExQ0VGUGpDU08tbm1XdGVYMHhVRnNGcWE4RUxVQ2YtRGE0UGNWaEhMTFpLMnFRaldPUU1GZGxsLUZQS3pkUG5mYjc4VlhRNDkxS3dwVmdJTDh6R2M?oc=5",
+          "source": "Reuters"
+        },
+        {
+          "title": "Yield-bearing stablecoin slowdown ends 3-year run for crypto-native products",
+          "url": "https://cointelegraph.com/news/yield-bearing-stablecoins-lose-3-5-billion-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph"
+        },
+        {
+          "title": "Three years after MiCA became law, Europe's crypto framework is undergoing a rethink",
+          "url": "https://www.coindesk.com/policy/2026/07/02/three-years-after-mica-became-law-europe-s-crypto-framework-is-undergoing-a-rethink",
+          "source": "CoinDesk"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 165
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 135
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 102
+    },
+    {
+      "name": "Stablecoins & Digital Payments",
+      "count": 75
+    },
+    {
+      "name": "TradFi Integration & Institutional Adoption",
+      "count": 64
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 59
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 58
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 54
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Arkham Intelligence",
+      "count": 8,
+      "top_title": "Arkham Intelligence Ranks Polymarket Traders by Skill \u2014 Top Forecaster Hits 66.1% Win Rate - Crypton",
+      "top_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uQ2lUaTd3UzJtUUQ4UTZtRmlzYWJ0ZVZjdlZjZEVhMkdCcTRNREhNUjRiSnJzdnFvWWt5NTdKbGozc2l2czFFTno2d0JUd00xeWlXbklnQQ?oc=5",
+      "top_source": "Cryptonews.net"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 7,
+      "top_title": "MultiHopper Partners with TRM Labs on Compliant Private Digital Asset Routing - Morningstar",
+      "top_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeEtXUXNlN2xiV1J6Y1E4N2IxN0dUZ2lmcFJnaktHY3g2d0p0bl9ubUw4Z0l1a2lkLWNpN0tfdTJWalRTWUtQYkU4Y2ktenNHdFdZM1o1TExXMlB2UHpCMjR1RHczeVVGVGR2aVljSHdBSHN1MHZXa0gxbzhqX2w4N3UzWk5BUGJfbFJuUHU0Mi00MmxXR2pkbW0xQjNwYmdwbWl2aXJDdzFNVHluM1h4c0FLSnRLWU9UODZnMkVTZ3F4ZGFzLVNYTGRZOVk?oc=5",
+      "top_source": "Morningstar"
+    },
+    {
+      "name": "Merkle Science",
+      "count": 3,
+      "top_title": "UK Regulator Softens Landmark Crypto Rules in New Policy Adjustment - The Daily Hodl",
+      "top_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXpGc241RzNBX0Z1UlhIaXlic050eWFHS3dwNlBpdXZkYlFNc0V5bXczX2JTR1ZiaVM2T0lCeU9yZkNzTXZpX3Boc0FEbUdxc3ZiLWduaEFKR1djNk5WUGZJQzRTYjVVVWc0Wmw5R3FoeXAyb1VKR0JyVnE3Ni1lTEx3bFYtOWw3ZnpNNk1VaHl3bmNwSThULVVhME5yTFRlZklz0gGoAUFVX3lxTE9CWWV5eTE3RFBhMGxOczNib3hiQ2xaX2c2cFFPcDBwTDNWVFYtTldfWW15a295eXVwdzRzaHVzWmJ4R0x3cWlVQnJZYlIwUzczZ3BhZlktbGloMm5UNFA4VVIzcmlndzVpd0VnWjZvbGV0Y1ZLakQ4UHlfTWNNby15VHZ1VXF4VC0yUXZJRzhJZWRXZEl6eVhlUW5xdndNVEdhaVZ1VThRQg?oc=5",
+      "top_source": "The Daily Hodl"
+    },
+    {
+      "name": "Elliptic",
+      "count": 2,
+      "top_title": "Introducing Continuous Monitoring: stay aware of changing crypto risk - Elliptic",
+      "top_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4wbFB2VnhNb1REWWF4YW5nalo4eUlWMWhEY000Tnl2ZWlmbEFKd1BMa0tjOFpqdWQxNWZrMVFqZ0dkRDRYUVBkQmhUY2NtMF81OHAzX3J4SDVzRzNUaWpHMlNONFVTNHMtUHdIMXZudw?oc=5",
+      "top_source": "Elliptic"
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Nansen",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Institutional Crypto Pullback",
+      "body": "Bitcoin ETF outflows ($4B worst month) and bank forecast cuts signal institutional appetite cooling amid macro headwinds and geopolitical risks. This reversal after sustained TradFi integration narratives reshapes enterprise compliance priorities from growth to risk mitigation."
+    },
+    {
+      "title": "Regulatory Fragmentation Accelerating",
+      "body": "UK stablecoin rules eased while EU MiCA transitions and US frameworks diverge, creating compliance arbitrage opportunities and cross-border risk. Platforms now require multi-jurisdictional monitoring and transaction mapping rather than unified regulatory frameworks."
+    },
+    {
+      "title": "Prediction Markets & Emerging Risks",
+      "body": "Polymarket's $1B annualized revenue and Arkham's trader ranking systems legitimize prediction markets while surfacing new manipulation and surveillance vulnerabilities. Regulators and platforms increasingly demand transaction-level intelligence on these high-velocity, opinion-driven markets."
+    }
+  ],
+  "competitor_reads": {
+    "Arkham Intelligence": "Expanding beyond core analytics into prediction market infrastructure with trader ranking systems, signaling pivot toward consumer-facing market intelligence products on The Block and CoinMarketCap.",
+    "TRM Labs": "Deepening compliance partnerships (MultiHopper routing) while establishing thought leadership on illicit finance verticals (wildlife trafficking), differentiating on use-case-specific enforcement narratives.",
+    "Elliptic": "Positioning continuous monitoring and regulatory compliance workflows around MiCA's evolving requirements, targeting enterprise risk teams navigating jurisdictional divergence."
+  },
+  "seizure_value": "",
+  "seizure_cases": "",
+  "mention_categories": {
+    "mainstream": 1,
+    "crypto": 6,
+    "fintech": 4,
+    "blog": 5,
+    "niche": 7
+  },
+  "sentiment": {
+    "positive": 18,
+    "neutral": 5,
+    "negative": 0
+  }
+}
