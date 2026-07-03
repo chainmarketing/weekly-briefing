@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "date_display": "July 02, 2026",
-  "mentions_count": 23,
+  "mentions_count": 17,
   "narrative_count": 629,
   "competitor_total": 20,
   "persistent_count": 0,
@@ -24,7 +24,7 @@
       "source": "CoinDesk"
     },
     {
-      "title": "Blockchain Analytics Firm Chainalysis Analyzes OFAC\u2019s Expansion of ISIS-K Crypto Sanctions - Crowdfund Insider",
+      "title": "Blockchain Analytics Firm Chainalysis Analyzes OFAC’s Expansion of ISIS-K Crypto Sanctions - Crowdfund Insider",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPU1NIRWtYZnpoNV9QdWFzdnV3dG9QX2lQaFNPUk5UZnoxakUzZnE2UmxPS2xVdVIxMlN5SmVjNVZUZnNJbnpCSFo5VVdUSFBybTR4STFJYXFKVFlJQTNRYmg2SklFVVg3LXhodlF0TUs3NjRpblZGYW8zbDRyeUFjRUZjMmIyaGVibUpZZURzdXhTSk04RDBULTFBMGRMVy1rSHNjWDRCblBON2tjSi1NMmExaVAtSVZWWlhmLXBjUVd1cGtydjJYS2JjQ0E0Nm5ZSEFpeQ?oc=5",
       "source": "Crowdfund Insider"
     },
@@ -59,24 +59,9 @@
       "source": "CoinMarketCap"
     },
     {
-      "title": "Chainalysis proposes standards for blockchain tracing in letter to FDIC - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbXBkdWlsQTFleXNhUnctQXhyMFFlajZpRlA5YU1ZV1JzZUFTNzBSN3ZhSHJOVmU4Y2RGdUlNRnBYVHBzN25QT2pYMHYtNURuS1pfc2JpZGhjRHN6MkEwa3FQUGQ5UTljQ3FxYjRETVFCYzJUQ2d4ZnNZalBxV1E1Q3Nqbw?oc=5",
-      "source": "Crypto Briefing"
-    },
-    {
-      "title": "Chainalysis plans to introduce an on-chain tracking standard system, proposing an \"address clustering ontology\" to unify blockchain forensic methods - Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sNW5CYW9sM1NLNkwwZjFSakhDSG1ZM0phTHB3N0ljQUdpdW5iSXhhNGp2X1BxLWxROHhoelZOenhJdUhnSWJpWm42cUtwRXQ1UGdCYzY0VEZWSWZMVm13b081UjhVaF9xZGfSAWpBVV95cUxObDVuQmFvbDNTSzZMMGYxUmpIQ0htWTNKYUxwdzdJY0FHaXVuYkl4YTRqdl9QcS1sUTh4aHpWTnp4SXVIZ0liaVpuNnFLcEV0NVBnQmM2NFRGVklmTFZtd29PNVI4VWhfcWRn?oc=5",
-      "source": "Bitget"
-    },
-    {
-      "title": "Chainalysis Shares Insights on $7.5 Million Reverse Honeypot Exploit Against Ethereum\u2019s Top Sandwich Bot - Crowdfund Insider",
+      "title": "Chainalysis Shares Insights on $7.5 Million Reverse Honeypot Exploit Against Ethereum’s Top Sandwich Bot - Crowdfund Insider",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUDA5UTBtZ084Z2FuTG9Kd21FRlVFQUpGQlRpZGhRRUc0MUN0ZVZIdXBqOTdFNWtzWUJmcEpZU1JDcWlyWmRQWFk5ZG94bk00UjlxN0dwNjFWWHU1ZE5LVGk0V2FsZ1RwT244ME91NzloVFEtZDR5U296dkNtcElBZWI3TWY0enNTX1JzSHhPNkVZRkpxbUtuT1RaNTgyVnV1dXozMFJoMjU2VWsyNzZQRXJNZDREUC1xT0s2ZUxkTHF3X3Jmd21mbXNqQnVIQ0kzNDhyT2luMXpsUWI5cExjN0k2aXRFQQ?oc=5",
       "source": "Crowdfund Insider"
-    },
-    {
-      "title": "Chainalysis ranks India as top country for crypto adoption for third year running - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RazlJcHNvMzNXX0ZBYjQwWm1LOHlBdXdJcnBGNlpWcXh6OGd3cDlPM0s5aDNoY1Jxalh2dnZpajlCVkc4OXRtY0NzVjRjM194VTgyMm9nWGFuUldraEMwc0hQaEVuckFyazdVWkJ5ODd2bmx6T3dlZUZ3?oc=5",
-      "source": "Crypto Briefing"
     },
     {
       "title": "Tether freezes USDT in 131 ISIS-K-linked TRON wallets: Chainalysis - Crypto News",
@@ -94,7 +79,7 @@
       "source": "CoinTelegraph"
     },
     {
-      "title": "Blockchain Analytics Firm Chainalysis Analyzes OFAC\u2019s Expansion of ISIS-K Crypto Sanctions",
+      "title": "Blockchain Analytics Firm Chainalysis Analyzes OFAC’s Expansion of ISIS-K Crypto Sanctions",
       "url": "https://www.crowdfundinsider.com/2026/07/288998-blockchain-analytics-firm-chainalysis-analyzes-ofacs-expansion-of-isis-k-crypto-sanctions/",
       "source": "Crowdfund Insider"
     },
@@ -112,7 +97,7 @@
   "narratives": [
     {
       "title": "Blockchain Analytics Standardization Push",
-      "description": "We proposed unified standards for on-chain tracing via address clustering ontology to FDIC, positioning data quality as compliance infrastructure.",
+      "description": "We proposed unified standards for on-chain tracing via address clustering ontology, positioning data quality as compliance infrastructure.",
       "relevance": "We're establishing ourselves as the regulatory-aligned standard-setter for blockchain forensics, creating competitive moat and enterprise adoption lever.",
       "cadence": "new",
       "momentum": "new",
@@ -279,7 +264,7 @@
     {
       "name": "Arkham Intelligence",
       "count": 8,
-      "top_title": "Arkham Intelligence Ranks Polymarket Traders by Skill \u2014 Top Forecaster Hits 66.1% Win Rate - Crypton",
+      "top_title": "Arkham Intelligence Ranks Polymarket Traders by Skill — Top Forecaster Hits 66.1% Win Rate - Crypton",
       "top_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uQ2lUaTd3UzJtUUQ4UTZtRmlzYWJ0ZVZjdlZjZEVhMkdCcTRNREhNUjRiSnJzdnFvWWt5NTdKbGozc2l2czFFTno2d0JUd00xeWlXbklnQQ?oc=5",
       "top_source": "Cryptonews.net"
     },
@@ -348,9 +333,9 @@
     }
   ],
   "competitor_reads": {
-    "Arkham Intelligence": "Expanding beyond core analytics into prediction market infrastructure with trader ranking systems, signaling pivot toward consumer-facing market intelligence products on The Block and CoinMarketCap.",
-    "TRM Labs": "Deepening compliance partnerships (MultiHopper routing) while establishing thought leadership on illicit finance verticals (wildlife trafficking), differentiating on use-case-specific enforcement narratives.",
-    "Elliptic": "Positioning continuous monitoring and regulatory compliance workflows around MiCA's evolving requirements, targeting enterprise risk teams navigating jurisdictional divergence."
+    "Arkham Intelligence": "💡 Expanding beyond core analytics into prediction market infrastructure with trader ranking systems, signaling pivot toward consumer-facing market intelligence products on The Block and CoinMarketCap.",
+    "TRM Labs": "💡 Deepening compliance partnerships (MultiHopper routing) while establishing thought leadership on illicit finance verticals (wildlife trafficking), differentiating on use-case-specific enforcement narratives.",
+    "Elliptic": "💡 Positioning continuous monitoring and regulatory compliance workflows around MiCA's evolving requirements, targeting enterprise risk teams navigating jurisdictional divergence."
   },
   "seizure_value": "",
   "seizure_cases": "",
