@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-07-02",
+    "url": "briefings/2026-07-02.html",
+    "mentions": 17,
+    "narrative": 629,
+    "competitor_total": 20,
+    "persistent_count": 0,
+    "emerging_count": 5,
+    "articles_analysed": 1153,
+    "mention_categories": {
+      "mainstream": 1,
+      "crypto": 6,
+      "fintech": 4,
+      "blog": 5,
+      "niche": 7
+    },
+    "sentiment": {
+      "positive": 18,
+      "neutral": 5,
+      "negative": 0
+    },
+    "competitors": {
+      "Arkham Intelligence": 8,
+      "TRM Labs": 7,
+      "Merkle Science": 3,
+      "Elliptic": 2,
+      "CipherTrace": 0,
+      "Nansen": 0,
+      "Crystal Intelligence": 0,
+      "Solidus Labs": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 165
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 135
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 102
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 75
+      },
+      {
+        "name": "TradFi Integration & Institutional Adoption",
+        "count": 64
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 59
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 58
+      },
+      {
+        "name": "National Security, Defence & Intelligence",
+        "count": 54
+      }
+    ],
+    "narratives": [
+      "Blockchain Analytics Standardization Push",
+      "Illicit Finance Enforcement Acceleration",
+      "Institutional Bitcoin Reversal Signals",
+      "Prediction Market Legitimacy Growth",
+      "Stablecoin Regulatory Divergence"
+    ],
+    "headline": "In highlight coverage, our most impactful earned media placements this week centered on a couple of strategic initiatives: our proposal for blockchain tracing standards published in CoinDesk, PYMNTS.c"
+  },
+  {
     "date": "2026-06-11",
     "url": "briefings/2026-06-11.html",
     "mentions": 13,
