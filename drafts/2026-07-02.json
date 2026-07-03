@@ -6,7 +6,7 @@
   "competitor_total": 20,
   "persistent_count": 0,
   "articles_analysed": 1153,
-  "executive_summary": "In highlight coverage, our most impactful earned media placements this week centered on three strategic initiatives: our proposal for blockchain tracing standards published in CoinDesk, PYMNTS.com, and Crypto Briefing positioning us as thought leaders on data quality and compliance standardization; our analysis of OFAC's ISIS-K sanctions expansion across Tether/TRON wallets covered by CoinDesk, CoinTelegraph, BeInCrypto, and TradingView establishing us as the authoritative source on illicit finance enforcement; and our new partnership with South Korean police on crypto crime fighting highlighted in CoinMarketCap and MSN. In crypto news, three developments shaped the landscape: stablecoin mainstream adoption accelerated with Visa and Stripe backing a new standard (Bloomberg), Bitcoin ETF momentum reversed with $4 billion in outflows and major bank forecast cuts (Bloomberg, Reuters, Citi), and prediction markets surged with Polymarket crossing $1 billion in annualized revenue (Reuters). In competitor news, Arkham Intelligence launched a ranking system for prediction market traders (The Block, CoinMarketCap), TRM Labs expanded partnerships with MultiHopper for compliant routing (Morningstar) and joined wildlife trafficking initiatives (Crowdfund Insider), and Elliptic highlighted MiCA's transitional period implications for compliance.",
+  "executive_summary": "In highlight coverage, our most impactful earned media placements this week centered on a couple of strategic initiatives: our proposal for blockchain tracing standards published in CoinDesk, PYMNTS.com, and Crypto Briefing positioning us as thought leaders on data quality and compliance standardization; our analysis of OFAC's ISIS-K sanctions expansion across Tether/TRON wallets covered by CoinDesk, CoinTelegraph, BeInCrypto, and TradingView establishing us as the authoritative source on illicit finance enforcement. In crypto news, three developments shaped the landscape: stablecoin mainstream adoption accelerated with Visa and Stripe backing the OpenUSD Consortium (Bloomberg), Bitcoin ETF momentum reversed with $4 billion in outflows and major bank forecast cuts (Bloomberg, Reuters, Citi), and prediction markets surged with Polymarket crossing $1 billion in annualized revenue (Reuters). In competitor news, Arkham Intelligence launched a ranking system for prediction market traders (The Block, CoinMarketCap), TRM Labs expanded partnerships with MultiHopper for compliant routing (Morningstar) and joined wildlife trafficking initiatives (Crowdfund Insider), and Elliptic highlighted MiCA's transitional period implications for compliance.",
   "mentions": [
     {
       "title": "Chainalysis CEO Jonathan Levin talks blockchain intelligence agents at HumanX - qz.com",
@@ -333,9 +333,9 @@
     }
   ],
   "competitor_reads": {
-    "Arkham Intelligence": "💡 Expanding beyond core analytics into prediction market infrastructure with trader ranking systems, signaling pivot toward consumer-facing market intelligence products on The Block and CoinMarketCap.",
-    "TRM Labs": "💡 Deepening compliance partnerships (MultiHopper routing) while establishing thought leadership on illicit finance verticals (wildlife trafficking), differentiating on use-case-specific enforcement narratives.",
-    "Elliptic": "💡 Positioning continuous monitoring and regulatory compliance workflows around MiCA's evolving requirements, targeting enterprise risk teams navigating jurisdictional divergence."
+    "Arkham Intelligence": "💡 💡 Expanding beyond core analytics into prediction market infrastructure with trader ranking systems, signaling pivot toward consumer-facing market intelligence products on The Block and CoinMarketCap.",
+    "TRM Labs": "💡 💡 Deepening compliance partnerships (MultiHopper routing) while establishing thought leadership on illicit finance verticals (wildlife trafficking), differentiating on use-case-specific enforcement narratives.",
+    "Elliptic": "💡 💡 Positioning continuous monitoring and regulatory compliance workflows around MiCA's evolving requirements, targeting enterprise risk teams navigating jurisdictional divergence."
   },
   "seizure_value": "",
   "seizure_cases": "",
