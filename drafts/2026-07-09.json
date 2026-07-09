@@ -1,12 +1,12 @@
 {
   "date": "2026-07-09",
   "date_display": "July 09, 2026",
-  "mentions_count": 11,
+  "mentions_count": 13,
   "narrative_count": 603,
   "competitor_total": 23,
   "persistent_count": 0,
   "articles_analysed": 1051,
-  "executive_summary": "In highlight coverage, our automatic token support for Robinhood Chain launched via Crowdfund Insider, while our stablecoin infrastructure research projecting $1.5 quadrillion annual processing by 2035 was featured in CoinMarketCap and our address clustering ontology standardization work appeared in KuCoin's compliance guide. In crypto news, Swift unveiled a blockchain system for 24/7 cross-border payments (Bloomberg), Paradigm raised $1.2 billion for AI-focused crypto bets (Bloomberg), and India's central bank intensified its push to isolate banks from crypto amid evasion concerns (Reuters)\u2014signalling rising regulatory friction in emerging markets. In competitor news: Arkham capitalized on SpaceX Bitcoin wallet speculation across Yahoo Finance and crypto outlets; Nansen's Trump memecoin analysis showing $3.8 billion in losses broke through The New York Times and CoinDesk; Elliptic partnered with CoinGecko on tokenized asset pricing (Crypto Briefing); TRM Labs released North Korea theft data claiming two-thirds of H1 2026 crypto hacks (upi.com, The Korea Herald); and Merkle Science was mentioned in crypto recovery roundups.",
+  "executive_summary": "In highlight coverage, our automatic token support for Robinhood Chain launched via Crowdfund Insider, while our stablecoin infrastructure research projecting $1.5 quadrillion annual processing by 2035 was featured in CoinMarketCap and our address clustering ontology standardization work appeared in KuCoin's compliance guide. In crypto news, Swift unveiled a blockchain system for 24/7 cross-border payments (Bloomberg), Paradigm raised $1.2 billion for AI-focused crypto bets (Bloomberg), and India's central bank intensified its push to isolate banks from crypto amid evasion concerns (Reuters)—signalling rising regulatory friction in emerging markets. In competitor news: Arkham capitalized on SpaceX Bitcoin wallet speculation across Yahoo Finance and crypto outlets; Nansen's Trump memecoin analysis showing $3.8 billion in losses broke through The New York Times and CoinDesk; Elliptic partnered with CoinGecko on tokenized asset pricing (Crypto Briefing); TRM Labs released North Korea theft data claiming two-thirds of H1 2026 crypto hacks (upi.com, The Korea Herald); and Merkle Science was mentioned in crypto recovery roundups.",
   "mentions": [
     {
       "title": "Chinese fentanyl makers find new U.S. market in peptides - Axios",
@@ -24,11 +24,6 @@
       "source": "Crowdfund Insider"
     },
     {
-      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
-      "source": "CoinMarketCap"
-    },
-    {
       "title": "BonkDAO Attacker Moves $19M Loot Into New 'BONK 2.0' DAO - The Defiant",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZXdPRlc1cm8xNWtNeUJIdE40a3RlRVFzUzVjVEhLdlRocjlCT1BmZllTaDRTa1dVLWluekIyQjFOYlNBdTdVaVNISHNRSE5KeE1YX1l6SlNCSmJrRGNKTmlUTVFJMDNpSkFudXYxT2NZZ21SZmZsem14T0RybjJkWC1tUENXaGgycExsNERXZw?oc=5",
       "source": "The Defiant"
@@ -39,19 +34,9 @@
       "source": "KuCoin"
     },
     {
-      "title": "Top 7 Crypto Recovery Services That Stand Out in 2026: An Independent Review - Yonkers Times",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOTJuWUdtSW5mVmc1OXhJbThYdU1rcDFiM19xQm1rcGtJcnlSdDB2SDlVdW9SWGNGWk1mNUZkaHNwSTdxS3dJUElUQkplRzY4dEFfTGstWC13SC1USWszLUo5RGctQ1NRVGU4UHNPVkJaV0ViMXpncS04XzZ2NXdIUURVNi1hSWFWQ1Rsdi1EWk1ZdFpZWHZhS01JRWY4VGE4Tjhr?oc=5",
-      "source": "Yonkers Times"
-    },
-    {
       "title": "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSktNSlFOTk9pQkhTU2ZsQ0kxZUxyakhNWC14dlRncG1PZHh4RG42SU5qcHZLRVhPcEhtSjcyVUx2ZmZDTUpmUHVZbnRWNm1sT0l5aU5PTktIcnluSEdnZHI1czlEMmh2dlRDMWEyWm1UYXctSDJob3FDMW0wbzkxaGFfWFgxejl1NDVDRzV0TnhoMkZoRjMxRDhORjRsN1o2QUhCMnBMa0hYdGRWVHdwd3hFTVEzLUV6VVpWR3NNSVdkWkhq?oc=5",
       "source": "CoinDesk"
-    },
-    {
-      "title": "India's central bank revives push to isolate banks from crypto: Report - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUUxPb3pTakdYN2ZLblZBNEhfOTRqLTdmNnRuYmg5aGpIRUh2UW9rVGVKNGtuNUp5dGFZZDcySjNWWElzQXFMYV9jazV6REllbVBab3ZoSWYwSk5CTElMdXVQTHMyMzQ1NG5PSVZfcjBtZjFVb1J5ZHczbnpZMC02U19uaUZiR25jOVctY25mVzZ0eHg1VHZwcGFfcU1jSnE2OXBya0JfWjM3QWVvZGFYNWdVN3Vpa2pEZS1fcGxCTVoxN2FFLWEyRFdvWG8ydw?oc=5",
-      "source": "TradingView"
     },
     {
       "title": "OFAC sanctions 134 ISIS-K crypto wallet addresses as Tether freezes funds - TradingView",
@@ -62,13 +47,38 @@
       "title": "BonkDAO Attacker Moves $19M Loot Into New 'BONK 2.0' DAO",
       "url": "https://thedefiant.io/news/hacks/bonkdao-attacker-moves-19m-loot-into-new-bonk-2-0-dao",
       "source": "The Defiant"
+    },
+    {
+      "title": "Bonk Nosedives 8% After Attackers Rob $20 Million From Memecoin's Treasury — BonkDAO Says it's Working to 'Recover Funds'",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60296482/solana-based-bonk-nosedives-8-after-attackers-rob-20-million-from-memecoins-treasury-bonkdao",
+      "source": "Benzinga"
+    },
+    {
+      "title": "BONK faces $20 million treasury drain after attacker spends $4 million to pass malicious proposal",
+      "url": "https://www.coindesk.com/markets/2026/07/07/bonk-faces-usd20-million-treasury-drain-after-attacker-spends-usd4-million-to-pass-malicious-proposal",
+      "source": "Coindesk"
+    },
+    {
+      "title": "Blockchain is not just a challenge to be addressed; it is also a solution to be leveraged.",
+      "url": "https://www.itpro.fr/la-blockchain-nest-pas-seulement-un-defi-a-encadrer-cest-aussi-une-solution-a-exploiter",
+      "source": "ITPro France"
+    },
+    {
+      "title": "How Rogue Nations Are Using Cryptocurrencies to Evade Sanctions",
+      "url": "https://www.wsj.com/world/cryptocurrency-sanctions-evasion-d02b60f1?st=8Lyc8h",
+      "source": "Wall Street Journal"
+    },
+    {
+      "title": "Stablecoins could be paying UAE rents within nine months, crypto executive says",
+      "url": "https://www.thenationalnews.com/business/money/2026/07/09/stablecoins-could-be-paying-uae-rents-within-nine-months-crypto-executive-says/",
+      "source": "The National"
     }
   ],
   "narratives": [
     {
       "title": "Sanctions & Law Enforcement Integration",
       "description": "US Treasury sanctioned 134 ISIS-K crypto addresses moving $1.4M; Tether froze linked funds in real-time coordination.",
-      "relevance": "Our blockchain tracing and address clustering enable rapid identification for sanctions enforcement\u2014core to our compliance platform defensibility.",
+      "relevance": "Our blockchain tracing and address clustering enable rapid identification for sanctions enforcement—core to our compliance platform defensibility.",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
@@ -146,7 +156,7 @@
     {
       "title": "AI-Driven Compliance Automation",
       "description": "Paradigm raises $1.2B for AI crypto bets; OpenAI launching GPT upgrade; power demand surge from AI infrastructure.",
-      "relevance": "We must accelerate our AI/ML-powered detection and clustering capabilities to compete in the emerging compliance automation market.",
+      "relevance": "",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
@@ -156,7 +166,7 @@
     {
       "title": "Quantum Threat to Crypto Security",
       "description": "Reuters reports crypto firms preparing defences as quantum encryption threat draws closer.",
-      "relevance": "Our address tracing and identity resolution infrastructure must account for post-quantum cryptography implications in long-term forensics capability.",
+      "relevance": "",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
@@ -282,11 +292,11 @@
     }
   ],
   "competitor_reads": {
-    "Arkham Intelligence": "Leveraged SpaceX Bitcoin wallet activity and Robinhood holdings data to generate high-engagement market speculation content across finance and crypto outlets\u2014prioritizing real-time on-chain narrative over enforcement use cases.",
-    "Nansen": "Dominated Trump memecoin loss analysis via The New York Times and CoinDesk with blockchain data credibility, establishing themselves as go-to source for consumer-facing loss narratives and portfolio impact stories.",
-    "TRM Labs": "Positioned as primary source for North Korea threat intelligence, claiming two-thirds of H1 2026 crypto theft attribution across tier-1 outlets (upi.com, The Korea Herald)\u2014reinforcing threat research as core positioning.",
-    "Elliptic": "Expanded into tokenized real-world asset pricing via CoinGecko partnership (Crypto Briefing) while maintaining UK stablecoin regulatory authority positioning\u2014diversifying beyond enforcement into infrastructure layer.",
-    "Merkle Science": "Minimal coverage this period; appeared only in general crypto recovery services roundups without distinct competitive positioning."
+    "Arkham Intelligence": "",
+    "Nansen": "",
+    "TRM Labs": "",
+    "Elliptic": "",
+    "Merkle Science": ""
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
