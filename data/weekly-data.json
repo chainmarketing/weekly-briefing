@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-07-09",
+    "url": "briefings/2026-07-09.html",
+    "mentions": 13,
+    "narrative": 603,
+    "competitor_total": 23,
+    "persistent_count": 0,
+    "emerging_count": 5,
+    "articles_analysed": 1051,
+    "mention_categories": {
+      "mainstream": 1,
+      "crypto": 3,
+      "fintech": 1,
+      "blog": 0,
+      "niche": 6
+    },
+    "sentiment": {
+      "positive": 7,
+      "neutral": 3,
+      "negative": 1
+    },
+    "competitors": {
+      "Arkham Intelligence": 8,
+      "TRM Labs": 6,
+      "Elliptic": 4,
+      "Nansen": 4,
+      "Merkle Science": 1,
+      "CipherTrace": 0,
+      "Crystal Intelligence": 0,
+      "Solidus Labs": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 160
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 131
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 127
+      },
+      {
+        "name": "National Security, Defence & Intelligence",
+        "count": 74
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 68
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 62
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 53
+      },
+      {
+        "name": "MiCA & EU Regulation",
+        "count": 45
+      }
+    ],
+    "narratives": [
+      "Sanctions & Law Enforcement Integration",
+      "Stablecoin Infrastructure Growth",
+      "Emerging Market Crypto Isolation",
+      "AI-Driven Compliance Automation",
+      "Quantum Threat to Crypto Security"
+    ],
+    "headline": "In highlight coverage, our BONK hack analysis was published across key crypto trades, including Coindesk. Kaitlin Martin's insights on how cryptocurrency has become a tool for rogue nation states to e"
+  },
+  {
     "date": "2026-07-02",
     "url": "briefings/2026-07-02.html",
     "mentions": 17,
