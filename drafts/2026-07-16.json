@@ -6,7 +6,7 @@
   "competitor_total": 20,
   "persistent_count": 0,
   "articles_analysed": 1082,
-  "executive_summary": "In highlight coverage, our Reactor platform achieved significant legal validation through Crowdfund Insider's coverage of meeting the Daubert Standard for expert testimony in the Bitcoin Fog case, establishing courtroom credibility for our analytics. Our stablecoin research dominated the narrative landscape: CoinMarketCap reported our projection that stablecoins could process $1.5 quadrillion annually by 2035, while CryptoRank covered our automatic stablecoin support feature addressing compliance teams' token sprawl challenges. In crypto news, our sanctions enforcement work gained major visibility with India Today and Moneycontrol covering our research showing Russia, Iran, and North Korea moved $104 billion in crypto to bypass Western sanctions, complemented by our blog revealing OFAC's $131M stablecoin freeze on Iran Central Bank wallets. Circle secured final regulatory approval to establish a US trust bank (Reuters), SWIFT launched a blockchain ledger pilot with 17 banks (Reuters), and Japan moved to recognize cryptocurrency as financial assets (Reuters), signaling accelerating institutional adoption. In competitor news, Elliptic secured Circle Ventures investment and partnership expansion across compliance programs (Cryptonews.net, CryptoRank); TRM Labs partnered with Unit21 for AI-native financial crime operations (Business Wire) and reported North Korea's $577M H1 2026 crypto theft spike; Arkham Intelligence tracked $297M in US government seized crypto transfers to Coinbase Prime; Crystal Intelligence launched Ask Crystal AI analyst tool (CryptoPotato); and Nansen wound down its Somnia validator (Crypto Briefing).",
+  "executive_summary": "In highlight coverage, our Ontology Report was covered on TokenPost in Korea. LeMagIT covered our analysis on Trickbot/Conti leader \"Stern\". Nikkei Asia cited our data on Huione Group's $49 billion-plus in crypto transactions linked to scam and trafficking networks in its coverage of the Huione Pay/H-Pay collapse in Cambodia. In industry news, Circle secured final regulatory approval to establish a US trust bank (Reuters), SWIFT launched a blockchain ledger pilot with 17 banks (Reuters), and Japan moved to recognize cryptocurrency as financial assets (Reuters), signaling accelerating institutional adoption.\n\nIn competitor news, Elliptic secured Circle Ventures investment and partnership expansion across compliance programs (Cryptonews.net, CryptoRank); TRM Labs partnered with Unit21 for AI-native financial crime operations (Business Wire) and reported North Korea's $577M H1 2026 crypto theft spike; Arkham Intelligence tracked $297M in US government seized crypto transfers to Coinbase Prime; Crystal Intelligence launched Ask Crystal AI analyst tool (CryptoPotato); and Nansen wound down its Somnia validator (Crypto Briefing).",
   "mentions": [
     {
       "title": "Chainalysis Reactor Satisfies Daubert Standard For Expert Testimony In Bitcoin Fog Case - Crowdfund Insider",
@@ -39,24 +39,24 @@
       "source": "Moneycontrol.com"
     },
     {
-      "title": "EU Sanctions \u201cStern,\u201d Alleged Top Ransomware Operator, in Coordinated Global Cyber Crackdown",
+      "title": "EU Sanctions “Stern,” Alleged Top Ransomware Operator, in Coordinated Global Cyber Crackdown",
       "url": "https://www.crowdfundinsider.com/2026/07/291714-eu-sanctions-stern-alleged-top-ransomware-operator-in-coordinated-global-cyber-crackdown/",
       "source": "Crowdfund Insider"
     },
     {
-      "title": "OFAC Sanctions Iran Central Bank Crypto Wallets, Freezing $131M in Stablecoins",
-      "url": "https://www.chainalysis.com/blog/ofac-sanctions-iran-central-bank-crypto-wallets-freezing-131m-in-stablecoins/",
-      "source": "Chainalysis Blog"
+      "title": "Cambodian payment apps' collapse leaves users fighting to recover funds",
+      "url": "https://asia.nikkei.com/spotlight/asean-money/cambodian-payment-apps-collapse-leaves-users-fighting-to-recover-funds",
+      "source": "Nikkei Asia"
     },
     {
-      "title": "Chainalysis Supports Stable with Automatic Token Support",
-      "url": "https://www.chainalysis.com/blog/stable-automatic-token-support/",
-      "source": "Chainalysis Blog"
+      "title": "Chainalysis: \"Blockchain Analysis Must Also Be Verifiable\"... First Unveiling of Ontology and Evidence Framework",
+      "url": "https://www.tokenpost.kr/news/blockchain/377526",
+      "source": "TokenPost KR"
     },
     {
-      "title": "Courtroom-Ready Analytics: How Chainalysis Met the Daubert Standard",
-      "url": "https://www.chainalysis.com/blog/chainalysis-daubert-standard-sterlingov/",
-      "source": "Chainalysis Blog"
+      "title": "Ransomware: the accounts of the former Conti boss",
+      "url": "https://www.lemagit.fr/actualites/366645689/Ransomware-les-bons-comptes-de-lancien-patron-de-Conti",
+      "source": "LeMag IT"
     }
   ],
   "narratives": [
@@ -140,7 +140,7 @@
     },
     {
       "title": "TradFi Integration Momentum",
-      "description": "SWIFT blockchain pilot with 17 banks; Circle wins US trust bank approval; Wall Street investment banking surges\u2014institutional adoption accelerating.",
+      "description": "SWIFT blockchain pilot with 17 banks; Circle wins US trust bank approval; Wall Street investment banking surges—institutional adoption accelerating.",
       "relevance": "TradFi integration creates new compliance monitoring opportunities for our enterprise platform, particularly around cross-border payments and stablecoin settlement.",
       "cadence": "new",
       "momentum": "new",
@@ -286,11 +286,11 @@
   "market_landscape": [
     {
       "title": "Regulatory Convergence on Stablecoins",
-      "body": "US, UK, and Japan coordinating stablecoin frameworks while Circle achieves trust bank approval\u2014signals global consensus toward integration over restriction. Stablecoin transaction volume projections of $1.5 quadrillion by 2035 validate institutional settlement infrastructure momentum."
+      "body": "US, UK, and Japan coordinating stablecoin frameworks while Circle achieves trust bank approval—signals global consensus toward integration over restriction. Stablecoin transaction volume projections of $1.5 quadrillion by 2035 validate institutional settlement infrastructure momentum."
     },
     {
       "title": "State-Level Crypto Sanctions Warfare",
-      "body": "Russia, Iran, North Korea collectively moved $104B through crypto to evade sanctions; OFAC froze $131M in Iranian stablecoins\u2014demonstrates both the scale of illicit state flows and regulatory capacity to disrupt them. Geopolitical tensions (US-Iran naval blockade) directly correlate to crypto volatility and sanctions enforcement activity."
+      "body": "Russia, Iran, North Korea collectively moved $104B through crypto to evade sanctions; OFAC froze $131M in Iranian stablecoins—demonstrates both the scale of illicit state flows and regulatory capacity to disrupt them. Geopolitical tensions (US-Iran naval blockade) directly correlate to crypto volatility and sanctions enforcement activity."
     },
     {
       "title": "Institutional Infrastructure Build-Out",
@@ -298,11 +298,11 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "Positioning as enterprise compliance partner through Circle Ventures investment and agentic AI design integration, signaling pivot toward institutional automation over traditional alerts.",
-    "TRM Labs": "Expanding into AI-native financial crime operations via Unit21 partnership while claiming North Korea cyber theft leadership; maintaining geopolitical threat intelligence as core differentiator.",
-    "Arkham Intelligence": "Leveraging public government crypto transfers as real-time on-chain surveillance narrative; positioning as transparency platform tracking official asset movements rather than compliance-first tool.",
-    "Crystal Intelligence": "Entering market with Ask Crystal AI analyst product, emphasizing natural language blockchain judgment; competing on accessibility and ease-of-use rather than compliance infrastructure.",
-    "Nansen": "Winding down validator operations; shifting from infrastructure plays toward wallet analytics and profit tracking insights, indicating portfolio consolidation."
+    "Elliptic": "💡 Positioning as enterprise compliance partner through Circle Ventures investment and agentic AI design integration, signaling pivot toward institutional automation over traditional alerts.",
+    "TRM Labs": "💡 Expanding into AI-native financial crime operations via Unit21 partnership while claiming North Korea cyber theft leadership; maintaining geopolitical threat intelligence as core differentiator.",
+    "Arkham Intelligence": "💡 Leveraging public government crypto transfers as real-time on-chain surveillance narrative; positioning as transparency platform tracking official asset movements rather than compliance-first tool.",
+    "Crystal Intelligence": "💡 Entering market with Ask Crystal AI analyst product, emphasizing natural language blockchain judgment; competing on accessibility and ease-of-use rather than compliance infrastructure.",
+    "Nansen": "💡 Winding down validator operations; shifting from infrastructure plays toward wallet analytics and profit tracking insights, indicating portfolio consolidation."
   },
   "seizure_value": "",
   "seizure_cases": "",
