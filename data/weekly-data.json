@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-07-16",
+    "url": "briefings/2026-07-16.html",
+    "mentions": 10,
+    "narrative": 678,
+    "competitor_total": 20,
+    "persistent_count": 0,
+    "emerging_count": 5,
+    "articles_analysed": 1082,
+    "mention_categories": {
+      "mainstream": 0,
+      "crypto": 0,
+      "fintech": 2,
+      "blog": 3,
+      "niche": 5
+    },
+    "sentiment": {
+      "positive": 7,
+      "neutral": 2,
+      "negative": 1
+    },
+    "competitors": {
+      "Arkham Intelligence": 8,
+      "TRM Labs": 5,
+      "Elliptic": 4,
+      "Nansen": 2,
+      "Crystal Intelligence": 1,
+      "CipherTrace": 0,
+      "Solidus Labs": 0,
+      "Merkle Science": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 156
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 140
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 138
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 77
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 71
+      },
+      {
+        "name": "National Security, Defence & Intelligence",
+        "count": 61
+      },
+      {
+        "name": "Geopolitics, Macro & Dollar Dominance",
+        "count": 60
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 57
+      }
+    ],
+    "narratives": [
+      "Stablecoin Adoption Accelerating",
+      "Sanctions Evasion at Scale",
+      "Analytics Credibility in Legal Systems",
+      "TradFi Integration Momentum",
+      "AI-Powered Compliance Automation"
+    ],
+    "headline": "In highlight coverage, our Ontology Report was covered on TokenPost in Korea. LeMagIT covered our analysis on Trickbot/Conti leader \"Stern\". Nikkei Asia cited our data on Huione Group's $49 billion-pl"
+  },
+  {
     "date": "2026-07-09",
     "url": "briefings/2026-07-09.html",
     "mentions": 13,
