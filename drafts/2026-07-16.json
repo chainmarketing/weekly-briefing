@@ -6,7 +6,7 @@
   "competitor_total": 20,
   "persistent_count": 0,
   "articles_analysed": 1082,
-  "executive_summary": "In highlight coverage, our Ontology Report was covered on TokenPost in Korea. LeMagIT covered our analysis on Trickbot/Conti leader \"Stern\". Nikkei Asia cited our data on Huione Group's $49 billion-plus in crypto transactions linked to scam and trafficking networks in its coverage of the Huione Pay/H-Pay collapse in Cambodia. In industry news, Circle secured final regulatory approval to establish a US trust bank (Reuters), SWIFT launched a blockchain ledger pilot with 17 banks (Reuters), and Japan moved to recognize cryptocurrency as financial assets (Reuters), signaling accelerating institutional adoption.\n\nIn competitor news, Elliptic secured Circle Ventures investment and partnership expansion across compliance programs (Cryptonews.net, CryptoRank); TRM Labs partnered with Unit21 for AI-native financial crime operations (Business Wire) and reported North Korea's $577M H1 2026 crypto theft spike; Arkham Intelligence tracked $297M in US government seized crypto transfers to Coinbase Prime; Crystal Intelligence launched Ask Crystal AI analyst tool (CryptoPotato); and Nansen wound down its Somnia validator (Crypto Briefing).",
+  "executive_summary": "In highlight coverage, our Ontology Report was covered on TokenPost in Korea. LeMagIT covered our analysis on Trickbot/Conti leader \"Stern\". Nikkei Asia cited our data on Huione Group's $49 billion-plus in crypto transactions linked to scam and trafficking networks in its coverage of the Huione Pay/H-Pay collapse in Cambodia. In industry news, Circle secured final regulatory approval to establish a US trust bank (Reuters), SWIFT launched a blockchain ledger pilot with 17 banks (Reuters), and Japan moved to recognize cryptocurrency as financial assets (Reuters), signaling accelerating institutional adoption. In competitor news, Elliptic secured Circle Ventures investment and partnership expansion across compliance programs (Cryptonews.net, CryptoRank); TRM Labs partnered with Unit21 for AI-native financial crime operations (Business Wire) and reported North Korea's $577M H1 2026 crypto theft spike; Arkham Intelligence tracked $297M in US government seized crypto transfers to Coinbase Prime; Crystal Intelligence launched Ask Crystal AI analyst tool (CryptoPotato); and Nansen wound down its Somnia validator (Crypto Briefing).",
   "mentions": [
     {
       "title": "Chainalysis Reactor Satisfies Daubert Standard For Expert Testimony In Bitcoin Fog Case - Crowdfund Insider",
@@ -167,7 +167,7 @@
     {
       "title": "AI-Powered Compliance Automation",
       "description": "Competitors and market moving toward AI-native financial crime detection; Crystal Intelligence launches Ask Crystal; Unit21-TRM Labs partnership emphasizes automation.",
-      "relevance": "Competitive pressure emerging around AI compliance tools; we must accelerate automation capabilities to maintain analytical and operational efficiency leadership.",
+      "relevance": "Competitive pressure emerging around AI compliance tools",
       "cadence": "new",
       "momentum": "new",
       "appearances": 1,
@@ -298,11 +298,11 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 Positioning as enterprise compliance partner through Circle Ventures investment and agentic AI design integration, signaling pivot toward institutional automation over traditional alerts.",
-    "TRM Labs": "💡 Expanding into AI-native financial crime operations via Unit21 partnership while claiming North Korea cyber theft leadership; maintaining geopolitical threat intelligence as core differentiator.",
-    "Arkham Intelligence": "💡 Leveraging public government crypto transfers as real-time on-chain surveillance narrative; positioning as transparency platform tracking official asset movements rather than compliance-first tool.",
-    "Crystal Intelligence": "💡 Entering market with Ask Crystal AI analyst product, emphasizing natural language blockchain judgment; competing on accessibility and ease-of-use rather than compliance infrastructure.",
-    "Nansen": "💡 Winding down validator operations; shifting from infrastructure plays toward wallet analytics and profit tracking insights, indicating portfolio consolidation."
+    "Elliptic": "💡 💡 Positioning as enterprise compliance partner through Circle Ventures investment and agentic AI design integration, signaling pivot toward institutional automation over traditional alerts.",
+    "TRM Labs": "💡 💡 Expanding into AI-native financial crime operations via Unit21 partnership while claiming North Korea cyber theft leadership; maintaining geopolitical threat intelligence as core differentiator.",
+    "Arkham Intelligence": "💡 💡 Leveraging public government crypto transfers as real-time on-chain surveillance narrative; positioning as transparency platform tracking official asset movements rather than compliance-first tool.",
+    "Crystal Intelligence": "💡 💡 Entering market with Ask Crystal AI analyst product, emphasizing natural language blockchain judgment; competing on accessibility and ease-of-use rather than compliance infrastructure.",
+    "Nansen": "💡 💡 Winding down validator operations; shifting from infrastructure plays toward wallet analytics and profit tracking insights, indicating portfolio consolidation."
   },
   "seizure_value": "",
   "seizure_cases": "",
