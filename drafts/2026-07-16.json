@@ -1,0 +1,321 @@
+{
+  "date": "2026-07-16",
+  "date_display": "July 16, 2026",
+  "mentions_count": 10,
+  "narrative_count": 678,
+  "competitor_total": 20,
+  "persistent_count": 0,
+  "articles_analysed": 1082,
+  "executive_summary": "In highlight coverage, our Reactor platform achieved significant legal validation through Crowdfund Insider's coverage of meeting the Daubert Standard for expert testimony in the Bitcoin Fog case, establishing courtroom credibility for our analytics. Our stablecoin research dominated the narrative landscape: CoinMarketCap reported our projection that stablecoins could process $1.5 quadrillion annually by 2035, while CryptoRank covered our automatic stablecoin support feature addressing compliance teams' token sprawl challenges. In crypto news, our sanctions enforcement work gained major visibility with India Today and Moneycontrol covering our research showing Russia, Iran, and North Korea moved $104 billion in crypto to bypass Western sanctions, complemented by our blog revealing OFAC's $131M stablecoin freeze on Iran Central Bank wallets. Circle secured final regulatory approval to establish a US trust bank (Reuters), SWIFT launched a blockchain ledger pilot with 17 banks (Reuters), and Japan moved to recognize cryptocurrency as financial assets (Reuters), signaling accelerating institutional adoption. In competitor news, Elliptic secured Circle Ventures investment and partnership expansion across compliance programs (Cryptonews.net, CryptoRank); TRM Labs partnered with Unit21 for AI-native financial crime operations (Business Wire) and reported North Korea's $577M H1 2026 crypto theft spike; Arkham Intelligence tracked $297M in US government seized crypto transfers to Coinbase Prime; Crystal Intelligence launched Ask Crystal AI analyst tool (CryptoPotato); and Nansen wound down its Somnia validator (Crypto Briefing).",
+  "mentions": [
+    {
+      "title": "Chainalysis Reactor Satisfies Daubert Standard For Expert Testimony In Bitcoin Fog Case - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFZVckcxNVlWLWdlQVJab3QtSmdPN05UVHlpcjdVTjVNVmZYZXZYd0lVVkRUanl0WDAyN3ZxcFR3dUtUOWFnWnJTSjdzMHRFVm9oODJNN0dEUEJ6RDJzTnhoal9NSzNuTlVHeGFsUEVId1VROEYyd0x5Tm9TVEZaTFpha0ZnQ281UTRlWFpKdkNETC00SlJNcTVpSzd3Q2dJcV9KbzFWYy0zR1RZX2I5WTZ0Ujg1c3ctVHFTekprZ3pSN1d6TkJCd2ZacG9lRXJTNUE?oc=5",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "Chainalysis Adds Automatic Stablecoin Support As Compliance Teams Face Token Sprawl - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXMtZDNqT0gzYUZxLVhTSjBucFJOTWhXdTBMR1pqa3ZYdkhPZnJpMWNlejBpRmdWcHhWNmsyZVlBN3FoMkN1d2k1Nk1YTkVycEYzbDVDSEVEZlBqYUlUSEc4ODZSNmFGbGlPRGhidm94NGxRaWc0OFNfWTVZZUVkVnFLQUNOMl9TVlhNeDJmZGNoRFc0a2ZaUXVFSTdCYlZkcE56NW4xT3JiRlVubzZxRFFaNWY?oc=5",
+      "source": "CryptoRank"
+    },
+    {
+      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Russia, Iran, North Korea moved $104 billion in crypto to bypass sanctions: Report - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ1Z5amdCVFZTZ1dfVjZRUVR1clVoNUZUOTk2bjhrTlRLODFraHRvVERhckZ3Q1Q1ZkRCa2J2WTlHcEpqWUhDendOcVVCUmk5NVF4SXhucF9WdFRHSWlsbWJyaGVvRG01WFdmZlFkZTBvWS01TU1GTVdGeHlDWGJtUjM1TGpaSmdKbUIwUFFSMW9CYWFTMmdGdFBDR0JmWUpibU4wTG5zSU1QSzN4UUwzX1QyTXB4V1NweFN2Zk5RSFFvUU9hUHVkT3FGbkwzbmJkZE1nQkJVQ3hrTk9E0gHiAUFVX3lxTE0zWGYwNm13anlDRms5SG5jVEZ1cXhjVXZqWmZraG9QVGlfT09zLUx2TDVrYklnUUdaclRzQlZKY1oyM3k2OHNJaDRub3YwSkM2cXROeWp5Y1JYdTlMa0lWMnJSN2FQTHNqRTVpOG1wdG5iaEdSdTRjYWpObGotVEphM1ZmVWlhcXA1V1NPOUhLSUIxNVV5RzJqMEJXeWdVOFo5cFlEMnBRS1NvZ0hrWUZaM0kyV1lvUWJkZS1GS1NpTWpyS1dJSTI1X2tldVBRVGRSaVkxd3RzYWotdEhDa2w1anc?oc=5",
+      "source": "India Today"
+    },
+    {
+      "title": "Tech M&A Deals: Chainalysis, Zirtual and Empower AI - InfotechLead",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWjU1eW1EQm5HRHd6QWxmeHNybjM0Y09aUVVUQVdwU1M1OTlDSVZTMVBRLXdFcThLLVprNHdXcU1ESDhlZzFVT2docU9KdnJuaU56SmJucHBhdXM1a3RBLWZTalh6OWdtTzlNeFFHeGNOZUlwMFh2bWIwaXZXNmtMY0FuSXhwa0VDT0hydGJQSU43QU3SAZsBQVVfeXFMTXVlRzBsc0dPREFvYUFaRE9JaTRTa3lHX1gzejk4UGZMblJiVU9kUmNLeGt2R0dNLU92cktYWDhBSk42b3NUc3Z3dnNMRjY3dEw3bTREZzY0MXN6V2tfejBrbXZ4REswRWFheWFqM1c1dGV0MUd5a2NnanZteUo2M00xNExURVZrR2tfWkQ4ZGxxeXFpcERDeWI3eVU?oc=5",
+      "source": "InfotechLead"
+    },
+    {
+      "title": "How Russia, Iran and North Korea used $104 billion in crypto to evade Western sanctions - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdW9SOTFReXBJQlRhWEo4QzI0ckdQX2JLSFZwekVjUUttU2tsOVRTb0V0QXVlQnpiWGstazhJbnJBU2pqMFU5SUFScENOX05KU2REWXd0LXVMOFNPVHlVX1cwVHM5aXFmQW9FOWhhTTFSQUk4YUkwcFBMbkp0OFBwTFVfX2xKLUxvWGxUMjhCMW9KazZUejRDZDloNUczb0NzZ0h6bW1sT3RibXd0UzRhSDJDdGxCZmNBZXpMbllFRGJmNGYtX3g4MERzMUFXWl9RNWI4Qk93UVU2d9IB3wFBVV95cUxObnpUWjEyeUVIa2ZIYVU2bk51UXp2ZmNsY25fNi1ocDFkQ3U1WDVGU0RTb2dIMGY0c1lfdG9mUEYxM0xaS2h0VzU5azZaRW1qWnhPZm4zUmgwUWJyYVBxc3JMMVc4d2lnOW80WHNOeGlIVXlEX2FOTUFva3IxaHk2aGhOUmdHeG1lRmw3SHVobnlqbHFiN09nWXhFNFZ4ekowUGp2VHI4OWFxRWo0MjF1eDhaVllNcEhyOUg2T0MwZ0tzcHZkUnRIZmFkVW5VUmY5eXBENlZiZ2VQY1ZESjNz?oc=5",
+      "source": "Moneycontrol.com"
+    },
+    {
+      "title": "EU Sanctions \u201cStern,\u201d Alleged Top Ransomware Operator, in Coordinated Global Cyber Crackdown",
+      "url": "https://www.crowdfundinsider.com/2026/07/291714-eu-sanctions-stern-alleged-top-ransomware-operator-in-coordinated-global-cyber-crackdown/",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "OFAC Sanctions Iran Central Bank Crypto Wallets, Freezing $131M in Stablecoins",
+      "url": "https://www.chainalysis.com/blog/ofac-sanctions-iran-central-bank-crypto-wallets-freezing-131m-in-stablecoins/",
+      "source": "Chainalysis Blog"
+    },
+    {
+      "title": "Chainalysis Supports Stable with Automatic Token Support",
+      "url": "https://www.chainalysis.com/blog/stable-automatic-token-support/",
+      "source": "Chainalysis Blog"
+    },
+    {
+      "title": "Courtroom-Ready Analytics: How Chainalysis Met the Daubert Standard",
+      "url": "https://www.chainalysis.com/blog/chainalysis-daubert-standard-sterlingov/",
+      "source": "Chainalysis Blog"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Stablecoin Adoption Accelerating",
+      "description": "Stablecoins poised for $1.5 quadrillion annual transaction volume by 2035; regulatory frameworks emerging across US, UK, and Japan.",
+      "relevance": "Our research and compliance tools position us as essential infrastructure for stablecoin monitoring and regulatory compliance as adoption scales exponentially.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis Adds Automatic Stablecoin Support As Compliance Teams Face Token Sprawl - CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXMtZDNqT0gzYUZxLVhTSjBucFJOTWhXdTBMR1pqa3ZYdkhPZnJpMWNlejBpRmdWcHhWNmsyZVlBN3FoMkN1d2k1Nk1YTkVycEYzbDVDSEVEZlBqYUlUSEc4ODZSNmFGbGlPRGhidm94NGxRaWc0OFNfWTVZZUVkVnFLQUNOMl9TVlhNeDJmZGNoRFc0a2ZaUXVFSTdCYlZkcE56NW4xT3JiRlVubzZxRFFaNWY?oc=5",
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "OFAC Sanctions Iran Central Bank Crypto Wallets, Freezing $131M in Stablecoins",
+          "url": "https://www.chainalysis.com/blog/ofac-sanctions-iran-central-bank-crypto-wallets-freezing-131m-in-stablecoins/",
+          "source": "Chainalysis Blog"
+        }
+      ]
+    },
+    {
+      "title": "Sanctions Evasion at Scale",
+      "description": "Russia, Iran, North Korea moved $104 billion in crypto to evade sanctions; $131M Iranian Central Bank stablecoins frozen by OFAC.",
+      "relevance": "Our sanctions enforcement analytics and OFAC collaboration directly enable detection and asset freezing, reinforcing our position as critical for geopolitical compliance.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "OFAC Sanctions Iran Central Bank Crypto Wallets, Freezing $131M in Stablecoins",
+          "url": "https://www.chainalysis.com/blog/ofac-sanctions-iran-central-bank-crypto-wallets-freezing-131m-in-stablecoins/",
+          "source": "Chainalysis Blog"
+        },
+        {
+          "title": "Russia, Iran, North Korea moved $104 billion in crypto to bypass sanctions: Report - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ1Z5amdCVFZTZ1dfVjZRUVR1clVoNUZUOTk2bjhrTlRLODFraHRvVERhckZ3Q1Q1ZkRCa2J2WTlHcEpqWUhDendOcVVCUmk5NVF4SXhucF9WdFRHSWlsbWJyaGVvRG01WFdmZlFkZTBvWS01TU1GTVdGeHlDWGJtUjM1TGpaSmdKbUIwUFFSMW9CYWFTMmdGdFBDR0JmWUpibU4wTG5zSU1QSzN4UUwzX1QyTXB4V1NweFN2Zk5RSFFvUU9hUHVkT3FGbkwzbmJkZE1nQkJVQ3hrTk9E0gHiAUFVX3lxTE0zWGYwNm13anlDRms5SG5jVEZ1cXhjVXZqWmZraG9QVGlfT09zLUx2TDVrYklnUUdaclRzQlZKY1oyM3k2OHNJaDRub3YwSkM2cXROeWp5Y1JYdTlMa0lWMnJSN2FQTHNqRTVpOG1wdG5iaEdSdTRjYWpObGotVEphM1ZmVWlhcXA1V1NPOUhLSUIxNVV5RzJqMEJXeWdVOFo5cFlEMnBRS1NvZ0hrWUZaM0kyV1lvUWJkZS1GS1NpTWpyS1dJSTI1X2tldVBRVGRSaVkxd3RzYWotdEhDa2w1anc?oc=5",
+          "source": "India Today"
+        },
+        {
+          "title": "How Russia, Iran and North Korea used $104 billion in crypto to evade Western sanctions - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdW9SOTFReXBJQlRhWEo4QzI0ckdQX2JLSFZwekVjUUttU2tsOVRTb0V0QXVlQnpiWGstazhJbnJBU2pqMFU5SUFScENOX05KU2REWXd0LXVMOFNPVHlVX1cwVHM5aXFmQW9FOWhhTTFSQUk4YUkwcFBMbkp0OFBwTFVfX2xKLUxvWGxUMjhCMW9KazZUejRDZDloNUczb0NzZ0h6bW1sT3RibXd0UzRhSDJDdGxCZmNBZXpMbllFRGJmNGYtX3g4MERzMUFXWl9RNWI4Qk93UVU2d9IB3wFBVV95cUxObnpUWjEyeUVIa2ZIYVU2bk51UXp2ZmNsY25fNi1ocDFkQ3U1WDVGU0RTb2dIMGY0c1lfdG9mUEYxM0xaS2h0VzU5azZaRW1qWnhPZm4zUmgwUWJyYVBxc3JMMVc4d2lnOW80WHNOeGlIVXlEX2FOTUFva3IxaHk2aGhOUmdHeG1lRmw3SHVobnlqbHFiN09nWXhFNFZ4ekowUGp2VHI4OWFxRWo0MjF1eDhaVllNcEhyOUg2T0MwZ0tzcHZkUnRIZmFkVW5VUmY5eXBENlZiZ2VQY1ZESjNz?oc=5",
+          "source": "Moneycontrol.com"
+        }
+      ]
+    },
+    {
+      "title": "Analytics Credibility in Legal Systems",
+      "description": "Our Reactor platform meets Daubert Standard for expert testimony in criminal prosecutions, establishing blockchain analytics as admissible evidence.",
+      "relevance": "Courtroom validation of our analytics significantly expands enterprise and law enforcement demand; differentiates us from competitors lacking legal precedent.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis Reactor Satisfies Daubert Standard For Expert Testimony In Bitcoin Fog Case - Crowdfund Insider",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFZVckcxNVlWLWdlQVJab3QtSmdPN05UVHlpcjdVTjVNVmZYZXZYd0lVVkRUanl0WDAyN3ZxcFR3dUtUOWFnWnJTSjdzMHRFVm9oODJNN0dEUEJ6RDJzTnhoal9NSzNuTlVHeGFsUEVId1VROEYyd0x5Tm9TVEZaTFpha0ZnQ281UTRlWFpKdkNETC00SlJNcTVpSzd3Q2dJcV9KbzFWYy0zR1RZX2I5WTZ0Ujg1c3ctVHFTekprZ3pSN1d6TkJCd2ZacG9lRXJTNUE?oc=5",
+          "source": "Crowdfund Insider"
+        },
+        {
+          "title": "Courtroom-Ready Analytics: How Chainalysis Met the Daubert Standard",
+          "url": "https://www.chainalysis.com/blog/chainalysis-daubert-standard-sterlingov/",
+          "source": "Chainalysis Blog"
+        },
+        {
+          "title": "Swift starts blockchain ledger with initial set of 17 banks - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1pGREhNRXc0TUhTQW51M0E0Z2RzSGUzd2Y0ajR0MzE0dHZjS19tSkFGQWVKM3BNdWllNEQ3UVduNXFmN2VFdi01R0ZJVldxMUZ4V0FYTm4tWmlnRmNvOWhyOTh0R2owT01VdGMydlV1MWlqTjBpMlNTMHlMc3FXNmplZkg2THB5M1VaMWhQWGM3Rmp2R3ZqSkFERUNJYUV6US1RcW9WdmczWlJ0dlE?oc=5",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "TradFi Integration Momentum",
+      "description": "SWIFT blockchain pilot with 17 banks; Circle wins US trust bank approval; Wall Street investment banking surges\u2014institutional adoption accelerating.",
+      "relevance": "TradFi integration creates new compliance monitoring opportunities for our enterprise platform, particularly around cross-border payments and stablecoin settlement.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Swift starts blockchain ledger with initial set of 17 banks - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1pGREhNRXc0TUhTQW51M0E0Z2RzSGUzd2Y0ajR0MzE0dHZjS19tSkFGQWVKM3BNdWllNEQ3UVduNXFmN2VFdi01R0ZJVldxMUZ4V0FYTm4tWmlnRmNvOWhyOTh0R2owT01VdGMydlV1MWlqTjBpMlNTMHlMc3FXNmplZkg2THB5M1VaMWhQWGM3Rmp2R3ZqSkFERUNJYUV6US1RcW9WdmczWlJ0dlE?oc=5",
+          "source": "Reuters"
+        },
+        {
+          "title": "Chainalysis Adds Automatic Stablecoin Support As Compliance Teams Face Token Sprawl - CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXMtZDNqT0gzYUZxLVhTSjBucFJOTWhXdTBMR1pqa3ZYdkhPZnJpMWNlejBpRmdWcHhWNmsyZVlBN3FoMkN1d2k1Nk1YTkVycEYzbDVDSEVEZlBqYUlUSEc4ODZSNmFGbGlPRGhidm94NGxRaWc0OFNfWTVZZUVkVnFLQUNOMl9TVlhNeDJmZGNoRFc0a2ZaUXVFSTdCYlZkcE56NW4xT3JiRlVubzZxRFFaNWY?oc=5",
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Russia, Iran, North Korea moved $104 billion in crypto to bypass sanctions: Report - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ1Z5amdCVFZTZ1dfVjZRUVR1clVoNUZUOTk2bjhrTlRLODFraHRvVERhckZ3Q1Q1ZkRCa2J2WTlHcEpqWUhDendOcVVCUmk5NVF4SXhucF9WdFRHSWlsbWJyaGVvRG01WFdmZlFkZTBvWS01TU1GTVdGeHlDWGJtUjM1TGpaSmdKbUIwUFFSMW9CYWFTMmdGdFBDR0JmWUpibU4wTG5zSU1QSzN4UUwzX1QyTXB4V1NweFN2Zk5RSFFvUU9hUHVkT3FGbkwzbmJkZE1nQkJVQ3hrTk9E0gHiAUFVX3lxTE0zWGYwNm13anlDRms5SG5jVEZ1cXhjVXZqWmZraG9QVGlfT09zLUx2TDVrYklnUUdaclRzQlZKY1oyM3k2OHNJaDRub3YwSkM2cXROeWp5Y1JYdTlMa0lWMnJSN2FQTHNqRTVpOG1wdG5iaEdSdTRjYWpObGotVEphM1ZmVWlhcXA1V1NPOUhLSUIxNVV5RzJqMEJXeWdVOFo5cFlEMnBRS1NvZ0hrWUZaM0kyV1lvUWJkZS1GS1NpTWpyS1dJSTI1X2tldVBRVGRSaVkxd3RzYWotdEhDa2w1anc?oc=5",
+          "source": "India Today"
+        }
+      ]
+    },
+    {
+      "title": "AI-Powered Compliance Automation",
+      "description": "Competitors and market moving toward AI-native financial crime detection; Crystal Intelligence launches Ask Crystal; Unit21-TRM Labs partnership emphasizes automation.",
+      "relevance": "Competitive pressure emerging around AI compliance tools; we must accelerate automation capabilities to maintain analytical and operational efficiency leadership.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 1,
+      "articles": [
+        {
+          "title": "Chainalysis Adds Automatic Stablecoin Support As Compliance Teams Face Token Sprawl - CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXMtZDNqT0gzYUZxLVhTSjBucFJOTWhXdTBMR1pqa3ZYdkhPZnJpMWNlejBpRmdWcHhWNmsyZVlBN3FoMkN1d2k1Nk1YTkVycEYzbDVDSEVEZlBqYUlUSEc4ODZSNmFGbGlPRGhidm94NGxRaWc0OFNfWTVZZUVkVnFLQUNOMl9TVlhNeDJmZGNoRFc0a2ZaUXVFSTdCYlZkcE56NW4xT3JiRlVubzZxRFFaNWY?oc=5",
+          "source": "CryptoRank"
+        },
+        {
+          "title": "Crypto Criminal Accused of Crypto Crimes Again, While in Jail - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM21DNXBQdUFiUjktZzFOeGRFQlQtRm51TjVjNHBZbVhpQlRHUmlEVTRnNTV0U3o0Ry1HYmVJekd4ak9XQ05VQjNzcFpSVmNzQWt3QXFKblpKSTJDUF9LZWpKLUJ1dXNvQzRMQk1QbnFpOFdwelBtRmN1NWFNUC1NeENmU0JmanZiYkN6eTM5ZW5YTXMxeWFtUlIxZ1Z5MzYyQUJWdE5zdEtraXhuTmJzRQ?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "Japan to recognise cryptocurrency as 'financial assets', NHK says - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPenBUOVBWN19jZk5GUGdSTVhfcTIwZl9BNzU5TDI3M3FyNk50S3VPME1hRTZMc2hKUXhDcFcwLUhmNFI1Vi1Ea0Q1TndmVmQ5eTQzS2txdm9FUUVTUG05NlRYRUtOaGZKYnl2b2dKM05tNEg1aEZfUUZHcno4dTNDazluaEdKOEthSHRYN3cwaWZ2MmpOYzNERmhXSEVBY0N1VG1ydUpmc3pCeWRoSGc?oc=5",
+          "source": "Reuters"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 156
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 140
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 138
+    },
+    {
+      "name": "Stablecoins & Digital Payments",
+      "count": 77
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 71
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 61
+    },
+    {
+      "name": "Geopolitics, Macro & Dollar Dominance",
+      "count": 60
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 57
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Arkham Intelligence",
+      "count": 8,
+      "top_title": "The US Government Moved $250,000 in SHIB Seized From SBF and Alameda - Bitget",
+      "top_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42MFZMRlhOc2d1Z2xfSm5KWGY5dVliYm8welpRVEZ0bXRvTUQwcF8yREU2enlsRzc1emRSRGRJTm5HanJGaVM1MEtueTB5M0lYeHZUenJwUlktT2F2dnBaMXpSb9IBY0FVX3lxTE42MFZMRlhOc2d1Z2xfSm5KWGY5dVliYm8welpRVEZ0bXRvTUQwcF8yREU2enlsRzc1emRSRGRJTm5HanJGaVM1MEtueTB5M0lYeHZUenJwUlktT2F2dnBaMXpSbw?oc=5",
+      "top_source": "Bitget"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 5,
+      "top_title": "Unit21 and TRM Labs Bring Blockchain Intelligence to AI-native Financial Crime Operations - Business",
+      "top_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaDVZbW00YU5YZ1RwRnpyc0tZTnBBeFE0TUdFN3hadllUWWQxT2EzWnZ6NlA5eTlLQk1yWExyLTlTbVotRGc5M3FycG81S1B0SUFjbHhVM0J2VXgxWks3N2t2TU1HUzRGU2tGOFE3RV8zc0tNQjJ1NWhqNldWTFhfdDZ2SzNRdExPLVExcUlXVDhPX0NfUnYtMzlyeGZuWTBFbDRzT21WS19HVVhVOEhlOVJJRDlQUTU3WktVTDlsS2V1cXhwSzBod01abVhVSExtMURRNXFxZDdZSW5hQkFr?oc=5",
+      "top_source": "Business Wire"
+    },
+    {
+      "name": "Elliptic",
+      "count": 4,
+      "top_title": "Circle Ventures Invests in Elliptic to Advance Crypto Compliance Solutions - Cryptonews.net",
+      "top_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oY0p3QjQ2MjlncWRWTnUwMkJLY2s0eEVYLWxyUWhYNDRUQ1lLclhmYlJqMGVXRVRCWDhEV0dkb3lvZzFLd1FtSm10a1RNVVFUbEktcnJFZGk?oc=5",
+      "top_source": "Cryptonews.net"
+    },
+    {
+      "name": "Nansen",
+      "count": 2,
+      "top_title": "Nansen winds down Somnia validator, delegates have until July 16 to unstake - Crypto Briefing",
+      "top_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1feE5RSmE0T0M2b3VyWFpUUjNwVnpCM1h0MENwRlc0YnIzeTlkeUVyOEhTbWJYR3VJbWdIaExTcHkzU3lrT3dpcHV6TWkteHV5Y2xTc1Rtbk1rUWJSTHZpOVpYYWR2V1hDYUlhVXgtWQ?oc=5",
+      "top_source": "Crypto Briefing"
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 1,
+      "top_title": "Crystal Intelligence launches Ask Crystal, the AI analyst behind every blockchain judgment - CryptoP",
+      "top_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeEJqTmtyMFRXWDZYN1BabllUMFIydlFENloxTTA5aWJMandmMDdLVU9yUFA5eUY3ZTNtbmJlekZjTXNxSF80cVJ2S2QxMkFJTDROcFJ2RklXd3hBODJuZ1JXTmRUamt1cG9CYmhWM25kc3piajVOd2Z4N0ViSWhmMjRUSTFvV2g4amY5R2xFdkRuS3lhLTlESzN3azRMa3JFanV0UE1wZW82VGM2NXkxSkdUX04tZw?oc=5",
+      "top_source": "CryptoPotato"
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Merkle Science",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Regulatory Convergence on Stablecoins",
+      "body": "US, UK, and Japan coordinating stablecoin frameworks while Circle achieves trust bank approval\u2014signals global consensus toward integration over restriction. Stablecoin transaction volume projections of $1.5 quadrillion by 2035 validate institutional settlement infrastructure momentum."
+    },
+    {
+      "title": "State-Level Crypto Sanctions Warfare",
+      "body": "Russia, Iran, North Korea collectively moved $104B through crypto to evade sanctions; OFAC froze $131M in Iranian stablecoins\u2014demonstrates both the scale of illicit state flows and regulatory capacity to disrupt them. Geopolitical tensions (US-Iran naval blockade) directly correlate to crypto volatility and sanctions enforcement activity."
+    },
+    {
+      "title": "Institutional Infrastructure Build-Out",
+      "body": "SWIFT blockchain ledger pilot with 17 banks and traditional finance M&A surge signal legacy financial system integration with crypto rails accelerating. Parallel rise of AI-native compliance tools (Unit21-TRM, Crystal Intelligence, Elliptic automation) reflects market shift toward autonomous monitoring for scale."
+    }
+  ],
+  "competitor_reads": {
+    "Elliptic": "Positioning as enterprise compliance partner through Circle Ventures investment and agentic AI design integration, signaling pivot toward institutional automation over traditional alerts.",
+    "TRM Labs": "Expanding into AI-native financial crime operations via Unit21 partnership while claiming North Korea cyber theft leadership; maintaining geopolitical threat intelligence as core differentiator.",
+    "Arkham Intelligence": "Leveraging public government crypto transfers as real-time on-chain surveillance narrative; positioning as transparency platform tracking official asset movements rather than compliance-first tool.",
+    "Crystal Intelligence": "Entering market with Ask Crystal AI analyst product, emphasizing natural language blockchain judgment; competing on accessibility and ease-of-use rather than compliance infrastructure.",
+    "Nansen": "Winding down validator operations; shifting from infrastructure plays toward wallet analytics and profit tracking insights, indicating portfolio consolidation."
+  },
+  "seizure_value": "",
+  "seizure_cases": "",
+  "mention_categories": {
+    "mainstream": 0,
+    "crypto": 0,
+    "fintech": 2,
+    "blog": 3,
+    "niche": 5
+  },
+  "sentiment": {
+    "positive": 7,
+    "neutral": 2,
+    "negative": 1
+  }
+}
