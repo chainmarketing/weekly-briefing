@@ -1,5 +1,78 @@
 [
   {
+    "date": "2026-07-23",
+    "url": "briefings/2026-07-23.html",
+    "mentions": 10,
+    "narrative": 685,
+    "competitor_total": 25,
+    "persistent_count": 0,
+    "emerging_count": 4,
+    "articles_analysed": 1154,
+    "mention_categories": {
+      "mainstream": 0,
+      "crypto": 5,
+      "fintech": 0,
+      "blog": 0,
+      "niche": 11
+    },
+    "sentiment": {
+      "positive": 11,
+      "neutral": 4,
+      "negative": 1
+    },
+    "competitors": {
+      "Elliptic": 8,
+      "TRM Labs": 8,
+      "Arkham Intelligence": 8,
+      "Nansen": 1,
+      "CipherTrace": 0,
+      "Crystal Intelligence": 0,
+      "Solidus Labs": 0,
+      "Merkle Science": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 186
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 155
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 106
+      },
+      {
+        "name": "National Security, Defence & Intelligence",
+        "count": 86
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 79
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 66
+      },
+      {
+        "name": "Cybersecurity & Operational Resilience",
+        "count": 55
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 47
+      }
+    ],
+    "narratives": [
+      "Stablecoins Enable Gray-Market Commerce",
+      "Chinese Networks Dominate Laundering Flows",
+      "MiCA Compliance Tools Consolidation",
+      "Institutional Adoption Via Tokenization"
+    ],
+    "headline": "In highlight coverage, data from our scams chapter of the Crypto Crime Report was featured in Coindesk's weekly newsletter. Our research on illicit finance gained significant traction across several m"
+  },
+  {
     "date": "2026-07-16",
     "url": "briefings/2026-07-16.html",
     "mentions": 10,
