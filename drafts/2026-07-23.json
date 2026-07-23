@@ -1,7 +1,7 @@
 {
   "date": "2026-07-23",
   "date_display": "July 23, 2026",
-  "mentions_count": 17,
+  "mentions_count": 10,
   "narrative_count": 685,
   "competitor_total": 25,
   "persistent_count": 0,
@@ -19,11 +19,6 @@
       "source": "CoinMarketCap"
     },
     {
-      "title": "Chainalysis Adds Automatic Stablecoin Support As Compliance Teams Face Token Sprawl - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPanRMRjFDeHVKQ3AyN3BzaGhPcVNENEVOaDN1YTFteFFVSmVZa2M5RTV4RmttcmlHalVKcjJLTkh5WE5QWk1QNDB1VFZaZlZqbk90N1NUbWVoWFdFU0hFWWltaFhIbzNIRlgzN1o2dndETjlMVEZlcXVNcHh3dGVoaVBTcC1KV0RBYm9wYUdRY2xYNkVYWEJ5ZkxycWhUTFZOVGY2T2dHSWJjc1Y4LV9ZdjRTWW4xd2lQ?oc=5",
-      "source": "CryptoRank"
-    },
-    {
       "title": "Vietnam boosts crypto market oversight capabilities - Báo VietNamNet",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS0hFS0k1ZDVYZ2pDVmF5c25Ka21GVVg5Z2xSOEtyUDB3ZnVzZy1FczQ4WDdZYm1idnBxN185eFdsc2NqYjM5aXNMS2JZVVFQNTRvOEh2TWpGd3ZRdGRoRWVwbVI4V0pDanJCcnRPamFzMFluaXc4MERDWFBIUFFodWVoYlFxOUZjbUJyZkJrQWlpN1k?oc=5",
       "source": "Báo VietNamNet"
@@ -32,16 +27,6 @@
       "title": "2026 온라인 수익 방법…사기 출발점 - BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSWFKMDVGelhDcEJ6QUw3dldSM2NQX1NsR1hzWkFBSTlMUU5PdW52TTl2X1JlWjM3WW1XdFJxX0pxM25pTmRybl8wdlBIMkdac0paTU0zRkN2b1dmMkxkc0pFQnl0YVhzNU1ZVVByb1I4VmNRM3VuMkhxSFZRNGQzOUFfbWZ2WFRuZVkxbg?oc=5",
       "source": "BeInCrypto"
-    },
-    {
-      "title": "암호화폐 해킹 피해액, 34억 달러 어떻게 산출되나 - FinanceFeeds",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TYklPMzZ5NFpOdGEzRUM1MlZ0eWZQeHBMVVJlZ1I5MDhsQnkyTkRzNl9WT0UyU2p1UTFFUHpPcHgzamtuRG9WUmRoTWZ2UVFWbVdSR2F2VWRITmNzUTlpQk9ERjFDeEZ4?oc=5",
-      "source": "FinanceFeeds"
-    },
-    {
-      "title": "MiCA 시행 이후 암호화폐 기업을 위한 최고의 컴플라이언스 도구 7선 - FinanceFeeds",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kdWc5QkN6TmdQbHpTLXU2TU11QUZVQUdtc2xCeTBla2VjR2x4WlUwRXZLcUFWeUliV2VTVExlYlBQZVRhNVZJdkE0akhOOVlNRGVHRnJjQjlfallRNnFoTFdhS3RLNHpxMkxZ?oc=5",
-      "source": "FinanceFeeds"
     },
     {
       "title": "MiCA後の暗号資産事業者向けコンプライアンスツール7選 - FinanceFeeds",
@@ -62,26 +47,6 @@
       "title": "Aprimorar a capacidade de gestão e supervisão do mercado de criptomoedas. - Vietnam.vn",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUZkTEQ0U3I2SVRZWlFuTmZIT09OZ3EwWmkzUTdXTGpJd25LMW5fODZfa2o3SWVxSjE1a3duVGdscTBmZHU5WkdaTjN0aDcxSmM4cnNlX0RsZWp6bWpKMEc2MDFFR3VaVHJQRlh1QWtkRzhGYnRXSC04NnN1a1J1OFY0WWxLN1k2OW81V0lmUjZKZWs?oc=5",
       "source": "Vietnam.vn"
-    },
-    {
-      "title": "البيتكوين يشعل سوق الببتيدات بقيمة 32 مليون دولار مع التفاف المشترين على البنوك - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxOM3Nqc2VSbk55UDJtOXN6TU1MT3ZBeUdkbGhDQkFYa0hVRjdIR0N0RXVZb2xpTkR0TWZtczRGTHBaUUlMbVZZRDhyVFF5Q2R4ZHcybzRKbEJ0cVlhNHpTUUR3MHJBZWxIbllxM1ZTLVMyM3BpamNiajBoZGRQSEs4Tm8zeHNHNWQ5YllzNnpCblIxZEZtVWpsRzFydlpuQkNrQ2cxR0UxQzBudGZzLUV1R3hFaWpyMXhmOW1meU5SbGVpM1BzNFFwelNpeUlWeGk2SS13SVJhTlJHbUJQNVVQWWVDTDZqaVFBd1hHak9IYXNlV3lQUWMtZk1GRXdaYmN5Wjc4aFRTTFBOaHhqVFJMQy0zYXF0VmY3bTZpeWN3emwwWlpiQTFqamV2eFF3V3FobHJHS21OUUw3dENVeHdubTNwdFQtR2RfaTNQSG9WSFdJRGpXSFhsckZtbnNBY0tkRS1IbHMxeVpWeEFTTW5lSWc1ZEJCV3lMTXVRdlo5QzAtS1BBaWNqcklEc0N2YVIzUTBRV2VWWElBX1J1OXg3MkhKVXNTMW5GZjZfb1JRZDFXR2xDczJPZjgyUFdsdU15NXNOczhZSmhfRHUtQlo2XzRpS1ZxMkowdFpKeWRHXzlKdkU0TlZMbG5Ia1VvVnJDQ3J2TGpwdG9Xd1pHUHk4RkcxUUJReVpTcFJadW1EVEZpV2xsVmN5Vk5mTWhkVXE0ZENMWGRkcXBSQQ?oc=5",
-      "source": "Yellow.com"
-    },
-    {
-      "title": "لماذا تختفي ملايين الدولارات الرقمية بمجرد نسيان كلمة المرور؟ - المرسال",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Hc3dzbi1ISkwweGpBY2xCN1Myd1ExQURBTXJ1UXRGT1dCRlJCSkVXcUx2bERRaTFIc2NWUGp6clp5elVkWmNLSEQwTnc?oc=5",
-      "source": "المرسال"
-    },
-    {
-      "title": "ABD, İran Merkez Bankası'nın dört kripto cüzdanını yaptırım listesine ekledi, Tether 131 milyon dolarlık varlığı dondurdu - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSVItRVdhbW12Z280OTlXWWVMbnVPQTBPV1FkYlNfWmJ2NkkwUnVTMHdiSTcwYTlSZFhyMzdvc0RoY2dBbmcxWUJwMi1YclAyaXNrdzQ0WTZDZHhNU202NUItNnRBMFpUMkVSR3c5cDBxZEVSNG9Fc0lPMDF6eEUwSk50STRBMVFzMk9XbGxWUTN1dGYyd2RrZVFaOVQzR3J6bDVFa2lXaV84VjhsNkdMN2IzUE5SVUlVVGNveWVVeE1VLWJqcHUwX3hzR3VQTWRTTzBxaS1EMnAtWDV3eDFNMmxSSQ?oc=5",
-      "source": "CoinDesk"
-    },
-    {
-      "title": "danışmanlar için Kripto: AI dolandırıcılığına karşı savunmaların güçlendirilmesi - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQamZQUXRWNlFGM2dBZFFwQ1ZsTzJDMG51dVNnZnhQZTA5NWVEX3owZlN3Mkp0RGgybTNQUUdPVmdMVGVsbkRIQ19DSm1EODJuN2k2SHNmTVZwNzM1TlNES2RBQjdvWjRWZEx2VXdldWc2ckY0YWFrdWlUTGptTnB0MWpvUUZxakpROGF6RjVrMUl6S283QXNyYk8wNUVmcDh5ajJZWXhVNFJ4WkpheXhQdE5GYXhOQQ?oc=5",
-      "source": "CoinDesk"
     },
     {
       "title": "Cardano’s NIGHT Hits All-Time Low After 290M Token Dump",
@@ -198,32 +163,6 @@
           "source": "CoinDesk"
         }
       ]
-    },
-    {
-      "title": "Illicit Finance Prosecution Uncertainty",
-      "description": "DOJ Criminal Division warns crypto legislation may undermine money laundering prosecution effectiveness; CLARITY Act delays threaten custody standards.",
-      "relevance": "We must clarify our role supporting law enforcement investigations while advocating for regulatory frameworks that preserve prosecution tools without compromising privacy.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
-      "window_days": 1,
-      "articles": [
-        {
-          "title": "Justice Department's Criminal Division raises concerns over crypto legislation's impact on money laundering prosecutions - Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNERBRWhiZkMxS3lqWTNGNTZZaF9pYWVqMGF2MGdRSEdDSFE1M0U4MkJRdnFuUGJTY1MxQzkyMm03ZGl1OEV1ZHY5d0Z1UVZqN3RsX2N6VnF6N0plVjU3Y3hMcjNHek15NW9PN24xRU9LcDVQVk9LbzNIZjR1TjlLWDNR?oc=5",
-          "source": "Crypto Briefing"
-        },
-        {
-          "title": "Justice Department’s Criminal Division raises concerns over crypto legislation’s impact on money laundering prosecutions - Bitget",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oVk02ekg5MEJYaWVobEp3a2ZpRnYzdGpyNmFONXJFb3I0bU9EanV2QWc3SWRudjI2SXpGTG5SXzFpMjVGV0FXRFBmUlQxVDBncG10eUtQd2ZTOXpiRkpXaHNWVDPSAWpBVV95cUxPRXY5OHh4ZS13Mk9oaFM2YlhtSUp0aTRRc0ppb0JGUFBVNzJGbS1tV3VfOFA4ZlZFU1FscWxmMkVwNnAzdFdzVGhlZU1kUS1DSElNSTFKUVg4OG9RRlc4WjZ6akFhWTNULWNB?oc=5",
-          "source": "Bitget"
-        },
-        {
-          "title": "Chinese Networks Handle 20% of Crypto Laundering, Chainalysis Reports - CoinMarketCap",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPanppbFNfNjJVaGVDVk1YS0hpejBKdFBENWRJQVQxWW44a192VkZrRFZaYXZUVjIya2hzSFY4clFNcVF3WndHWXdZbHI4Si12Z25ITlBBQ3dwWFhuOGlWVHRWc2thSVcyOHFGTTlQTlZBYkZZaFdCM2pnXzJBQnp4alZZYjlZdEZGcDhHWTNDVHlhZUI3NmpfQmJTYkVZU1pFdFBFN3VyU0taQVhOd1B2NXZWcEc3eG8?oc=5",
-          "source": "CoinMarketCap"
-        }
-      ]
     }
   ],
   "top_domains": [
@@ -333,9 +272,9 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 💡 Elliptic is positioning as Japan-focused compliance expert through WebX Tokyo participation and advancing continuous monitoring capabilities, while partnering with Zama on confidential finance compliance—signaling depth in emerging privacy-preserving use cases.",
-    "TRM Labs": "💡 💡 TRM Labs generated 5 concurrent placements documenting HTX wallet rotation tactics to evade UK sanctions, establishing authority on sanctions evasion detection but risking reputational exposure if claims face pushback from HTX.",
-    "Arkham Intelligence": "💡 💡 Arkham is expanding into AI-driven analysis via Claude integration for memecoin assessment and generating major holder visibility narratives (Robinhood's $5.84B portfolio), positioning as on-chain research platform rather than compliance-first vendor."
+    "Elliptic": "💡 💡 💡 Elliptic is positioning as Japan-focused compliance expert through WebX Tokyo participation and advancing continuous monitoring capabilities, while partnering with Zama on confidential finance compliance—signaling depth in emerging privacy-preserving use cases.",
+    "TRM Labs": "💡 💡 💡 TRM Labs generated 5 concurrent placements documenting HTX wallet rotation tactics to evade UK sanctions, establishing authority on sanctions evasion detection but risking reputational exposure if claims face pushback from HTX.",
+    "Arkham Intelligence": "💡 💡 💡 Arkham is expanding into AI-driven analysis via Claude integration for memecoin assessment and generating major holder visibility narratives (Robinhood's $5.84B portfolio), positioning as on-chain research platform rather than compliance-first vendor."
   },
   "seizure_value": "",
   "seizure_cases": "",
