@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.so
+venv/
+.venv/
+.streamlit/secrets.toml
+*.db
+*.sqlite
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
