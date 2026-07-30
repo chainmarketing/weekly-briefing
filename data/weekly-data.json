@@ -1,5 +1,78 @@
 [
   {
+    "date": "2026-07-30",
+    "url": "briefings/2026-07-30.html",
+    "mentions": 6,
+    "narrative": 666,
+    "competitor_total": 16,
+    "persistent_count": 0,
+    "emerging_count": 4,
+    "articles_analysed": 1161,
+    "mention_categories": {
+      "mainstream": 0,
+      "crypto": 0,
+      "fintech": 1,
+      "blog": 3,
+      "niche": 30
+    },
+    "sentiment": {
+      "positive": 18,
+      "neutral": 12,
+      "negative": 0
+    },
+    "competitors": {
+      "Arkham Intelligence": 8,
+      "Elliptic": 4,
+      "Merkle Science": 4,
+      "TRM Labs": 0,
+      "CipherTrace": 0,
+      "Nansen": 0,
+      "Crystal Intelligence": 0,
+      "Solidus Labs": 0
+    },
+    "top_domains": [
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 191
+      },
+      {
+        "name": "AI & Compliance Automation",
+        "count": 156
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 126
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 69
+      },
+      {
+        "name": "National Security, Defence & Intelligence",
+        "count": 66
+      },
+      {
+        "name": "Geopolitics, Macro & Dollar Dominance",
+        "count": 62
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 60
+      },
+      {
+        "name": "TradFi Integration & Institutional Adoption",
+        "count": 44
+      }
+    ],
+    "narratives": [
+      "Sanctions Enforcement & Institutional Illicit Finance Detection",
+      "Stablecoin Infrastructure Maturation & Payment Scale",
+      "Privacy Blockchains & Institutional Adoption Tension",
+      "AI & Compliance Automation Infrastructure Consolidation"
+    ],
+    "headline": "In highlight coverage, Jonathan Levin appeared on CNBC's Squawk Box Europe to discuss how state and non-state actors, including sanctioned shadow fleets, are using crypto to pay salaries and evade san"
+  },
+  {
     "date": "2026-07-23",
     "url": "briefings/2026-07-23.html",
     "mentions": 10,
