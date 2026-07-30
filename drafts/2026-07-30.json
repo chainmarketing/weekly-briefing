@@ -119,32 +119,6 @@
       ]
     },
     {
-      "title": "Market Integrity & Fraud Prosecution Acceleration",
-      "description": "$701M DOJ crypto fraud freeze, Malaysia's 335-arrest online scam raids, and CLARITY Act debates signal sustained law enforcement focus on retail fraud and institutional investment schemes.",
-      "relevance": "Fraud prosecution enforcement is accelerating—we have opportunity to embed deeper in DOJ/law enforcement workflows; positioning as forensic standard for courtroom-ready attribution strengthens our essential infrastructure status.",
-      "cadence": "sporadic",
-      "momentum": "rising",
-      "appearances": 3,
-      "window_days": 29,
-      "articles": [
-        {
-          "title": "US DOJ Freezes $701M in Crypto Tied to Investment Fraud Operations - CoinMarketCap",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQUtJNFFoZ0tTck56MnFRblQ1aV9aUklDQlpuQm92OUpOVkhLTHA5RmVzZno4eXlnMUJTVXdsZTJZSk5zd2R3d05EZE0tc1ozUmk0THhwVkJudGx0OWZtTTVZVzlZSjNlaHVDZVA1VUhKLTZWU21RbmJEZG5uWFFYblE4UHdCczZGRm85dXRzbWhacUwxTUctVG4yR1plX1JLcFlQaFRjTFA0Vno2UjU1ODZHOA?oc=5",
-          "source": "CoinMarketCap"
-        },
-        {
-          "title": "CLARITY Act would weaken state fraud powers, James warns - Cryptonews.net",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fQmxyaTNRMmRZWmNJVlQzcy1IYmlpRDFlZk5pYVpiQ1pSYVpSQlpxbzZKckNSUGJ0Y3pCaTB3OG1ZQXByV2VwQTZUNzhjREt2algwajZ3?oc=5",
-          "source": "Cryptonews.net"
-        },
-        {
-          "title": "Asia’s Biggest IPO of 2026 Puts Crypto Shadow Market to the Test - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNFFHNTR6Y2duLTd3TjVRLTREc2Q5NmxfS0VHQ2dBMFFEV1BRV1JtYmEzd25aUDk5eFNQbkZkLXNrY2lXU3ZpSzdqc2ZBVk5HeEd6aTFrUFdFMU9kdm5pbEV2c1ZMSlY5OTdvVXVnU0dxY2xwenlCdDVTZjd1TDgybGI5S0dLMnRkcTd6eVprT1c4Rlg2eXg5czZaNUh2MGlrbmd3NU9DRnM3X0J2VVo5cTNGQXlQZw?oc=5",
-          "source": "Bloomberg.com"
-        }
-      ]
-    },
-    {
       "title": "AI & Compliance Automation Infrastructure Consolidation",
       "description": "Bloomberg and Reuters coverage of firms pivoting from crypto to AI data-center infrastructure, coupled with quantum-threat crypto security discussions, signals AI-driven compliance automation and quantum resilience becoming operational imperatives.",
       "relevance": "AI compliance automation is strategic priority; our positioning must evolve beyond reactive monitoring to predictive risk modeling; we should secure visible placement on AI/ML compliance frameworks before competitors own the narrative.",
@@ -278,9 +252,9 @@
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 💡 Elliptic is repositioning as stablecoin compliance thought leader and sanctions-case analyst, publishing on A7A5 ruble evasion and bank compliance frameworks—directly competing on our illicit finance and sanctions positioning.",
-    "Arkham Intelligence": "💡 💡 Arkham is expanding whale-tracking and on-chain attribution narrative reach via multi-chain explorer tools and social media speculation content, gaining mindshare in retail and trader communities but remaining superficial on institutional compliance use cases.",
-    "Merkle Science": "💡 💡 Merkle Science is positioning as privacy-compliant blockchain monitor, pitching regulators on 'privacy you can live with'—a direct encroachment on our hybrid-blockchain and privacy-architecture narrative, targeting enterprise wallet security risk."
+    "Elliptic": "💡 💡 💡 Elliptic is repositioning as stablecoin compliance thought leader and sanctions-case analyst, publishing on A7A5 ruble evasion and bank compliance frameworks—directly competing on our illicit finance and sanctions positioning.",
+    "Arkham Intelligence": "💡 💡 💡 Arkham is expanding whale-tracking and on-chain attribution narrative reach via multi-chain explorer tools and social media speculation content, gaining mindshare in retail and trader communities but remaining superficial on institutional compliance use cases.",
+    "Merkle Science": "💡 💡 💡 Merkle Science is positioning as privacy-compliant blockchain monitor, pitching regulators on 'privacy you can live with'—a direct encroachment on our hybrid-blockchain and privacy-architecture narrative, targeting enterprise wallet security risk."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
