@@ -1,0 +1,369 @@
+{
+  "date": "2026-07-30",
+  "date_display": "July 30, 2026",
+  "mentions_count": 34,
+  "narrative_count": 664,
+  "competitor_total": 16,
+  "persistent_count": 0,
+  "articles_analysed": 1163,
+  "executive_summary": "In highlight coverage, our privacy blockchain adoption research and stablecoin macroeconomic forecasts ($1.5 quadrillion by 2035) drove thought leadership placements across CoinMarketCap, Bloomberg, and Bitcoin World, positioning our monitoring capabilities as essential to institutional crypto growth. In crypto news, EU sanctions enforcement against Russian crypto platforms (HTX included in Reuters/Crowdfund Insider reporting) dominated headlines, North Korea's Bitcoin theft for nuclear weapons funding surfaced via Bitget, and Africa's $205bn crypto inflows (tech.africa) underscored emerging market momentum\u2014all domains where our illicit finance and sanctions detection expertise is operationalized. In competitor news, Elliptic published stablecoin compliance and A7A5 ruble sanctions case studies across multiple outlets; Arkham Intelligence expanded multi-chain explorer positioning on Robinhood chain; Merkle Science pitched privacy-compliant blockchain monitoring to Crypto Briefing.",
+  "mentions": [
+    {
+      "title": "Chainalysis Says Privacy Blockchains Are Rising With Institutional Adoption, Monitoring Tools Must Evolve - bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xM1A2X3NhLU1KZlFxZFUwNGdibGdheXlRYW9VMkczaERHejdJTXQ1QnlRRGM4a0J3RTVPT2pWUldpNEc1aEZWS1NlRlczZkhPaTZmUQ?oc=5",
+      "source": "bloomingbit"
+    },
+    {
+      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Privacy Blockchains On The Rise As Institutional Crypto Adoption Grows, Chainalysis Says - Bitcoin World",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQREd6QS13ZENCTXJPMmo1eHJTaHNtR29MZkJXNHdyOE83dFcwVnpyQlNEV09iMU0zVzlSNk90aHJqcEpCZ3hVcVo0U2ZpU2ViVEVXZlpaNmZTaWdMeTNPVnV5Sks2UThRWDRlclVObW1VSW9CZ2VBei15SXF1XzEyVXB0amJHUDI0MkE?oc=5",
+      "source": "Bitcoin World"
+    },
+    {
+      "title": "European Union\u2019s Latest Russia Sanctions Package Intensifies Scrutiny on Cryptocurrency Trading Platforms - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZUpjRzA2R2ZZWlN5WUVJWVJzSGNzT0JaQm1YaUF1VjFzNjZNRC1Wa3Q2VmRIMDRRUDFwVHBpcDI4NDFYcjRwTXh5aUVxekFqclczMkJKR3NpejE5YnFWV0Z2Zkx2TGFfSkFHRzdoQmpTczhPWVRVNFBORFlNSnp6dk1tdGkxbzAtMlRWeGE1bkRjTl8wbEFOeVNpMEpERXFncnJsSFMzemNHSUFFaExXT2FoaFRDSnNMVDdRejlpdmVGdzgzQkRsTWVBQ2hNaGh4dTdySGxUd1lEc21CWFF4QnVsd01DS2Zm?oc=5",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "Chainalysis CEO: North Korea is stealing Bitcoin to fund nuclear weapons development - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrTzM4cFRuaVFTSzNzakIzZTJTYmRDU3lqQ294LVBnVE84NHBLT3NBZ29hY2Y5eDZ1UXowUHk3Z1NFb3JrU0hrYk5hRy1ibVdwNnRIRWZVVHNCM3VRbTF6aFVpT2TSAWpBVV95cUxQajhtUE1WZ2VQY1N3azlwS3dDaTRONXFjaU8xb2lyUHpLVWtQQ3hzYWE5ZGJMRVlIbjl2YklQcXIzWm9kTGV5cXNTcWNPUUdwR2E2VnZvQnowOWNjTURIMC0xZmlLZjVRVXp3?oc=5",
+      "source": "Bitget"
+    },
+    {
+      "title": "Sub-Saharan Africa took in $205bn in crypto, Nigeria leads - tech.africa",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BSGhkUGdyeFE1VFNzMUkxQnFYV3VEM3RPVmlyYk9UQXhxeWhCdjk1bWExdWpvbXBVbFppQTZCMW9fNXdvSXVHMFBWYVAzRG1uSnZ5dC1jSi1qZ050aWI4MXRR?oc=5",
+      "source": "tech.africa"
+    },
+    {
+      "title": "\uc548\uc815\uc801\uc778 \ud1a0\ud070, \uccb4\uc778 \ubd84\uc11d \uc9c0\uc6d0\uc73c\ub85c \uacb0\uc81c \uc0dd\ud0dc\uacc4 \ud65c\uc131\ud654 - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUnJ2SzJMUjVhYUNIRGhITklOYm5iN2ZtNHlOclFjRlgwMGpZNW9WYzhSOF9uUG5YRG1mYVpGdURkMllVTEdOUW9MMTB2NklzcGNqcnVJYk12UE1HVEh4TXROQVZndmlPZHpvLWh1TTlxVHBkRDJYTzNIYlRVTm9QY2ZIUnozWmFhLXFHYmJuVWh1LTE3dGdvOWQ2bnk?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "EU Targets Crypto Platforms Linked to Russia Amid Sanctions - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnlBblNKMDcxYVZGS1gzZHdKZEJqX0tJYVFBbEdPX19VQVlZeG5jVXhwWW9DZFBxM05wb1FFalluMGNhdjdweEZ2c0JJc1JrTnJyNjVSS18tbDlydGhxTGtMOW1NUm9qdWZ3Z2Vod1kxMG55Mjc3dEwxOVZ5NDVQbGJpeEpoc05rTGh1MF9pR1I?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Renforcer les capacit\u00e9s de lutte contre le blanchiment d'argent dans la gestion des crypto-actifs. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNXFyMjAwSXZ2MWRqc3psa0hoZUJXTTIyZ3p4V3BoWkE2eVRxWXRzSnNLSGw2Znl5RDdwbHVQN0ZrY1pLaTlsbkl0VmFOTWVlNm1vd0plSF83aV9sb3hXanZGRl9yekRPVDQ2eVowVFM2MWtXRGtLZjVOcmZHLWVlcnI4REVReGdCYWpHUFhoNVBuY0JDN3N3eVFxbw?oc=5",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "Chainalysis r\u00e9v\u00e8le une forte demande pour les blockchains hybrides - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTHpfdFVtTnhHN1E3YkJlT1d3R0NwQl9yVnkzZDN0aXUwR3FEalozXzZfWEdmMXZJUnBKaVRwN04ycHFHdExJeFlFVnFPQldPcGlnZ0pwRmlrcXZQSjZwcDJkbHNDRGc0TThkX0NPQU90blNJdHJfcF9GeHJodE5CN0hWcVRQbkFjRlMwRjV2MnhjNUhNcEM3RGo1anZpUQ?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Le Tr\u00e9sor am\u00e9ricain sanctionne des entreprises iraniennes pour extorsion crypto - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdkRiQ2ltUGNUQnVJU0RLYll6QTMtSm5icTZEUTBYVDdoY3RXUFdDekstbkFILXYtTDZ6UFNjT2F4WWNnU1lSSHRGRHRodEgxMzRGamJMamlKOXFZc1RDQmd5UXN5TmV1b1dNTXpjaEJIN05oa3RxNHZxZ2FVd1lQSVdJem1zclJfZXpLWUpibW9LampjMUxkYXY3UWdJekFK?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "\u6697\u53f7\u8cc7\u7523\u95a2\u9023\u72af\u7f6a\u30012021\u5e74\u306b140\u5104\u30c9\u30eb\u76f8\u5f53\u304c\u596a\u308f\u308c\u308b\u2500\u2500Chainalysis\u8abf\u3079\uff08\u753b\u50cf\uff09 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xOGRXTHJ6aHdRTWFsNFpvVHpiM3FGSm5MMUNwR3poZ0xWU3RnUjdyQS14NHE2ZkY0MTdseTluanNfRmE0Q1RXVVhNRUhhdG1abXhvMlJ3TU5CMTh2SU1Rc0lkWXJFWnN5VENpdDVwemFNVGpiVnZXNE53QQ?oc=5",
+      "source": "ITmedia"
+    },
+    {
+      "title": "\u6697\u53f7\u8cc7\u7523\u7ba1\u7406\u306b\u304a\u3051\u308b\u30de\u30cd\u30fc\u30ed\u30f3\u30c0\u30ea\u30f3\u30b0\u5bfe\u7b56\u6a5f\u80fd\u306e\u5f37\u5316\u3002 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT0pEUE9HVDN3SkJSNzN2cjgxWFJmSm82MTluZHdUbEs1ckJ6a2FGbVFUbUo1QkZGdFhUdWdjOUl4dFRucVdKT0QxaXRSWDdXOFhnUFJwdXluUnhYMU1hY0NjRWVkVzZCSVFCdWM2cHJxdzQxcWkySWtqQ3NkT3J5UVZYcHRBbHBwNjNIOUM1SGNHLTlGUVhrSUR3SQ?oc=5",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "Indodax\u3001Chainalysis \u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u306b\u3088\u308b\u30b3\u30f3\u30d7\u30e9\u30a4\u30a2\u30f3\u30b9\u5f37\u5316 - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON1ljamN0Ykh5ODUwN2tFQTBDbzAyeEMzcjFpbEhxeTdLVl9udnpFS3VvOVU2djVQcXpJbm1HY0tkZzROWkl1MVY0TjJwQnpHSTdzSlpQZko1QXlBeEtsZTRHdUUwQWNqWkNhZFcxVWw0Wk0wUmJITXpSRGlCVVRoczFjUjZVbkk4TWI3aQ?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "EU\u3001\u5236\u88c1\u4e0b\u3067\u30ed\u30b7\u30a2\u95a2\u9023\u306e\u6697\u53f7\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3092\u6a19\u7684\u306b - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0F0M1RjZ0k3bGR0MDJxT0dVRjNfQzBubVRGT0x5R2VWZmp5eW5DTjBja3dKbTBYZ2xSWks5UE10M2dtVGJDZ3RGVkdBQWJsWms5ZzVDa2ppQXZEVFNiQ0JIempVSTh4TDFFX3NvWUh2Q3loWGhMdmt1WnItQUpLaG5ocXo0TGtrNldDS2tmd2ItU0lQ?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Chainalysis hebt Nachfrage nach Hybrid-Blockchains f\u00fcr Compliance hervor - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMlhmaG1xWVpQU1hCX1MwSGVCMEdkTkJQSTl3dG1MN0dBOHpKXzBwbFI5Slh1bU56MnZMakdobTUxcTJKRm13al9kVE5BMk1hTG9Hcl9nMXVhcDdib1FXZF82Z3J6RzJJZUhYYnFHWk41MkpGVVlLOWxmZHVDRzY0S3VsenlOV3BoOVBEQk9vYy1PaEI0bWh4MFVIeVJNUQ?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Indodax st\u00e4rkt Compliance mit Chainalysis-L\u00f6sung - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjluNUM2RXNxbjFqMlRCTlV1ODV4UGhHRWl0OFY3VVRqWERuVGRzRng2WFkxOHlJd29SYTFaWlRZTnEyYUVHLVBralVJYWctRHk2M213N2NId3BnZHVrcjFEVjlReHp2b1oxN0dha1ExVzJpUkdPSVlQMmw3N1hMTTZKZTEzSnAtUTE1RQ?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Stabiler Token erh\u00e4lt Unterst\u00fctzung von Chainalysis und st\u00e4rkt Zahlungssystem - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObUhkeXRQdVNJOVh1R3VYSFJ5TnFuazJNYjAtSUNQNEp1YWVGQVRtcGhtaFpJZEVwZE9yM21Gb2dDczhrRml5VHRTTmJqOXVkN3VrRWtSTG00cUZmYU1YZjBCVjFwbWNDVVY3THBaQldzN2pPM0Z5RUwwb20yaWR1ZnBZRGt5SzRXT3hnaXJKckJUZ1hIRktDTjhkeFQ?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "EU-Sanktionen verbieten Krypto-Transaktionen mit 14 Plattformen - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd0JScXZBVzVaVzJCd0hVMlNTejd3TEZ1NVJmc1EzZWM3QzdYVzFPNUdoUFpwYXZzNFpGUGV4dVFlR2hVVnAwVk9oRENZRHZlNExZb1U0cktqb1BPcU10WVlFODRTVGZRTnNpek9yZi1sRUlScUE4Z09YQXR0U3RndFR1WVZQUXBka3NjZmlFOV9JdlI5aVR5UkZNQ05SSTg?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Binance joins STOP THE TRAFFIK in anti-human trafficking effort - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWjBVOGk2THI2Y2dfRzhTbmcyMExhMHpHYnpMZWx3Ry1XQzV4LVQ2YklvbUZia3EyVzhHRFI2MHcwVERtT0xGNnQwRzVpQlhDdXIyOXphbmtpM2JqSU40ZTRaQV8wV3pqN1N1d3dhQTRsQzdFX3lqTkw1ZXZrdWZXVmhreDlNeW9QN2I4Z1l3emV0ODRqWVNZNHV4VGplUUxkaUhPTm9fUTl5dTZ0R25NdUZhR3ZJMnpwenNFRXpBN2VOVDJF?oc=5",
+      "source": "TradingView"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Sanctions Evasion at Institutional Scale",
+      "description": "EU's 21st Russia sanctions package explicitly targets crypto platforms; HTX flagged by Reuters; enforcement sophistication escalating.",
+      "relevance": "Our sanctions detection and platform monitoring tools directly support regulatory compliance; positioning us as critical infrastructure for jurisdictional enforcement.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 4,
+      "window_days": 29,
+      "articles": [
+        {
+          "title": "European Union\u2019s Latest Russia Sanctions Package Intensifies Scrutiny on Cryptocurrency Trading Platforms - Crowdfund Insider",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZUpjRzA2R2ZZWlN5WUVJWVJzSGNzT0JaQm1YaUF1VjFzNjZNRC1Wa3Q2VmRIMDRRUDFwVHBpcDI4NDFYcjRwTXh5aUVxekFqclczMkJKR3NpejE5YnFWV0Z2Zkx2TGFfSkFHRzdoQmpTczhPWVRVNFBORFlNSnp6dk1tdGkxbzAtMlRWeGE1bkRjTl8wbEFOeVNpMEpERXFncnJsSFMzemNHSUFFaExXT2FoaFRDSnNMVDdRejlpdmVGdzgzQkRsTWVBQ2hNaGh4dTdySGxUd1lEc21CWFF4QnVsd01DS2Zm?oc=5",
+          "source": "Crowdfund Insider"
+        },
+        {
+          "title": "EU Targets Crypto Platforms Linked to Russia Amid Sanctions - Coinfomania",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnlBblNKMDcxYVZGS1gzZHdKZEJqX0tJYVFBbEdPX19VQVlZeG5jVXhwWW9DZFBxM05wb1FFalluMGNhdjdweEZ2c0JJc1JrTnJyNjVSS18tbDlydGhxTGtMOW1NUm9qdWZ3Z2Vod1kxMG55Mjc3dEwxOVZ5NDVQbGJpeEpoc05rTGh1MF9pR1I?oc=5",
+          "source": "Coinfomania"
+        },
+        {
+          "title": "Crypto exchange HTX included in EU's Russia sanctions - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOUF2eUFTNHYzMDZTeWpGVVhqZThWamJ0MVQyd09faUREeGxHNjRxcnkweHlONDFSNVh6MUVFVUsyWVBzTTlEcUctOEtCdmowa2JoNm02TTdLSWtuZFJDbXRzcElRRVltSy1lZEcya2ZhQmU1TDB3UTBwRHNjTHpsUHp6SUNvbXZFNHl2NFRVb1BHMzJjdVl4QkFTbUF4ZlQyQ3NNaA?oc=5",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "Privacy Blockchains Demand Surge",
+      "description": "Institutional adoption driving demand for privacy-enhanced chains; hybrid blockchain compliance tooling emerging as critical infrastructure.",
+      "relevance": "We must evolve our monitoring capabilities for privacy-layer transparency; hybrid blockchain compliance is our next strategic frontier.",
+      "cadence": "sporadic",
+      "momentum": "new",
+      "appearances": 2,
+      "window_days": 29,
+      "articles": [
+        {
+          "title": "Chainalysis Says Privacy Blockchains Are Rising With Institutional Adoption, Monitoring Tools Must Evolve - bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xM1A2X3NhLU1KZlFxZFUwNGdibGdheXlRYW9VMkczaERHejdJTXQ1QnlRRGM4a0J3RTVPT2pWUldpNEc1aEZWS1NlRlczZkhPaTZmUQ?oc=5",
+          "source": "bloomingbit"
+        },
+        {
+          "title": "Privacy Blockchains On The Rise As Institutional Crypto Adoption Grows, Chainalysis Says - Bitcoin World",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQREd6QS13ZENCTXJPMmo1eHJTaHNtR29MZkJXNHdyOE83dFcwVnpyQlNEV09iMU0zVzlSNk90aHJqcEpCZ3hVcVo0U2ZpU2ViVEVXZlpaNmZTaWdMeTNPVnV5Sks2UThRWDRlclVObW1VSW9CZ2VBei15SXF1XzEyVXB0amJHUDI0MkE?oc=5",
+          "source": "Bitcoin World"
+        },
+        {
+          "title": "Chainalysis r\u00e9v\u00e8le une forte demande pour les blockchains hybrides - Coinfomania",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTHpfdFVtTnhHN1E3YkJlT1d3R0NwQl9yVnkzZDN0aXUwR3FEalozXzZfWEdmMXZJUnBKaVRwN04ycHFHdExJeFlFVnFPQldPcGlnZ0pwRmlrcXZQSjZwcDJkbHNDRGc0TThkX0NPQU90blNJdHJfcF9GeHJodE5CN0hWcVRQbkFjRlMwRjV2MnhjNUhNcEM3RGo1anZpUQ?oc=5",
+          "source": "Coinfomania"
+        }
+      ]
+    },
+    {
+      "title": "Stablecoin Maturation & Payment Scale",
+      "description": "Stablecoins forecast to process $1.5 quadrillion annually by 2035; Indodax and emerging markets accelerating adoption via compliance tooling.",
+      "relevance": "Stablecoin compliance is core to our enterprise AML/KYC positioning; we are embedded in critical payment infrastructure buildout.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 4,
+      "window_days": 29,
+      "articles": [
+        {
+          "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
+          "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "South Korea report proposes stablecoin rules before crypto law",
+          "url": "https://cointelegraph.com/news/south-korea-report-stablecoin-rules-crypto-law?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph"
+        }
+      ]
+    },
+    {
+      "title": "Emerging Market Crypto Flows & Risk",
+      "description": "Sub-Saharan Africa absorbed $205bn in crypto; Nigeria leads; illicit finance and scam risk amplifying in under-banked regions.",
+      "relevance": "High-growth emerging markets are priority jurisdictions for fraud/sanctions risk; our Africa-region reporting must expand.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 2,
+      "window_days": 29,
+      "articles": [
+        {
+          "title": "US DOJ Freezes $701M in Crypto Tied to Investment Fraud Operations - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQUtJNFFoZ0tTck56MnFRblQ1aV9aUklDQlpuQm92OUpOVkhLTHA5RmVzZno4eXlnMUJTVXdsZTJZSk5zd2R3d05EZE0tc1ozUmk0THhwVkJudGx0OWZtTTVZVzlZSjNlaHVDZVA1VUhKLTZWU21RbmJEZG5uWFFYblE4UHdCczZGRm85dXRzbWhacUwxTUctVG4yR1plX1JLcFlQaFRjTFA0Vno2UjU1ODZHOA?oc=5",
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Asia\u2019s Biggest IPO of 2026 Puts Crypto Shadow Market to the Test - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNFFHNTR6Y2duLTd3TjVRLTREc2Q5NmxfS0VHQ2dBMFFEV1BRV1JtYmEzd25aUDk5eFNQbkZkLXNrY2lXU3ZpSzdqc2ZBVk5HeEd6aTFrUFdFMU9kdm5pbEV2c1ZMSlY5OTdvVXVnU0dxY2xwenlCdDVTZjd1TDgybGI5S0dLMnRkcTd6eVprT1c4Rlg2eXg5czZaNUh2MGlrbmd3NU9DRnM3X0J2VVo5cTNGQXlQZw?oc=5",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "Privacy Blockchains On The Rise As Institutional Crypto Adoption Grows, Chainalysis Says - Bitcoin World",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQREd6QS13ZENCTXJPMmo1eHJTaHNtR29MZkJXNHdyOE83dFcwVnpyQlNEV09iMU0zVzlSNk90aHJqcEpCZ3hVcVo0U2ZpU2ViVEVXZlpaNmZTaWdMeTNPVnV5Sks2UThRWDRlclVObW1VSW9CZ2VBei15SXF1XzEyVXB0amJHUDI0MkE?oc=5",
+          "source": "Bitcoin World"
+        }
+      ]
+    },
+    {
+      "title": "AI-Driven Compliance & Automation",
+      "description": "Bloomberg reports firms shifting from crypto to AI infrastructure; AI weakening quantum-resistant algorithms; compliance automation accelerating.",
+      "relevance": "AI integration into our detection and reporting engines is strategic advantage; quantum threats require proactive algorithm review.",
+      "cadence": "sporadic",
+      "momentum": "stable",
+      "appearances": 3,
+      "window_days": 29,
+      "articles": [
+        {
+          "title": "Chainalysis hebt Nachfrage nach Hybrid-Blockchains f\u00fcr Compliance hervor - Coinfomania",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMlhmaG1xWVpQU1hCX1MwSGVCMEdkTkJQSTl3dG1MN0dBOHpKXzBwbFI5Slh1bU56MnZMakdobTUxcTJKRm13al9kVE5BMk1hTG9Hcl9nMXVhcDdib1FXZF82Z3J6RzJJZUhYYnFHWk41MkpGVVlLOWxmZHVDRzY0S3VsenlOV3BoOVBEQk9vYy1PaEI0bWh4MFVIeVJNUQ?oc=5",
+          "source": "Coinfomania"
+        },
+        {
+          "title": "Indodax st\u00e4rkt Compliance mit Chainalysis-L\u00f6sung - Coinfomania",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjluNUM2RXNxbjFqMlRCTlV1ODV4UGhHRWl0OFY3VVRqWERuVGRzRng2WFkxOHlJd29SYTFaWlRZTnEyYUVHLVBralVJYWctRHk2M213N2NId3BnZHVrcjFEVjlReHp2b1oxN0dha1ExVzJpUkdPSVlQMmw3N1hMTTZKZTEzSnAtUTE1RQ?oc=5",
+          "source": "Coinfomania"
+        },
+        {
+          "title": "Bitcoin's quantum plan assumes some algorithms break. AI just weakened one in 60 hours",
+          "url": "https://www.coindesk.com/tech/2026/07/29/bitcoin-s-quantum-plan-assumes-some-algorithms-break-ai-just-weakened-one-in-60-hours",
+          "source": "CoinDesk"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 193
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 162
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 125
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 69
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 66
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 62
+    },
+    {
+      "name": "Geopolitics, Macro & Dollar Dominance",
+      "count": 60
+    },
+    {
+      "name": "MiCA & EU Regulation",
+      "count": 44
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Arkham Intelligence",
+      "count": 8,
+      "top_title": "Robinhood Chain Explorer | Scan With Arkham's Multi-Chain Tool - Arkham | Research",
+      "top_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMTN6LVhmUk9tSXE5Q2FtS2k1WEFXMjV4c2o0dGh5UWQtbzZxeUk4SXZ5NGJsWHpwUUNITy1MaHk3UTZJb2JUaWRROTFZWTB6eTh0ODN1VmdDc0lNTUtIT05tdnJrY1lhblhjeGF2X09DZ2Q0QlBfc1VUOVZJckdrM1JPM2VZX1psd3NXM19HUWx5UWJxS3c?oc=5",
+      "top_source": "Arkham | Research"
+    },
+    {
+      "name": "Elliptic",
+      "count": 4,
+      "top_title": "How banks should approach stablecoin compliance and financial crime risk - Elliptic",
+      "top_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWkpEOVJTV21BQks0Zk5CRnZTLVRFTmFRYTBtVE9yQVhpcGhRdlVCQzJmMTl2amlnSV9iWHNqQzk4OEpfYzZQWDdvUDgzLVoyX05TTkRSV3ZGVERVbzBCSHFSRG5Ec2pkMU85R0ZJTVI1Zi0tX1h3OXF0NkN0eVVuQUdqdDUyUkRLZUN2S3hQOVBjZHRYcUFxZ1JCV0tGSWNJYUdr?oc=5",
+      "top_source": "Elliptic"
+    },
+    {
+      "name": "Merkle Science",
+      "count": 4,
+      "top_title": "Merkle Science is building blockchain privacy that regulators can actually live with - Crypto Briefi",
+      "top_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQktGejR3M1dOaWoyVlhzWDRybjA5aE1kQzRLb3ZPazV6b0tvQ2gtbnV5WDlZRnA1emNxWXIwd2NaRy1IazlnRzdLU0NidzVhZ1FrSVQ2aVduWWgxRVZ1OVJlcFdoX1FNU012Uld6NUgyVWp4NUROcmhzU0hQMURTYVdQcXlPZW1NSUVkdg?oc=5",
+      "top_source": "Crypto Briefing"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Nansen",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Sanctions Enforcement Tightening",
+      "body": "EU's 21st Russia sanctions package explicitly targets crypto platforms (HTX named), signaling regulators are operationalizing blockchain analytics for geopolitical enforcement. This accelerates demand for our platform compliance and sanctions-screening tooling across jurisdictions."
+    },
+    {
+      "title": "Privacy Blockchains Enter Mainstream",
+      "body": "Institutional adoption is driving demand for privacy-enhanced blockchain infrastructure; hybrid compliance models are emerging. We must evolve monitoring to maintain transparency without compromising institutional appeal."
+    },
+    {
+      "title": "Stablecoin Infrastructure Consolidation",
+      "body": "Macroeconomic forecasts predict stablecoins will process $1.5 quadrillion annually by 2035; compliance tooling is becoming table-stakes for platform competitiveness. Emerging market adoption (Africa $205bn inflows) is amplifying fraud and sanctions risk simultaneously."
+    }
+  ],
+  "competitor_reads": {
+    "Elliptic": "Positioning as stablecoin compliance specialist with sanctions case-study depth; A7A5 ruble story signals forensic investigation credibility but narrower institutional AML mandate than our platform coverage.",
+    "Arkham Intelligence": "Expanding multi-chain explorer brand (Robinhood chain launch) and whale-tracking narrative; strong on on-chain data visualization but lacks illicit finance prosecution angle.",
+    "Merkle Science": "Pitching privacy-compliant blockchain monitoring as regulator-friendly alternative; strong positioning on enterprise wallet security (xAI Grok integration signal) but limited sanctions/law enforcement narrative."
+  },
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
+  "mention_categories": {
+    "mainstream": 0,
+    "crypto": 0,
+    "fintech": 1,
+    "blog": 3,
+    "niche": 30
+  },
+  "sentiment": {
+    "positive": 18,
+    "neutral": 7,
+    "negative": 0
+  }
+}
