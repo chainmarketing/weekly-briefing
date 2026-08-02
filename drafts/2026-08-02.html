@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Weekly Briefing Draft — 2026-08-02</title>
+<style>
+:root {--bg:#f8f9fa;--card:#fff;--text:#1a1a2e;--text-muted:#6b7280;--border:#e5e7eb;--primary:#1a73e8;--success:#16a34a;--warning:#d97706;--info:#2563eb;--destructive:#dc2626}
+@media(prefers-color-scheme:dark){:root{--bg:#111118;--card:#1c1c27;--text:#e4e4e7;--text-muted:#9ca3af;--border:#2e2e3a;--primary:#60a5fa;--success:#4ade80;--warning:#fbbf24;--info:#60a5fa;--destructive:#f87171}}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;line-height:1.6;min-height:100vh}
+.container{max-width:800px;margin:0 auto;padding:40px 16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;margin-bottom:24px;overflow:hidden}
+.card-header{padding:16px 20px 0}.card-body{padding:16px 20px 20px}
+h1{font-size:24px;font-weight:700;letter-spacing:-0.02em}h2{font-size:15px;font-weight:600;margin-bottom:4px}
+.subtitle{font-size:13px;color:var(--text-muted)}.text-center{text-align:center}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+hr{border:none;border-top:1px solid var(--border);margin:12px 0}
+
+/* Toolbar */
+.toolbar{position:sticky;top:0;z-index:100;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 20px;margin-bottom:24px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.toolbar-left{display:flex;align-items:center;gap:8px}
+.toolbar-right{display:flex;align-items:center;gap:8px}
+.draft-badge{font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;background:rgba(217,119,6,0.15);color:var(--warning)}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:13px;font-weight:500;cursor:pointer;transition:all 0.15s}
+.btn:hover{background:var(--bg)}
+.btn-primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+.btn-primary:hover{opacity:0.9;background:var(--primary)}
+.btn-success{background:var(--success);color:#fff;border-color:var(--success)}
+.btn-success:hover{opacity:0.9;background:var(--success)}
+.btn-destructive{background:var(--destructive);color:#fff;border-color:var(--destructive)}
+.btn-destructive:hover{opacity:0.9;background:var(--destructive)}
+.btn:disabled{opacity:0.4;cursor:not-allowed}
+
+/* Edit mode styles */
+[contenteditable="true"]{outline:2px dashed var(--primary);outline-offset:2px;border-radius:4px;padding:2px 4px;min-height:1.5em}
+[contenteditable="true"]:focus{outline-color:var(--info);background:rgba(37,99,235,0.04)}
+.remove-btn{display:none;position:absolute;top:6px;right:6px;width:22px;height:22px;border-radius:50%;background:var(--destructive);color:#fff;border:none;cursor:pointer;font-size:12px;line-height:22px;text-align:center}
+.edit-mode .remove-btn{display:block}
+.edit-mode .mention-row,.edit-mode .theme-card,.edit-mode .comp-item{position:relative}
+.edit-mode .mention-row{padding-right:32px}
+.edit-mode .theme-card{padding-right:32px}
+.add-item-btn{display:none;padding:10px;text-align:center;border:2px dashed var(--border);border-radius:8px;color:var(--primary);font-size:13px;font-weight:500;cursor:pointer;margin-top:12px;transition:all 0.15s}
+.add-item-btn:hover{background:rgba(37,99,235,0.04);border-color:var(--primary)}
+.edit-mode .add-item-btn{display:block !important}
+.edit-mode .edit-only-card{display:block !important}
+.add-form{margin-top:12px;padding:14px;background:var(--bg);border-radius:8px;border:1px solid var(--border)}
+.add-input{width:100%;padding:7px 10px;border:1px solid var(--border);border-radius:6px;background:var(--card);color:var(--text);font-size:13px;margin-bottom:8px;font-family:inherit}
+.add-input:focus{outline:2px solid var(--primary);outline-offset:-1px}
+textarea.add-input{resize:vertical}
+.status-msg{font-size:12px;padding:4px 10px;border-radius:6px;display:none}
+.status-msg.show{display:inline-block}
+.status-msg.success{background:rgba(22,163,74,0.1);color:var(--success)}
+.status-msg.error{background:rgba(220,38,38,0.1);color:var(--destructive)}
+
+/* Token modal */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:200;align-items:center;justify-content:center}
+.modal-overlay.show{display:flex}
+.modal{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;width:420px;max-width:90vw}
+.modal h3{font-size:16px;font-weight:600;margin-bottom:8px}
+.modal p{font-size:13px;color:var(--text-muted);margin-bottom:16px}
+.modal input{width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);font-size:13px;margin-bottom:16px}
+.modal-btns{display:flex;gap:8px;justify-content:flex-end}
+
+/* Stats */
+
+
+/* Content */
+.mention-row{padding:10px 0;border-bottom:1px solid var(--border)}.mention-row:last-child{border-bottom:none}
+.mention-title{font-size:14px;font-weight:500;color:var(--primary)}.mention-meta{font-size:12px;color:var(--text-muted);margin-top:2px}
+.theme-card{border-radius:8px;padding:12px;margin-bottom:10px;border-left:3px solid}
+.theme-persistent{background:rgba(217,119,6,0.08);border-left-color:var(--warning)}.theme-emerging{background:rgba(37,99,235,0.08);border-left-color:var(--info)}
+.theme-title{font-size:14px;font-weight:600}.theme-desc{font-size:13px;color:var(--text-muted);margin-top:4px}
+.theme-relevance{font-size:12px;font-style:italic;margin-top:4px}.theme-links{margin-top:8px}.theme-links a{font-size:12px;display:block;margin-top:3px}
+.badge{display:inline-block;font-size:10px;font-weight:600;padding:1px 8px;border-radius:99px;vertical-align:middle;margin-left:6px}
+.badge-persistent{background:rgba(217,119,6,0.15);color:var(--warning)}.badge-recurring{background:rgba(217,119,6,0.15);color:var(--warning)}.badge-new{background:rgba(37,99,235,0.12);color:var(--info)}
+.trend-meta{font-size:11px;color:var(--text-muted);margin-left:6px}
+.bar-row{display:flex;align-items:center;gap:12px;margin-bottom:6px}.bar-label{width:200px;font-size:12px;color:var(--text-muted);flex-shrink:0}
+.bar-track{flex:1;height:14px;background:var(--border);border-radius:4px;overflow:hidden}.bar-fill{height:100%;background:var(--primary);border-radius:4px}
+.bar-count{width:30px;text-align:right;font-size:12px;font-weight:600;flex-shrink:0}
+.comp-item{margin-bottom:14px}.comp-name{font-size:14px;font-weight:600}.comp-count{font-size:12px;color:var(--text-muted)}.comp-headline{font-size:13px;margin-top:2px}
+.seizure-box{border-radius:8px;padding:14px;background:rgba(22,163,74,0.08);border-left:3px solid var(--success)}
+.footer{text-align:center;font-size:11px;color:var(--text-muted);padding:12px 0 40px}
+.card-header-row{display:flex;justify-content:space-between;align-items:baseline}.count-label{font-size:12px;color:var(--text-muted)}
+</style></head>
+<body>
+<div class="container">
+
+  <!-- Token modal -->
+  <div class="modal-overlay" id="tokenModal">
+    <div class="modal">
+      <h3>🔑 GitHub Access</h3>
+      <p>Enter a GitHub personal access token with <code>repo</code> scope. This is stored in your browser session only — never sent anywhere else.</p>
+      <input type="password" id="tokenInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" />
+      <div class="modal-btns">
+        <button class="btn" onclick="closeTokenModal()">Cancel</button>
+        <button class="btn btn-primary" onclick="saveToken()">Save & Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="toolbar" id="toolbar">
+    <div class="toolbar-left">
+      <span class="draft-badge">⚠ DRAFT</span>
+      <span id="statusMsg" class="status-msg"></span>
+    </div>
+    <div class="toolbar-right">
+      <button class="btn" id="editBtn" onclick="toggleEdit()">✏️ Edit</button>
+      <button class="btn btn-primary" id="saveBtn" onclick="saveDraft()" style="display:none">💾 Save Draft</button>
+      <button class="btn" id="cancelBtn" onclick="cancelEdit()" style="display:none">Cancel</button>
+      <button class="btn btn-success" id="approveBtn" onclick="approveDraft()">✅ Approve & Publish</button>
+    </div>
+  </div>
+
+  <!-- Content rendered by JS from embedded data -->
+  <div id="content"></div>
+
+  <div class="footer" id="footer"></div>
+</div>
+
+<!-- Briefing data embedded by the workflow -->
+<script id="briefing-data" type="application/json">{
+  "date": "2026-08-02",
+  "date_display": "August 02, 2026",
+  "mentions_count": 54,
+  "narrative_count": 667,
+  "competitor_total": 13,
+  "persistent_count": 1,
+  "articles_analysed": 1200,
+  "executive_summary": "In highlight coverage, our analysis of the 2026 FIFA World Cup prediction markets generating $20B in onchain volume dominated earned media across TradingView, BeInCrypto, incrypted, and CoinMarketCap, establishing us as the authoritative source on prediction market scale. Our Coldcard wallet exploit research\u2014identifying $30M stolen in minutes targeting high-value addresses\u2014was picked up by CryptoRank and Bitcoin World, while our stablecoin infrastructure projection ($1.5 quadrillion annual processing by 2035) anchored institutional narratives in CoinMarketCap. Our partnership with Polymarket on insider trading detection tools and compliance research on hybrid blockchains expanded our positioning into market integrity and institutional demand. In crypto news, the $4B Iranian sanctions evasion network exposed by Reuters represents escalating illicit finance complexity that validates our enforcement positioning; Tether's $1.5B Q2 profit with halving reserves signals stablecoin infrastructure maturation; and the Coldcard exploit's ripple effects\u2014pushing self-custody skepticism toward ETF adoption\u2014reshape institutional custody narratives across CoinDesk. In competitor news, Elliptic secured marquee wins with Sei, HashKey, and a $3.1M compliance efficiency deal, positioning aggressively on VASP infrastructure; Arkham pivoted exchange to full decentralization while capitalizing on Lazarus Group tracking; and Merkle Science continued quiet positioning on privacy-compliant blockchain monitoring.",
+  "mentions": [
+    {
+      "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
+      "source": "TradingView"
+    },
+    {
+      "title": "US and China Led $20 Billion World Cup Prediction Market Boom, Chainalysis Says - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwVWtCamZIazVWWG9tZ2dTSmE2WjhRdVZXcHdxLVhWOTdyRERJUWEzTExFYnVKSVdZcF92S3BnZlJYX2RjcDk5Nk9WOVBRTGFxUExwLUJxeVV5QTNJa3lFMl8zWGdGdm1vSVZEd0p2ZXMtVVBzb05zV1h3?oc=5",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "World Cup 2026 Generated over $20B in Onchain Activity \u2014 Chainalysis - incrypted",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRTUwd013Ynk0dU5IQTJMMmxQeVdFM1ZTN280WGJoWGhmUTRzSWhMOHpPWm9SaDFtdGNVN3I3OWZzdW5nbU56aGlyamJJcnVhU0pkc0cwbm40cW16d09ZeVZqcjA2a1R5RUVlUFFScmtfNXVpTHktR21OSTFpaXdRR2JHajI1VlR5WHVDVVY0Yw?oc=5",
+      "source": "incrypted"
+    },
+    {
+      "title": "Chainalysis: Coldcard Attackers Targeted High-Value Wallets First, $30M Stolen in Minutes - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaWFWZ05hTEIyQWxWVWY1MVdoZG1Ca3lBWm1tdjNnOG1tLXZUS3JyOHI1RDJXN3JjSEpVTENlZW51RTRPZUxBYzgwb05KVHVjVkNQNFQ4QkFJTHV5UXh2SDZRT0xJVVV4SWRRZ2kteElZRTlPMVNfVk1kNGhmdTdUMGFrcG0tVnc3THc?oc=5",
+      "source": "CryptoRank"
+    },
+    {
+      "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+      "source": "CoinMarketCap"
+    },
+    {
+      "title": "Chainalysis: FIFA Earned $6M from Resale of NFT Tickets - ForkLog",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMVpuUE9mbFJ5XzV5ZGhvcEZOeGI5aUVZeFVyNlpjMkpvZ2kzekx5R0d3UEJXX3p2V3pwRWUzd2lVSXlFTEpyT3dLZGJiUkNDSjNVWWVDWkNSSE1vYzhsLWtUNzZaNFFIbmRBUXpBWnFYalVOcC1lZXd0UnlYMHN5TEMwNA?oc=5",
+      "source": "ForkLog"
+    },
+    {
+      "title": "World Cup prediction markets reached $20B - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hU0RfZTIzMU0xckt4bnphOVZwNEtVdEZYT0o0d3ZUdWhLZDMwNVgwYW5JMXJud1YyZHhkZVg3WVdCa0JzemFwUWxmdjZDc012NmZaaGc3LWtzNVl3cjVOYXlpTndPTWszdTI1eDdR?oc=5",
+      "source": "Crypto News"
+    },
+    {
+      "title": "Polymarket Partners with Chainalysis to Deploy Advanced Tools Against Insider Trading - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSGhXMEYxMW93UFFhUkxDWmZfN2tCbmRPX0RidVloWmxUZF9tbERIWFRWT1FmVVFuMUtpeG5VcmNSeTBlWl9NdmhVWlBidHRpV1I0SmdFMzRiTUdoQlgtbXktc1YtZlNRZFVaTWVLbUYza0Q5OVlEUVFHUVo2Y1Q1S1piQnpuOERvLV9Lc1o1VU5qQUZ1djJMVHJQWGFiVWJUSW9hRFUxWGVkbzFL?oc=5",
+      "source": "quasa.io"
+    },
+    {
+      "title": "European Union\u2019s Latest Russia Sanctions Package Intensifies Scrutiny on Cryptocurrency Trading Platforms - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZUpjRzA2R2ZZWlN5WUVJWVJzSGNzT0JaQm1YaUF1VjFzNjZNRC1Wa3Q2VmRIMDRRUDFwVHBpcDI4NDFYcjRwTXh5aUVxekFqclczMkJKR3NpejE5YnFWV0Z2Zkx2TGFfSkFHRzdoQmpTczhPWVRVNFBORFlNSnp6dk1tdGkxbzAtMlRWeGE1bkRjTl8wbEFOeVNpMEpERXFncnJsSFMzemNHSUFFaExXT2FoaFRDSnNMVDdRejlpdmVGdzgzQkRsTWVBQ2hNaGh4dTdySGxUd1lEc21CWFF4QnVsd01DS2Zm?oc=5",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "Chainalysis: Coldcard Attackers Targeted High-Value Wallets First, $30M Stolen In Minutes - Bitcoin World",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ma1ZWdGtFdS1RRFFlTDRuZnAwZUxPOUxIQW1EOWo2VGVvMDU3MFI5NTEtTDc1Slpxc2ZKQ2JnZU5GRkR4YUtteU5zWXJSakxrYVR0dlRydjQ2TThCWFc5eVBxVlNaRlJabTZHYWJsaFRqRzBONlFVYm1MOFQ?oc=5",
+      "source": "Bitcoin World"
+    },
+    {
+      "title": "\uccb4\uc774\ub110\ub9ac\uc2dc\uc2a4 \"\uae30\uad00\ud22c\uc790 \ud655\uc0b0\uc5d0 \ud504\ub77c\uc774\ubc84\uc2dc \ube14\ub85d\uccb4\uc778 \ubd80\uc0c1\u2026\ubaa8\ub2c8\ud130\ub9c1 \uae30\uc220\ub3c4 \uc9c4\ud654\ud574\uc57c\" - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HUWRmLTUtUFRlS0xRR0g2WWR1THBTaTd0QkVjSTZFVXRvVDg1VnVMdWlwWmlaTW84NjRITHVZZ2JBTUl2VUhjU1hER0FtNmNJR2pnR25SOFhuZExTZjBidVVkOVRhdWNjNzlaTA?oc=5",
+      "source": "TradingView"
+    },
+    {
+      "title": "\ubbf8\uad6d, \uc911\uad6d $200\uc5b5 \uc6d4\ub4dc\ucef5 \uc608\uce21\uc2dc\uc7a5 \uc8fc\ub3c4\u2026\uccb4\uc774\ub110\ub9ac\uc2dc\uc2a4 \ubc1c\ud45c - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6TGZkTUhEbjNxbFE4T2ZGRm9JSmRfbmpkTWtIc1hOSHI2aU82UGhtS0d0NWFvVklYbkNqczVqTnAyUkNTckh0eFdyMU15OVJyN0pma1ZmajdJczBIYVE0Rkx1RlNKMnJIdXdLVDAwTXUzVkIzTXJfUjNWczRQQQ?oc=5",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "Chainalysis, \ucef4\ud50c\ub77c\uc774\uc5b8\uc2a4\uc5d0\uc11c \ud558\uc774\ube0c\ub9ac\ub4dc \ube14\ub85d\uccb4\uc778 \uc218\uc694 \uac15\uc870 - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSlpCSkVnRVl1T1lBREpsczExU0VqYXZwU3FGWkFqWmFQWEJSa3l5RFRtWDBhTzkwZnNpZEdxR29saWFaaFhwb1VsNUlHYjI5UlRQNGZpU05KVjg4TjVtOWVmZXdSY3ZsR3Z4ZURRbzBJdWZ6ZXBjZHppWm83aERZcXU4cmNxVTNtMW9xUUowamNvcFpzelRYSnF1N25VQQ?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Chainalysis Highlights Demand for Hybrid Blockchains in Compliance - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaExuNUhad0h0dkI0N3hsN29FbWI4U1I1b2oxZ1FxN2VWeGJQT3cxMFp1em1heTA5N1lkcklnVmFOY05od1p0dHJmRmxRVGFzblJOaXZ4YVdsUl9ybkJxek4xR2ZzZWl6YTBiX0lUQjJoOHFFZUZCRGxXQWdJeEJTSTJTRUVuR0ZWNkxtR1FIb3dMV3VzWm8wVVZn?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "\uc548\uc815\uc801\uc778 \ud1a0\ud070, \uccb4\uc778 \ubd84\uc11d \uc9c0\uc6d0\uc73c\ub85c \uacb0\uc81c \uc0dd\ud0dc\uacc4 \ud65c\uc131\ud654 - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUnJ2SzJMUjVhYUNIRGhITklOYm5iN2ZtNHlOclFjRlgwMGpZNW9WYzhSOF9uUG5YRG1mYVpGdURkMllVTEdOUW9MMTB2NklzcGNqcnVJYk12UE1HVEh4TXROQVZndmlPZHpvLWh1TTlxVHBkRDJYTzNIYlRVTm9QY2ZIUnozWmFhLXFHYmJuVWh1LTE3dGdvOWQ2bnk?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Quel a \u00e9t\u00e9 l\u2019impact de la Coupe du monde de foot 2026 sur les cryptos ? - Cryptoast",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HMFlKZVVHMTBDT0JOeWJ5cE9xbXJ1eW5GTjBpYWFPNnFFMWJQdDhOQXVUcTZhQTNYUTNjOC10NnRSa3N0UGh2T29MdjM3LTRXV1YyanhIMmZNczJOMWlyR24xUU9BZ0VOeTdnYTVKUDViVG9kTlE?oc=5",
+      "source": "Cryptoast"
+    },
+    {
+      "title": "400 000 portefeuilles, 20 Mds$ : La blockchain s'offre la plus grande victoire de la Coupe du monde - cointribune.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTFhpclhDdWJwN0ZpSHg1T2paMWgwbzFPWEo4dl9zZDViT29sTVdJd3hGbXlsN0ZjNms2M2U5TmxrTm04bW5pX2lZM2cwRlpVbGpTZ3JYM21UNlRkVVJuUmFiX1BPZlBVci1Bd3R4eUFCYUFmV0ZRdGF0NHNIU2NlM0xmN2JKNU8yZFVPZkFrcDhCT1ZrNzV2UHNiNE5UcTczS09PaHhXMEF0c0k?oc=5",
+      "source": "cointribune.com"
+    },
+    {
+      "title": "Chainalysis r\u00e9v\u00e8le une forte demande pour les blockchains hybrides - coinfomania.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTHpfdFVtTnhHN1E3YkJlT1d3R0NwQl9yVnkzZDN0aXUwR3FEalozXzZfWEdmMXZJUnBKaVRwN04ycHFHdExJeFlFVnFPQldPcGlnZ0pwRmlrcXZQSjZwcDJkbHNDRGc0TThkX0NPQU90blNJdHJfcF9GeHJodE5CN0hWcVRQbkFjRlMwRjV2MnhjNUhNcEM3RGo1anZpUQ?oc=5",
+      "source": "coinfomania.com"
+    },
+    {
+      "title": "Un pirate de Coldcard a d\u00e9rob\u00e9 30 millions de dollars en 10 minutes en ciblant les gros portefeuilles - Bitcoin News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTHAxQVkwRDhpQld3NDhyajh0MlR5bVBISmVTVGZ0Sk9DMENIT3dJczV5Y1NsNTFfbkNjVDY0cERoS2JFcmFKLWgzZmlTNnBYZ1pIZDNMRVpzS21BcFJVRUdlV1hRZXctdFd5MHJnTjJEN0VaU01SYjJVNlYySVNnX3lCTzZaazZBTElRRktZN19YYVk4dm41OWJYcnBXTklKXzNGaXM5TGVXNXBDYURtLVI2TDlnWnI5NzQzdUxnRVpybWlyQWN2YXBKZ18tTF9fNE94aDhn?oc=5",
+      "source": "Bitcoin News"
+    },
+    {
+      "title": "\u6697\u53f7\u8cc7\u7523\u95a2\u9023\u72af\u7f6a\u30012021\u5e74\u306b140\u5104\u30c9\u30eb\u76f8\u5f53\u304c\u596a\u308f\u308c\u308b\u2500\u2500Chainalysis\u8abf\u3079\uff08\u753b\u50cf\uff09 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xOGRXTHJ6aHdRTWFsNFpvVHpiM3FGSm5MMUNwR3poZ0xWU3RnUjdyQS14NHE2ZkY0MTdseTluanNfRmE0Q1RXVVhNRUhhdG1abXhvMlJ3TU5CMTh2SU1Rc0lkWXJFWnN5VENpdDVwemFNVGpiVnZXNE53QQ?oc=5",
+      "source": "ITmedia"
+    }
+  ],
+  "narratives": [
+    {
+      "title": "Prediction Markets Reach Institutional Scale",
+      "description": "World Cup 2026 generated $20B onchain prediction market volume, driven by US and China participation, establishing scale legitimacy.",
+      "relevance": "We own the authoritative data on prediction market volume and can position as the trusted risk intelligence layer for regulatory scrutiny of this emerging asset class.",
+      "cadence": "new",
+      "momentum": "new",
+      "appearances": 1,
+      "window_days": 31,
+      "articles": [
+        {
+          "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
+          "source": "TradingView"
+        },
+        {
+          "title": "World Cup bets smash records as prediction markets hit $20 billion in volume",
+          "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "World Cup prediction markets reached $20B - Crypto News",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hU0RfZTIzMU0xckt4bnphOVZwNEtVdEZYT0o0d3ZUdWhLZDMwNVgwYW5JMXJud1YyZHhkZVg3WVdCa0JzemFwUWxmdjZDc012NmZaaGc3LWtzNVl3cjVOYXlpTndPTWszdTI1eDdR?oc=5",
+          "source": "Crypto News"
+        }
+      ]
+    },
+    {
+      "title": "Self-Custody Security Crisis Accelerates TradFi Migration",
+      "description": "Coldcard exploit draining $30M-$38M from high-value wallets in minutes signals institutional loss of confidence in self-custody security models.",
+      "relevance": "We differentiate by providing wallet risk profiling and targeting intelligence; this narrative validates demand for our operational resilience monitoring and positions us as essential for institutional custody risk assessment.",
+      "cadence": "recurring",
+      "momentum": "rising",
+      "appearances": 2,
+      "window_days": 31,
+      "articles": [
+        {
+          "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+          "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "Binance founder CZ calls for wallet diversification after $70 million Coldcard exploit",
+          "url": "https://www.coindesk.com/markets/2026/08/01/binance-founder-cz-says-diversify-your-wallets-following-usd70-million-coldcard-exploit",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "Chainalysis: Coldcard Attackers Targeted High-Value Wallets First, $30M Stolen in Minutes - CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaWFWZ05hTEIyQWxWVWY1MVdoZG1Ca3lBWm1tdjNnOG1tLXZUS3JyOHI1RDJXN3JjSEpVTENlZW51RTRPZUxBYzgwb05KVHVjVkNQNFQ4QkFJTHV5UXh2SDZRT0xJVVV4SWRRZ2kteElZRTlPMVNfVk1kNGhmdTdUMGFrcG0tVnc3THc?oc=5",
+          "source": "CryptoRank"
+        }
+      ]
+    },
+    {
+      "title": "Stablecoin Infrastructure Maturation & Payment Scale",
+      "description": "Our $1.5 quadrillion annual processing projection by 2035 and Tether's $1.5B Q2 profit signals stablecoin shifting from speculative to critical payment infrastructure.",
+      "relevance": "We establish ourselves as the authoritative source on stablecoin systemic risk, AML/CFT compliance burden, and cross-border payment flow patterns as these volumes scale into traditional finance equivalents.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 6,
+      "window_days": 31,
+      "articles": [
+        {
+          "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
+          "source": "CoinMarketCap"
+        },
+        {
+          "title": "Applied Digital beats quarterly revenue estimates on surging AI infrastructure demand - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVkRDRU9XdVFCNDNXeU5OZmo2UkZ0ZWRGemJsREZSUDBzU0Uxd2pLb01Tc19DVkYxekYwN3Z0S3o3U0l2ZXo2eG5CY1JkdlFUZWlJMWw5LW5nVk5zdzdiMENfNnFweld3UWw2UmRQNjBoUHQxYnJadHRfalZjN3paZzZMUUVjQXVId1dGMFBrVXU5OHlNdnhRUmxsbi1YdTBLdHJBbkpnT1N4NW1GOTBiUmwzcEJtUlNXd19fNmNGRQ?oc=5",
+          "source": "Reuters"
+        },
+        {
+          "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+          "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+          "source": "CoinDesk"
+        }
+      ]
+    },
+    {
+      "title": "Sanctions Evasion at Institutional & Network Scale",
+      "description": "Reuters exposed $4B Iranian gambling network sanctions dodge using crypto; EU intensified Russia sanctions scrutiny on trading platforms.",
+      "relevance": "This validates our sanctions enforcement positioning and demonstrates that illicit finance detection is now critical infrastructure for compliance teams and law enforcement\u2014positioning our tools as regulatory necessity.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 4,
+      "window_days": 31,
+      "articles": [
+        {
+          "title": "Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0c1Y3Z1S3JvRDl6YklGRHdRWXJWWDdOMUJYQ0FURHpwLTByV1N0bzBCZ0ZGWGZoc0FwakZlLTI2S3cxWGxOV010X1I1NWlBVGRRbmdJeW9penZraklmQ2dtVERtdVMwM1ljR2t4QTl0OEZicThhNTZnN1ZJb3dlMC05TXBoOG4ybGpka1hRX2hUVGtkYTVjRHhBbk9CZDlMYWluVk03Yl9HeWt6UnhyMXZTMGtBQTE3S2l6NHoxOW96WTg?oc=5",
+          "source": "Reuters"
+        },
+        {
+          "title": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
+          "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "European Union\u2019s Latest Russia Sanctions Package Intensifies Scrutiny on Cryptocurrency Trading Platforms - Crowdfund Insider",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZUpjRzA2R2ZZWlN5WUVJWVJzSGNzT0JaQm1YaUF1VjFzNjZNRC1Wa3Q2VmRIMDRRUDFwVHBpcDI4NDFYcjRwTXh5aUVxekFqclczMkJKR3NpejE5YnFWV0Z2Zkx2TGFfSkFHRzdoQmpTczhPWVRVNFBORFlNSnp6dk1tdGkxbzAtMlRWeGE1bkRjTl8wbEFOeVNpMEpERXFncnJsSFMzemNHSUFFaExXT2FoaFRDSnNMVDdRejlpdmVGdzgzQkRsTWVBQ2hNaGh4dTdySGxUd1lEc21CWFF4QnVsd01DS2Zm?oc=5",
+          "source": "Crowdfund Insider"
+        }
+      ]
+    },
+    {
+      "title": "AI-Driven Fraud & Scam Sophistication Outpacing Defenses",
+      "description": "Solana Foundation CISO warns AI is making crypto scams more convincing; $420K law enforcement impersonation scam surfaces, signaling social engineering acceleration.",
+      "relevance": "We position our AI-enhanced transaction pattern detection and risk scoring as defensive infrastructure against increasingly sophisticated fraud; positions us as critical to fraud prevention automation.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 3,
+      "window_days": 31,
+      "articles": [
+        {
+          "title": "CLARITY Act would weaken state fraud powers, James warns - Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fQmxyaTNRMmRZWmNJVlQzcy1IYmlpRDFlZk5pYVpiQ1pSYVpSQlpxbzZKckNSUGJ0Y3pCaTB3OG1ZQXByV2VwQTZUNzhjREt2algwajZ3?oc=5",
+          "source": "Cryptonews.net"
+        },
+        {
+          "title": "Chainalysis Highlights Demand for Hybrid Blockchains in Compliance - Coinfomania",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaExuNUhad0h0dkI0N3hsN29FbWI4U1I1b2oxZ1FxN2VWeGJQT3cxMFp1em1heTA5N1lkcklnVmFOY05od1p0dHJmRmxRVGFzblJOaXZ4YVdsUl9ybkJxek4xR2ZzZWl6YTBiX0lUQjJoOHFFZUZCRGxXQWdJeEJTSTJTRUVuR0ZWNkxtR1FIb3dMV3VzWm8wVVZn?oc=5",
+          "source": "Coinfomania"
+        },
+        {
+          "title": "Chainalysis hebt Nachfrage nach Hybrid-Blockchains f\u00fcr Compliance hervor - Coinfomania",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMlhmaG1xWVpQU1hCX1MwSGVCMEdkTkJQSTl3dG1MN0dBOHpKXzBwbFI5Slh1bU56MnZMakdobTUxcTJKRm13al9kVE5BMk1hTG9Hcl9nMXVhcDdib1FXZF82Z3J6RzJJZUhYYnFHWk41MkpGVVlLOWxmZHVDRzY0S3VsenlOV3BoOVBEQk9vYy1PaEI0bWh4MFVIeVJNUQ?oc=5",
+          "source": "Coinfomania"
+        }
+      ]
+    }
+  ],
+  "top_domains": [
+    {
+      "name": "Market Integrity & Surveillance",
+      "count": 183
+    },
+    {
+      "name": "AI & Compliance Automation",
+      "count": 157
+    },
+    {
+      "name": "Sanctions & Illicit Finance",
+      "count": 115
+    },
+    {
+      "name": "International & Emerging Markets",
+      "count": 73
+    },
+    {
+      "name": "National Security, Defence & Intelligence",
+      "count": 69
+    },
+    {
+      "name": "DeFi Regulation & Governance",
+      "count": 66
+    },
+    {
+      "name": "Stablecoins & Digital Payments",
+      "count": 58
+    },
+    {
+      "name": "Cybersecurity & Operational Resilience",
+      "count": 50
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Elliptic",
+      "count": 7,
+      "top_title": "Sei Scales Securely with Elliptic\u2019s Blockchain Risk Intelligence - Elliptic",
+      "top_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNHVuY2hNWWZGS2pYUS1ncE1ZTS1xR3gwNDhGQjFETXptcUJNOVZTR0psbUhqMXhmN2E2ZHMzTkx0cVFWeFpwRlg4MXBQdnNlWmRaTWVOM2xyM1dHa2kxbWNTY1l3bl96bjB3RU8wQXcyeHVJcDQyQ2FuNVF2MTZkaUJDUU9aZjVFcnRSZFRncy1pQVV6Q3NKZFNVVFI4WnI1SkJUNWJQM1I?oc=5",
+      "top_source": "Elliptic"
+    },
+    {
+      "name": "Arkham Intelligence",
+      "count": 4,
+      "top_title": "Arkham Exchange Pivots to Full Decentralization - CoinMarketCap",
+      "top_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMExsb3hKdVlHaUNrTlVyZWtHR0VWUjZySndpQkMxMGtCWEhDS3U0Rmt3YkNGNmdNNFFpQXAtTjNTQllmWEpXVEJjakRPYWctNEM1c0hsSzliUEE1TEh5bnlkdDhRby0yaFZ6VEFLS2h2Q2Z2QS1QUEo3TUFLU3FqaUNfd0hqYTNTQWMtRmdxQTB4UmM?oc=5",
+      "top_source": "CoinMarketCap"
+    },
+    {
+      "name": "TRM Labs",
+      "count": 1,
+      "top_title": "TRM Labs' Ari Redbord on fighting against targeted AI scams - CoinDesk",
+      "top_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYkZNZ2V6N3VhLU9ZemFza2dIaW5QbnZVdW12Y29PMEM5VUZ4YmxlUXRIUFhmcDNPQnZ3SDNic3dDN2t5VWpsLV9uRmttSThLMUpNdkNwa3puU0dhM3FnY0psRU14MjNYbU9HVVExUXRwQm9QRUh1bU10TG9nWFg0SzZFeEIwcWJSVUM1bEFWUmpHQVE?oc=5",
+      "top_source": "CoinDesk"
+    },
+    {
+      "name": "Merkle Science",
+      "count": 1,
+      "top_title": "Merkle Science is building blockchain privacy that regulators can actually live with - Crypto Briefi",
+      "top_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQktGejR3M1dOaWoyVlhzWDRybjA5aE1kQzRLb3ZPazV6b0tvQ2gtbnV5WDlZRnA1emNxWXIwd2NaRy1IazlnRzdLU0NidzVhZ1FrSVQ2aVduWWgxRVZ1OVJlcFdoX1FNU012Uld6NUgyVWp4NUROcmhzU0hQMURTYVdQcXlPZW1NSUVkdg?oc=5",
+      "top_source": "Crypto Briefing"
+    },
+    {
+      "name": "CipherTrace",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Nansen",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Crystal Intelligence",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    },
+    {
+      "name": "Solidus Labs",
+      "count": 0,
+      "top_title": "",
+      "top_url": "",
+      "top_source": ""
+    }
+  ],
+  "market_landscape": [
+    {
+      "title": "Institutional Crypto Infrastructure Maturing",
+      "body": "Prediction market scale ($20B World Cup volume), stablecoin processing projections ($1.5 quadrillion by 2035), and tokenized stock trading surge (288% in July) signal crypto infrastructure crossing into systemic-scale adoption. Coldcard exploit paradoxically accelerates this by pushing institutional custody into regulated ETF and custodian models, reducing self-custody risk."
+    },
+    {
+      "title": "Regulatory Enforcement Scaling Rapidly",
+      "body": "Iran sanctions evasion ($4B network), EU Russia sanctions intensification, and CLARITY Act debate show regulators moving from theoretical framework to active prosecution infrastructure. Compliance automation and blockchain forensics transition from optional to regulatory mandate across geographies."
+    },
+    {
+      "title": "AI-Fraud Arms Race Intensifying",
+      "body": "Solana Foundation warns AI-driven scams are outpacing defenses; $420K law enforcement impersonation scam demonstrates social engineering sophistication. Compliance teams face asymmetric threat from AI-enhanced fraud requiring real-time pattern detection and behavioral anomaly systems."
+    }
+  ],
+  "competitor_reads": {
+    "Elliptic": "Executing aggressive partnership consolidation strategy\u2014securing Sei, HashKey, and $3.1M efficiency wins\u2014positioning as the VASP infrastructure standard while we lead on market integrity and sanctions enforcement.",
+    "TRM Labs": "Maintaining narrow focus on AI-driven scam detection (Ari Redbord CoinDesk feature), differentiating on targeted fraud rather than broad compliance infrastructure.",
+    "Arkham Intelligence": "Pivoting exchange toward full decentralization while capitalizing on Lazarus Group tracking coverage, signaling shift from on-chain analytics toward trading venue and token positioning.",
+    "Merkle Science": "Quietly building privacy-compliant blockchain monitoring positioning\u2014targeting regulatory-friendly privacy tools rather than competing on broad enterprise compliance."
+  },
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
+  "mention_categories": {
+    "mainstream": 0,
+    "crypto": 11,
+    "fintech": 1,
+    "blog": 3,
+    "niche": 39
+  },
+  "sentiment": {
+    "positive": 18,
+    "neutral": 10,
+    "negative": 2
+  }
+}</script>
+
+<script>
+const REPO = 'chainmarketing/weekly-briefing';
+const DATE = '2026-08-02';
+
+let data = {};
+let editMode = false;
+let pendingAction = null; // 'save' or 'approve'
+
+function init() {
+  try {
+    data = JSON.parse(document.getElementById('briefing-data').textContent);
+  } catch(e) {
+    document.getElementById('content').innerHTML = '<p>Failed to load briefing data.</p>';
+    return;
+  }
+  render();
+}
+
+function render() {
+  const d = data;
+  const el = document.getElementById('content');
+
+  let html = `
+    <div class="text-center" style="margin-bottom:28px">
+      <h1>Weekly Briefing</h1>
+      <p class="subtitle">Week ending ${d.date_display || d.date}</p>
+    </div>
+
+
+
+    <div class="card"><div class="card-header"><h2>Strategic Summary</h2></div>
+    <div class="card-body"><p class="editable" data-field="executive_summary" style="font-size:14px;color:var(--text-muted)">${d.executive_summary}</p>
+    </div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-row"><h2>📰 Chainalysis in the News</h2>
+    <span class="count-label">${d.mentions_count} mentions</span></div></div>
+    <div class="card-body" id="mentions-container">`;
+
+  for (let i = 0; i < (d.mentions || []).length; i++) {
+    const m = d.mentions[i];
+    html += `<div class="mention-row" data-index="${i}">
+      <button class="remove-btn" onclick="removeMention(${i})" title="Remove">×</button>
+      <a href="${m.url}" class="mention-title editable-inline" data-field="mentions.${i}.title">${m.title}</a>
+      <div class="mention-meta">${m.source}</div>
+    </div>`;
+  }
+  html += `<div class="add-item-btn" onclick="showAddMention()">+ Add Mention</div>
+    <div class="add-form" id="addMentionForm" style="display:none">
+      <input type="text" id="newMentionTitle" placeholder="Article title" class="add-input">
+      <input type="text" id="newMentionUrl" placeholder="URL" class="add-input">
+      <input type="text" id="newMentionSource" placeholder="Source (e.g. Bloomberg)" class="add-input">
+      <div style="display:flex;gap:6px;margin-top:6px">
+        <button class="btn btn-primary" onclick="addMention()" style="font-size:12px;padding:4px 12px">Add</button>
+        <button class="btn" onclick="hideAddMention()" style="font-size:12px;padding:4px 12px">Cancel</button>
+      </div>
+    </div>
+  </div></div>`;
+
+  // Persistent themes
+  const persistent = (d.narratives || []).filter(n => ['persistent','recurring'].includes(n.cadence));
+  if (persistent.length) {
+    html += `<div class="card"><div class="card-header"><h2>🔥 Persistent Themes</h2>
+    <p class="subtitle">Narratives shaping the landscape.</p></div><div class="card-body">`;
+    for (const n of persistent) {
+      const idx = d.narratives.indexOf(n);
+      const badge = n.cadence === 'persistent' ? '🔥 Persistent' : '🔁 Recurring';
+      const me = {rising:'📈',stable:'➡️',fading:'📉'}[n.momentum] || '';
+      html += `<div class="theme-card theme-persistent" data-narrative-index="${idx}">
+        <button class="remove-btn" onclick="removeNarrative(${idx})" title="Remove">×</button>
+        <div><span class="theme-title editable-inline" data-field="narratives.${idx}.title">${n.title}</span>
+        <span class="badge badge-${n.cadence}">${badge}</span>
+        <span class="trend-meta">${me} ${n.appearances || 1}x over ${n.window_days || '?'} days</span></div>
+        <p class="theme-desc editable" data-field="narratives.${idx}.description">${n.description}</p>
+        <p class="theme-relevance editable" data-field="narratives.${idx}.relevance">🏢 ${n.relevance || ''}</p>
+        <div class="theme-links">${(n.articles || []).map(a => `<a href="${a.url}">${a.source}: ${a.title}</a>`).join('')}</div>
+      </div>`;
+    }
+    html += '</div></div>';
+  }
+
+  // Emerging themes
+  const emerging = (d.narratives || []).filter(n => ['new','sporadic'].includes(n.cadence));
+  if (emerging.length) {
+    html += `<div class="card"><div class="card-header"><h2>✨ Emerging This Week</h2>
+    <p class="subtitle">New themes to watch.</p></div><div class="card-body">`;
+    for (const n of emerging) {
+      const idx = d.narratives.indexOf(n);
+      html += `<div class="theme-card theme-emerging" data-narrative-index="${idx}">
+        <button class="remove-btn" onclick="removeNarrative(${idx})" title="Remove">×</button>
+        <span class="theme-title editable-inline" data-field="narratives.${idx}.title">${n.title}</span>
+        <span class="badge badge-new">✨ New</span>
+        <p class="theme-desc editable" data-field="narratives.${idx}.description">${n.description}</p>
+        <p class="theme-relevance editable" data-field="narratives.${idx}.relevance">🏢 ${n.relevance || ''}</p>
+        <div class="theme-links">${(n.articles || []).map(a => `<a href="${a.url}">${a.source}: ${a.title}</a>`).join('')}</div>
+      </div>`;
+    }
+    html += '</div></div>';
+  }
+
+
+  // Add Narrative button (edit mode only)
+  html += `<div class="card edit-only-card" style="display:none"><div class="card-body">
+    <div class="add-item-btn" onclick="showAddNarrative()">+ Add Narrative</div>
+    <div class="add-form" id="addNarrativeForm" style="display:none">
+      <input type="text" id="newNarrTitle" placeholder="Narrative title" class="add-input">
+      <textarea id="newNarrDesc" placeholder="Description (1-2 sentences)" class="add-input" rows="2"></textarea>
+      <input type="text" id="newNarrRelevance" placeholder="What this means for us" class="add-input">
+      <div style="display:flex;gap:8px;align-items:center;margin-top:6px">
+        <select id="newNarrCadence" class="add-input" style="width:auto;margin:0">
+          <option value="new">✨ Emerging / New</option>
+          <option value="recurring">🔁 Recurring</option>
+          <option value="persistent">🔥 Persistent</option>
+        </select>
+        <button class="btn btn-primary" onclick="addNarrative()" style="font-size:12px;padding:4px 12px">Add</button>
+        <button class="btn" onclick="hideAddNarrative()" style="font-size:12px;padding:4px 12px">Cancel</button>
+      </div>
+    </div>
+  </div></div>`;
+
+  // Domain heatmap
+  if (d.top_domains && d.top_domains.length) {
+    const max = d.top_domains[0].count;
+    html += `<div class="card"><div class="card-header"><h2>📊 Topic Coverage</h2></div><div class="card-body">`;
+    html += `<p style="font-size:11px;color:var(--text-muted);background:var(--bg);display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:12px">📄 Website only — not included in Slack.</p>`;
+    for (const dom of d.top_domains) {
+      html += `<div class="bar-row"><span class="bar-label">${dom.name}</span>
+        <div class="bar-track"><div class="bar-fill" style="width:${dom.count/max*100}%"></div></div>
+        <span class="bar-count">${dom.count}</span></div>`;
+    }
+    html += '</div></div>';
+  }
+
+  // Seizure
+  if (d.seizure_value) {
+    html += `<div class="card"><div class="card-header"><h2>📊 Seize & Freeze Scorecard</h2></div>
+    <div class="card-body"><div class="seizure-box"><p>🔗 <strong>${d.seizure_value}</strong> seized & frozen — <strong>${d.seizure_cases} cases</strong></p></div></div></div>`;
+  }
+
+  // Competitor Watch (merged with strategic reads)
+  if (d.competitors && d.competitors.length) {
+    const reads = d.competitor_reads || {};
+    html += `<div class="card"><div class="card-header"><h2>🏢 Competitor Watch</h2></div><div class="card-body">`;
+    for (let i = 0; i < d.competitors.length; i++) {
+      const c = d.competitors[i];
+      // Find the strategic read for this competitor (match by name, case-insensitive)
+      const readKey = Object.keys(reads).find(k => k.toLowerCase().includes(c.name.toLowerCase().split(' ')[0]));
+      const read = readKey ? reads[readKey] : '';
+      if (c.count > 0) {
+        html += `<div class="comp-item" data-comp-index="${i}">
+          <span class="comp-name">${c.name}</span> <span class="comp-count">(${c.count} articles)</span>
+          <div class="comp-headline"><a href="${c.top_url || '#'}">${c.top_title || ''}</a> — <span style="color:var(--text-muted);font-size:12px">${c.top_source || ''}</span></div>
+          ${read ? `<p class="editable" data-field="competitor_reads.${readKey || c.name}" style="font-size:12px;color:var(--text-muted);font-style:italic;margin-top:4px">💡 ${read}</p>` : ''}
+        </div><hr>`;
+      } else {
+        html += `<div class="comp-item"><span class="comp-name" style="color:var(--text-muted)">${c.name}</span> <span class="comp-count">(0)</span>
+        <div style="font-size:12px;color:var(--text-muted)">No coverage this week.</div></div><hr>`;
+      }
+    }
+    html += '</div></div>';
+  }
+
+  // Market Landscape
+  if (d.market_landscape && (Array.isArray(d.market_landscape) ? d.market_landscape.length : d.market_landscape)) {
+    let mlBody = '';
+    if (Array.isArray(d.market_landscape)) {
+      d.market_landscape.forEach((s, i) => {
+        mlBody += `<div style="margin-bottom:16px">
+          <h3 class="editable-inline" data-field="market_landscape.${i}.title" style="font-size:13px;font-weight:600;margin-bottom:4px">${s.title || ''}</h3>
+          <p class="editable" data-field="market_landscape.${i}.body" style="font-size:14px;color:var(--text-muted);line-height:1.7">${s.body || ''}</p>
+        </div>`;
+      });
+    } else {
+      const paras = String(d.market_landscape).split(/\n\n+/).filter(p => p.trim());
+      paras.forEach((p, i) => {
+        mlBody += `<p class="editable" data-field="market_landscape_para_${i}" style="font-size:14px;color:var(--text-muted);line-height:1.7;margin-bottom:14px">${p.trim()}</p>`;
+      });
+    }
+    html += `<div class="card"><div class="card-header"><h2>🌍 Market Landscape</h2></div>
+    <div class="card-body"><p style="font-size:11px;color:var(--text-muted);background:var(--bg);display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:12px">📄 Website only — not included in Slack. Edits here won't affect the Slack message.</p>${mlBody}</div></div>`;
+  }
+
+  // Competitor Spotlight removed — merged into Competitor Watch above
+
+  el.innerHTML = html;
+  document.getElementById('footer').textContent = `Chainalysis Weekly Briefing · ${d.date_display || d.date} · ${d.articles_analysed || '?'} articles analysed`;
+}
+
+// ── Edit mode ─────────────────────────────────────────────────
+
+function toggleEdit() {
+  editMode = true;
+  document.body.classList.add('edit-mode');
+  document.getElementById('editBtn').style.display = 'none';
+  document.getElementById('saveBtn').style.display = '';
+  document.getElementById('cancelBtn').style.display = '';
+  document.getElementById('approveBtn').style.display = 'none';
+
+  document.querySelectorAll('.editable, .editable-inline').forEach(el => {
+    el.contentEditable = 'true';
+  });
+  showStatus('Editing — make your changes, then Save Draft', 'success');
+}
+
+function cancelEdit() {
+  editMode = false;
+  document.body.classList.remove('edit-mode');
+  document.getElementById('editBtn').style.display = '';
+  document.getElementById('saveBtn').style.display = 'none';
+  document.getElementById('cancelBtn').style.display = 'none';
+  document.getElementById('approveBtn').style.display = '';
+
+  render(); // re-render from original data
+  hideStatus();
+}
+
+function readEditsFromDOM() {
+  document.querySelectorAll('[data-field][contenteditable="true"]').forEach(el => {
+    const field = el.dataset.field;
+    const value = el.innerText.trim();
+    setNestedField(data, field, value);
+  });
+}
+
+function setNestedField(obj, path, value) {
+  const parts = path.split('.');
+  let current = obj;
+  for (let i = 0; i < parts.length - 1; i++) {
+    const key = isNaN(parts[i]) ? parts[i] : parseInt(parts[i]);
+    current = current[key];
+    if (!current) return;
+  }
+  const lastKey = isNaN(parts[parts.length-1]) ? parts[parts.length-1] : parseInt(parts[parts.length-1]);
+  // Strip emoji prefix from relevance fields
+  if (path.endsWith('.relevance')) {
+    current[lastKey] = value.replace(/^🏢\s*/, '');
+  } else {
+    current[lastKey] = value;
+  }
+}
+
+function removeMention(index) {
+  data.mentions.splice(index, 1);
+  data.mentions_count = data.mentions.length;
+  render();
+  toggleEdit(); // stay in edit mode
+}
+
+function removeNarrative(index) {
+  data.narratives.splice(index, 1);
+  data.persistent_count = data.narratives.filter(n => ['persistent','recurring'].includes(n.cadence)).length;
+  render();
+  toggleEdit();
+}
+
+
+// ── Add items ─────────────────────────────────────────────────
+
+function showAddMention() {
+  document.getElementById('addMentionForm').style.display = 'block';
+}
+function hideAddMention() {
+  document.getElementById('addMentionForm').style.display = 'none';
+  document.getElementById('newMentionTitle').value = '';
+  document.getElementById('newMentionUrl').value = '';
+  document.getElementById('newMentionSource').value = '';
+}
+function addMention() {
+  const title = document.getElementById('newMentionTitle').value.trim();
+  const url = document.getElementById('newMentionUrl').value.trim();
+  const source = document.getElementById('newMentionSource').value.trim();
+  if (!title || !source) { alert('Title and source are required.'); return; }
+  data.mentions = data.mentions || [];
+  data.mentions.push({ title, url: url || '#', source });
+  data.mentions_count = data.mentions.length;
+  hideAddMention();
+  render();
+  toggleEdit();
+  showStatus('Mention added \u2014 remember to Save Draft', 'success');
+}
+
+function showAddNarrative() {
+  document.getElementById('addNarrativeForm').style.display = 'block';
+}
+function hideAddNarrative() {
+  document.getElementById('addNarrativeForm').style.display = 'none';
+  document.getElementById('newNarrTitle').value = '';
+  document.getElementById('newNarrDesc').value = '';
+  document.getElementById('newNarrRelevance').value = '';
+  document.getElementById('newNarrCadence').value = 'new';
+}
+function addNarrative() {
+  const title = document.getElementById('newNarrTitle').value.trim();
+  const description = document.getElementById('newNarrDesc').value.trim();
+  const relevance = document.getElementById('newNarrRelevance').value.trim();
+  const cadence = document.getElementById('newNarrCadence').value;
+  if (!title || !description) { alert('Title and description are required.'); return; }
+  data.narratives = data.narratives || [];
+  data.narratives.push({
+    title, description, relevance, cadence,
+    momentum: 'new', appearances: 1, window_days: 1, articles: []
+  });
+  data.persistent_count = data.narratives.filter(n => ['persistent','recurring'].includes(n.cadence)).length;
+  hideAddNarrative();
+  render();
+  toggleEdit();
+  showStatus('Narrative added \u2014 remember to Save Draft', 'success');
+}
+
+// ── GitHub API ────────────────────────────────────────────────
+
+function getToken() {
+  return sessionStorage.getItem('gh_token') || '';
+}
+
+function showTokenModal(action) {
+  pendingAction = action;
+  document.getElementById('tokenModal').classList.add('show');
+  document.getElementById('tokenInput').focus();
+}
+
+function closeTokenModal() {
+  document.getElementById('tokenModal').classList.remove('show');
+  pendingAction = null;
+}
+
+function saveToken() {
+  const token = document.getElementById('tokenInput').value.trim();
+  if (!token) return;
+  sessionStorage.setItem('gh_token', token);
+  document.getElementById('tokenModal').classList.remove('show');
+  if (pendingAction === 'save') saveDraft();
+  else if (pendingAction === 'approve') approveDraft();
+  pendingAction = null;
+}
+
+async function ghRequest(method, path, body) {
+  const token = getToken();
+  const opts = {
+    method,
+    headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' },
+  };
+  if (body) {
+    opts.headers['Content-Type'] = 'application/json';
+    opts.body = JSON.stringify(body);
+  }
+  const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, opts);
+  if (!resp.ok) throw new Error(`GitHub API ${resp.status}: ${await resp.text()}`);
+  return resp.json();
+}
+
+function showStatus(msg, type) {
+  const el = document.getElementById('statusMsg');
+  el.textContent = msg;
+  el.className = `status-msg show ${type}`;
+}
+
+function hideStatus() {
+  document.getElementById('statusMsg').className = 'status-msg';
+}
+
+// ── Save draft ────────────────────────────────────────────────
+
+async function saveDraft() {
+  if (!getToken()) { showTokenModal('save'); return; }
+
+  readEditsFromDOM();
+  showStatus('Saving...', 'success');
+
+  try {
+    // Rebuild the HTML with updated data
+    const htmlContent = document.documentElement.outerHTML;
+
+    // Actually, we save the JSON data, and rebuild the page from it
+    const dataJson = JSON.stringify(data, null, 2);
+    const encodedData = btoa(unescape(encodeURIComponent(dataJson)));
+
+    // Get current file SHA
+    const draftPath = `drafts/${DATE}.json`;
+    let sha = null;
+    try {
+      const existing = await ghRequest('GET', draftPath);
+      sha = existing.sha;
+    } catch(e) {}
+
+    const putBody = {
+      message: `Update draft ${DATE}`,
+      content: encodedData,
+      branch: 'main'
+    };
+    if (sha) putBody.sha = sha;
+
+    await ghRequest('PUT', draftPath, putBody);
+
+    editMode = false;
+    document.body.classList.remove('edit-mode');
+    document.getElementById('editBtn').style.display = '';
+    document.getElementById('saveBtn').style.display = 'none';
+    document.getElementById('cancelBtn').style.display = 'none';
+    document.getElementById('approveBtn').style.display = '';
+
+    render();
+    showStatus('✓ Draft saved', 'success');
+    setTimeout(hideStatus, 3000);
+  } catch(e) {
+    showStatus(`Error: ${e.message}`, 'error');
+  }
+}
+
+// ── Approve & Publish ─────────────────────────────────────────
+
+async function approveDraft() {
+  if (!getToken()) { showTokenModal('approve'); return; }
+  if (!confirm('Publish this briefing and send to Slack? This will make it visible on the public site and notify the team.')) return;
+
+  showStatus('Publishing...', 'success');
+  document.getElementById('approveBtn').disabled = true;
+
+  try {
+    // 1. Save any pending edits to draft JSON first
+    readEditsFromDOM();
+    const dataJson = JSON.stringify(data, null, 2);
+    const encodedData = btoa(unescape(encodeURIComponent(dataJson)));
+
+    const draftPath = `drafts/${DATE}.json`;
+    let sha = null;
+    try {
+      const existing = await ghRequest('GET', draftPath);
+      sha = existing.sha;
+    } catch(e) {}
+
+    const putBody = { message: `Finalize draft ${DATE}`, content: encodedData, branch: 'main' };
+    if (sha) putBody.sha = sha;
+    await ghRequest('PUT', draftPath, putBody);
+
+    // 2. Trigger the GitHub Action to publish HTML + send Slack
+    const token = getToken();
+    const dispatchResp = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/publish-briefing.yml/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `token ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref: 'main', inputs: { date: DATE } }),
+    });
+
+    if (!dispatchResp.ok && dispatchResp.status !== 204) {
+      throw new Error(`GitHub Action dispatch failed: ${dispatchResp.status}`);
+    }
+
+    // 3. Update UI
+    document.querySelector('.draft-badge').textContent = '✅ PUBLISHING';
+    document.querySelector('.draft-badge').style.background = 'rgba(22,163,74,0.15)';
+    document.querySelector('.draft-badge').style.color = 'var(--success)';
+    document.getElementById('approveBtn').style.display = 'none';
+    document.getElementById('editBtn').style.display = 'none';
+
+    const owner = REPO.split('/')[0];
+    const repoName = REPO.split('/')[1];
+    showStatus(`✓ Publishing! The briefing will appear at ${owner}.github.io/${repoName}/briefings/${DATE}.html and Slack will be sent shortly.`, 'success');
+  } catch(e) {
+    showStatus(`Error: ${e.message}`, 'error');
+    document.getElementById('approveBtn').disabled = false;
+  }
+}
+
+init();
+</script>
+</body></html>
