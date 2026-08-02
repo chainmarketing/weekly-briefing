@@ -1,12 +1,12 @@
 {
   "date": "2026-08-02",
   "date_display": "August 02, 2026",
-  "mentions_count": 54,
-  "narrative_count": 667,
+  "mentions_count": 77,
+  "narrative_count": 664,
   "competitor_total": 13,
-  "persistent_count": 1,
-  "articles_analysed": 1200,
-  "executive_summary": "In highlight coverage, our analysis of the 2026 FIFA World Cup prediction markets generating $20B in onchain volume dominated earned media across TradingView, BeInCrypto, incrypted, and CoinMarketCap, establishing us as the authoritative source on prediction market scale. Our Coldcard wallet exploit research\u2014identifying $30M stolen in minutes targeting high-value addresses\u2014was picked up by CryptoRank and Bitcoin World, while our stablecoin infrastructure projection ($1.5 quadrillion annual processing by 2035) anchored institutional narratives in CoinMarketCap. Our partnership with Polymarket on insider trading detection tools and compliance research on hybrid blockchains expanded our positioning into market integrity and institutional demand. In crypto news, the $4B Iranian sanctions evasion network exposed by Reuters represents escalating illicit finance complexity that validates our enforcement positioning; Tether's $1.5B Q2 profit with halving reserves signals stablecoin infrastructure maturation; and the Coldcard exploit's ripple effects\u2014pushing self-custody skepticism toward ETF adoption\u2014reshape institutional custody narratives across CoinDesk. In competitor news, Elliptic secured marquee wins with Sei, HashKey, and a $3.1M compliance efficiency deal, positioning aggressively on VASP infrastructure; Arkham pivoted exchange to full decentralization while capitalizing on Lazarus Group tracking; and Merkle Science continued quiet positioning on privacy-compliant blockchain monitoring.",
+  "persistent_count": 2,
+  "articles_analysed": 1202,
+  "executive_summary": "In highlight coverage, our World Cup prediction market analysis dominated earned media this week, with TradingView, BeInCrypto, and incrypted reporting our $20B blockchain volume finding across English, Korean, and French outlets. We also secured significant thought leadership placement on stablecoin infrastructure maturation ($1.5 quadrillion annual processing potential by 2035 via CoinMarketCap) and critical security research on the Coldcard exploit ($30M stolen targeting high-value wallets, covered by CryptoRank and Bitcoin World). Our Polymarket partnership announcement for insider trading detection tools appeared on quasa.io, positioning us as compliance infrastructure leaders. In crypto news, the Coldcard self-custody security crisis accelerated institutional migration toward Bitcoin ETFs (CoinDesk), while Tether reported $1.5B Q2 operating profit amid stablecoin maturation narratives, and the SEC moved to review Nasdaq bitcoin options after CME challenges (CoinDesk). In competitor news, Elliptic secured three enterprise wins (Sei, HashKey, unnamed exchange with $3.1M efficiency gains) positioning themselves as enterprise compliance infrastructure; Arkham pivoted to full decentralization on their exchange; and TRM Labs gained visibility through AI-scam fighting commentary by Ari Redbord.",
   "mentions": [
     {
       "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
@@ -111,23 +111,49 @@
   ],
   "narratives": [
     {
-      "title": "Prediction Markets Reach Institutional Scale",
-      "description": "World Cup 2026 generated $20B onchain prediction market volume, driven by US and China participation, establishing scale legitimacy.",
-      "relevance": "We own the authoritative data on prediction market volume and can position as the trusted risk intelligence layer for regulatory scrutiny of this emerging asset class.",
+      "title": "Self-Custody Security Crisis Drives TradFi Migration",
+      "description": "Coldcard exploit ($30M-$38M stolen in minutes) undermines self-custody confidence, accelerating institutional pivot to regulated Bitcoin ETFs and centralized custody solutions.",
+      "relevance": "Our wallet security insights and transaction tracking establish us as essential infrastructure for institutions evaluating custody risk and regulatory compliance in post-exploit environment.",
       "cadence": "new",
-      "momentum": "new",
+      "momentum": "rising",
       "appearances": 1,
       "window_days": 31,
       "articles": [
         {
-          "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
-          "source": "TradingView"
+          "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+          "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
+          "source": "CoinDesk"
         },
+        {
+          "title": "Chainalysis: Coldcard Attackers Targeted High-Value Wallets First, $30M Stolen In Minutes - Bitcoin World",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ma1ZWdGtFdS1RRFFlTDRuZnAwZUxPOUxIQW1EOWo2VGVvMDU3MFI5NTEtTDc1Slpxc2ZKQ2JnZU5GRkR4YUtteU5zWXJSakxrYVR0dlRydjQ2TThCWFc5eVBxVlNaRlJabTZHYWJsaFRqRzBONlFVYm1MOFQ?oc=5",
+          "source": "Bitcoin World"
+        },
+        {
+          "title": "Un pirate de Coldcard a d\u00e9rob\u00e9 30 millions de dollars en 10 minutes en ciblant les gros portefeuilles - Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTHAxQVkwRDhpQld3NDhyajh0MlR5bVBISmVTVGZ0Sk9DMENIT3dJczV5Y1NsNTFfbkNjVDY0cERoS2JFcmFKLWgzZmlTNnBYZ1pIZDNMRVpzS21BcFJVRUdlV1hRZXctdFd5MHJnTjJEN0VaU01SYjJVNlYySVNnX3lCTzZaazZBTElRRktZN19YYVk4dm41OWJYcnBXTklKXzNGaXM5TGVXNXBDYURtLVI2TDlnWnI5NzQzdUxnRVpybWlyQWN2YXBKZ18tTF9fNE94aDhn?oc=5",
+          "source": "Bitcoin News"
+        }
+      ]
+    },
+    {
+      "title": "Prediction Markets Reach Institutional Scale",
+      "description": "2026 World Cup prediction markets generated $20B onchain volume with US and China leading, demonstrating prediction market infrastructure maturation and retail-to-institutional adoption curve acceleration.",
+      "relevance": "We positioned as primary data authority on prediction market flows, establishing credibility for institutional market surveillance and risk management tools we can extend into derivatives and tokenized securities.",
+      "cadence": "new",
+      "momentum": "rising",
+      "appearances": 1,
+      "window_days": 31,
+      "articles": [
         {
           "title": "World Cup bets smash records as prediction markets hit $20 billion in volume",
           "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
           "source": "CoinDesk"
+        },
+        {
+          "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
+          "source": "TradingView"
         },
         {
           "title": "World Cup prediction markets reached $20B - Crypto News",
@@ -137,90 +163,38 @@
       ]
     },
     {
-      "title": "Self-Custody Security Crisis Accelerates TradFi Migration",
-      "description": "Coldcard exploit draining $30M-$38M from high-value wallets in minutes signals institutional loss of confidence in self-custody security models.",
-      "relevance": "We differentiate by providing wallet risk profiling and targeting intelligence; this narrative validates demand for our operational resilience monitoring and positions us as essential for institutional custody risk assessment.",
-      "cadence": "recurring",
-      "momentum": "rising",
-      "appearances": 2,
-      "window_days": 31,
-      "articles": [
-        {
-          "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
-          "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
-          "source": "CoinDesk"
-        },
-        {
-          "title": "Binance founder CZ calls for wallet diversification after $70 million Coldcard exploit",
-          "url": "https://www.coindesk.com/markets/2026/08/01/binance-founder-cz-says-diversify-your-wallets-following-usd70-million-coldcard-exploit",
-          "source": "CoinDesk"
-        },
-        {
-          "title": "Chainalysis: Coldcard Attackers Targeted High-Value Wallets First, $30M Stolen in Minutes - CryptoRank",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaWFWZ05hTEIyQWxWVWY1MVdoZG1Ca3lBWm1tdjNnOG1tLXZUS3JyOHI1RDJXN3JjSEpVTENlZW51RTRPZUxBYzgwb05KVHVjVkNQNFQ4QkFJTHV5UXh2SDZRT0xJVVV4SWRRZ2kteElZRTlPMVNfVk1kNGhmdTdUMGFrcG0tVnc3THc?oc=5",
-          "source": "CryptoRank"
-        }
-      ]
-    },
-    {
       "title": "Stablecoin Infrastructure Maturation & Payment Scale",
-      "description": "Our $1.5 quadrillion annual processing projection by 2035 and Tether's $1.5B Q2 profit signals stablecoin shifting from speculative to critical payment infrastructure.",
-      "relevance": "We establish ourselves as the authoritative source on stablecoin systemic risk, AML/CFT compliance burden, and cross-border payment flow patterns as these volumes scale into traditional finance equivalents.",
+      "description": "Stablecoins projected to process $1.5 quadrillion annually by 2035; Tether reports $1.5B Q2 operating profit; Bank of Italy questions remittance efficiency gains, signaling infrastructure is maturing but use-case validation remains contested.",
+      "relevance": "We are positioned as authoritative analysts of stablecoin flow patterns and regulatory compliance requirements; our Polymarket partnership and compliance tools become critical as payment volumes scale.",
       "cadence": "sporadic",
-      "momentum": "rising",
-      "appearances": 6,
+      "momentum": "stable",
+      "appearances": 4,
       "window_days": 31,
       "articles": [
+        {
+          "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+          "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+          "source": "CoinDesk"
+        },
         {
           "title": "Stablecoins Could Process $1.5 Quadrillion a Year by 2035: Chainalysis - CoinMarketCap",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxob2E0OVdoVjViTjg3cWlWeUJ3MWdqcC1YUy1Jb0ducGV2aGZUQmw3S3Q3THZVaUpjbHZISjdMX05Ub2FIUjZDSDdSSjRIbmFEaEJOR2w2cFpZT0VDTDNCOG5LdnBZNkJONmNpSGg3amZTaXpKT2NYeGdpS2JsOTcwbURIS1ZhQkxHaDNDMmlzbzBZRWctOFNFekJoZ01FVnlIQUJhWlp0c2w2UVY4NHZtVWR5dw?oc=5",
           "source": "CoinMarketCap"
         },
         {
-          "title": "Applied Digital beats quarterly revenue estimates on surging AI infrastructure demand - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVkRDRU9XdVFCNDNXeU5OZmo2UkZ0ZWRGemJsREZSUDBzU0Uxd2pLb01Tc19DVkYxekYwN3Z0S3o3U0l2ZXo2eG5CY1JkdlFUZWlJMWw5LW5nVk5zdzdiMENfNnFweld3UWw2UmRQNjBoUHQxYnJadHRfalZjN3paZzZMUUVjQXVId1dGMFBrVXU5OHlNdnhRUmxsbi1YdTBLdHJBbkpnT1N4NW1GOTBiUmwzcEJtUlNXd19fNmNGRQ?oc=5",
-          "source": "Reuters"
-        },
-        {
-          "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
-          "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
-          "source": "CoinDesk"
+          "title": "Bank of Italy finds no consistent cost advantage for stablecoin remittances",
+          "url": "https://cointelegraph.com/news/bank-of-italy-study-no-stablecoin-remittance-cost-advantages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph"
         }
       ]
     },
     {
-      "title": "Sanctions Evasion at Institutional & Network Scale",
-      "description": "Reuters exposed $4B Iranian gambling network sanctions dodge using crypto; EU intensified Russia sanctions scrutiny on trading platforms.",
-      "relevance": "This validates our sanctions enforcement positioning and demonstrates that illicit finance detection is now critical infrastructure for compliance teams and law enforcement\u2014positioning our tools as regulatory necessity.",
-      "cadence": "sporadic",
+      "title": "AI-Driven Fraud Sophistication Outpaces Defenses",
+      "description": "Solana Foundation CISO warns AI is making crypto scams more convincing; $420K law enforcement impersonation scam signals evolving fraud tactics; TRM Labs gains visibility on AI-scam fighting, indicating market demand for AI-native detection.",
+      "relevance": "We need to position our AI-enhanced compliance automation capabilities as counterweight to AI-driven fraud; competitive vulnerability if TRM Labs captures mindshare on AI-native threat detection.",
+      "cadence": "recurring",
       "momentum": "rising",
-      "appearances": 4,
-      "window_days": 31,
-      "articles": [
-        {
-          "title": "Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0c1Y3Z1S3JvRDl6YklGRHdRWXJWWDdOMUJYQ0FURHpwLTByV1N0bzBCZ0ZGWGZoc0FwakZlLTI2S3cxWGxOV010X1I1NWlBVGRRbmdJeW9penZraklmQ2dtVERtdVMwM1ljR2t4QTl0OEZicThhNTZnN1ZJb3dlMC05TXBoOG4ybGpka1hRX2hUVGtkYTVjRHhBbk9CZDlMYWluVk03Yl9HeWt6UnhyMXZTMGtBQTE3S2l6NHoxOW96WTg?oc=5",
-          "source": "Reuters"
-        },
-        {
-          "title": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
-          "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
-          "source": "CoinDesk"
-        },
-        {
-          "title": "European Union\u2019s Latest Russia Sanctions Package Intensifies Scrutiny on Cryptocurrency Trading Platforms - Crowdfund Insider",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZUpjRzA2R2ZZWlN5WUVJWVJzSGNzT0JaQm1YaUF1VjFzNjZNRC1Wa3Q2VmRIMDRRUDFwVHBpcDI4NDFYcjRwTXh5aUVxekFqclczMkJKR3NpejE5YnFWV0Z2Zkx2TGFfSkFHRzdoQmpTczhPWVRVNFBORFlNSnp6dk1tdGkxbzAtMlRWeGE1bkRjTl8wbEFOeVNpMEpERXFncnJsSFMzemNHSUFFaExXT2FoaFRDSnNMVDdRejlpdmVGdzgzQkRsTWVBQ2hNaGh4dTdySGxUd1lEc21CWFF4QnVsd01DS2Zm?oc=5",
-          "source": "Crowdfund Insider"
-        }
-      ]
-    },
-    {
-      "title": "AI-Driven Fraud & Scam Sophistication Outpacing Defenses",
-      "description": "Solana Foundation CISO warns AI is making crypto scams more convincing; $420K law enforcement impersonation scam surfaces, signaling social engineering acceleration.",
-      "relevance": "We position our AI-enhanced transaction pattern detection and risk scoring as defensive infrastructure against increasingly sophisticated fraud; positions us as critical to fraud prevention automation.",
-      "cadence": "sporadic",
-      "momentum": "rising",
-      "appearances": 3,
+      "appearances": 2,
       "window_days": 31,
       "articles": [
         {
@@ -228,6 +202,27 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fQmxyaTNRMmRZWmNJVlQzcy1IYmlpRDFlZk5pYVpiQ1pSYVpSQlpxbzZKckNSUGJ0Y3pCaTB3OG1ZQXByV2VwQTZUNzhjREt2algwajZ3?oc=5",
           "source": "Cryptonews.net"
         },
+        {
+          "title": "Solana Foundation's new CISO warns AI is making crypto scams more convincing",
+          "url": "https://www.coindesk.com/tech/2026/07/31/solana-foundation-s-new-ciso-warns-ai-is-making-crypto-scams-more-convincing",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "US and China Led $20 Billion World Cup Prediction Market Boom, Chainalysis Says - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwVWtCamZIazVWWG9tZ2dTSmE2WjhRdVZXcHdxLVhWOTdyRERJUWEzTExFYnVKSVdZcF92S3BnZlJYX2RjcDk5Nk9WOVBRTGFxUExwLUJxeVV5QTNJa3lFMl8zWGdGdm1vSVZEd0p2ZXMtVVBzb05zV1h3?oc=5",
+          "source": "BeInCrypto"
+        }
+      ]
+    },
+    {
+      "title": "Hybrid Blockchain Compliance & Privacy Tension",
+      "description": "Our analysis highlights institutional demand for hybrid blockchains supporting compliance while preserving privacy; privacy blockchain adoption rising among institutional investors seeking to balance transparency with operational confidentiality.",
+      "relevance": "We positioned as neutral technical authority on hybrid blockchain monitoring capabilities, differentiating from pure privacy-blockchain vendors; risk if we fail to articulate privacy-preserving analytics position.",
+      "cadence": "recurring",
+      "momentum": "stable",
+      "appearances": 2,
+      "window_days": 31,
+      "articles": [
         {
           "title": "Chainalysis Highlights Demand for Hybrid Blockchains in Compliance - Coinfomania",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaExuNUhad0h0dkI0N3hsN29FbWI4U1I1b2oxZ1FxN2VWeGJQT3cxMFp1em1heTA5N1lkcklnVmFOY05od1p0dHJmRmxRVGFzblJOaXZ4YVdsUl9ybkJxek4xR2ZzZWl6YTBiX0lUQjJoOHFFZUZCRGxXQWdJeEJTSTJTRUVuR0ZWNkxtR1FIb3dMV3VzWm8wVVZn?oc=5",
@@ -237,6 +232,11 @@
           "title": "Chainalysis hebt Nachfrage nach Hybrid-Blockchains f\u00fcr Compliance hervor - Coinfomania",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMlhmaG1xWVpQU1hCX1MwSGVCMEdkTkJQSTl3dG1MN0dBOHpKXzBwbFI5Slh1bU56MnZMakdobTUxcTJKRm13al9kVE5BMk1hTG9Hcl9nMXVhcDdib1FXZF82Z3J6RzJJZUhYYnFHWk41MkpGVVlLOWxmZHVDRzY0S3VsenlOV3BoOVBEQk9vYy1PaEI0bWh4MFVIeVJNUQ?oc=5",
           "source": "Coinfomania"
+        },
+        {
+          "title": "Chainalysis r\u00e9v\u00e8le une forte demande pour les blockchains hybrides - coinfomania.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTHpfdFVtTnhHN1E3YkJlT1d3R0NwQl9yVnkzZDN0aXUwR3FEalozXzZfWEdmMXZJUnBKaVRwN04ycHFHdExJeFlFVnFPQldPcGlnZ0pwRmlrcXZQSjZwcDJkbHNDRGc0TThkX0NPQU90blNJdHJfcF9GeHJodE5CN0hWcVRQbkFjRlMwRjV2MnhjNUhNcEM3RGo1anZpUQ?oc=5",
+          "source": "coinfomania.com"
         }
       ]
     }
@@ -244,15 +244,15 @@
   "top_domains": [
     {
       "name": "Market Integrity & Surveillance",
-      "count": 183
+      "count": 180
     },
     {
       "name": "AI & Compliance Automation",
-      "count": 157
+      "count": 158
     },
     {
       "name": "Sanctions & Illicit Finance",
-      "count": 115
+      "count": 114
     },
     {
       "name": "International & Emerging Markets",
@@ -264,7 +264,7 @@
     },
     {
       "name": "DeFi Regulation & Governance",
-      "count": 66
+      "count": 68
     },
     {
       "name": "Stablecoins & Digital Payments",
@@ -335,23 +335,23 @@
   ],
   "market_landscape": [
     {
-      "title": "Institutional Crypto Infrastructure Maturing",
-      "body": "Prediction market scale ($20B World Cup volume), stablecoin processing projections ($1.5 quadrillion by 2035), and tokenized stock trading surge (288% in July) signal crypto infrastructure crossing into systemic-scale adoption. Coldcard exploit paradoxically accelerates this by pushing institutional custody into regulated ETF and custodian models, reducing self-custody risk."
+      "title": "Institutional Adoption Accelerates Via Security Concerns",
+      "body": "Self-custody crisis (Coldcard $30M+ exploit) is pushing retail and mid-market investors toward regulated Bitcoin ETFs and institutional custody, validating TradFi-crypto convergence thesis and creating immediate demand for institutional-grade compliance tooling."
     },
     {
-      "title": "Regulatory Enforcement Scaling Rapidly",
-      "body": "Iran sanctions evasion ($4B network), EU Russia sanctions intensification, and CLARITY Act debate show regulators moving from theoretical framework to active prosecution infrastructure. Compliance automation and blockchain forensics transition from optional to regulatory mandate across geographies."
+      "title": "Stablecoin Payment Infrastructure Nears Critical Mass",
+      "body": "Projection of $1.5 quadrillion annual processing by 2035, Tether's $1.5B Q2 profit, and World Cup prediction market volumes demonstrate payment layer maturation; regulatory scrutiny (EU sanctions packages, Bank of Italy efficiency questions) signals inflection point between speculative and productive use cases."
     },
     {
-      "title": "AI-Fraud Arms Race Intensifying",
-      "body": "Solana Foundation warns AI-driven scams are outpacing defenses; $420K law enforcement impersonation scam demonstrates social engineering sophistication. Compliance teams face asymmetric threat from AI-enhanced fraud requiring real-time pattern detection and behavioral anomaly systems."
+      "title": "AI-Enhanced Threats Reshape Compliance Automation",
+      "body": "AI-driven scam sophistication and ransomware targeting intelligence is outpacing traditional rule-based detection; competitor TRM Labs gaining traction on AI-scam fighting, while our hybrid blockchain and institutional surveillance positioning provides differentiation but requires visible AI-native narrative."
     }
   ],
   "competitor_reads": {
-    "Elliptic": "Executing aggressive partnership consolidation strategy\u2014securing Sei, HashKey, and $3.1M efficiency wins\u2014positioning as the VASP infrastructure standard while we lead on market integrity and sanctions enforcement.",
-    "TRM Labs": "Maintaining narrow focus on AI-driven scam detection (Ari Redbord CoinDesk feature), differentiating on targeted fraud rather than broad compliance infrastructure.",
-    "Arkham Intelligence": "Pivoting exchange toward full decentralization while capitalizing on Lazarus Group tracking coverage, signaling shift from on-chain analytics toward trading venue and token positioning.",
-    "Merkle Science": "Quietly building privacy-compliant blockchain monitoring positioning\u2014targeting regulatory-friendly privacy tools rather than competing on broad enterprise compliance."
+    "Elliptic": "Positioned as enterprise compliance infrastructure leader with three major wins (Sei, HashKey, unnamed $3.1M efficiency exchange) and stablecoin compliance thought leadership; gaining traction in regulated VASP space.",
+    "TRM Labs": "Gaining visibility on AI-scam fighting expertise (Ari Redbord commentary); positioned as specialized threat detection player but with narrow public profile compared to our broader institutional footprint.",
+    "Arkham Intelligence": "Pivoting exchange to full decentralization and driving speculation engagement via on-chain data tokenization; lacks compliance-focused positioning versus our institutional risk management narrative.",
+    "Merkle Science": "Positioning as privacy-preserving blockchain analytics (regulatory-friendly privacy), occupying niche between us and pure privacy advocates; limited earned media but targeting compliance-conscious institutions."
   },
   "seizure_value": "$36.6B",
   "seizure_cases": "205",
@@ -360,7 +360,7 @@
     "crypto": 11,
     "fintech": 1,
     "blog": 3,
-    "niche": 39
+    "niche": 38
   },
   "sentiment": {
     "positive": 18,
