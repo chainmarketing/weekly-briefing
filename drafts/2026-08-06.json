@@ -1,12 +1,12 @@
 {
   "date": "2026-08-06",
   "date_display": "August 06, 2026",
-  "mentions_count": 11,
-  "narrative_count": 704,
+  "mentions_count": 54,
+  "narrative_count": 731,
   "competitor_total": 18,
-  "persistent_count": 0,
-  "articles_analysed": 1218,
-  "executive_summary": "In highlight coverage, our World Cup 2026 prediction market analysis generated substantial earned media across several outlets globally— Coindesk, BeInCrypto, The Block, TokenPost (KR), Cryptoast (FR), Exame (BR) —reporting our $20B onchain volume finding and FIFA's $6M NFT ticket resale data. Our Coldcard hack forensics also drove significant coverage in Bleeping Computer, and Fox Business, among others, detailing $30M stolen in minutes and 25% of funds traced to Canadian holders. Jackie Koven’s insights were also featured in The Banker’s article on dark web marketplaces. In crypto news, Circle's revenue miss dominated Bloomberg and Reuters coverage amid broader market downturn; BlackRock's tokenized money market fund launch in Europe signals institutional adoption momentum; and South Africa's draft cross-border crypto rules (Reuters) reflect emerging market regulatory maturation. In competitor news, Elliptic secured five partnership announcements (LCX, YouHodler) and regulatory guidance content positioning compliance as core infrastructure; Arkham Intelligence pivoted to full decentralization and expanded multi-chain tools on CoinMarketCap; TRM Labs hired a former MAS regulator for APAC expansion; Solidus Labs won Kinetic Markets and Kalshi deals; Merkle Science discussed privacy blockchain transactions.",
+  "persistent_count": 1,
+  "articles_analysed": 1222,
+  "executive_summary": "In highlight coverage, our World Cup prediction market analysis dominated earned media this week, with our $20 billion onchain volume report picked up across 10+ outlets including Reuters, BeInCrypto, TradingView, and CoinDesk in English, French, German, Japanese, and Korean editions\u2014establishing thought leadership on institutional prediction market scale. Our Coldcard hardware wallet hack analysis generated 6 major placements (CryptoRank, Bitcoin World, Bitcoin News) tracking $30M stolen in minutes and Canadian holder exposure, cementing our forensics credibility amid accelerating self-custody security failures. Our privacy blockchain monitoring capabilities were featured in Digital Watch Observatory, signaling competitive differentiation as privacy coins challenge traditional compliance tools. In crypto news, Reuters broke that illicit Iranian gambling networks orchestrated a $4 billion sanctions evasion scheme, underscoring institutional-scale sanctions dodging; Circle's revenue miss spooked investors despite quarterly profitability (Reuters); and Chime's 10% workforce reduction on AI efficiency gains reflects broader fintech automation trends. In competitor news, Elliptic secured a $3.1M compliance transformation deal with a global crypto exchange; TRM Labs hired Claudia Hui (former MAS regulator) for APAC expansion; Arkham pivoted to full exchange decentralization and tracked major Bitcoin transfers; and Solidus Labs landed Kinetic Markets and Kalshi deals amid $31B monthly volume.",
   "mentions": [
     {
       "title": "Chainalysis: 25% of Bitcoin Stolen in Coldcard Hack Traced to Canadian Holders - CryptoRank",
@@ -19,14 +19,74 @@
       "source": "Digital Watch Observatory"
     },
     {
-      "title": "World Cup 2026 Generated over $20B in Onchain Activity — Chainalysis - incrypted",
+      "title": "World Cup 2026 Generated over $20B in Onchain Activity \u2014 Chainalysis - incrypted",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRTUwd013Ynk0dU5IQTJMMmxQeVdFM1ZTN280WGJoWGhmUTRzSWhMOHpPWm9SaDFtdGNVN3I3OWZzdW5nbU56aGlyamJJcnVhU0pkc0cwbm40cW16d09ZeVZqcjA2a1R5RUVlUFFScmtfNXVpTHktR21OSTFpaXdRR2JHajI1VlR5WHVDVVY0Yw?oc=5",
       "source": "incrypted"
     },
     {
-      "title": "Quel a été l’impact de la Coupe du monde de foot 2026 sur les cryptos ? - Cryptoast",
+      "title": "US and China Led $20 Billion World Cup Prediction Market Boom, Chainalysis Says - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwVWtCamZIazVWWG9tZ2dTSmE2WjhRdVZXcHdxLVhWOTdyRERJUWEzTExFYnVKSVdZcF92S3BnZlJYX2RjcDk5Nk9WOVBRTGFxUExwLUJxeVV5QTNJa3lFMl8zWGdGdm1vSVZEd0p2ZXMtVVBzb05zV1h3?oc=5",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
+      "source": "TradingView"
+    },
+    {
+      "title": "Chainalysis: Coldcard Attackers Targeted High-Value Wallets First, $30M Stolen in Minutes - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaWFWZ05hTEIyQWxWVWY1MVdoZG1Ca3lBWm1tdjNnOG1tLXZUS3JyOHI1RDJXN3JjSEpVTENlZW51RTRPZUxBYzgwb05KVHVjVkNQNFQ4QkFJTHV5UXh2SDZRT0xJVVV4SWRRZ2kteElZRTlPMVNfVk1kNGhmdTdUMGFrcG0tVnc3THc?oc=5",
+      "source": "CryptoRank"
+    },
+    {
+      "title": "Chainalysis: FIFA Earned $6M from Resale of NFT Tickets - ForkLog",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMVpuUE9mbFJ5XzV5ZGhvcEZOeGI5aUVZeFVyNlpjMkpvZ2kzekx5R0d3UEJXX3p2V3pwRWUzd2lVSXlFTEpyT3dLZGJiUkNDSjNVWWVDWkNSSE1vYzhsLWtUNzZaNFFIbmRBUXpBWnFYalVOcC1lZXd0UnlYMHN5TEMwNA?oc=5",
+      "source": "ForkLog"
+    },
+    {
+      "title": "$20B In Cryptocurrency Transfers During World Cup Examined In New Report - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSzhtUzdkWVZ3RENRVU0wd2t1bXFsU0xVNWhNRTRCWURDajV0LVE5d2JpQTZNbGJUOXNyY0Y0T1k5bXdrbE9xdTg3WnhGcWMwWjg2Y240aTk3ZTZOU1RWX194aFJXNTkxeVlvQnMwYmV2eHlQME9mLXVndEdUdHM4MVp1TUdoTE1Ra1ZXRjhVc3V2MFN2SDVULUVScW5EME1kN0pDZFpBNnNiUk9QVEcwRncyRzhqT0ZzOHdpVg?oc=5",
+      "source": "Crowdfund Insider"
+    },
+    {
+      "title": "World Cup prediction markets reached $20B - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hU0RfZTIzMU0xckt4bnphOVZwNEtVdEZYT0o0d3ZUdWhLZDMwNVgwYW5JMXJud1YyZHhkZVg3WVdCa0JzemFwUWxmdjZDc012NmZaaGc3LWtzNVl3cjVOYXlpTndPTWszdTI1eDdR?oc=5",
+      "source": "Crypto News"
+    },
+    {
+      "title": "Chainalysis: 25% Of Bitcoin Stolen In Coldcard Hack Traced To Canadian Holders - Bitcoin World",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdmdTakZZM2JON0dyV2RkOEJUNjN0MVpmUGxTZlJOSFpCSXFtNnNxNHZTaUNqdHAyM3U3NlBZZmMzZDJfYk8wRkdvMGpueGU4OUhFOE8wOTJMZzJfTHJNLXZlcGNLbXcxZ0pBcTVNMkhvNEU4bmVuZmloM2tiUVJwbExJRUZuTDg?oc=5",
+      "source": "Bitcoin World"
+    },
+    {
+      "title": "Chainalysis: Coldcard Attackers Targeted High-Value Wallets First, $30M Stolen In Minutes - Bitcoin World",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ma1ZWdGtFdS1RRFFlTDRuZnAwZUxPOUxIQW1EOWo2VGVvMDU3MFI5NTEtTDc1Slpxc2ZKQ2JnZU5GRkR4YUtteU5zWXJSakxrYVR0dlRydjQ2TThCWFc5eVBxVlNaRlJabTZHYWJsaFRqRzBONlFVYm1MOFQ?oc=5",
+      "source": "Bitcoin World"
+    },
+    {
+      "title": "South Africa issues draft rules for cross-border crypto - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkRkb3lBYmJVLWpBNVJrbkU5Nld5cmItckxVMmItSl9zRjdUT0VCektLRHVnWGRWR280N1NCazlJaFN4dVJCMjF3amdYVzdkRlBneGdjVkR0dUk1WGxueEN0UTk3MzByZ3BoX1A2OXNvR3I3Rkd0R1QtZXZRWERRc2VWa0hyV1VWa29EbzEtMUMwX0ZZT0xfc1hYSG5MSTg2a2c?oc=5",
+      "source": "Reuters"
+    },
+    {
+      "title": "Scammers pose as watchdogs to exploit EU crypto rule changes - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM18zRE55dDRtX1RRVnNCdzVRWWdweDhvZkRWN01FTkFUblRZTk85eDBMdFVBSm5XeWFHMU1SWFhwX05KUzFhSzBCTk5yX0lIb09peUY1eWNPLXJIMzBhbU55bVBTM0F1V1gtc3lLOHBFamhLWGFOaGk0dTRvZHg2QmhEU0o?oc=5",
+      "source": "Financial Times"
+    },
+    {
+      "title": "\ubbf8\uad6d, \uc911\uad6d $200\uc5b5 \uc6d4\ub4dc\ucef5 \uc608\uce21\uc2dc\uc7a5 \uc8fc\ub3c4\u2026\uccb4\uc774\ub110\ub9ac\uc2dc\uc2a4 \ubc1c\ud45c - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6TGZkTUhEbjNxbFE4T2ZGRm9JSmRfbmpkTWtIc1hOSHI2aU82UGhtS0d0NWFvVklYbkNqczVqTnAyUkNTckh0eFdyMU15OVJyN0pma1ZmajdJczBIYVE0Rkx1RlNKMnJIdXdLVDAwTXUzVkIzTXJfUjNWczRQQQ?oc=5",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "\ucf5c\ub4dc\uce74\ub4dc \ud574\ud0b9, \uace0\uac00 \ud06c\ub9bd\ud1a0 \uc9c0\uac11 \uacf5\uaca9 \ub4dc\ub7ec\ub098 - Coinfomania",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON0VQbEgtdUZ0OEw4QkR3UEFpVHpEOVNXcmRMLWY4UFRMWS1xOHpJcF9FSHdlcXN5ZG9UQ2FOOU83RkpVYWpXd3l2RVItTTZkZndObC1EZVNPR3dKZlRGa3hhQXRob0p6c2E0RHpoTkZ3UVhBV1BfUG9WNFFkaGVXZXhBZkJOSWpQZU1rNC1vRlVRLS16ZkxQdXdxUllSd00?oc=5",
+      "source": "Coinfomania"
+    },
+    {
+      "title": "Quel a \u00e9t\u00e9 l\u2019impact de la Coupe du monde de foot 2026 sur les cryptos ? - cryptoast.fr",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HMFlKZVVHMTBDT0JOeWJ5cE9xbXJ1eW5GTjBpYWFPNnFFMWJQdDhOQXVUcTZhQTNYUTNjOC10NnRSa3N0UGh2T29MdjM3LTRXV1YyanhIMmZNczJOMWlyR24xUU9BZ0VOeTdnYTVKUDViVG9kTlE?oc=5",
-      "source": "Cryptoast"
+      "source": "cryptoast.fr"
     },
     {
       "title": "400 000 portefeuilles, 20 Mds$ : La blockchain s'offre la plus grande victoire de la Coupe du monde - Cointribune",
@@ -34,74 +94,64 @@
       "source": "Cointribune"
     },
     {
-      "title": "米中が200億ドルW杯予想市場を牽引とChainalysis - BeInCrypto",
+      "title": "Un pirate de Coldcard a d\u00e9rob\u00e9 30 millions de dollars en 10 minutes en ciblant les gros portefeuilles - Bitcoin News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTHAxQVkwRDhpQld3NDhyajh0MlR5bVBISmVTVGZ0Sk9DMENIT3dJczV5Y1NsNTFfbkNjVDY0cERoS2JFcmFKLWgzZmlTNnBYZ1pIZDNMRVpzS21BcFJVRUdlV1hRZXctdFd5MHJnTjJEN0VaU01SYjJVNlYySVNnX3lCTzZaazZBTElRRktZN19YYVk4dm41OWJYcnBXTklKXzNGaXM5TGVXNXBDYURtLVI2TDlnWnI5NzQzdUxnRVpybWlyQWN2YXBKZ18tTF9fNE94aDhn?oc=5",
+      "source": "Bitcoin News"
+    },
+    {
+      "title": "2026\u5e74FIFA\u30ef\u30fc\u30eb\u30c9\u30ab\u30c3\u30d7\u3001\u30aa\u30f3\u30c1\u30a7\u30fc\u30f3\u4e88\u6e2c\u5e02\u5834\u306e\u53d6\u5f15\u9ad8\u304c200\u5104\u30c9\u30eb\u306b:Chainalysis - bitbank",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42WVRPZnhpVWh1eWtodmhjTHhSMDg1ZGNTeWVxNDk5b3NpZC03T1djMTFGV0NMQXlrZER4SWMwcEJ1cTZCeFBDd25mVmlqRks5Y28yemFzUldPNDJzRTZBZnVITVkyY19nU3c?oc=5",
+      "source": "bitbank"
+    },
+    {
+      "title": "\u7c73\u4e2d\u304c200\u5104\u30c9\u30ebW\u676f\u4e88\u60f3\u5e02\u5834\u3092\u727d\u5f15\u3068Chainalysis - BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QZVlCdmFjdkdHckM4eXk1MzN4dnk5Q05wSmI5TldKYld2STJFTHdzU3R6YWg4R3JYY2JFUHQ1ZDBMS1RqaGJ3Q2pIdmNzTWVOdkMxWm9zNC10djZFYVRodUpScnkyOWlsSlYxMGd1cTVldWRxcUZlY2c1OVhOUQ?oc=5",
       "source": "BeInCrypto"
-    },
-    {
-      "title": "2026年FIFAワールドカップでは、予測市場の取引量が200億ドルに達しました - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLW52MnFFTHNWS3paNVN3WDgzMEhHN0l6TjZOYzRmSEpxcHhBTTlxTjc5alVGckFHY3BYVzJmaThJcXVvZnVNRU83c19VUkZyM2RVOFMxVXA1VlE1czBvekNhT3B1X1dZMEs5aDI5TUJuemFhMEhJMWI4T0lJbUJzMURqUnkyckxZOUp1V1VRUW1teXZUVFdTQUV1ZHNJVzBrcGprTnJaYjRtOXBZSGVObzNYdk9oY21oR0JsU2F2UGprUGc?oc=5",
-      "source": "CoinDesk"
-    },
-    {
-      "title": "Coldcard wallet attack drains up to $89M in Bitcoin from 1,200+ addresses",
-      "url": "https://www.foxbusiness.com/fox-news-tech/coldcard-wallet-attack-drains-up-89m-bitcoin-from-1200-addresses",
-      "source": "Fox Business"
-    },
-    {
-      "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
-      "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
-      "source": "Bleeping Computer"
-    },
-    {
-      "title": "The dark web: ‘If you want access to a bank, you can get it today’",
-      "url": "https://www.thebanker.com/content/fe506f35-b2fb-424d-bfe4-073e38ad75da",
-      "source": "The Banker"
-    },
-    {
-      "title": "World Cup bets smash records as prediction markets hit $20 billion in volume",
-      "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
-      "source": "Coindesk"
     }
   ],
   "narratives": [
     {
-      "title": "Prediction Markets Drive Massive Onchain Volume",
-      "description": "World Cup 2026 generated $20B in prediction market activity, with US and China leading adoption across 400k+ wallets.",
-      "relevance": "Our comprehensive onchain analysis capabilities positioned us as the authoritative data source for quantifying emerging use cases, driving thought leadership across 15+ global outlets and establishing our expertise in betting/gaming verticals.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
-      "window_days": 1,
+      "title": "Prediction Markets Reach Institutional Watermark",
+      "description": "World Cup 2026 generated $20B in onchain prediction market volume across 400K+ wallets, with US-China dominance establishing mainstream adoption.",
+      "relevance": "We are the primary source for institutional prediction market measurement; this validates our ability to track mass-market financial infrastructure at scale.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 4,
+      "window_days": 29,
       "articles": [
-        {
-          "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
-          "source": "TradingView"
-        },
         {
           "title": "World Cup prediction markets reached $20B - Crypto News",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hU0RfZTIzMU0xckt4bnphOVZwNEtVdEZYT0o0d3ZUdWhLZDMwNVgwYW5JMXJud1YyZHhkZVg3WVdCa0JzemFwUWxmdjZDc012NmZaaGc3LWtzNVl3cjVOYXlpTndPTWszdTI1eDdR?oc=5",
           "source": "Crypto News"
         },
         {
-          "title": "World Cup 2026 Generated over $20B in Onchain Activity — Chainalysis - incrypted",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRTUwd013Ynk0dU5IQTJMMmxQeVdFM1ZTN280WGJoWGhmUTRzSWhMOHpPWm9SaDFtdGNVN3I3OWZzdW5nbU56aGlyamJJcnVhU0pkc0cwbm40cW16d09ZeVZqcjA2a1R5RUVlUFFScmtfNXVpTHktR21OSTFpaXdRR2JHajI1VlR5WHVDVVY0Yw?oc=5",
-          "source": "incrypted"
+          "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
+          "source": "TradingView"
+        },
+        {
+          "title": "US and China Led $20 Billion World Cup Prediction Market Boom, Chainalysis Says - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwVWtCamZIazVWWG9tZ2dTSmE2WjhRdVZXcHdxLVhWOTdyRERJUWEzTExFYnVKSVdZcF92S3BnZlJYX2RjcDk5Nk9WOVBRTGFxUExwLUJxeVV5QTNJa3lFMl8zWGdGdm1vSVZEd0p2ZXMtVVBzb05zV1h3?oc=5",
+          "source": "BeInCrypto"
         }
       ]
     },
     {
-      "title": "Hardware Wallet Security Exploits Persist",
-      "description": "Coldcard attackers systematically targeted high-value wallets, stealing $30M in 10 minutes; 25% traced to Canadian holders.",
-      "relevance": "Our forensic tracing of stolen funds across jurisdictions validates our core surveillance capability and differentiates us as the trusted analytics partner for security incident post-mortems and law enforcement investigations.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
-      "window_days": 1,
+      "title": "Self-Custody Security Crisis Accelerates",
+      "description": "Coldcard hardware wallet exploit stole $30M in minutes from high-value wallets; 25% of stolen Bitcoin traced to Canadian holders, exposing operational vulnerabilities.",
+      "relevance": "Our forensic tracing of compromised hardware wallet funds positions us as essential for institutional self-custody risk assessment and recovery.",
+      "cadence": "recurring",
+      "momentum": "rising",
+      "appearances": 2,
+      "window_days": 29,
       "articles": [
         {
-          "title": "Coldcard-Hacker erbeutete innerhalb von 10 Minuten 30 Millionen Dollar, indem er es auf große Wallets abgesehen hatte - Bitcoin News",
+          "title": "Coldcard hack sparks a self-custody security overhaul: Cory Klippsten",
+          "url": "https://www.coindesk.com/markets/2026/08/05/coldcard-hack-sparks-a-self-custody-security-overhaul-cory-klippsten",
+          "source": "CoinDesk"
+        },
+        {
+          "title": "Coldcard-Hacker erbeutete innerhalb von 10 Minuten 30 Millionen Dollar, indem er es auf gro\u00dfe Wallets abgesehen hatte - Bitcoin News",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNGh6c3VsUHlUNmlHd0Zxd0oxeklRd2FFT3FRU1Z4Wkw3Y01SQUk3Z2Y5STdfMlhvYzdlalF1bGdyaUJvZEtQSEptcm1TRUN2dTRXSmdGRjhTWG1WRzNiU0EwcGtTODJnT1U0cncxaDJlOHFvTlBUMVN5QVFhWFpUbFQtdkpfVExyVVJ1Nk5MajNsTUF3X2dxbWxiMHJSR3o0QkZMQWd5bGd5VW01cWtxazJyVFBJZW00bE9vU3Nhb090cGV6OTJBMHFvZGUzdExmNF8wOXhOYkVyb1p2bVpxU3AwbG84aGVXeVlr?oc=5",
           "source": "Bitcoin News"
         },
@@ -109,43 +159,48 @@
           "title": "Coldcard Hack zeigt gezielte Angriffe auf wertvolle Krypto-Wallets - Coinfomania",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORzBYTlVMOURmNFVGU2w0ejBJbnRUOVZJeWxUeG81RXFPVm9EaUxwcFNHS2lBUEF3MlBZSnA1SjY4a2VjVmtOQXdYMnpoSDg5MVNPNURZZWs5Rm5aY3ZuT1Jnc1BFLWRDc3RqV25HbTB5SlQtMnRzMlVUS0VTVDh2NnlzYkxwMTltOG00RDFWYnZLN1RDcFdnNkY0ZTkzZTQ?oc=5",
           "source": "Coinfomania"
-        },
-        {
-          "title": "Coldcard hack sparks a self-custody security overhaul: Cory Klippsten",
-          "url": "https://www.coindesk.com/markets/2026/08/05/coldcard-hack-sparks-a-self-custody-security-overhaul-cory-klippsten",
-          "source": "CoinDesk"
         }
       ]
     },
     {
       "title": "Privacy Blockchains Challenge Compliance Monitoring",
-      "description": "Privacy-focused chains complicate traditional surveillance tools; we are positioned as industry leaders addressing the monitoring gap.",
-      "relevance": "Our public stance on privacy blockchain limitations reinforces demand for advanced analytics capabilities and positions us defensively against emerging privacy-native platforms that threaten regulatory surveillance adoption.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
-      "window_days": 1,
+      "description": "Privacy-focused blockchains increasingly adopted by institutions, creating gaps in traditional monitoring tools; we flagged capability limitations.",
+      "relevance": "We must innovate privacy blockchain tracing to retain compliance market share and address emerging regulatory blind spots.",
+      "cadence": "sporadic",
+      "momentum": "stable",
+      "appearances": 3,
+      "window_days": 29,
       "articles": [
         {
           "title": "Privacy blockchains challenge traditional monitoring tools, Chainalysis says - Digital Watch Observatory",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YaVdfS2ZhZGZ1bTNxUWY2MHZKc1pMZ0l3a0ZIdlEyWUZQRGlNQTczSFY4TElOS3N1aVVfdkRPTHFXUk82RFFMNEhDazFGWVhMY0ExY2xuMEJWWEw2dEY2MVlQdEd1WncwMkdPOVFMRl9McFRidlQ5Zm9n?oc=5",
           "source": "Digital Watch Observatory"
+        },
+        {
+          "title": "400 000 portefeuilles, 20 Mds$ : La blockchain s'offre la plus grande victoire de la Coupe du monde - Cointribune",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTFhpclhDdWJwN0ZpSHg1T2paMWgwbzFPWEo4dl9zZDViT29sTVdJd3hGbXlsN0ZjNms2M2U5TmxrTm04bW5pX2lZM2cwRlpVbGpTZ3JYM21UNlRkVVJuUmFiX1BPZlBVci1Bd3R4eUFCYUFmV0ZRdGF0NHNIU2NlM0xmN2JKNU8yZFVPZkFrcDhCT1ZrNzV2UHNiNE5UcTczS09PaHhXMEF0c0k?oc=5",
+          "source": "Cointribune"
+        },
+        {
+          "title": "Chainalysis: 25% of Bitcoin Stolen in Coldcard Hack Traced to Canadian Holders - CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcWpEUzNoVjZXemNmeFFJV1kya3U5T0dMamVyckxGSEw5N1ZyaWJlcThFTVFrQmxWZEI1ejF1UzJERGJzLUxOSTVDSmI3dFEwWFkwMmNjeC1ndHlsUHRNX3N1MTNRZWR5WlREOUoxN051S3dlNlFFd0VTUjl3S2Vja3ZIT1FtZi1MNFRKOE1XcGpZVmhC?oc=5",
+          "source": "CryptoRank"
         }
       ]
     },
     {
-      "title": "Institutional Tokenization Drives Compliance Demand",
-      "description": "BlackRock's EU tokenized money market fund launch and broader TradFi integration accelerate institutional crypto adoption and regulatory scrutiny.",
-      "relevance": "Institutional market entry drives compliance infrastructure spend; we should position our solutions for regulated fund managers and custodians managing tokenized assets, capturing the fastest-growing segment.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
-      "window_days": 1,
+      "title": "Sanctions Evasion at Institutional Scale",
+      "description": "Iranian gambling network orchestrated $4B sanctions dodge via crypto; institutional actors now systematizing evasion techniques.",
+      "relevance": "We strengthen law enforcement and TradFi AML/CFT credibility through real-time institutional illicit finance detection and geopolitical risk flagging.",
+      "cadence": "sporadic",
+      "momentum": "stable",
+      "appearances": 5,
+      "window_days": 29,
       "articles": [
         {
-          "title": "BlackRock Launches Tokenized Money Market Funds in Europe - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFd0ejNGM0pOV0Z4RVBpNU1Pa29BYkduUnItOElwbUxfcTAtUTJHSVB4b0hZZ3RfSFVYbjFxNl9wLXJ2RU9ndnBTVXZkekVrMDM5WmxsRUhzTkJRcEpWM2YwYmZxbzJqbWpWMGFFWXItSDNyMkR6QzMwWk5WZDYzMWMzdF8yQ2NZakhTcFV6M1lSc0lqOFVZM2FUZGJEQXFBWENIOXRoRE90R25F?oc=5",
-          "source": "Bloomberg.com"
+          "title": "Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0c1Y3Z1S3JvRDl6YklGRHdRWXJWWDdOMUJYQ0FURHpwLTByV1N0bzBCZ0ZGWGZoc0FwakZlLTI2S3cxWGxOV010X1I1NWlBVGRRbmdJeW9penZraklmQ2dtVERtdVMwM1ljR2t4QTl0OEZicThhNTZnN1ZJb3dlMC05TXBoOG4ybGpka1hRX2hUVGtkYTVjRHhBbk9CZDlMYWluVk03Yl9HeWt6UnhyMXZTMGtBQTE3S2l6NHoxOW96WTg?oc=5",
+          "source": "Reuters"
         },
         {
           "title": "Chainalysis: 25% of Bitcoin Stolen in Coldcard Hack Traced to Canadian Holders - CryptoRank",
@@ -153,79 +208,79 @@
           "source": "CryptoRank"
         },
         {
-          "title": "Privacy blockchains challenge traditional monitoring tools, Chainalysis says - Digital Watch Observatory",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YaVdfS2ZhZGZ1bTNxUWY2MHZKc1pMZ0l3a0ZIdlEyWUZQRGlNQTczSFY4TElOS3N1aVVfdkRPTHFXUk82RFFMNEhDazFGWVhMY0ExY2xuMEJWWEw2dEY2MVlQdEd1WncwMkdPOVFMRl9McFRidlQ5Zm9n?oc=5",
-          "source": "Digital Watch Observatory"
+          "title": "US and China Led $20 Billion World Cup Prediction Market Boom, Chainalysis Says - BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwVWtCamZIazVWWG9tZ2dTSmE2WjhRdVZXcHdxLVhWOTdyRERJUWEzTExFYnVKSVdZcF92S3BnZlJYX2RjcDk5Nk9WOVBRTGFxUExwLUJxeVV5QTNJa3lFMl8zWGdGdm1vSVZEd0p2ZXMtVVBzb05zV1h3?oc=5",
+          "source": "BeInCrypto"
         }
       ]
     },
     {
-      "title": "Emerging Markets Crypto Regulation Crystallizes",
-      "description": "South Africa drafting cross-border crypto rules; India proposing tax frameworks—emerging markets establishing regulatory clarity.",
-      "relevance": "Early-stage regulatory frameworks create opportunities for us to embed compliance standards at formation and establish strategic government partnerships before competitors lock in preferred positions.",
-      "cadence": "new",
-      "momentum": "new",
-      "appearances": 1,
-      "window_days": 1,
+      "title": "AI-Driven Compliance Automation Consolidation",
+      "description": "Fintech workforce reductions (Chime 10%) reflect AI efficiency gains; compliance automation tools consolidating around market leaders.",
+      "relevance": "We compete in AI compliance automation; market consolidation favors established platforms with regulatory credibility and data scale.",
+      "cadence": "sporadic",
+      "momentum": "rising",
+      "appearances": 5,
+      "window_days": 29,
       "articles": [
         {
-          "title": "South Africa issues draft rules for cross-border crypto - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkRkb3lBYmJVLWpBNVJrbkU5Nld5cmItckxVMmItSl9zRjdUT0VCektLRHVnWGRWR280N1NCazlJaFN4dVJCMjF3amdYVzdkRlBneGdjVkR0dUk1WGxueEN0UTk3MzByZ3BoX1A2OXNvR3I3Rkd0R1QtZXZRWERRc2VWa0hyV1VWa29EbzEtMUMwX0ZZT0xfc1hYSG5MSTg2a2c?oc=5",
-          "source": "Reuters"
+          "title": "How does blockchain analytics support real-world asset tokenization? - Elliptic",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM290Y0N1TGE4aWtYdGU1V0FvRDZqWWV5UGpmRFh5aEFqd3h3bVVCMFNZTVF1aFRDbnE0ZnFqS0dpZlNMQUlVYnpYa1dpTGhUa1VmelktS3MxRDhnVVk1SkQtME5JRDRCQzcwQklIemg1NWlTTGQtWUJvbDUzdUI2ekh0VnFmZkludHFYaEprMjFoajR0YWFoLXdDZ1pIZw?oc=5",
+          "source": "Elliptic"
         },
         {
-          "title": "World Cup prediction markets reached $20B - Crypto News",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hU0RfZTIzMU0xckt4bnphOVZwNEtVdEZYT0o0d3ZUdWhLZDMwNVgwYW5JMXJud1YyZHhkZVg3WVdCa0JzemFwUWxmdjZDc012NmZaaGc3LWtzNVl3cjVOYXlpTndPTWszdTI1eDdR?oc=5",
-          "source": "Crypto News"
+          "title": "Privacy blockchains challenge traditional monitoring tools, Chainalysis says - Digital Watch Observatory",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YaVdfS2ZhZGZ1bTNxUWY2MHZKc1pMZ0l3a0ZIdlEyWUZQRGlNQTczSFY4TElOS3N1aVVfdkRPTHFXUk82RFFMNEhDazFGWVhMY0ExY2xuMEJWWEw2dEY2MVlQdEd1WncwMkdPOVFMRl9McFRidlQ5Zm9n?oc=5",
+          "source": "Digital Watch Observatory"
         },
         {
-          "title": "Circle Earnings: Revenue Misses Estimates as Crypto Markets Mired in Rout - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaGlzblp2Nk8xYTRmUGZIVjQ1bmdVdW8xYVF5czZfUDlHbzlwQ3hpUVlScnZ4YUpDTnJPTlZTOFFpQnFjUkFUdktDS2VPLWhHNDB1QjdoYnZlMGtsYjdRZk5kZ04wNU50UHRXb1l0aVBnYklDbklSbnlEUDZVLU4yTEhnS1FSMzZhRmlyNy1UMmxPVVRhekFmMWVWLVJMSjZjbzZRV1VER0g1ZWx2anZXX0NaU04?oc=5",
-          "source": "Bloomberg.com"
+          "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRS1jbGpuSDBaa3lET25XQ1VoZzVuUlFqSE1mN3ZHTDRNOG9vNXJqX3YtWXdOTHlhaE1rRmk2NDF3ZjZ6T3AyQUlHYXdDUEFEeWkwQ3QzUC1SUklZM0xxLVJvRnR0RXd0MmY1cHFGSHBWdlhJUl9wSEJMb2xuX3p1T0JqaTFuWWVVUTNOWFVKeGZBSTFuM0xDR2ZILWU3TE1xV0toZXZSbXp1cnpoTkVaZmhyR18yX1l3aTFHdkhfR0RPUmRvTG9jQWdweWlyNHU0VktDeQ?oc=5",
+          "source": "TradingView"
         }
       ]
     }
   ],
   "top_domains": [
     {
-      "name": "AI & Compliance Automation",
-      "count": 201
+      "name": "Market Integrity & Surveillance",
+      "count": 207
     },
     {
-      "name": "Market Integrity & Surveillance",
+      "name": "AI & Compliance Automation",
       "count": 193
     },
     {
       "name": "Sanctions & Illicit Finance",
-      "count": 91
+      "count": 94
     },
     {
       "name": "International & Emerging Markets",
-      "count": 80
+      "count": 88
     },
     {
       "name": "Cybersecurity & Operational Resilience",
-      "count": 72
+      "count": 69
     },
     {
       "name": "DeFi Regulation & Governance",
-      "count": 63
+      "count": 69
     },
     {
       "name": "TradFi Integration & Institutional Adoption",
-      "count": 57
+      "count": 60
     },
     {
       "name": "Stablecoins & Digital Payments",
-      "count": 53
+      "count": 52
     }
   ],
   "competitors": [
     {
       "name": "Elliptic",
       "count": 8,
-      "top_title": "LCX Partners With Elliptic to Strengthen its Crypto Compliance with Blockchain Analytics Solutions -",
-      "top_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ1Y5aFBYYUg5b0pURDllVWRvdlR2ODFYRFBPMjY3R2thWk9xUDg3emVZdmpTNjZCLWd3Vl9vdTZ6RldsQlhIX1Bvc2p0cUpMOE12YXlVYXVoUG1kSjZUb3hHdlBhcENZa3gxck9aOUJwaXRMa1ROZ3d3aHEtZ1hiX0F1c2pVNHp0di1OYkJyN2FIZUdIQWVmWlAtSQ?oc=5",
+      "top_title": "How to build MAS' AML/CFT expectations into your controls - Elliptic",
+      "top_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZnhOSjFhTG9FRUZLWjdGUmxDSGhMS3c1T18tVnZfQ0hVOElpMVg4UlZRdEpHUmVKc3ZJamdGZnpQOGVzc2M0OXpOdGdQRzBRQjdwcnFoNDVDQWJEQlVPNEEwbU9IQnNTelhmYVZWNmlXc215Sm5pdWUwZmJleHZsU1d1Vi13RGRuUllRMXA0QnBJcnJS?oc=5",
       "top_source": "Elliptic"
     },
     {
@@ -280,37 +335,37 @@
   ],
   "market_landscape": [
     {
-      "title": "Institutional Capital Shapes Crypto Infrastructure",
-      "body": "BlackRock's tokenized fund launches and institutional stablecoin adoption (Circle revenue data) signal permanent TradFi integration, driving compliance and surveillance demand as regulated players require enterprise-grade onchain monitoring."
+      "title": "Institutional Prediction Markets Normalize",
+      "body": "The $20B World Cup onchain volume establishes prediction markets as mainstream institutional infrastructure rather than speculative edge case. Regulatory attention will follow as US, China, and EU clarify derivatives rules around decentralized markets."
     },
     {
-      "title": "Global Regulatory Frameworks Emerge Unevenly",
-      "body": "South Africa, India, and EU (Russia sanctions adoption) are crystallizing crypto regulatory frameworks independently, creating fragmented compliance landscapes where our multi-jurisdictional expertise and localized partnerships become competitive moats. Early-mover regulatory partnerships now lock in market access for the next 3-5 years."
+      "title": "Hardware Wallet Threat Surface Expands",
+      "body": "Coldcard exploits and $30M minute-scale theft demonstrate supply-chain and firmware risks in self-custody\u2014accelerating institutional migration to TradFi-backed custodians and exchange wallets. Compliance teams need real-time forensics on stolen fund flows."
     },
     {
-      "title": "Privacy Blockchains Become Mainstream Liability",
-      "body": "Privacy chain adoption (Monero, privacy-focused L1s) creates regulatory blindspots that drive demand for our advanced surveillance capabilities"
+      "title": "Privacy-Compliance Tension Hardens",
+      "body": "Privacy blockchains challenge traditional monitoring tooling, forcing regulators and compliance vendors into architectural choices. Expect emerging market adoption of privacy coins to intensify regulatory crackdowns and create compliance blind spots."
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 💡 💡 Elliptic is aggressively expanding compliance partnerships (LCX, YouHodler, Kinetic Markets) and positioning itself as MAS-aligned regulatory infrastructure, capturing exchanges seeking pre-built governance frameworks—signaling a strategic shift toward embedded compliance-by-design.",
-    "TRM Labs": "💡 💡 💡 TRM Labs hired Claudia Hui, former MAS regulator, to lead APAC expansion, directly signaling geographic market penetration and regulatory credibility building in the fastest-growing compliance jurisdiction.",
-    "Arkham Intelligence": "💡 💡 💡 Arkham transitioned to full decentralization and launched multi-chain explorer tools, positioning as a transparency alternative to centralized analytics—appealing to privacy-conscious users but potentially limiting institutional adoption due to reduced custodial/regulatory integration.",
-    "Solidus Labs": "💡 💡 💡 Solidus secured marquee derivatives surveillance deals (Kinetic, Kalshi's $31B volume platform), narrowly focusing on trade surveillance differentiation rather than broader compliance—a strategic niche that reduces competitive overlap with our full-stack platform.",
-    "Merkle Science": "💡 💡 💡 Merkle Science entered privacy-focused blockchain discussion narrative, suggesting a pivot toward addressing privacy chain monitoring gaps similar to our own positioning—a potential signal of market convergence around privacy as a growth vector."
+    "Elliptic": "Elliptic secured a $3.1M compliance transformation deal with a global crypto exchange and maintains thought leadership on regulatory frameworks (MAS AML/CFT, EU Russia sanctions), positioning as the compliant-first analytics vendor in regulated markets.",
+    "TRM Labs": "TRM Labs hired former MAS regulator Claudia Hui for APAC expansion and maintains focus on fraud/scam detection positioning (Ari Redbord on AI scams in CoinDesk), signaling geographic growth and AI compliance automation strategy.",
+    "Arkham Intelligence": "Arkham pivoted to full exchange decentralization and expanded multi-chain tooling (Robinhood Chain Explorer), positioning as transparency/UX leader while tracking major institutional Bitcoin transfers\u2014competing on data accessibility rather than compliance.",
+    "Solidus Labs": "Solidus Labs landed two marquee trade surveillance deals (Kinetic Markets, Kalshi at $31B monthly volume), signaling strength in market integrity and derivatives compliance\u2014a vertical we underweight relative to AML/CFT.",
+    "Merkle Science": "Merkle Science maintains a privacy-focused positioning (blockchain privacy transactions discussion), offering a niche angle on privacy coin monitoring but with limited earned media footprint versus our institutional reach."
   },
-  "seizure_value": "",
-  "seizure_cases": "",
+  "seizure_value": "$36.6B",
+  "seizure_cases": "205",
   "mention_categories": {
-    "mainstream": 0,
+    "mainstream": 2,
     "crypto": 9,
     "fintech": 1,
     "blog": 3,
-    "niche": 38
+    "niche": 39
   },
   "sentiment": {
-    "positive": 25,
-    "neutral": 5,
+    "positive": 24,
+    "neutral": 6,
     "negative": 0
   }
 }
