@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
   "date_display": "August 06, 2026",
-  "mentions_count": 7,
+  "mentions_count": 11,
   "narrative_count": 704,
   "competitor_total": 18,
   "persistent_count": 0,
@@ -42,6 +42,26 @@
       "title": "2026年FIFAワールドカップでは、予測市場の取引量が200億ドルに達しました - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLW52MnFFTHNWS3paNVN3WDgzMEhHN0l6TjZOYzRmSEpxcHhBTTlxTjc5alVGckFHY3BYVzJmaThJcXVvZnVNRU83c19VUkZyM2RVOFMxVXA1VlE1czBvekNhT3B1X1dZMEs5aDI5TUJuemFhMEhJMWI4T0lJbUJzMURqUnkyckxZOUp1V1VRUW1teXZUVFdTQUV1ZHNJVzBrcGprTnJaYjRtOXBZSGVObzNYdk9oY21oR0JsU2F2UGprUGc?oc=5",
       "source": "CoinDesk"
+    },
+    {
+      "title": "Coldcard wallet attack drains up to $89M in Bitcoin from 1,200+ addresses",
+      "url": "https://www.foxbusiness.com/fox-news-tech/coldcard-wallet-attack-drains-up-89m-bitcoin-from-1200-addresses",
+      "source": "Fox Business"
+    },
+    {
+      "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+      "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+      "source": "Bleeping Computer"
+    },
+    {
+      "title": "The dark web: ‘If you want access to a bank, you can get it today’",
+      "url": "https://www.thebanker.com/content/fe506f35-b2fb-424d-bfe4-073e38ad75da",
+      "source": "The Banker"
+    },
+    {
+      "title": "World Cup bets smash records as prediction markets hit $20 billion in volume",
+      "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
+      "source": "Coindesk"
     }
   ],
   "narratives": [
@@ -261,7 +281,7 @@
   "market_landscape": [
     {
       "title": "Institutional Capital Shapes Crypto Infrastructure",
-      "body": "BlackRock's tokenized fund launches and institutional stablecoin adoption (Circle revenue data) signal permanent TradFi integration, driving compliance and surveillance demand as regulated players require enterprise-grade onchain monitoring. This creates structural tailwinds for our platform positioning and justifies enterprise pricing models."
+      "body": "BlackRock's tokenized fund launches and institutional stablecoin adoption (Circle revenue data) signal permanent TradFi integration, driving compliance and surveillance demand as regulated players require enterprise-grade onchain monitoring."
     },
     {
       "title": "Global Regulatory Frameworks Emerge Unevenly",
@@ -269,15 +289,15 @@
     },
     {
       "title": "Privacy Blockchains Become Mainstream Liability",
-      "body": "Privacy chain adoption (Monero, privacy-focused L1s) creates regulatory blindspots that drive demand for our advanced surveillance capabilities, while also creating reputational risk if we cannot address these gaps—positioning privacy monitoring as a critical R&D and product differentiation priority."
+      "body": "Privacy chain adoption (Monero, privacy-focused L1s) creates regulatory blindspots that drive demand for our advanced surveillance capabilities"
     }
   ],
   "competitor_reads": {
-    "Elliptic": "💡 💡 Elliptic is aggressively expanding compliance partnerships (LCX, YouHodler, Kinetic Markets) and positioning itself as MAS-aligned regulatory infrastructure, capturing exchanges seeking pre-built governance frameworks—signaling a strategic shift toward embedded compliance-by-design.",
-    "TRM Labs": "💡 💡 TRM Labs hired Claudia Hui, former MAS regulator, to lead APAC expansion, directly signaling geographic market penetration and regulatory credibility building in the fastest-growing compliance jurisdiction.",
-    "Arkham Intelligence": "💡 💡 Arkham transitioned to full decentralization and launched multi-chain explorer tools, positioning as a transparency alternative to centralized analytics—appealing to privacy-conscious users but potentially limiting institutional adoption due to reduced custodial/regulatory integration.",
-    "Solidus Labs": "💡 💡 Solidus secured marquee derivatives surveillance deals (Kinetic, Kalshi's $31B volume platform), narrowly focusing on trade surveillance differentiation rather than broader compliance—a strategic niche that reduces competitive overlap with our full-stack platform.",
-    "Merkle Science": "💡 💡 Merkle Science entered privacy-focused blockchain discussion narrative, suggesting a pivot toward addressing privacy chain monitoring gaps similar to our own positioning—a potential signal of market convergence around privacy as a growth vector."
+    "Elliptic": "💡 💡 💡 Elliptic is aggressively expanding compliance partnerships (LCX, YouHodler, Kinetic Markets) and positioning itself as MAS-aligned regulatory infrastructure, capturing exchanges seeking pre-built governance frameworks—signaling a strategic shift toward embedded compliance-by-design.",
+    "TRM Labs": "💡 💡 💡 TRM Labs hired Claudia Hui, former MAS regulator, to lead APAC expansion, directly signaling geographic market penetration and regulatory credibility building in the fastest-growing compliance jurisdiction.",
+    "Arkham Intelligence": "💡 💡 💡 Arkham transitioned to full decentralization and launched multi-chain explorer tools, positioning as a transparency alternative to centralized analytics—appealing to privacy-conscious users but potentially limiting institutional adoption due to reduced custodial/regulatory integration.",
+    "Solidus Labs": "💡 💡 💡 Solidus secured marquee derivatives surveillance deals (Kinetic, Kalshi's $31B volume platform), narrowly focusing on trade surveillance differentiation rather than broader compliance—a strategic niche that reduces competitive overlap with our full-stack platform.",
+    "Merkle Science": "💡 💡 💡 Merkle Science entered privacy-focused blockchain discussion narrative, suggesting a pivot toward addressing privacy chain monitoring gaps similar to our own positioning—a potential signal of market convergence around privacy as a growth vector."
   },
   "seizure_value": "",
   "seizure_cases": "",
