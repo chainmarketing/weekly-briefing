@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-08-06",
+    "url": "briefings/2026-08-06.html",
+    "mentions": 11,
+    "narrative": 704,
+    "competitor_total": 18,
+    "persistent_count": 0,
+    "emerging_count": 5,
+    "articles_analysed": 1218,
+    "mention_categories": {
+      "mainstream": 0,
+      "crypto": 9,
+      "fintech": 1,
+      "blog": 3,
+      "niche": 38
+    },
+    "sentiment": {
+      "positive": 25,
+      "neutral": 5,
+      "negative": 0
+    },
+    "competitors": {
+      "Elliptic": 8,
+      "Arkham Intelligence": 5,
+      "TRM Labs": 2,
+      "Solidus Labs": 2,
+      "Merkle Science": 1,
+      "CipherTrace": 0,
+      "Nansen": 0,
+      "Crystal Intelligence": 0
+    },
+    "top_domains": [
+      {
+        "name": "AI & Compliance Automation",
+        "count": 201
+      },
+      {
+        "name": "Market Integrity & Surveillance",
+        "count": 193
+      },
+      {
+        "name": "Sanctions & Illicit Finance",
+        "count": 91
+      },
+      {
+        "name": "International & Emerging Markets",
+        "count": 80
+      },
+      {
+        "name": "Cybersecurity & Operational Resilience",
+        "count": 72
+      },
+      {
+        "name": "DeFi Regulation & Governance",
+        "count": 63
+      },
+      {
+        "name": "TradFi Integration & Institutional Adoption",
+        "count": 57
+      },
+      {
+        "name": "Stablecoins & Digital Payments",
+        "count": 53
+      }
+    ],
+    "narratives": [
+      "Prediction Markets Drive Massive Onchain Volume",
+      "Hardware Wallet Security Exploits Persist",
+      "Privacy Blockchains Challenge Compliance Monitoring",
+      "Institutional Tokenization Drives Compliance Demand",
+      "Emerging Markets Crypto Regulation Crystallizes"
+    ],
+    "headline": "In highlight coverage, our World Cup 2026 prediction market analysis generated substantial earned media across several outlets globally\u2014 Coindesk, BeInCrypto, The Block, TokenPost (KR), Cryptoast (FR)"
+  },
+  {
     "date": "2026-07-30",
     "url": "briefings/2026-07-30.html",
     "mentions": 6,
